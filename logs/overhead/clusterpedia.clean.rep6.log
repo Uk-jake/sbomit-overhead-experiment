@@ -1,0 +1,80 @@
+hack/builder.sh apiserver
+fatal: No names found, cannot describe anything.
++ cd /tmp/clusterpedia/src/github.com/clusterpedia-io/clusterpedia
++ GOPATH=/tmp/clusterpedia
++ GO111MODULE=off
++ CGO_ENABLED=1
++ CC_FOR_TARGET=
++ CC=
++ go build -tags 'json1 linux' -ldflags ' -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitVersion= -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitTreeState=clean -X github.com/clusterpedia-io/clusterpedia/pkg/version.buildDate=2026-09-07T00:54:51Z -X k8s.io/client-go/pkg/version.gitVersion= -X k8s.io/client-go/pkg/version.gitMajor= -X k8s.io/client-go/pkg/version.gitMinor= -X k8s.io/client-go/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.buildDate=2026-09-07T00:54:51Z -X k8s.io/component-base/version.gitVersion=v1.32.13 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.buildDate=2026-09-07T00:54:51Z -extldflags -static' -o /home/jake/sbomit-overhead-experiment/repos/clusterpedia/bin/apiserver ./cmd/apiserver
+# github.com/clusterpedia-io/clusterpedia/cmd/apiserver
+/usr/bin/ld: /tmp/go-link-3499700006/000025.o: in function `pluginOpen':
+/_/GOROOT/src/plugin/plugin_dlopen.go:19: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000023.o: in function `mygetgrouplist':
+/_/GOROOT/src/os/user/getgrouplist_unix.go:15: warning: Using 'getgrouplist' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000022.o: in function `mygetgrgid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:45: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000022.o: in function `mygetgrnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:54: warning: Using 'getgrnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000022.o: in function `mygetpwnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:36: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000022.o: in function `mygetpwuid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:27: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3499700006/000004.o: in function `_cgo_77133bf98b3a_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:60: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
++ set +x
+hack/builder.sh binding-apiserver
+fatal: No names found, cannot describe anything.
++ cd /tmp/clusterpedia/src/github.com/clusterpedia-io/clusterpedia
++ GOPATH=/tmp/clusterpedia
++ GO111MODULE=off
++ CGO_ENABLED=1
++ CC_FOR_TARGET=
++ CC=
++ go build -tags 'json1 linux' -ldflags ' -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitVersion= -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitTreeState=clean -X github.com/clusterpedia-io/clusterpedia/pkg/version.buildDate=2026-09-07T00:55:58Z -X k8s.io/client-go/pkg/version.gitVersion= -X k8s.io/client-go/pkg/version.gitMajor= -X k8s.io/client-go/pkg/version.gitMinor= -X k8s.io/client-go/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.buildDate=2026-09-07T00:55:58Z -X k8s.io/component-base/version.gitVersion=v1.32.13 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.buildDate=2026-09-07T00:55:58Z -extldflags -static' -o /home/jake/sbomit-overhead-experiment/repos/clusterpedia/bin/binding-apiserver ./cmd/binding-apiserver
+# github.com/clusterpedia-io/clusterpedia/cmd/binding-apiserver
+/usr/bin/ld: /tmp/go-link-271783493/000025.o: in function `pluginOpen':
+/_/GOROOT/src/plugin/plugin_dlopen.go:19: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000023.o: in function `mygetgrouplist':
+/_/GOROOT/src/os/user/getgrouplist_unix.go:15: warning: Using 'getgrouplist' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000022.o: in function `mygetgrgid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:45: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000022.o: in function `mygetgrnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:54: warning: Using 'getgrnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000022.o: in function `mygetpwnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:36: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000022.o: in function `mygetpwuid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:27: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-271783493/000004.o: in function `_cgo_77133bf98b3a_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:60: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
++ set +x
+hack/builder.sh clustersynchro-manager
+fatal: No names found, cannot describe anything.
++ cd /tmp/clusterpedia/src/github.com/clusterpedia-io/clusterpedia
++ GOPATH=/tmp/clusterpedia
++ GO111MODULE=off
++ CGO_ENABLED=1
++ CC_FOR_TARGET=
++ CC=
++ go build -tags 'json1 linux' -ldflags ' -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitVersion= -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitTreeState=clean -X github.com/clusterpedia-io/clusterpedia/pkg/version.buildDate=2026-09-07T00:56:13Z -X k8s.io/client-go/pkg/version.gitVersion= -X k8s.io/client-go/pkg/version.gitMajor= -X k8s.io/client-go/pkg/version.gitMinor= -X k8s.io/client-go/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.buildDate=2026-09-07T00:56:13Z -X k8s.io/component-base/version.gitVersion=v1.32.13 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.buildDate=2026-09-07T00:56:13Z -extldflags -static' -o /home/jake/sbomit-overhead-experiment/repos/clusterpedia/bin/clustersynchro-manager ./cmd/clustersynchro-manager
+# github.com/clusterpedia-io/clusterpedia/cmd/clustersynchro-manager
+/usr/bin/ld: /tmp/go-link-3556418468/000025.o: in function `pluginOpen':
+/_/GOROOT/src/plugin/plugin_dlopen.go:19: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000023.o: in function `mygetgrouplist':
+/_/GOROOT/src/os/user/getgrouplist_unix.go:15: warning: Using 'getgrouplist' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000022.o: in function `mygetgrgid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:45: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000022.o: in function `mygetgrnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:54: warning: Using 'getgrnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000022.o: in function `mygetpwnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:36: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000022.o: in function `mygetpwuid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:27: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-3556418468/000004.o: in function `_cgo_77133bf98b3a_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:60: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
++ set +x
+hack/builder-nocgo.sh controller-manager
+fatal: No names found, cannot describe anything.
++ CGO_ENABLED=0
++ go build -ldflags ' -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitVersion= -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X github.com/clusterpedia-io/clusterpedia/pkg/version.gitTreeState=clean -X github.com/clusterpedia-io/clusterpedia/pkg/version.buildDate=2026-09-07T00:56:23Z -X k8s.io/client-go/pkg/version.gitVersion= -X k8s.io/client-go/pkg/version.gitMajor= -X k8s.io/client-go/pkg/version.gitMinor= -X k8s.io/client-go/pkg/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.buildDate=2026-09-07T00:56:23Z -X k8s.io/component-base/version.gitVersion=v1.32.13 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.gitCommit=40811e9e982bdf4d08e4e8ad41de4fb4b92fbd74 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.buildDate=2026-09-07T00:56:23Z' -o /home/jake/sbomit-overhead-experiment/repos/clusterpedia/bin/controller-manager ./cmd/controller-manager
++ set +x

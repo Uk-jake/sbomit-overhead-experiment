@@ -1,0 +1,105 @@
+go: downloading go1.26.7 (linux/amd64)
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-aggregated-apiserver
+fatal: No names found, cannot describe anything.
+!!! Building karmada-aggregated-apiserver for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:35:48Z ' -o _output/bin/linux/amd64/karmada-aggregated-apiserver github.com/karmada-io/karmada/cmd/aggregated-apiserver
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-controller-manager
+fatal: No names found, cannot describe anything.
+!!! Building karmada-controller-manager for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:36:32Z ' -o _output/bin/linux/amd64/karmada-controller-manager github.com/karmada-io/karmada/cmd/controller-manager
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-scheduler
+fatal: No names found, cannot describe anything.
+!!! Building karmada-scheduler for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:36:44Z ' -o _output/bin/linux/amd64/karmada-scheduler github.com/karmada-io/karmada/cmd/scheduler
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-descheduler
+fatal: No names found, cannot describe anything.
+!!! Building karmada-descheduler for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:36:51Z ' -o _output/bin/linux/amd64/karmada-descheduler github.com/karmada-io/karmada/cmd/descheduler
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-webhook
+fatal: No names found, cannot describe anything.
+!!! Building karmada-webhook for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:36:55Z ' -o _output/bin/linux/amd64/karmada-webhook github.com/karmada-io/karmada/cmd/webhook
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-agent
+fatal: No names found, cannot describe anything.
+!!! Building karmada-agent for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:36:59Z ' -o _output/bin/linux/amd64/karmada-agent github.com/karmada-io/karmada/cmd/agent
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-scheduler-estimator
+fatal: No names found, cannot describe anything.
+!!! Building karmada-scheduler-estimator for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:04Z ' -o _output/bin/linux/amd64/karmada-scheduler-estimator github.com/karmada-io/karmada/cmd/scheduler-estimator
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-interpreter-webhook-example
+fatal: No names found, cannot describe anything.
+!!! Building karmada-interpreter-webhook-example for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:10Z ' -o _output/bin/linux/amd64/karmada-interpreter-webhook-example github.com/karmada-io/karmada/examples/customresourceinterpreter/webhook
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-search
+fatal: No names found, cannot describe anything.
+!!! Building karmada-search for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:13Z ' -o _output/bin/linux/amd64/karmada-search github.com/karmada-io/karmada/cmd/karmada-search
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-operator
+fatal: No names found, cannot describe anything.
+!!! Building karmada-operator for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:22Z ' -o _output/bin/linux/amd64/karmada-operator github.com/karmada-io/karmada/operator/cmd/operator
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmada-metrics-adapter
+fatal: No names found, cannot describe anything.
+!!! Building karmada-metrics-adapter for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:29Z ' -o _output/bin/linux/amd64/karmada-metrics-adapter github.com/karmada-io/karmada/cmd/metrics-adapter
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh karmadactl
+fatal: No names found, cannot describe anything.
+!!! Building karmadactl for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:36Z ' -o _output/bin/linux/amd64/karmadactl github.com/karmada-io/karmada/cmd/karmadactl
++ set +x
+BUILD_PLATFORMS=linux/amd64 hack/build.sh kubectl-karmada
+fatal: No names found, cannot describe anything.
+!!! Building kubectl-karmada for linux/amd64:
++ CGO_ENABLED=0
++ GOOS=linux
++ GOARCH=amd64
++ go build -ldflags '-X github.com/karmada-io/karmada/pkg/version.gitVersion= -X github.com/karmada-io/karmada/pkg/version.gitCommit=806289fda522b143ea87907fc2012ddd56837e0a -X github.com/karmada-io/karmada/pkg/version.gitTreeState=clean -X github.com/karmada-io/karmada/pkg/version.gitShortCommit=806289f -X github.com/karmada-io/karmada/pkg/version.buildDate=2026-09-05T10:37:44Z ' -o _output/bin/linux/amd64/kubectl-karmada github.com/karmada-io/karmada/cmd/kubectl-karmada
++ set +x

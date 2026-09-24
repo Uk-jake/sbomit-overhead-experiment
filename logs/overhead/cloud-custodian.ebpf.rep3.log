@@ -1,0 +1,104 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (0.00010307s)"
+level=info msg="Finished git attestor... (0.187485985s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (1.459967626s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/cloud-custodian'
+rm -f release.md
+rm -f wheels-manifest.txt
+rm -f dist/*
+for pkg in tools/c7n_gcp tools/c7n_kube tools/c7n_openstack tools/c7n_mailer tools/c7n_policystream tools/c7n_org tools/c7n_sphinxext tools/c7n_awscc tools/c7n_tencentcloud tools/c7n_azure tools/c7n_oci tools/c7n_left; do cd $pkg && rm -f dist/* && cd ../..; done
+rm -Rf build/*
+for pkg in tools/c7n_gcp tools/c7n_kube tools/c7n_openstack tools/c7n_mailer tools/c7n_policystream tools/c7n_org tools/c7n_sphinxext tools/c7n_awscc tools/c7n_tencentcloud tools/c7n_azure tools/c7n_oci tools/c7n_left; do cd $pkg && rm -Rf build/* && cd ../..; done
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/cloud-custodian'
+uv build --all-packages --wheel
+[c7n] Building wheel...
+[c7n-awscc] Building wheel...
+[c7n-azure] Building wheel...
+[c7n-gcp] Building wheel...
+[c7n-kube] Building wheel...
+[c7n-left] Building wheel...
+[c7n-mailer] Building wheel...
+[c7n-oci] Building wheel...
+[c7n-openstack] Building wheel...
+[c7n-org] Building wheel...
+[c7n-policystream] Building wheel...
+[c7n-sphinxext] Building wheel...
+[c7n-tencentcloud] Building wheel...
+awscc - downloaded 1729 resource types
+awscc - Counter({'resource': 1438, 'noservice': 149, 'nohandlers': 142})
+Successfully built dist/c7n-0.9.52-py3-none-any.whl
+Successfully built dist/c7n_awscc-0.1.37-py3-none-any.whl
+Successfully built dist/c7n_azure-0.7.51-py3-none-any.whl
+Successfully built dist/c7n_gcp-0.4.51-py3-none-any.whl
+Successfully built dist/c7n_kube-0.2.51-py3-none-any.whl
+Successfully built dist/c7n_left-0.3.38-py3-none-any.whl
+Successfully built dist/c7n_mailer-0.6.51-py3-none-any.whl
+Successfully built dist/c7n_oci-0.1.26-py3-none-any.whl
+Successfully built dist/c7n_openstack-0.1.42-py3-none-any.whl
+Successfully built dist/c7n_org-0.6.51-py3-none-any.whl
+Successfully built dist/c7n_policystream-0.4.51-py3-none-any.whl
+Successfully built dist/c7n_sphinxext-1.1.51-py3-none-any.whl
+Successfully built dist/c7n_tencentcloud-0.1.34-py3-none-any.whl
+uv run tools/dev/freezeuvwheel.py dist uv.lock
+Installed 1 package in 3ms
+Updated: c7n_left-0.3.38-py3-none-any.whl
+Updated: c7n_org-0.6.51-py3-none-any.whl
+Updated: c7n_tencentcloud-0.1.34-py3-none-any.whl
+Updated: c7n_openstack-0.1.42-py3-none-any.whl
+Updated: c7n_awscc-0.1.37-py3-none-any.whl
+Updated: c7n_sphinxext-1.1.51-py3-none-any.whl
+Updated: c7n_gcp-0.4.51-py3-none-any.whl
+Updated: c7n_policystream-0.4.51-py3-none-any.whl
+Updated: c7n_kube-0.2.51-py3-none-any.whl
+Updated: c7n_oci-0.1.26-py3-none-any.whl
+Updated: c7n_mailer-0.6.51-py3-none-any.whl
+Updated: c7n-0.9.52-py3-none-any.whl
+Updated: c7n_azure-0.7.51-py3-none-any.whl
+uv run twine check --strict dist/*.whl
+Using CPython 3.13.13
+Creating virtual environment at: .venv
+   Building c7n @ file:///home/jake/sbomit-overhead-experiment/repos/cloud-custodian
+Downloading cryptography (4.5MiB)
+Downloading pygments (1.2MiB)
+Downloading botocore (15.0MiB)
+Downloading moto (6.4MiB)
+Downloading pydantic-core (2.0MiB)
+   Building placebo==0.10.0
+ Downloaded pygments
+ Downloaded pydantic-core
+ Downloaded cryptography
+ Downloaded moto
+      Built c7n @ file:///home/jake/sbomit-overhead-experiment/repos/cloud-custodian
+ Downloaded botocore
+      Built placebo==0.10.0
+Installed 81 packages in 131ms
+Checking dist/c7n-0.9.52-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_awscc-0.1.37-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_azure-0.7.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_gcp-0.4.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_kube-0.2.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_left-0.3.38-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_mailer-0.6.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_oci-0.1.26-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_openstack-0.1.42-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_org-0.6.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_policystream-0.4.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_sphinxext-1.1.51-py3-none-any.whl: [32mPASSED[0m
+Checking dist/c7n_tencentcloud-0.1.34-py3-none-any.whl: [32mPASSED[0m
+level=info msg="Finished command-run attestor... (7.6857099s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.3595060939999999s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

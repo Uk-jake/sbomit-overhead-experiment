@@ -1,0 +1,33 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (9.144e-05s)"
+level=info msg="Finished git attestor... (0.189303425s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (1.4594290650000001s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/addon
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/placement
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/registration
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/registration-operator
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/server
+go build -mod=vendor -trimpath -ldflags "-X open-cluster-management.io/ocm/pkg/version.versionFromGit="v0.0.0-unknown-709c2ae" -X open-cluster-management.io/ocm/pkg/version.commitFromGit="709c2ae" -X open-cluster-management.io/ocm/pkg/version.gitTreeState="clean" -X open-cluster-management.io/ocm/pkg/version.buildDate="2026-09-06T02:02:09Z" " open-cluster-management.io/ocm/cmd/work
+level=info msg="Finished command-run attestor... (94.48666749s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.222020863s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

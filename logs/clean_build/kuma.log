@@ -1,0 +1,123 @@
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: mod: command not found
+bash: line 1: -r: command not found
+env: ‘GOOS’: No such file or directory
+env: ‘GOARCH’: No such file or directory
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: export: `buf.build/googleapis/googleapis': not a valid identifier
+bash: line 1: export: `--output': not a valid identifier
+bash: line 1: export: `/home/jake/.local/share/mise/kuma/buf/cache/googleapis': not a valid identifier
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: export: `buf.build/envoyproxy/protoc-gen-validate': not a valid identifier
+bash: line 1: export: `--output': not a valid identifier
+bash: line 1: export: `/home/jake/.local/share/mise/kuma/buf/cache/pgv': not a valid identifier
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: export: `buf.build/envoyproxy/envoy:v1.39.0': not a valid identifier
+bash: line 1: export: `--output': not a valid identifier
+bash: line 1: export: `/home/jake/.local/share/mise/kuma/buf/cache/envoy': not a valid identifier
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: export: `buf.build/cncf/xds': not a valid identifier
+bash: line 1: export: `--output': not a valid identifier
+bash: line 1: export: `/home/jake/.local/share/mise/kuma/buf/cache/xds': not a valid identifier
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+bash: line 1: e: command not found
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+mise ERROR error parsing config file: ~/sbomit-overhead-experiment/repos/kuma/mise.toml
+mise ERROR Config files in ~/sbomit-overhead-experiment/repos/kuma/mise.toml are not trusted.
+Trust them with `mise trust`. See https://mise.en.dev/cli/trust.html for more information.
+mise ERROR Version: 2026.6.10 linux-x64 (2026-06-14)
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+make: Nothing to be done for 'build'.

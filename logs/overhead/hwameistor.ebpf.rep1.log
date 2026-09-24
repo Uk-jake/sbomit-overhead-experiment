@@ -1,0 +1,32 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (8.366e-05s)"
+level=info msg="Finished git attestor... (0.238795431s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (2.036895412s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:06:15Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/local-disk-manager /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/local-disk-manager/diskmanager.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:06:45Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/local-storage /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/local-storage/storage.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:07:14Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/scheduler /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/scheduler/scheduler.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:07:50Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/admission /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/admission/admission.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:08:14Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/evictor /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/evictor/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:08:40Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/exporter /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/exporter/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:09:04Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/apiserver /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/apiserver/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:09:30Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/failover-assistant /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/failover-assistant/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:09:56Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/auditor /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/auditor/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:10:19Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/pvc-autoresizer /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/pvc-autoresizer/main.go
+GOARCH=amd64 CGO_ENABLED=0 GOOS=linux go build -a -mod vendor -installsuffix cgo -ldflags "-X 'main.BUILDVERSION=684e99b' -X 'main.BUILDTIME=2026-09-05T03:10:46Z' -X 'main.GOVERSION=go version go1.26.5 linux/amd64'" -o /home/jake/sbomit-overhead-experiment/repos/hwameistor/_build/local-disk-action-controller /home/jake/sbomit-overhead-experiment/repos/hwameistor/cmd/local-disk-action-controller/main.go
+level=info msg="Finished command-run attestor... (290.63536939s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.196546517s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

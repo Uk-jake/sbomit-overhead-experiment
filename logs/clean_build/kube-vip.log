@@ -1,0 +1,46 @@
+go: downloading github.com/vishvananda/netlink v1.3.1
+go: downloading github.com/osrg/gobgp/v4 v4.8.0
+go: downloading github.com/google/nftables v0.3.0
+go: downloading github.com/insomniacslk/dhcp v0.0.0-20260719225207-c76316d4aa82
+go: downloading github.com/florianl/go-conntrack v0.7.0
+go: downloading github.com/mdlayher/ndp v1.1.0
+go: downloading k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.3
+go: downloading go.etcd.io/etcd/client/v3 v3.7.1
+go: downloading github.com/huin/goupnp v1.3.0
+go: downloading go.etcd.io/etcd/api/v3 v3.7.1
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.7.1
+go: downloading github.com/cloudflare/ipvs v0.12.0
+go: downloading github.com/vishvananda/netns v0.0.5
+go: downloading github.com/mdlayher/netlink v1.8.0
+go: downloading golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
+go: downloading github.com/mdlayher/packet v1.1.2
+go: downloading github.com/mdlayher/socket v0.5.1
+go: downloading github.com/pierrec/lz4/v4 v4.1.22
+go: downloading github.com/josharian/native v1.1.0
+go: downloading golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
+go: downloading github.com/mdlayher/genetlink v1.3.2
+go: downloading github.com/dgryski/go-farm v0.0.0-20240924180020-3414d57e47da
+go: downloading github.com/eapache/channels v1.1.0
+go: downloading github.com/orcaman/concurrent-map/v2 v2.0.1
+go: downloading github.com/gaissmai/bart v0.26.1
+go: downloading github.com/k-sone/critbitgo v1.4.0
+go: downloading github.com/segmentio/fasthash v1.0.3
+go: downloading github.com/sagikazarmark/locafero v0.7.0
+go: downloading github.com/spf13/afero v1.12.0
+go: downloading github.com/spf13/cast v1.7.1
+go: downloading github.com/eapache/queue v1.1.0
+go: downloading github.com/mailru/easyjson v0.9.0
+# github.com/kube-vip/kube-vip
+/usr/bin/ld: /tmp/go-link-2162596931/000023.o: in function `mygetgrouplist':
+/_/GOROOT/src/os/user/getgrouplist_unix.go:15: warning: Using 'getgrouplist' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-2162596931/000022.o: in function `mygetgrgid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:45: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-2162596931/000022.o: in function `mygetgrnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:54: warning: Using 'getgrnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-2162596931/000022.o: in function `mygetpwnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:36: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-2162596931/000022.o: in function `mygetpwuid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:27: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-2162596931/000004.o: in function `_cgo_77133bf98b3a_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:60: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking

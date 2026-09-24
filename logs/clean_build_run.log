@@ -1,0 +1,110 @@
+=== 02_clean_build.sh 시작 ===
+uid      : 0   HOME=/home/jake
+go       : go version go1.26.5 linux/amd64
+GOMODCACHE: /home/jake/sbomit-overhead-experiment/work/modcache
+GOCACHE   : /home/jake/sbomit-overhead-experiment/work/buildcache
+캐시 정책 : 삭제하지 않음 (warm)
+
+[  6/93] Notary Project             (go) ... OK       3.374s
+[  8/93] container2wasm             (go) ... OK      14.526s
+[  9/93] NATS                       (go) ... OK      21.886s
+[ 10/93] BFE                        (go) ... OK      14.479s
+[ 11/93] atlantis                   (go) ... OK      32.215s
+[ 12/93] OAuth2 Proxy               (go) ... OK      24.724s
+[ 13/93] copacetic                  (go) ... OK      22.248s
+[ 14/93] kudo                       (go) ... OK      24.702s
+[ 15/93] OpenFunction               (go) ... OK      20.702s
+[ 16/93] ko                         (go) ... OK      20.796s
+[ 17/93] Distribution               (go) ... OK      26.825s
+[ 18/93] emissary                   (go) ... OK      32.236s
+[ 19/93] contour                    (go) ... OK      34.429s
+[ 20/93] kube-burner                (go) ... OK      39.287s
+[ 21/93] kepler                     (go) ... OK      31.826s
+[ 22/93] Interlink                  (go) ... OK      33.556s
+[ 23/93] ContainerSSH               (go) ... OK      19.924s
+[ 24/93] containerd                 (go) ... OK      40.447s
+[ 25/93] dragonfly                  (go) ... OK      27.069s
+[ 26/93] kubestellar                (go) ... OK      28.319s
+[ 27/93] flux2                      (go) ... OK      41.716s
+[ 28/93] CoreDNS                    (go) ... OK      31.380s
+[ 29/93] OpenFGA                    (go) ... OK      33.102s
+[ 30/93] Capsule                    (go) ... FAIL  rc=1      0.110s
+[ 31/93] kpt                        (go) ... OK      35.877s
+[ 32/93] kube-vip                   (go) ... OK      29.008s
+[ 33/93] HAMi                       (go) ... OK      53.949s
+[ 34/93] Headlamp                   (go) ... OK      45.985s
+[ 35/93] Operator Framework         (go) ... OK      51.788s
+[ 36/93] Buildpack                  (go) ... OK      20.155s
+[ 37/93] KubeClipper                (go) ... OK      46.363s
+[ 38/93] kuadrant                   (go) ... OK      72.087s
+[ 39/93] Inspektor Gadget           (go) ... OK      33.362s
+[ 40/93] cri-o                      (go) ... OK      53.414s
+[ 41/93] Logging Operator           (go) ... OK      46.787s
+[ 42/93] Dex                        (go) ... OK      42.421s
+[ 43/93] Bank-Vaults                (go) ... OK      59.992s
+[ 44/93] Clusternet                 (go) ... OK      61.358s
+[ 45/93] Antrea                     (go) ... OK      53.077s
+[ 46/93] Thanos                     (go) ... OK      58.331s
+[ 47/93] Kaito                      (go) ... OK      56.483s
+[ 48/93] OpenYurt                   (go) ... OK      71.376s
+[ 49/93] CloudNativePG              (go) ... OK      74.683s
+[ 50/93] K8up                       (go) ... OK      62.481s
+[ 51/93] kubefleet                  (go) ... OK      93.971s
+[ 52/93] Easegress                  (go) ... OK      71.088s
+[ 53/93] Open Policy Containers     (go) ... FAIL  rc=2      0.254s
+[ 55/93] LoxiLB                     (go) ... OK      76.944s
+[ 56/93] Opencost                   (go) ... OK      87.241s
+[ 57/93] OpenChoreo                 (go) ... OK      77.203s
+[ 58/93] K8sGPT                     (go) ... OK      49.613s
+[ 59/93] vitess                     (go) ... OK      77.288s
+[ 60/93] kuma                       (go) ... OK       4.524s
+[ 61/93] k8gb                       (go) ... OK      63.523s
+[ 62/93] Open Cluster Management    (go) ... OK      78.545s
+[ 63/93] kube-ovn                   (go) ... OK     107.793s
+[ 64/93] Kgateway                   (go) ... OK      78.785s
+[ 65/93] Kubescape                  (go) ... OK      89.891s
+[ 66/93] Higress                    (go) ... OK     101.106s
+[ 67/93] openGemini                 (go) ... OK      91.048s
+[ 68/93] Eraser                     (go) ... OK      95.728s
+[ 69/93] Volcano                    (go) ... OK     106.680s
+[ 70/93] external-secrets           (go) ... OK      80.734s
+[ 71/93] koordinator                (go) ... OK     105.793s
+[ 72/93] OpenKruise                 (go) ... OK     115.458s
+[ 73/93] kcp                        (go) ... OK     122.785s
+[ 74/93] Karmada                    (go) ... FAIL  rc=2      0.006s
+[ 75/93] Clusterpedia               (go) ... OK     116.071s
+[ 76/93] kanister                   (go) ... FAIL  rc=2    135.720s
+[ 77/93] Jaeger                     (go) ... OK     218.854s
+[ 78/93] Cadence Workflow           (go) ... OK     189.612s
+[ 79/93] Aeraki Mesh                (go) ... OK     149.359s
+[ 80/93] Kubevela                   (go) ... OK     135.639s
+[ 81/93] Lima                       (go) ... OK     146.984s
+[ 82/93] kusionStack                (go) ... OK     168.152s
+[ 83/93] ChaosMesh                  (go) ... OK      48.963s
+[ 84/93] Cortex                     (go) ... FAIL  rc=2      0.602s
+[ 85/93] Keda                       (go) ... OK     174.825s
+[ 86/93] cert-manager               (go) ... FAIL  rc=2    325.460s
+[ 87/93] cubefs                     (go) ... OK     218.097s
+[ 88/93] KServe                     (go) ... FAIL  rc=2     37.046s
+[ 89/93] HwameiStor                 (go) ... OK     286.903s
+[ 92/93] Fluid                      (go) ... OK     381.275s
+[ 93/93] cilium                     (go) ... FAIL  rc=2      2.203s
+
+=== 완료 (6403초) ===
+대상 84 / 성공 76 / 건너뜀 1 / 실패 8
+결과: /home/jake/sbomit-overhead-experiment/results/clean_build.jsonl
+로그: /home/jake/sbomit-overhead-experiment/logs/clean_build/<dir>.log
+
+--- 실패 목록 ---
+build_fail  Capsule                 capsule       go build -o bin/manager ./cmd/
+build_fail  Cedar                   cedar         cargo build --release --all-features
+build_fail  cert-manager            cert-manager  make release-artifacts
+build_fail  cilium                  cilium        make all
+build_fail  Cortex                  cortex        make BUILD_IN_CONTAINER=false
+build_fail  kanister                kanister      DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN
+build_fail  Karmada                 karmada       make build
+build_fail  KServe                  kserve        make manager
+build_fail  Open Policy Containers  policy        make build
+
+개별 로그 확인:  less /home/jake/sbomit-overhead-experiment/logs/clean_build/<dir>.log
+재시도:          bash /home/jake/sbomit-overhead-experiment/scripts/02_clean_build.sh --retry-failed

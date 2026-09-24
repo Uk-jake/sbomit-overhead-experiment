@@ -1,0 +1,23 @@
+GO111MODULE=on CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -ldflags='-X 'github.com/kgateway-dev/kgateway/v2/pkg/version.Version=v1.0.1-dev' -s -w' -gcflags='' -o /home/jake/sbomit-overhead-experiment/repos/kgateway/_output/pkg/kgateway/kgateway-linux-amd64 ./cmd/kgateway/...
+go: downloading github.com/envoyproxy/go-control-plane/envoy v1.37.1-0.20260529185539-1175069dbb2c
+go: downloading istio.io/istio v0.0.0-20260605182440-f18fd540c0e8
+go: downloading helm.sh/helm/v3 v3.21.3
+go: downloading istio.io/api v1.30.0-alpha.1.0.20260603032543-7eca3b2aa271
+go: downloading istio.io/client-go v1.30.0-alpha.1.0.20260603032842-2edf997e399d
+go: downloading github.com/envoyproxy/go-control-plane/ratelimit v0.1.1-0.20250507123352-93990c5ec02f
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260427160629-7cedc36a6bc4
+go: downloading github.com/avast/retry-go/v4 v4.7.0
+go: downloading sigs.k8s.io/gateway-api-inference-extension v1.5.0
+go: downloading k8s.io/apiserver v0.36.2
+go: downloading github.com/aws/aws-sdk-go-v2/service/ec2 v1.299.1
+go: downloading sigs.k8s.io/mcs-api v0.4.1
+go: downloading github.com/mattn/go-runewidth v0.0.17
+go: downloading go.opentelemetry.io/otel/exporters/prometheus v0.65.0
+go: downloading github.com/envoyproxy/go-control-plane/contrib v1.36.1-0.20260529185539-1175069dbb2c
+go: downloading github.com/lestrrat-go/jwx v1.2.31
+go: downloading github.com/lestrrat-go/option v1.0.1
+go: downloading github.com/lestrrat-go/backoff/v2 v2.0.8
+go: downloading github.com/lestrrat-go/iter v1.0.2
+GO111MODULE=on CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -ldflags='-X 'github.com/kgateway-dev/kgateway/v2/pkg/version.Version=v1.0.1-dev' -s -w' -gcflags='' -o /home/jake/sbomit-overhead-experiment/repos/kgateway/_output/pkg/sds/sds-linux-amd64 ./cmd/sds/...
+GO111MODULE=on CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -ldflags='-X 'github.com/kgateway-dev/kgateway/v2/pkg/version.Version=v1.0.1-dev' -s -w' -gcflags='' -o /home/jake/sbomit-overhead-experiment/repos/kgateway/_output/cmd/envoyinit/envoyinit-linux-amd64 ./cmd/envoyinit/...
+go: downloading github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32

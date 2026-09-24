@@ -1,0 +1,8 @@
+go build -trimpath  -ldflags '-s -w -X github.com/cri-o/cri-o/internal/version.buildDate='2026-09-05T04:33:54Z' -X github.com/cri-o/cri-o/internal/version.buildCommit=c75266abf9cf305f111152eb73a062a76605feef ' -tags "containers_image_ostree_stub    containers_image_openpgp  selinux "  -o bin/crio ./cmd/crio
+make -C pinns
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/cri-o/pinns'
+cc -std=c99 -Os -Wall -Werror -Wextra -static -O3 -o src/pinns.o -c src/pinns.c
+cc -std=c99 -Os -Wall -Werror -Wextra -static -O3 -o src/sysctl.o -c src/sysctl.c
+cc -o ../bin/pinns src/pinns.o src/sysctl.o -std=c99 -Os -Wall -Werror -Wextra -static  
+strip -s ../bin/pinns
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/cri-o/pinns'

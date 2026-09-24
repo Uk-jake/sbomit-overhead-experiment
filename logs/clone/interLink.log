@@ -1,0 +1,16 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/interLink'...
+Submodule 'helm' (https://github.com/interlink-hq/interlink-helm-chart) registered for path 'helm'
+Submodule 'plugins/slurm' (https://github.com/interlink-hq/interlink-slurm-plugin) registered for path 'plugins/slurm'
+Submodule 'test/vk-test-set' (https://github.com/interlink-hq/vk-test-set) registered for path 'test/vk-test-set'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/interLink/helm'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/interLink/plugins/slurm'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/interLink/test/vk-test-set'...
+From https://github.com/interlink-hq/interlink-helm-chart
+ * branch            caf6ae01430ccadb01be6cf597ec54f4b42016b0 -> FETCH_HEAD
+Submodule path 'helm': checked out 'caf6ae01430ccadb01be6cf597ec54f4b42016b0'
+From https://github.com/interlink-hq/interlink-slurm-plugin
+ * branch            fba2a25b3ced4c581d0d99f8a83d342c990bf11e -> FETCH_HEAD
+Submodule path 'plugins/slurm': checked out 'fba2a25b3ced4c581d0d99f8a83d342c990bf11e'
+From https://github.com/interlink-hq/vk-test-set
+ * branch            1d7d435edc08f5d88441593c0bc009483ede1f18 -> FETCH_HEAD
+Submodule path 'test/vk-test-set': checked out '1d7d435edc08f5d88441593c0bc009483ede1f18'

@@ -1,0 +1,14 @@
+config/secrets.env
+config/keys/*.pem
+
+repos/
+work/
+attestations/
+
+*.bak
+*.bak_*
+*.bak[0-9]
+*.failed_run
+*.tmp
+results/current_*.txt
+logs/**/*.reset.log

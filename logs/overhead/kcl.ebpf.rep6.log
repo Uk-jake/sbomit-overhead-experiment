@@ -1,0 +1,1077 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (9.214e-05s)"
+level=info msg="Finished git attestor... (0.207012663s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.301292897s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+/home/jake/sbomit-overhead-experiment/repos/kcl/scripts/build.sh
+    Updating crates.io index
+     Locking 503 packages to latest compatible versions
+      Adding annotate-snippets v0.9.2 (available: v0.12.16)
+      Adding base32 v0.4.0 (available: v0.5.1)
+      Adding base64 v0.13.1 (available: v0.23.1)
+      Adding bit-set v0.5.3 (available: v0.11.1)
+      Adding bitflags v1.3.2 (available: v2.13.1)
+      Adding bstr v0.2.17 (available: v1.13.1)
+      Adding cfg-if v0.1.10 (available: v1.0.4)
+      Adding criterion v0.5.1 (available: v0.8.2)
+      Adding dashmap v5.5.3 (available: v6.2.1)
+      Adding dirs v5.0.1 (available: v7.0.0)
+      Adding dns-lookup v2.1.1 (available: v4.0.1)
+      Adding fancy-regex v0.7.1 (available: v0.19.1)
+      Adding fluent v0.16.1 (available: v0.17.0)
+      Adding generic-array v0.14.7 (available: v0.14.9)
+      Adding handlebars v5.1.2 (available: v6.4.4)
+      Adding itertools v0.10.5 (available: v0.15.0)
+      Adding libloading v0.7.4 (available: v0.9.0)
+      Adding lsp-server v0.7.9 (available: v0.10.0)
+      Adding lsp-types v0.93.2 (available: v0.97.0)
+      Adding md-5 v0.8.0 (available: v0.11.0)
+      Adding md-5 v0.10.6 (available: v0.11.0)
+      Adding md5 v0.7.0 (available: v0.8.1)
+      Adding notify v7.0.0 (available: v8.2.0)
+      Adding num-bigint v0.4.8 (available: v0.5.1)
+      Adding oci-client v0.11.0 (available: v0.17.0)
+      Adding parking_lot v0.11.2 (available: v0.12.5)
+      Adding petgraph v0.6.5 (available: v0.8.3)
+      Adding phf v0.9.0 (available: v0.14.0)
+      Adding ra_ap_vfs v0.0.149 (available: v0.0.349)
+      Adding ra_ap_vfs-notify v0.0.149 (available: v0.0.349)
+      Adding ron v0.7.1 (available: v0.12.2)
+      Adding rustc-hash v1.1.0 (available: v2.1.3)
+      Adding salsa v0.16.1 (available: v0.28.2)
+      Adding sha1 v0.6.1 (available: v0.11.0)
+      Adding sha2 v0.9.9 (available: v0.11.0)
+      Adding sha2 v0.10.9 (available: v0.11.0)
+      Adding syn v1.0.109 (available: v3.0.5)
+      Adding syn v2.0.119 (available: v3.0.5)
+      Adding synstructure v0.12.6 (available: v0.14.0)
+      Adding termize v0.1.1 (available: v0.2.1)
+      Adding toml v0.5.11 (available: v1.1.5+spec-1.1.0)
+      Adding unicode-width v0.1.14 (available: v0.2.2)
+      Adding unicode_names2 v0.4.0 (available: v3.1.0)
+      Adding vergen v9.1.0 (available: v10.0.3)
+ Downloading crates ...
+  Downloaded atomic-waker v1.1.2
+  Downloaded adler2 v2.0.1
+  Downloaded bitflags v1.3.2
+  Downloaded always-assert v0.1.3
+  Downloaded block-padding v0.1.5
+  Downloaded block-buffer v0.9.0
+  Downloaded block-buffer v0.10.4
+  Downloaded enquote v1.1.0
+  Downloaded base32 v0.4.0
+  Downloaded anstyle v1.0.14
+  Downloaded digest v0.8.1
+  Downloaded bit-vec v0.6.3
+  Downloaded cpufeatures v0.2.17
+  Downloaded colorchoice v1.0.5
+  Downloaded clap_lex v1.1.0
+  Downloaded arrayvec v0.7.8
+  Downloaded hostname v0.4.2
+  Downloaded futures-sink v0.3.34
+  Downloaded heck v0.5.0
+  Downloaded potential_utf v0.1.6
+  Downloaded parking_lot_core v0.8.6
+  Downloaded proc-macro-hack v0.5.20+deprecated
+  Downloaded parking_lot v0.11.2
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded phf_generator v0.9.1
+  Downloaded pest_meta v2.9.1
+  Downloaded parking_lot_core v0.9.12
+  Downloaded ra_ap_vfs-notify v0.0.149
+  Downloaded protoc-bin-vendored v3.2.0
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded subtle v2.6.1
+  Downloaded suggestions v0.1.1
+  Downloaded tokio-test v0.4.5
+  Downloaded rand_xoshiro v0.6.0
+  Downloaded tinyvec_macros v0.1.1
+  Downloaded tokio-stream v0.1.19
+  Downloaded untrusted v0.9.0
+  Downloaded unicode-xid v0.2.6
+  Downloaded unicode-ident v1.0.24
+  Downloaded typenum v1.20.1
+  Downloaded unicode-casing v0.1.1
+  Downloaded yansi-term v0.1.2
+  Downloaded vergen v9.1.0
+  Downloaded zerofrom-derive v0.1.7
+  Downloaded zmij v1.0.23
+  Downloaded zeroize v1.9.0
+  Downloaded zerotrie v0.2.5
+  Downloaded yansi v1.0.1
+  Downloaded yaml-rust v0.4.5
+  Downloaded zerovec v0.11.8
+  Downloaded tokio v1.53.1
+  Downloaded walkdir v2.5.0
+  Downloaded webpki-roots v1.0.9
+  Downloaded bstr v1.13.1
+  Downloaded bstr v0.2.17
+  Downloaded quinn-proto v0.11.17
+  Downloaded tokio-util v0.7.19
+  Downloaded tower-http v0.6.11
+  Downloaded syn v3.0.5
+  Downloaded uuid v1.26.0
+  Downloaded rustls v0.23.43
+  Downloaded rustix v1.1.4
+  Downloaded regex-syntax v0.8.11
+  Downloaded url v2.5.8
+  Downloaded salsa v0.16.1
+  Downloaded zlib-rs v0.6.7
+  Downloaded zerocopy v0.8.56
+  Downloaded unicode-width v0.1.14
+  Downloaded tracing v0.1.44
+  Downloaded yoke v0.8.3
+  Downloaded zerovec-derive v0.11.6
+  Downloaded writeable v0.6.4
+  Downloaded regex-automata v0.4.18
+  Downloaded petgraph v0.6.5
+  Downloaded vergen-lib v9.1.0
+  Downloaded ring v0.17.14
+  Downloaded unic-ucd-bidi v0.9.0
+  Downloaded unicode_names2 v0.4.0
+  Downloaded rustc-rayon v0.5.1
+  Downloaded petgraph v0.8.3
+  Downloaded reqwest v0.12.28
+  Downloaded libc v0.2.189
+  Downloaded zerofrom v0.1.8
+  Downloaded yoke-derive v0.8.2
+  Downloaded xattr v1.6.1
+  Downloaded want v0.3.1
+  Downloaded utf8_iter v1.0.4
+  Downloaded unicode-segmentation v1.13.3
+  Downloaded tracing-attributes v0.1.31
+  Downloaded tower-layer v0.3.3
+  Downloaded tower v0.5.3
+  Downloaded tinystr v0.8.4
+  Downloaded rustc-rayon v0.3.2
+  Downloaded regex v1.13.1
+  Downloaded utf8parse v0.2.2
+  Downloaded unsafe-libyaml v0.2.11
+  Downloaded unicode-normalization v0.1.25
+  Downloaded unic-langid-macros v0.9.6
+  Downloaded typeid v1.0.3
+  Downloaded tower-service v0.3.3
+  Downloaded ropey v1.6.1
+  Downloaded chrono v0.4.45
+  Downloaded version_check v0.9.5
+  Downloaded toml v0.5.11
+  Downloaded tempfile v3.27.0
+  Downloaded tar v0.4.46
+  Downloaded serde v1.0.229
+  Downloaded rustls-webpki v0.103.15
+  Downloaded regex-automata v0.1.10
+  Downloaded blake3 v1.8.7
+  Downloaded unic-ucd-version v0.9.0
+  Downloaded encoding_rs v0.8.35
+  Downloaded unic-ucd-category v0.9.0
+  Downloaded protoc-bin-vendored-macos-x86_64 v3.2.0
+  Downloaded typetag-impl v0.2.23
+  Downloaded try-lock v0.2.5
+  Downloaded smallvec v1.16.0
+  Downloaded fst v0.4.7
+  Downloaded shlex v2.0.1
+  Downloaded serde_core v1.0.229
+  Downloaded jiff v0.2.35
+  Downloaded rand v0.10.2
+  Downloaded icu_normalizer v2.3.0
+  Downloaded unic-langid-impl v0.9.6
+  Downloaded syn v2.0.119
+  Downloaded siphasher v0.3.11
+  Downloaded ron v0.7.1
+  Downloaded unic-langid-macros-impl v0.9.6
+  Downloaded unic-langid v0.9.6
+  Downloaded unic-common v0.9.0
+  Downloaded unic-char-range v0.9.0
+  Downloaded unic-char-property v0.9.0
+  Downloaded ucd-trie v0.1.7
+  Downloaded type-map v0.5.1
+  Downloaded synstructure v0.12.6
+  Downloaded syn v1.0.109
+  Downloaded sized-chunks v0.6.5
+  Downloaded sha2 v0.9.9
+  Downloaded ryu v1.0.23
+  Downloaded rustc-rayon-core v0.5.1
+  Downloaded rustc-rayon-core v0.3.2
+  Downloaded quinn v0.11.11
+  Downloaded pest v2.9.1
+  Downloaded clap_builder v4.6.6
+  Downloaded aho-corasick v1.1.5
+  Downloaded unicase v2.9.0
+  Downloaded unic-emoji-char v0.9.0
+  Downloaded typetag v0.2.23
+  Downloaded tracing-core v0.1.36
+  Downloaded tokio-util v0.6.10
+  Downloaded tokio-rustls v0.26.5
+  Downloaded thiserror v2.0.20
+  Downloaded termcolor v1.4.1
+  Downloaded synstructure v0.13.2
+  Downloaded slab v0.4.12
+  Downloaded simd-adler32 v0.3.10
+  Downloaded linux-raw-sys v0.12.1
+  Downloaded signal-hook-registry v1.4.8
+  Downloaded sha2 v0.10.9
+  Downloaded serde_json v1.0.151
+  Downloaded serde_derive v1.0.229
+  Downloaded semver v1.0.28
+  Downloaded rustls-pki-types v1.15.1
+  Downloaded proc-macro2 v1.0.107
+  Downloaded thread_local v1.1.10
+  Downloaded thiserror-impl v2.0.20
+  Downloaded thiserror v1.0.69
+  Downloaded termize v0.1.1
+  Downloaded sync_wrapper v1.0.2
+  Downloaded sha1_smol v1.0.1
+  Downloaded protoc-bin-vendored-macos-aarch_64 v3.2.0
+  Downloaded self_cell v1.3.0
+  Downloaded self_cell v0.10.3
+  Downloaded scopeguard v1.2.0
+  Downloaded salsa-macros v0.16.0
+  Downloaded rustversion v1.0.23
+  Downloaded rand_core v0.6.4
+  Downloaded quinn-udp v0.5.15
+  Downloaded prost v0.14.4
+  Downloaded scoped-tls v1.0.1
+  Downloaded same-file v1.0.6
+  Downloaded rustc_version v0.4.1
+  Downloaded rustc_data_structures v0.1.2
+  Downloaded rustc-hash v2.1.3
+  Downloaded rand_core v0.10.1
+  Downloaded quote v1.0.47
+  Downloaded prost-build v0.14.4
+  Downloaded ra_ap_stdx v0.0.149
+  Downloaded prost-derive v0.14.4
+  Downloaded pretty_assertions v1.4.1
+  Downloaded protoc-bin-vendored-win32 v3.2.0
+  Downloaded tokio-macros v2.7.2
+  Downloaded tinyvec v1.13.2
+  Downloaded threadpool v1.8.1
+  Downloaded thiserror-impl v1.0.69
+  Downloaded str_indices v0.4.4
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded socket2 v0.6.5
+  Downloaded smol_str v0.3.6
+  Downloaded rustc-hash v1.1.0
+  Downloaded itertools v0.14.0
+  Downloaded im-rc v15.1.0
+  Downloaded idna v1.1.0
+  Downloaded icu_properties_data v2.3.0
+  Downloaded hyper v1.11.1
+  Downloaded futures-util v0.3.34
+  Downloaded strsim v0.11.1
+  Downloaded strsim v0.10.0
+  Downloaded rustc_lexer v0.1.0
+  Downloaded rand_pcg v0.10.2
+  Downloaded rand v0.8.8
+  Downloaded ra_ap_paths v0.0.149
+  Downloaded jiff-core v0.1.0
+  Downloaded hashbrown v0.17.1
+  Downloaded hashbrown v0.15.5
+  Downloaded hashbrown v0.14.5
+  Downloaded sha1 v0.6.1
+  Downloaded sha-1 v0.10.1
+  Downloaded serde_repr v0.1.21
+  Downloaded rand_chacha v0.3.1
+  Downloaded oci-client v0.11.0
+  Downloaded num-bigint v0.4.8
+  Downloaded protoc-bin-vendored-linux-x86_64 v3.2.0
+  Downloaded protoc-bin-vendored-linux-aarch_64 v3.2.0
+  Downloaded mio v1.2.3
+  Downloaded mio v0.8.11
+  Downloaded memchr v2.8.3
+  Downloaded lsp-server v0.7.9
+  Downloaded itertools v0.10.5
+  Downloaded indexmap v2.14.2
+  Downloaded icu_properties v2.3.0
+  Downloaded icu_collections v2.3.0
+  Downloaded hyper-util v0.1.20
+  Downloaded http v1.5.0
+  Downloaded hashbrown v0.12.3
+  Downloaded handlebars v5.1.2
+  Downloaded ra_ap_vfs v0.0.149
+  Downloaded prost-types v0.14.4
+  Downloaded miniz_oxide v0.9.1
+  Downloaded ignore v0.4.33
+  Downloaded icu_normalizer_data v2.3.0
+  Downloaded icu_locale_core v2.3.0
+  Downloaded prost-wkt-build v0.7.2
+  Downloaded protoc-bin-vendored-linux-x86_32 v3.2.0
+  Downloaded protoc-bin-vendored-linux-ppcle_64 v3.2.0
+  Downloaded prost-wkt v0.7.2
+  Downloaded prettyplease v0.2.37
+  Downloaded num-traits v0.2.19
+  Downloaded notify v7.0.0
+  Downloaded lsp-types v0.93.2
+  Downloaded lock_api v0.4.14
+  Downloaded litemap v0.8.3
+  Downloaded indexmap v1.9.3
+  Downloaded icu_provider v2.3.1
+  Downloaded iana-time-zone v0.1.65
+  Downloaded getrandom v0.4.3
+  Downloaded cc v1.4.5
+  Downloaded bytes v1.12.1
+  Downloaded once_cell v1.21.4
+  Downloaded notify v5.2.0
+  Downloaded log v0.4.34
+  Downloaded json-spanned-value v0.2.2
+  Downloaded ipnet v2.12.2
+  Downloaded inotify v0.9.6
+  Downloaded oorandom v11.1.5
+  Downloaded num-integer v0.1.47
+  Downloaded memmap2 v0.2.3
+  Downloaded linked-hash-map v0.5.6
+  Downloaded libloading v0.7.4
+  Downloaded lazy_static v1.5.0
+  Downloaded jwt v0.16.0
+  Downloaded jobserver v0.1.35
+  Downloaded hyper-rustls v0.27.9
+  Downloaded httparse v1.10.1
+  Downloaded http-body-util v0.1.5
+  Downloaded http-auth v0.1.10
+  Downloaded hmac v0.12.1
+  Downloaded fancy-regex v0.7.1
+  Downloaded pest_generator v2.9.1
+  Downloaded protoc-bin-vendored-linux-s390_64 v3.2.0
+  Downloaded getrandom v0.2.17
+  Downloaded flate2 v1.1.10
+  Downloaded derive_builder v0.20.2
+  Downloaded darling_core v0.20.11
+  Downloaded crossbeam-channel v0.5.17
+  Downloaded clap v4.6.6
+  Downloaded borsh v1.8.1
+  Downloaded pin-project-lite v0.2.17
+  Downloaded phf_macros v0.9.0
+  Downloaded phf v0.9.0
+  Downloaded pest_derive v2.9.1
+  Downloaded percent-encoding v2.3.2
+  Downloaded option-ext v0.2.0
+  Downloaded opaque-debug v0.3.1
+  Downloaded olpc-cjson v0.1.4
+  Downloaded num_cpus v1.17.0
+  Downloaded notify-types v1.0.1
+  Downloaded md5 v0.7.0
+  Downloaded md-5 v0.10.6
+  Downloaded maplit v1.0.2
+  Downloaded lru-slab v0.1.2
+  Downloaded located_yaml v0.2.1
+  Downloaded jsonrpc-stdio-server v18.0.0
+  Downloaded jsonrpc-core v18.0.0
+  Downloaded jod-thread v0.1.2
+  Downloaded inventory v0.3.24
+  Downloaded inotify-sys v0.1.8
+  Downloaded inotify v0.10.2
+  Downloaded diff v0.1.13
+  Downloaded opaque-debug v0.2.3
+  Downloaded md-5 v0.8.0
+  Downloaded matches v0.1.10
+  Downloaded itoa v1.0.18
+  Downloaded is_terminal_polyfill v1.70.2
+  Downloaded intl_pluralrules v7.0.2
+  Downloaded globset v0.4.20
+  Downloaded glob v0.3.4
+  Downloaded generic-array v0.12.4
+  Downloaded generational-arena v0.2.9
+  Downloaded futures-channel v0.3.34
+  Downloaded fluent-bundle v0.15.3
+  Downloaded ec4rs v1.2.0
+  Downloaded defmt v1.1.1
+  Downloaded darling v0.20.11
+  Downloaded crossbeam-utils v0.8.23
+  Downloaded crc32fast v1.5.1
+  Downloaded base64 v0.22.1
+  Downloaded anyhow v1.0.104
+  Downloaded phf_shared v0.9.0
+  Downloaded pathdiff v0.2.3
+  Downloaded parking_lot v0.12.5
+  Downloaded multimap v0.10.1
+  Downloaded intl-memoizer v0.5.3
+  Downloaded instant v0.1.13
+  Downloaded idna_adapter v1.2.2
+  Downloaded ident_case v1.0.1
+  Downloaded futures v0.3.34
+  Downloaded fluent-syntax v0.11.1
+  Downloaded fixedbitset v0.5.7
+  Downloaded filetime v0.2.29
+  Downloaded fastrand v2.5.0
+  Downloaded env_logger v0.11.11
+  Downloaded ena v0.14.4
+  Downloaded displaydoc v0.2.7
+  Downloaded digest v0.10.7
+  Downloaded digest v0.9.0
+  Downloaded derive_builder_core v0.20.2
+  Downloaded defmt-macros v1.1.1
+  Downloaded dashmap v5.5.3
+  Downloaded crossbeam-deque v0.8.8
+  Downloaded futures-executor v0.3.34
+  Downloaded futures-core v0.3.34
+  Downloaded foldhash v0.1.5
+  Downloaded find-msvc-tools v0.1.12
+  Downloaded defmt-parser v1.0.0
+  Downloaded chacha20 v0.10.2
+  Downloaded byteorder v1.5.0
+  Downloaded bitflags v2.13.1
+  Downloaded base64 v0.13.1
+  Downloaded http-body v1.1.0
+  Downloaded fluent v0.16.1
+  Downloaded erased-serde v0.4.10
+  Downloaded either v1.18.0
+  Downloaded dns-lookup v2.1.1
+  Downloaded dirs v5.0.1
+  Downloaded crossbeam-epoch v0.9.21
+  Downloaded cpufeatures v0.3.1
+  Downloaded cidr v0.3.2
+  Downloaded byte-tools v0.3.1
+  Downloaded heck v0.3.3
+  Downloaded generic-array v0.14.7
+  Downloaded futures-task v0.3.34
+  Downloaded futures-io v0.3.34
+  Downloaded form_urlencoded v1.2.2
+  Downloaded errno v0.3.14
+  Downloaded equivalent v1.0.2
+  Downloaded darling_macro v0.20.11
+  Downloaded cfg_aliases v0.2.2
+  Downloaded futures-macro v0.3.34
+  Downloaded fslock v0.2.1
+  Downloaded fnv v1.0.7
+  Downloaded fluent-langneg v0.13.1
+  Downloaded fixedbitset v0.4.2
+  Downloaded dirs-sys v0.4.1
+  Downloaded derive_builder_macro v0.20.2
+  Downloaded constant_time_eq v0.4.2
+  Downloaded cfg-if v1.0.4
+  Downloaded cfg-if v0.1.10
+  Downloaded env_filter v2.0.0
+  Downloaded crypto-common v0.1.7
+  Downloaded bitmaps v2.1.0
+  Downloaded annotate-snippets v0.9.2
+  Downloaded anstyle-parse v1.0.0
+  Downloaded anstream v1.0.0
+  Downloaded block-buffer v0.7.3
+  Downloaded bit-set v0.5.3
+  Downloaded autocfg v1.5.1
+  Downloaded anstyle-query v1.1.5
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling libc v0.2.189
+   Compiling cfg-if v1.0.4
+   Compiling log v0.4.34
+   Compiling smallvec v1.16.0
+   Compiling memchr v2.8.3
+   Compiling stable_deref_trait v1.2.1
+   Compiling serde_core v1.0.229
+   Compiling pin-project-lite v0.2.17
+   Compiling typenum v1.20.1
+   Compiling serde v1.0.229
+   Compiling scopeguard v1.2.0
+   Compiling version_check v0.9.5
+   Compiling parking_lot_core v0.9.12
+   Compiling itoa v1.0.18
+   Compiling find-msvc-tools v0.1.12
+   Compiling shlex v2.0.1
+   Compiling crossbeam-utils v0.8.23
+   Compiling lock_api v0.4.14
+   Compiling cc v1.4.5
+   Compiling autocfg v1.5.1
+   Compiling once_cell v1.21.4
+   Compiling crossbeam-epoch v0.9.21
+   Compiling generic-array v0.14.7
+   Compiling rustix v1.1.4
+   Compiling crossbeam-deque v0.8.8
+   Compiling subtle v2.6.1
+   Compiling zmij v1.0.23
+   Compiling proc-macro-hack v0.5.20+deprecated
+   Compiling either v1.18.0
+   Compiling serde_json v1.0.151
+   Compiling bitflags v1.3.2
+   Compiling bitflags v2.13.1
+   Compiling tracing-core v0.1.36
+   Compiling thiserror v1.0.69
+   Compiling indexmap v1.9.3
+   Compiling lazy_static v1.5.0
+   Compiling rustc-hash v1.1.0
+   Compiling anyhow v1.0.104
+   Compiling getrandom v0.4.3
+   Compiling cpufeatures v0.2.17
+   Compiling aho-corasick v1.1.5
+   Compiling linux-raw-sys v0.12.1
+   Compiling hashbrown v0.12.3
+   Compiling syn v1.0.109
+   Compiling syn v2.0.119
+   Compiling syn v3.0.5
+   Compiling bytes v1.12.1
+   Compiling regex-syntax v0.8.11
+   Compiling block-buffer v0.10.4
+   Compiling socket2 v0.6.5
+   Compiling crypto-common v0.1.7
+   Compiling rustc-rayon-core v0.5.1
+   Compiling num_cpus v1.17.0
+   Compiling digest v0.10.7
+   Compiling parking_lot v0.12.5
+   Compiling zerocopy v0.8.56
+   Compiling rustc-rayon-core v0.3.2
+   Compiling futures-core v0.3.34
+   Compiling blake3 v1.8.7
+   Compiling num-traits v0.2.19
+   Compiling same-file v1.0.6
+   Compiling rustc-rayon v0.5.1
+   Compiling arrayvec v0.7.8
+   Compiling rustc-hash v2.1.3
+   Compiling walkdir v2.5.0
+   Compiling sha2 v0.10.9
+   Compiling fastrand v2.5.0
+   Compiling constant_time_eq v0.4.2
+   Compiling cpufeatures v0.3.1
+   Compiling rustc-rayon v0.3.2
+   Compiling memmap2 v0.2.3
+   Compiling jobserver v0.1.35
+   Compiling ena v0.14.4
+   Compiling getrandom v0.2.17
+   Compiling instant v0.1.13
+   Compiling cfg-if v0.1.10
+   Compiling unicode-width v0.1.14
+   Compiling ucd-trie v0.1.7
+   Compiling regex-automata v0.4.18
+   Compiling tempfile v3.27.0
+   Compiling rand_core v0.6.4
+   Compiling type-map v0.5.1
+   Compiling md-5 v0.10.6
+   Compiling sha-1 v0.10.1
+   Compiling mio v1.2.3
+   Compiling pest v2.9.1
+   Compiling errno v0.3.14
+   Compiling ryu v1.0.23
+   Compiling writeable v0.6.4
+   Compiling strsim v0.11.1
+   Compiling futures-sink v0.3.34
+   Compiling rustversion v1.0.23
+   Compiling self_cell v1.3.0
+   Compiling siphasher v0.3.11
+   Compiling parking_lot_core v0.8.6
+   Compiling litemap v0.8.3
+   Compiling ident_case v1.0.1
+   Compiling scoped-tls v1.0.1
+   Compiling equivalent v1.0.2
+   Compiling fnv v1.0.7
+   Compiling unic-char-range v0.9.0
+   Compiling unic-common v0.9.0
+   Compiling hashbrown v0.17.1
+   Compiling unic-ucd-version v0.9.0
+   Compiling unic-char-property v0.9.0
+   Compiling phf_shared v0.9.0
+   Compiling self_cell v0.10.3
+   Compiling signal-hook-registry v1.4.8
+   Compiling icu_normalizer_data v2.3.0
+   Compiling utf8_iter v1.0.4
+   Compiling base64 v0.13.1
+   Compiling icu_properties_data v2.3.0
+   Compiling iana-time-zone v0.1.65
+   Compiling termcolor v1.4.1
+   Compiling synstructure v0.13.2
+   Compiling darling_core v0.20.11
+   Compiling percent-encoding v2.3.2
+   Compiling pest_meta v2.9.1
+   Compiling indexmap v2.14.2
+   Compiling yansi v1.0.1
+   Compiling bit-vec v0.6.3
+   Compiling diff v0.1.13
+   Compiling unicode-xid v0.2.6
+   Compiling bit-set v0.5.3
+   Compiling pretty_assertions v1.4.1
+   Compiling synstructure v0.12.6
+   Compiling rustc_errors v0.1.2 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/3rdparty/rustc_errors)
+   Compiling parking_lot v0.11.2
+   Compiling futures-channel v0.3.34
+   Compiling num-integer v0.1.47
+   Compiling displaydoc v0.2.7
+   Compiling zerovec-derive v0.11.6
+   Compiling serde_derive v1.0.229
+   Compiling ppv-lite86 v0.2.21
+   Compiling tokio-macros v2.7.2
+   Compiling regex v1.13.1
+   Compiling pest_generator v2.9.1
+   Compiling digest v0.9.0
+   Compiling block-buffer v0.9.0
+   Compiling compiler_base_macros v0.1.1 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/macros)
+   Compiling opaque-debug v0.3.1
+   Compiling thiserror v2.0.20
+   Compiling sha1_smol v1.0.1
+   Compiling regex-automata v0.1.10
+   Compiling rand_chacha v0.3.1
+   Compiling unsafe-libyaml v0.2.11
+   Compiling tinystr v0.8.4
+   Compiling matches v0.1.10
+   Compiling bstr v0.2.17
+   Compiling unic-ucd-category v0.9.0
+   Compiling unic-langid-impl v0.9.6
+   Compiling rand v0.8.8
+   Compiling zerofrom-derive v0.1.7
+   Compiling yoke-derive v0.8.2
+   Compiling tracing-attributes v0.1.31
+   Compiling thiserror-impl v1.0.69
+   Compiling unic-langid-macros-impl v0.9.6
+   Compiling tokio v1.53.1
+   Compiling pest_derive v2.9.1
+   Compiling sha1 v0.6.1
+   Compiling fancy-regex v0.7.1
+   Compiling kcl-macros v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/macros)
+   Compiling sha2 v0.9.9
+   Compiling kcl-primitives v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/primitives)
+   Compiling thiserror-impl v2.0.20
+   Compiling futures-macro v0.3.34
+   Compiling unic-ucd-bidi v0.9.0
+   Compiling phf_generator v0.9.1
+   Compiling uuid v1.26.0
+   Compiling phf_macros v0.9.0
+   Compiling dns-lookup v2.1.1
+   Compiling darling_macro v0.20.11
+   Compiling fslock v0.2.1
+   Compiling hostname v0.4.2
+   Compiling zerofrom v0.1.8
+   Compiling itertools v0.10.5
+   Compiling generational-arena v0.2.9
+   Compiling encoding_rs v0.8.35
+   Compiling darling v0.20.11
+   Compiling yoke v0.8.3
+   Compiling tracing v0.1.44
+   Compiling fluent-syntax v0.11.1
+   Compiling derive_builder_core v0.20.2
+   Compiling glob v0.3.4
+   Compiling futures-io v0.3.34
+   Compiling md5 v0.7.0
+   Compiling cidr v0.3.2
+   Compiling zerovec v0.11.8
+   Compiling zerotrie v0.2.5
+   Compiling base32 v0.4.0
+   Compiling futures-task v0.3.34
+   Compiling phf v0.9.0
+   Compiling rustc_data_structures v0.1.2
+   Compiling slab v0.4.12
+   Compiling smol_str v0.3.6
+   Compiling yansi-term v0.1.2
+   Compiling unicode-casing v0.1.1
+   Compiling rustc_span v0.1.2 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/3rdparty/rustc_span)
+   Compiling futures-util v0.3.34
+   Compiling kcl-utils v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/utils)
+   Compiling vergen-lib v9.1.0
+   Compiling form_urlencoded v1.2.2
+   Compiling annotate-snippets v0.9.2
+   Compiling termize v0.1.1
+   Compiling vergen v9.1.0
+   Compiling ring v0.17.14
+   Compiling semver v1.0.28
+   Compiling http v1.5.0
+   Compiling thread_local v1.1.10
+   Compiling derive_builder_macro v0.20.2
+   Compiling zeroize v1.9.0
+   Compiling rustc_version v0.4.1
+   Compiling compiler_base_span v0.1.3 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/span)
+   Compiling rustls-pki-types v1.15.1
+   Compiling generic-array v0.12.4
+   Compiling derive_builder v0.20.2
+   Compiling kcl-span v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/span)
+   Compiling httparse v1.10.1
+   Compiling byte-tools v0.3.1
+   Compiling potential_utf v0.1.6
+   Compiling chrono v0.4.45
+   Compiling handlebars v5.1.2
+   Compiling icu_collections v2.3.0
+   Compiling serde_yaml v0.9.34+deprecated (/home/jake/sbomit-overhead-experiment/repos/kcl/3rdparty/serde_yaml)
+   Compiling untrusted v0.9.0
+   Compiling kcl-version v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/version)
+   Compiling icu_locale_core v2.3.0
+   Compiling http-body v1.1.0
+   Compiling itertools v0.14.0
+   Compiling block-padding v0.1.5
+   Compiling try-lock v0.2.5
+   Compiling strsim v0.10.0
+   Compiling unic-langid-macros v0.9.6
+   Compiling unic-langid v0.9.6
+   Compiling tower-service v0.3.3
+   Compiling byteorder v1.5.0
+   Compiling intl-memoizer v0.5.3
+   Compiling intl_pluralrules v7.0.2
+   Compiling fluent-langneg v0.13.1
+   Compiling fixedbitset v0.4.2
+   Compiling option-ext v0.2.0
+   Compiling rustls v0.23.43
+   Compiling dirs-sys v0.4.1
+   Compiling petgraph v0.6.5
+   Compiling fluent-bundle v0.15.3
+   Compiling suggestions v0.1.1
+   Compiling block-buffer v0.7.3
+   Compiling want v0.3.1
+   Compiling digest v0.8.1
+   Compiling atomic-waker v1.1.2
+   Compiling unicode_names2 v0.4.0
+   Compiling icu_provider v2.3.1
+   Compiling opaque-debug v0.2.3
+   Compiling md-5 v0.8.0
+   Compiling rustc_lexer v0.1.0
+   Compiling dirs v5.0.1
+   Compiling fluent v0.16.1
+   Compiling compiler_base_error v0.1.6 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/error)
+   Compiling icu_properties v2.3.0
+   Compiling icu_normalizer v2.3.0
+   Compiling kcl-runtime v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/runtime)
+   Compiling ron v0.7.1
+   Compiling prost-derive v0.14.4
+   Compiling compiler_base_session v0.1.3 (/home/jake/sbomit-overhead-experiment/repos/kcl/compiler_base/session)
+   Compiling toml v0.5.11
+   Compiling unic-emoji-char v0.9.0
+   Compiling sync_wrapper v1.0.2
+   Compiling filetime v0.2.29
+   Compiling ipnet v2.12.2
+   Compiling base64 v0.22.1
+   Compiling inotify-sys v0.1.8
+   Compiling hyper v1.11.1
+   Compiling tinyvec_macros v0.1.1
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:390:46
+    |
+390 |                     if c.is_uppercase() || c.is_titlecase() {
+    |                                              ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `is_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+    = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:716:44
+    |
+716 | ...                   title.extend(c.to_titlecase());
+    |                                      ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `to_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:721:53
+    |
+721 | ...   } else if c.is_uppercase() || c.is_titlecase() {
+    |                                       ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `is_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+
+   Compiling tower-layer v0.3.3
+   Compiling idna_adapter v1.2.2
+   Compiling pathdiff v0.2.3
+   Compiling idna v1.1.0
+   Compiling tinyvec v1.13.2
+   Compiling webpki-roots v1.0.9
+   Compiling tower v0.5.3
+   Compiling enquote v1.1.0
+   Compiling num-bigint v0.4.8
+   Compiling crc32fast v1.5.1
+   Compiling tokio-util v0.7.19
+   Compiling http-body-util v0.1.5
+   Compiling serde_urlencoded v0.7.1
+   Compiling hmac v0.12.1
+   Compiling url v2.5.8
+   Compiling unicode-normalization v0.1.25
+   Compiling hyper-util v0.1.20
+   Compiling prettyplease v0.2.37
+warning: function `slice_marker_section` is never used
+   --> crates/runtime/src/value/val_plan.rs:762:4
+    |
+762 | fn slice_marker_section(s: &str, key: &str) -> String {
+    |    ^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `slice_last_marker_section` is never used
+   --> crates/runtime/src/value/val_plan.rs:799:4
+    |
+799 | fn slice_last_marker_section(s: &str, key: &str) -> String {
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling adler2 v2.0.1
+   Compiling foldhash v0.1.5
+   Compiling utf8parse v0.2.2
+   Compiling simd-adler32 v0.3.10
+   Compiling anstyle-parse v1.0.0
+   Compiling tower-http v0.6.11
+   Compiling miniz_oxide v0.9.1
+   Compiling hashbrown v0.15.5
+   Compiling prost v0.14.4
+   Compiling olpc-cjson v0.1.4
+   Compiling jwt v0.16.0
+   Compiling xattr v1.6.1
+   Compiling http-auth v0.1.10
+   Compiling kcl-error v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/error)
+   Compiling unicase v2.9.0
+   Compiling fst v0.4.7
+   Compiling colorchoice v1.0.5
+   Compiling fixedbitset v0.5.7
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling anstyle-query v1.1.5
+   Compiling typeid v1.0.3
+   Compiling maplit v1.0.2
+   Compiling anstyle v1.0.14
+   Compiling petgraph v0.8.3
+   Compiling flate2 v1.1.10
+   Compiling tar v0.4.46
+   Compiling prost-types v0.14.4
+   Compiling kcl-ast v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/ast)
+   Compiling kcl-lexer v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/lexer)
+   Compiling anstream v1.0.0
+   Compiling linked-hash-map v0.5.6
+   Compiling kcl-runner v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/runner)
+   Compiling crossbeam-channel v0.5.17
+   Compiling always-assert v0.1.3
+   Compiling unicode-segmentation v1.13.3
+   Compiling multimap v0.10.1
+   Compiling heck v0.5.0
+   Compiling erased-serde v0.4.10
+   Compiling heck v0.3.3
+   Compiling ra_ap_stdx v0.0.149
+   Compiling yaml-rust v0.4.5
+   Compiling inotify v0.9.6
+   Compiling futures-executor v0.3.34
+   Compiling threadpool v1.8.1
+   Compiling mio v0.8.11
+   Compiling bitmaps v2.1.0
+   Compiling bstr v1.13.1
+   Compiling im-rc v15.1.0
+   Compiling libloading v0.7.4
+   Compiling prost-build v0.14.4
+   Compiling protoc-bin-vendored-macos-x86_64 v3.2.0
+   Compiling protoc-bin-vendored-linux-ppcle_64 v3.2.0
+   Compiling typetag v0.2.23
+   Compiling jiff-core v0.1.0
+   Compiling protoc-bin-vendored-linux-aarch_64 v3.2.0
+   Compiling ra_ap_paths v0.0.149
+   Compiling protoc-bin-vendored-macos-aarch_64 v3.2.0
+   Compiling protoc-bin-vendored-linux-x86_64 v3.2.0
+   Compiling protoc-bin-vendored-win32 v3.2.0
+   Compiling protoc-bin-vendored-linux-x86_32 v3.2.0
+   Compiling protoc-bin-vendored-linux-s390_64 v3.2.0
+   Compiling clap_lex v1.1.0
+   Compiling ra_ap_vfs v0.0.149
+   Compiling sized-chunks v0.6.5
+   Compiling rand_xoshiro v0.6.0
+   Compiling globset v0.4.20
+   Compiling protoc-bin-vendored v3.2.0
+   Compiling clap_builder v4.6.6
+   Compiling prost-wkt-build v0.7.2
+   Compiling notify v5.2.0
+   Compiling located_yaml v0.2.1
+   Compiling kcl-ast-pretty v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/ast_pretty)
+   Compiling kcl-config v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/config)
+   Compiling futures v0.3.34
+   Compiling salsa-macros v0.16.0
+   Compiling jiff v0.2.35
+   Compiling kcl-sema v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/sema)
+   Compiling inotify v0.10.2
+   Compiling tokio-stream v0.1.19
+   Compiling json-spanned-value v0.2.2
+   Compiling env_filter v2.0.0
+   Compiling serde_repr v0.1.21
+   Compiling typetag-impl v0.2.23
+   Compiling notify-types v1.0.1
+   Compiling jod-thread v0.1.2
+   Compiling rustls-webpki v0.103.15
+   Compiling hashbrown v0.14.5
+   Compiling str_indices v0.4.4
+   Compiling inventory v0.3.24
+   Compiling oorandom v11.1.5
+   Compiling ec4rs v1.2.0
+   Compiling salsa v0.16.1
+   Compiling ropey v1.6.1
+   Compiling notify v7.0.0
+   Compiling lsp-types v0.93.2
+   Compiling dashmap v5.5.3
+   Compiling clap v4.6.6
+   Compiling ra_ap_vfs-notify v0.0.149
+   Compiling tokio-test v0.4.5
+   Compiling kcl-api v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/api)
+   Compiling ignore v0.4.33
+   Compiling jsonrpc-core v18.0.0
+   Compiling lsp-server v0.7.9
+   Compiling tokio-util v0.6.10
+   Compiling proc_macro_crate v0.1.0 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/tools/benches/proc_macro_crate)
+   Compiling env_logger v0.11.11
+   Compiling prost-wkt v0.7.2
+   Compiling jsonrpc-stdio-server v18.0.0
+   Compiling kcl-parser v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/parser)
+   Compiling kcl-evaluator v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/evaluator)
+warning: calls to `std::mem::drop` with a reference instead of an owned value does nothing
+   --> crates/evaluator/src/scope.rs:223:9
+    |
+223 |         drop(pkg_scopes);
+    |         ^^^^^----------^
+    |              |
+    |              argument has type `&mut RefMut<'_, HashMap<..., ...>>`
+    |
+    = note: `#[warn(dropping_references)]` on by default
+    = note: the full name for the type has been written to '/home/jake/sbomit-overhead-experiment/repos/kcl/target/release/deps/kcl_evaluator-320dc4d9a070f7b8.long-type-15115145983120323293.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+help: use `let _ = ...` to ignore the expression or result
+    |
+223 -         drop(pkg_scopes);
+223 +         let _ = pkg_scopes;
+    |
+
+warning: `kcl-runtime` (lib) generated 5 warnings
+   Compiling tokio-rustls v0.26.5
+   Compiling kcl-query v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/query)
+   Compiling hyper-rustls v0.27.9
+   Compiling reqwest v0.12.28
+   Compiling kcl-loader v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/loader)
+   Compiling oci-client v0.11.0
+   Compiling kcl-driver v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/driver)
+warning: `kcl-evaluator` (lib) generated 1 warning
+   Compiling kcl-tools v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/tools)
+   Compiling kcl-language-server v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/tools/src/LSP)
+warning: unused import: `kcl_utils::path::PathPrefix`
+  --> crates/tools/src/LSP/src/completion.rs:40:5
+   |
+40 | use kcl_utils::path::PathPrefix;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling kcl-cmd v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/cmd)
+warning: `kcl-language-server` (lib) generated 1 warning (run `cargo fix --lib -p kcl-language-server` to apply 1 suggestion)
+   Compiling kcl-lib v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/lib)
+    Finished `release` profile [optimized] target(s) in 2m 56s
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling futures-channel v0.3.34
+   Compiling futures-util v0.3.34
+   Compiling hyper v1.11.1
+   Compiling hyper-util v0.1.20
+   Compiling tower v0.5.3
+   Compiling serde_json v1.0.151
+   Compiling uuid v1.26.0
+   Compiling chrono v0.4.45
+   Compiling serde_yaml v0.9.34+deprecated (/home/jake/sbomit-overhead-experiment/repos/kcl/3rdparty/serde_yaml)
+   Compiling url v2.5.8
+   Compiling ron v0.7.1
+   Compiling toml v0.5.11
+   Compiling serde_urlencoded v0.7.1
+   Compiling linked-hash-map v0.5.6
+   Compiling yaml-rust v0.4.5
+   Compiling hyper-rustls v0.27.9
+   Compiling handlebars v5.1.2
+   Compiling olpc-cjson v0.1.4
+   Compiling jwt v0.16.0
+   Compiling json-spanned-value v0.2.2
+   Compiling lsp-server v0.7.9
+   Compiling tower-http v0.6.11
+   Compiling lsp-types v0.93.2
+   Compiling located_yaml v0.2.1
+   Compiling reqwest v0.12.28
+   Compiling kcl-runtime v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/runtime)
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:390:46
+    |
+390 |                     if c.is_uppercase() || c.is_titlecase() {
+    |                                              ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `is_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+    = note: `#[warn(unstable_name_collisions)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:716:44
+    |
+716 | ...                   title.extend(c.to_titlecase());
+    |                                      ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `to_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+
+warning: a method with this name may be added to the standard library in the future
+   --> crates/runtime/src/value/val_str.rs:721:53
+    |
+721 | ...   } else if c.is_uppercase() || c.is_titlecase() {
+    |                                       ^^^^^^^^^^^^
+    |
+    = help: call with fully qualified syntax `is_titlecase(...)` to keep using the current method
+    = warning: once this associated item is added to the standard library, the ambiguity may cause an error or change in behavior!
+    = note: for more information, see issue #48919 <https://github.com/rust-lang/rust/issues/48919>
+
+   Compiling oci-client v0.11.0
+warning: function `slice_marker_section` is never used
+   --> crates/runtime/src/value/val_plan.rs:762:4
+    |
+762 | fn slice_marker_section(s: &str, key: &str) -> String {
+    |    ^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `slice_last_marker_section` is never used
+   --> crates/runtime/src/value/val_plan.rs:799:4
+    |
+799 | fn slice_last_marker_section(s: &str, key: &str) -> String {
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling kcl-error v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/error)
+   Compiling kcl-ast v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/ast)
+   Compiling kcl-lexer v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/lexer)
+   Compiling kcl-ast-pretty v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/ast_pretty)
+   Compiling kcl-config v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/config)
+   Compiling kcl-sema v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/sema)
+   Compiling kcl-parser v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/parser)
+   Compiling kcl-evaluator v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/evaluator)
+warning: calls to `std::mem::drop` with a reference instead of an owned value does nothing
+   --> crates/evaluator/src/scope.rs:223:9
+    |
+223 |         drop(pkg_scopes);
+    |         ^^^^^----------^
+    |              |
+    |              argument has type `&mut RefMut<'_, HashMap<..., ...>>`
+    |
+    = note: `#[warn(dropping_references)]` on by default
+    = note: the full name for the type has been written to '/home/jake/sbomit-overhead-experiment/repos/kcl/target/release/deps/kcl_evaluator-c7a1c5f274833278.long-type-18397583772153482063.txt'
+    = note: consider using `--verbose` to print the full type name to the console
+help: use `let _ = ...` to ignore the expression or result
+    |
+223 -         drop(pkg_scopes);
+223 +         let _ = pkg_scopes;
+    |
+
+   Compiling kcl-query v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/query)
+   Compiling kcl-driver v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/driver)
+   Compiling kcl-runner v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/runner)
+warning: `kcl-runtime` (lib) generated 5 warnings
+   Compiling kcl-tools v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/tools)
+   Compiling kcl-language-server v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/tools/src/LSP)
+warning: unused import: `kcl_utils::path::PathPrefix`
+  --> crates/tools/src/LSP/src/completion.rs:40:5
+   |
+40 | use kcl_utils::path::PathPrefix;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `kcl-evaluator` (lib) generated 1 warning
+warning: `kcl-language-server` (lib) generated 1 warning (run `cargo fix --lib -p kcl-language-server` to apply 1 suggestion)
+warning: `kcl-language-server` (bin "kcl-language-server") generated 1 warning (1 duplicate)
+    Finished `release` profile [optimized] target(s) in 1m 57s
+   Compiling kcl-cli v0.12.5 (/home/jake/sbomit-overhead-experiment/repos/kcl/crates/cli)
+    Finished `release` profile [optimized] target(s) in 2.99s
+================ Summary ================
+  KCL is updated into _build/dist/linux/core
+level=info msg="Finished command-run attestor... (297.625766433s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.432504268s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

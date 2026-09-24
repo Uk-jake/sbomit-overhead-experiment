@@ -1,0 +1,130 @@
+Error: unknown flag: --format
+Usage:
+  golangci-lint version [flags]
+
+Flags:
+      --debug   Add build information
+      --json    Display as JSON
+      --short   Display only the version number
+
+Global Flags:
+      --color string   Use color when printing; can be 'always', 'auto', or 'never' (default "auto")
+  -h, --help           Help for a command
+  -v, --verbose        Verbose output
+
+The command is terminated due to an error: unknown flag: --format
+Error: unknown flag: --format
+Usage:
+  golangci-lint version [flags]
+
+Flags:
+      --debug   Add build information
+      --json    Display as JSON
+      --short   Display only the version number
+
+Global Flags:
+      --color string   Use color when printing; can be 'always', 'auto', or 'never' (default "auto")
+  -h, --help           Help for a command
+  -v, --verbose        Verbose output
+
+The command is terminated due to an error: unknown flag: --format
+/bin/bash: line 1: /home/jake/sbomit-overhead-experiment/repos/kubevela/bin/kustomize: No such file or directory
+GO111MODULE=on CGO_ENABLED=0 go build -o bin/vela -a -ldflags "-s -w -X github.com/oam-dev/kubevela/version.VelaVersion=master -X github.com/oam-dev/kubevela/version.GitRevision=git-e6bbce3" ./references/cmd/cli/main.go
+go: downloading cuelang.org/go v0.14.1
+go: downloading k8s.io/apimachinery v0.31.10
+go: downloading k8s.io/api v0.31.10
+go: downloading github.com/oam-dev/cluster-gateway v1.9.2-0.20250629203450-2b04dd452b7a
+go: downloading k8s.io/client-go v0.31.10
+go: downloading k8s.io/apiserver v0.31.10
+go: downloading github.com/crossplane/crossplane-runtime v1.16.0
+go: downloading github.com/AlecAivazis/survey/v2 v2.1.1
+go: downloading github.com/FogDong/uitable v0.0.5
+go: downloading github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b
+go: downloading github.com/briandowns/spinner v1.23.0
+go: downloading github.com/getkin/kin-openapi v0.131.0
+go: downloading github.com/google/go-github/v32 v32.1.0
+go: downloading github.com/kubevela/pkg v1.11.1-0.20260722232534-455842713731
+go: downloading github.com/kubevela/workflow v0.7.3-0.20260724135823-5e2a5c1ecb21
+go: downloading github.com/kyokomi/emoji v2.2.4+incompatible
+go: downloading github.com/mattn/go-runewidth v0.0.15
+go: downloading github.com/oam-dev/terraform-controller v0.8.1-0.20250707044258-c0557127de25
+go: downloading helm.sh/helm/v3 v3.14.4
+go: downloading k8s.io/cli-runtime v0.31.10
+go: downloading k8s.io/kubectl v0.31.10
+go: downloading k8s.io/kube-aggregator v0.31.10
+go: downloading k8s.io/metrics v0.31.10
+go: downloading k8s.io/component-base v0.31.10
+go: downloading github.com/klauspost/compress v1.17.10
+go: downloading go.uber.org/automaxprocs v1.5.3
+go: downloading github.com/go-stack/stack v1.8.1
+go: downloading github.com/jellydator/ttlcache/v3 v3.0.1
+go: downloading github.com/kmodules/apiserver-runtime v1.1.2-0.20250422194347-c5ac4abaf2ae
+go: downloading open-cluster-management.io/api v0.11.0
+go: downloading sigs.k8s.io/apiserver-network-proxy v0.31.4
+go: downloading github.com/rivo/uniseg v0.4.3
+go: downloading github.com/chartmuseum/helm-push v0.10.4
+go: downloading gitlab.com/gitlab-org/api/client-go v0.127.0
+go: downloading github.com/go-resty/resty/v2 v2.8.0
+go: downloading github.com/jeremywohl/flatten/v2 v2.0.0-20211013061545-07e4a09fb8e4
+go: downloading k8s.io/apiextensions-apiserver v0.31.10
+go: downloading github.com/dave/jennifer v1.6.1
+go: downloading github.com/oam-dev/cluster-register v1.0.4-0.20250624042630-618dfa13eb5b
+go: downloading github.com/tidwall/gjson v1.14.4
+go: downloading github.com/form3tech-oss/jwt-go v3.2.5+incompatible
+go: downloading github.com/oam-dev/stern v1.13.3-0.20250828063553-e1dd6271d131
+go: downloading github.com/hashicorp/hcl/v2 v2.18.0
+go: downloading github.com/oam-dev/terraform-config-inspect v0.0.0-20250902214508-15aa973b0d00
+go: downloading github.com/openkruise/kruise-api v1.4.0
+go: downloading github.com/openkruise/rollouts v0.3.0
+go: downloading sigs.k8s.io/gateway-api v0.7.1
+go: downloading github.com/gdamore/tcell/v2 v2.6.0
+go: downloading github.com/rivo/tview v0.0.0-20221128165837-db36428c92d9
+go: downloading golang.org/x/tools v0.35.0
+go: downloading github.com/go-git/go-git/v5 v5.16.0
+go: downloading golang.org/x/mod v0.26.0
+go: downloading github.com/cockroachdb/apd/v3 v3.2.1
+go: downloading dario.cat/mergo v1.0.0
+go: downloading github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b
+go: downloading github.com/emicklei/go-restful/v3 v3.12.0
+go: downloading golang.org/x/time v0.10.0
+go: downloading github.com/oasdiff/yaml v0.0.0-20250309154309-f31be36b4037
+go: downloading github.com/perimeterx/marshmallow v1.1.5
+go: downloading github.com/nacos-group/nacos-sdk-go/v2 v2.2.2
+go: downloading k8s.io/helm v2.17.0+incompatible
+go: downloading github.com/fluxcd/helm-controller/api v0.32.2
+go: downloading github.com/fluxcd/source-controller/api v0.30.0
+go: downloading github.com/zclconf/go-cty v1.13.0
+go: downloading github.com/gdamore/encoding v1.0.0
+go: downloading github.com/moby/spdystream v0.4.0
+go: downloading sigs.k8s.io/kustomize/api v0.17.2
+go: downloading sigs.k8s.io/kustomize/kyaml v0.17.1
+go: downloading github.com/containerd/containerd v1.7.27
+go: downloading github.com/google/cel-go v0.20.1
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.28.0
+go: downloading github.com/openshift/library-go v0.0.0-20230327085348-8477ec72b725
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142
+go: downloading github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/aliyun/alibaba-cloud-sdk-go v1.61.1704
+go: downloading github.com/fluxcd/pkg/apis/kustomize v1.0.0
+go: downloading github.com/fluxcd/pkg/apis/meta v1.0.0
+go: downloading github.com/fluxcd/pkg/apis/acl v0.1.0
+go: downloading github.com/docker/cli v24.0.9+incompatible
+go: downloading github.com/docker/docker v28.3.3+incompatible
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20240814211410-ddb44dafa142
+go: downloading github.com/google/go-containerregistry v0.18.0
+go: downloading sigs.k8s.io/kind v0.20.0
+go: downloading github.com/apparentlymart/go-textseg/v13 v13.0.0
+go: downloading github.com/emicklei/proto v1.14.2
+go: downloading github.com/protocolbuffers/txtpbfmt v0.0.0-20250627152318-f293424e46b5
+go: downloading github.com/ProtonMail/go-crypto v1.1.6
+go: downloading github.com/go-git/go-billy/v5 v5.6.2
+go: downloading k8s.io/kms v0.31.10
+go: downloading github.com/pjbgf/sha1cd v0.3.2
+go: downloading github.com/google/safetext v0.0.0-20220905092116-b49f7bc46da2
+go: downloading github.com/containerd/stargz-snapshotter/estargz v0.15.1
+go: downloading go.starlark.net v0.0.0-20240329153429-e6e8e7ce1b7a
+go: downloading github.com/vbatts/tar-split v0.11.5
+go: downloading github.com/cloudflare/circl v1.6.1
+GO111MODULE=on CGO_ENABLED=0 go build -o bin/kubectl-vela -a -ldflags "-s -w -X github.com/oam-dev/kubevela/version.VelaVersion=master -X github.com/oam-dev/kubevela/version.GitRevision=git-e6bbce3" ./cmd/plugin/main.go
+20:31:24 [32m[ OK ][0m build succeed

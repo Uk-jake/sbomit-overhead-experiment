@@ -1,0 +1,358 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Starting git attestor..."
+level=info msg="Finished environment attestor... (0.00197367s)"
+level=info msg="Finished git attestor... (0.024252778s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.082194924s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+CGO_ENABLED=0 go build -o /home/jake/sbomit-overhead-experiment/repos/container2wasm/out//c2w -trimpath -ldflags '-s -w -X github.com/container2wasm/container2wasm/version.Version=ecb4caa -X github.com/container2wasm/container2wasm/version.Revision=ecb4caa499f19f1d5cfcddd43b80aa78f98e5102 -extldflags '-static'' -tags "osusergo netgo static_build" -v ./cmd/c2w
+go: downloading github.com/containerd/platforms v0.2.1
+go: downloading github.com/containerd/containerd v1.7.32
+go: downloading github.com/urfave/cli v1.22.17
+go: downloading github.com/containerd/log v0.1.0
+go: downloading github.com/opencontainers/image-spec v1.1.1
+go: downloading golang.org/x/sys v0.46.0
+go: downloading github.com/sirupsen/logrus v1.9.3
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.7
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading github.com/moby/sys/userns v0.1.0
+go: downloading github.com/containerd/continuity v0.4.4
+go: downloading golang.org/x/sync v0.20.0
+internal/goarch
+internal/unsafeheader
+internal/byteorder
+internal/godebugs
+internal/coverage/rtcov
+internal/profilerecord
+internal/goos
+internal/asan
+internal/msan
+internal/runtime/pprof/label
+math/bits
+cmp
+internal/trace/tracev2
+internal/goexperiment
+internal/cpu
+sync/atomic
+unicode/utf8
+unicode
+internal/runtime/syscall/linux
+internal/runtime/atomic
+internal/abi
+internal/runtime/gc
+encoding
+internal/runtime/math
+unicode/utf16
+internal/runtime/sys
+github.com/container2wasm/container2wasm/version
+log/internal
+internal/strconv
+internal/runtime/exithook
+internal/chacha8rand
+internal/bytealg
+internal/runtime/gc/scan
+math
+internal/race
+internal/synctest
+internal/sync
+internal/runtime/maps
+internal/stringslite
+internal/runtime/cgroup
+runtime
+iter
+internal/reflectlite
+weak
+sync
+maps
+slices
+internal/bisect
+internal/testlog
+unique
+errors
+sort
+internal/oserror
+io
+path
+strconv
+syscall
+internal/godebug
+hash
+bytes
+strings
+encoding/base64
+reflect
+net/netip
+crypto
+bufio
+html
+regexp/syntax
+regexp
+internal/syscall/execenv
+time
+internal/syscall/unix
+context
+io/fs
+internal/poll
+embed
+internal/filepathlite
+internal/fmtsort
+encoding/binary
+github.com/container2wasm/container2wasm
+os
+golang.org/x/sys/unix
+path/filepath
+fmt
+io/ioutil
+os/exec
+log
+golang.org/x/sync/errgroup
+github.com/moby/sys/userns
+github.com/opencontainers/go-digest
+encoding/json
+text/tabwriter
+text/template/parse
+net/url
+flag
+github.com/russross/blackfriday/v2
+os/user
+github.com/opencontainers/image-spec/specs-go
+github.com/opencontainers/image-spec/specs-go/v1
+archive/tar
+github.com/containerd/continuity/devices
+github.com/containerd/continuity/sysx
+text/template
+github.com/cpuguy83/go-md2man/v2/md2man
+github.com/containerd/containerd/archive/tarheader
+github.com/sirupsen/logrus
+github.com/urfave/cli
+github.com/containerd/containerd/pkg/epoch
+github.com/containerd/log
+github.com/containerd/platforms
+github.com/containerd/continuity/fs
+github.com/containerd/containerd/archive
+github.com/container2wasm/container2wasm/cmd/c2w
+CGO_ENABLED=0 go build -o /home/jake/sbomit-overhead-experiment/repos/container2wasm/out//c2w-net -trimpath -ldflags '-s -w -X github.com/container2wasm/container2wasm/version.Version=ecb4caa -X github.com/container2wasm/container2wasm/version.Revision=ecb4caa499f19f1d5cfcddd43b80aa78f98e5102 -extldflags '-static'' -tags "osusergo netgo static_build" -v ./cmd/c2w-net
+go: downloading github.com/ktock/gvisor-tap-vsock v0.0.0-20250428083527-5f02d9ba79d4
+go: downloading golang.org/x/net v0.56.0
+go: downloading gvisor.dev/gvisor v0.0.0-20240916094835-a174eb65023f
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/miekg/dns v1.1.63
+go: downloading github.com/insomniacslk/dhcp v0.0.0-20240710054256-ddd8a41251c9
+go: downloading github.com/apparentlymart/go-cidr v1.1.0
+go: downloading github.com/google/gopacket v1.1.19
+go: downloading golang.org/x/crypto v0.53.0
+go: downloading github.com/u-root/uio v0.0.0-20240224005618-d2acac8f3701
+go: downloading github.com/pierrec/lz4/v4 v4.1.14
+go: downloading golang.org/x/time v0.12.0
+go: downloading github.com/google/btree v1.1.2
+internal/nettrace
+crypto/internal/fips140deps/byteorder
+crypto/internal/fips140/alias
+crypto/internal/constanttime
+gvisor.dev/gvisor/pkg/gohacks
+gvisor.dev/gvisor/pkg/tcpip/seqnum
+github.com/pierrec/lz4/v4/internal/lz4errors
+container/list
+gvisor.dev/gvisor/pkg/bits
+crypto/internal/fips140deps/cpu
+crypto/internal/boring/sig
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/internal/alias
+golang.org/x/net/internal/iana
+golang.org/x/crypto/internal/alias
+vendor/golang.org/x/net/dns/dnsmessage
+internal/singleflight
+runtime/debug
+crypto/internal/fips140deps/godebug
+crypto/internal/impl
+crypto/internal/fips140deps/time
+crypto/internal/sysrand
+math/rand/v2
+math/rand
+encoding/hex
+hash/crc32
+github.com/pkg/errors
+crypto/internal/fips140/subtle
+gvisor.dev/gvisor/pkg/state/wire
+crypto/internal/entropy/v1.0.0
+gvisor.dev/gvisor/pkg/sync
+golang.org/x/time/rate
+gvisor.dev/gvisor/pkg/tcpip/checksum
+github.com/google/btree
+crypto/internal/fips140
+gvisor.dev/gvisor/pkg/tcpip/hash/jenkins
+github.com/pierrec/lz4/v4/internal/lz4block
+github.com/pierrec/lz4/v4/internal/xxh32
+crypto/internal/randutil
+github.com/insomniacslk/dhcp/rfc1035label
+github.com/u-root/uio/rand
+math/big
+crypto/internal/fips140/sha256
+crypto/internal/fips140/sha512
+container/heap
+gvisor.dev/gvisor/pkg/state
+compress/flate
+crypto/internal/fips140cache
+internal/saferio
+encoding/pem
+vendor/golang.org/x/sys/cpu
+crypto/internal/fips140/sha3
+crypto/subtle
+vendor/golang.org/x/text/transform
+vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/crypto/internal/poly1305
+github.com/pierrec/lz4/v4/internal/lz4stream
+vendor/golang.org/x/net/http2/hpack
+mime
+mime/quotedprintable
+net/http/internal
+net/http/internal/ascii
+vendor/golang.org/x/text/unicode/norm
+encoding/base32
+github.com/containers/gvisor-tap-vsock/pkg/fs
+golang.org/x/net/bpf
+net
+github.com/pierrec/lz4/v4
+github.com/containers/gvisor-tap-vsock/pkg/utils
+golang.org/x/crypto/cryptobyte/asn1
+golang.org/x/crypto/internal/poly1305
+golang.org/x/crypto/blowfish
+compress/gzip
+gvisor.dev/gvisor/pkg/linewriter
+gvisor.dev/gvisor/pkg/sync/locking
+crypto/internal/fips140/hmac
+crypto/sha3
+vendor/golang.org/x/text/secure/bidirule
+gvisor.dev/gvisor/pkg/log
+crypto/internal/fips140/check
+crypto/internal/fips140hash
+github.com/u-root/uio/uio
+crypto/fips140
+crypto/internal/fips140/nistec/fiat
+crypto/internal/fips140/edwards25519/field
+crypto/internal/fips140/bigmod
+crypto/internal/fips140/aes
+crypto/internal/fips140/tls12
+crypto/internal/fips140/hkdf
+crypto/tls/internal/fips140tls
+crypto/internal/fips140/tls13
+gvisor.dev/gvisor/pkg/waiter
+gvisor.dev/gvisor/pkg/sleep
+github.com/insomniacslk/dhcp/iana
+gvisor.dev/gvisor/pkg/atomicbitops
+crypto/internal/fips140/edwards25519
+crypto/internal/fips140/drbg
+vendor/golang.org/x/net/idna
+gvisor.dev/gvisor/pkg/context
+crypto/internal/fips140/aes/gcm
+crypto/internal/fips140only
+crypto/internal/fips140/mlkem
+crypto/internal/fips140/rsa
+encoding/asn1
+crypto/hkdf
+crypto/md5
+crypto/rc4
+crypto/internal/fips140/ed25519
+gvisor.dev/gvisor/pkg/refs
+crypto/mlkem
+gvisor.dev/gvisor/pkg/buffer
+crypto/cipher
+crypto/internal/fips140/nistec
+crypto/x509/pkix
+vendor/golang.org/x/crypto/cryptobyte
+golang.org/x/crypto/cryptobyte
+crypto/internal/boring
+crypto/des
+vendor/golang.org/x/crypto/chacha20
+golang.org/x/crypto/chacha20
+crypto/internal/rand
+crypto/sha256
+crypto/sha1
+crypto/aes
+crypto/internal/boring/bbig
+crypto/sha512
+crypto/hmac
+golang.org/x/crypto/ssh/internal/bcrypt_pbkdf
+crypto/rand
+vendor/golang.org/x/crypto/chacha20poly1305
+crypto/dsa
+crypto/ed25519
+gvisor.dev/gvisor/pkg/rand
+crypto/rsa
+github.com/apparentlymart/go-cidr/cidr
+vendor/golang.org/x/net/http/httpproxy
+github.com/insomniacslk/dhcp/interfaces
+github.com/containers/gvisor-tap-vsock/pkg/tcpproxy
+net/textproto
+github.com/google/gopacket
+github.com/containers/gvisor-tap-vsock/pkg/types
+gvisor.dev/gvisor/pkg/tcpip
+golang.org/x/net/internal/socket
+github.com/insomniacslk/dhcp/dhcpv4
+mime/multipart
+vendor/golang.org/x/net/http/httpguts
+golang.org/x/net/ipv6
+golang.org/x/net/ipv4
+github.com/google/gopacket/layers
+github.com/insomniacslk/dhcp/dhcpv4/server4
+crypto/internal/fips140/ecdh
+crypto/elliptic
+crypto/internal/fips140/ecdsa
+crypto/ecdh
+golang.org/x/crypto/curve25519
+crypto/ecdsa
+crypto/hpke
+gvisor.dev/gvisor/pkg/tcpip/internal/tcp
+gvisor.dev/gvisor/pkg/tcpip/transport
+gvisor.dev/gvisor/pkg/tcpip/header
+crypto/x509
+gvisor.dev/gvisor/pkg/tcpip/ports
+gvisor.dev/gvisor/pkg/tcpip/transport/tcpconntrack
+gvisor.dev/gvisor/pkg/tcpip/network/hash
+gvisor.dev/gvisor/pkg/tcpip/stack
+golang.org/x/crypto/ssh
+crypto/tls
+golang.org/x/crypto/ssh/knownhosts
+gvisor.dev/gvisor/pkg/tcpip/transport/internal/noop
+gvisor.dev/gvisor/pkg/tcpip/header/parse
+gvisor.dev/gvisor/pkg/tcpip/transport/internal/network
+gvisor.dev/gvisor/pkg/tcpip/transport/packet
+github.com/containers/gvisor-tap-vsock/pkg/tap
+gvisor.dev/gvisor/pkg/tcpip/network/internal/fragmentation
+gvisor.dev/gvisor/pkg/tcpip/link/nested
+gvisor.dev/gvisor/pkg/tcpip/network/internal/ip
+gvisor.dev/gvisor/pkg/tcpip/network/internal/multicast
+github.com/containers/gvisor-tap-vsock/pkg/sshclient
+gvisor.dev/gvisor/pkg/tcpip/link/sniffer
+gvisor.dev/gvisor/pkg/tcpip/network/arp
+gvisor.dev/gvisor/pkg/tcpip/network/ipv4
+gvisor.dev/gvisor/pkg/tcpip/transport/raw
+net/http/httptrace
+github.com/miekg/dns
+net/http/internal/httpcommon
+net/http
+gvisor.dev/gvisor/pkg/tcpip/transport/udp
+gvisor.dev/gvisor/pkg/tcpip/transport/icmp
+gvisor.dev/gvisor/pkg/tcpip/transport/tcp
+gvisor.dev/gvisor/pkg/tcpip/adapters/gonet
+github.com/containers/gvisor-tap-vsock/pkg/services/dhcp
+github.com/containers/gvisor-tap-vsock/pkg/services/dns
+golang.org/x/net/websocket
+github.com/containers/gvisor-tap-vsock/pkg/services/forwarder
+github.com/containers/gvisor-tap-vsock/pkg/virtualnetwork
+github.com/container2wasm/container2wasm/cmd/c2w-net
+level=info msg="Finished command-run attestor... (13.685690594s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.032623247s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

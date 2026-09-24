@@ -1,0 +1,21 @@
+mkdir -p /home/jake/sbomit-overhead-experiment/repos/kaito/bin
+test -s /home/jake/sbomit-overhead-experiment/repos/kaito/bin/controller-gen && /home/jake/sbomit-overhead-experiment/repos/kaito/bin/controller-gen --version | grep -q v0.20.1 || \
+GOBIN=/home/jake/sbomit-overhead-experiment/repos/kaito/bin go install sigs.k8s.io/controller-tools/cmd/controller-gen@v0.20.1
+go: downloading sigs.k8s.io/controller-tools v0.20.1
+go: downloading k8s.io/apiextensions-apiserver v0.35.0
+go: downloading golang.org/x/tools v0.40.0
+go: downloading k8s.io/code-generator v0.35.0
+go: downloading golang.org/x/sys v0.39.0
+go: downloading golang.org/x/text v0.32.0
+go: downloading google.golang.org/protobuf v1.36.8
+go: downloading golang.org/x/net v0.48.0
+go: downloading golang.org/x/mod v0.31.0
+/home/jake/sbomit-overhead-experiment/repos/kaito/bin/controller-gen rbac:roleName=manager-role crd webhook paths="./..." output:crd:artifacts:config=config/crd/bases
+cp config/crd/bases/kaito.sh_workspaces.yaml charts/kaito/workspace/templates/
+cp config/crd/bases/kaito.sh_inferencesets.yaml charts/kaito/workspace/templates/
+cp config/crd/bases/kaito.sh_modelmirrors.yaml charts/kaito/workspace/templates/
+cp config/crd/bases/kaito.sh_ragengines.yaml charts/kaito/ragengine/templates/
+/home/jake/sbomit-overhead-experiment/repos/kaito/bin/controller-gen object:headerFile="hack/boilerplate.go.txt" paths="./..."
+go fmt ./...
+go vet ./...
+go build -ldflags "-X 'github.com/kaito-project/kaito/pkg/version.Version=f8fdc15' -X 'github.com/kaito-project/kaito/pkg/version.BuildDate=2026-09-03T19:40:09Z'" -o bin/workspace-manager cmd/workspace/*.go

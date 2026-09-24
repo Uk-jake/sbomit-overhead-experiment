@@ -1,0 +1,196 @@
+=== 01_clone.sh 시작 ===
+TSV      : /home/jake/sbomit-overhead-experiment/config/projects.tsv
+repos    : /home/jake/sbomit-overhead-experiment/repos
+auth     : authenticated
+git      : git version 2.34.1
+
+[1/93] CLONE CNI -> cni
+        OK   0.576s  3f51e880  1MB
+[2/93] CLONE cloud-custodian -> cloud-custodian
+        OK   2.916s  427a1a32  149MB
+[3/93] CLONE Cartography -> cartography
+        OK   2.174s  bab50b61  49MB
+[4/93] CLONE in-toto -> in-toto
+        OK   0.634s  e352b43a  1MB
+[5/93] CLONE The Update Framework (TUF) -> python-tuf
+        OK   0.656s  7573dc79  1MB
+[6/93] CLONE Notary Project -> notation
+        OK   1.215s  2c822698  3MB
+[7/93] CLONE keylime -> keylime
+        OK   1.527s  34763668  25MB
+[8/93] CLONE container2wasm -> container2wasm
+        OK   1.167s  ecb4caa4  4MB
+[9/93] CLONE NATS -> nats-server
+        OK   1.780s  36c95935  18MB
+[10/93] CLONE BFE -> bfe
+        OK   1.930s  193abe86  58MB
+[11/93] CLONE atlantis -> atlantis
+        OK   1.303s  6a8e6f3f  37MB
+[12/93] CLONE OAuth2 Proxy -> oauth2-proxy
+        OK   0.741s  33c2eb92  9MB
+[13/93] CLONE copacetic -> copacetic
+        OK   1.116s  cb411523  23MB
+[14/93] CLONE kudo -> kudo
+        OK   0.844s  50ef7232  10MB
+[15/93] CLONE OpenFunction -> OpenFunction
+        OK   1.285s  fd7e4574  17MB
+[16/93] CLONE ko -> ko
+        OK   0.616s  42978711  2MB
+[17/93] CLONE Distribution -> distribution
+        OK   2.473s  5b354e6f  87MB
+[18/93] CLONE emissary -> emissary
+        OK   0.931s  3ebe0f46  17MB
+[19/93] CLONE contour -> contour
+        OK   1.682s  fe2bca59  57MB
+[20/93] CLONE kube-burner -> kube-burner
+        OK   0.785s  69cca726  5MB
+[21/93] CLONE kepler -> kepler
+        OK   0.988s  b0bf8795  11MB
+[22/93] CLONE Interlink -> interLink
+        OK   6.588s  badedec3  90MB
+[23/93] CLONE ContainerSSH -> containerssh
+        OK   3.301s  73625778  7MB
+[24/93] CLONE containerd -> containerd
+        OK   3.471s  84ae7063  89MB
+[25/93] CLONE dragonfly -> dragonfly
+        OK   5.213s  ef94ccc5  25MB
+[26/93] CLONE kubestellar -> kubestellar
+        OK   1.533s  527bf829  58MB
+[27/93] CLONE flux2 -> flux2
+        OK   0.695s  602d1481  7MB
+[28/93] CLONE CoreDNS -> coredns
+        OK   0.913s  c2e309e2  7MB
+[29/93] CLONE OpenFGA -> openfga
+        OK   0.870s  a76a3259  9MB
+[30/93] CLONE Capsule -> capsule
+        OK   0.890s  e50bacff  11MB
+[31/93] CLONE kpt -> kpt
+        OK   1.485s  1e5fc010  50MB
+[32/93] CLONE kube-vip -> kube-vip
+        OK   0.666s  6cbf5aae  3MB
+[33/93] CLONE HAMi -> HAMi
+        OK   2.456s  f47cd28a  13MB
+[34/93] CLONE Headlamp -> headlamp
+        OK   3.564s  69bfa236  128MB
+[35/93] CLONE Operator Framework -> operator-sdk
+        OK   10.598s  299157a8  111MB
+[36/93] CLONE Buildpack -> pack
+        OK   2.013s  8210eb15  114MB
+[37/93] CLONE KubeClipper -> kubeclipper
+        OK   0.931s  a30e4114  12MB
+[38/93] CLONE kuadrant -> kuadrant-operator
+        OK   0.962s  bf586c6b  12MB
+[39/93] CLONE Inspektor Gadget -> inspektor-gadget
+        OK   1.261s  94c3e57e  30MB
+[40/93] CLONE cri-o -> cri-o
+        OK   4.990s  c75266ab  149MB
+[41/93] CLONE Logging Operator -> logging-operator
+        OK   0.863s  c8e5e0ea  17MB
+[42/93] CLONE Dex -> dex
+        OK   0.772s  ab64ed77  8MB
+[43/93] CLONE Bank-Vaults -> bank-vaults
+        OK   0.662s  0d7d8630  1MB
+[44/93] CLONE Clusternet -> clusternet
+        OK   1.395s  adabb932  5MB
+[45/93] CLONE Antrea -> antrea
+        OK   2.095s  fb51eb27  37MB
+[46/93] CLONE Thanos -> thanos
+        OK   2.617s  35b8b991  93MB
+[47/93] CLONE Kaito -> kaito
+        OK   2.480s  f8fdc151  110MB
+[48/93] CLONE OpenYurt -> openyurt
+        OK   1.732s  fbefb6ba  51MB
+[49/93] CLONE CloudNativePG -> cloudnative-pg
+        OK   1.698s  8592542d  75MB
+[50/93] CLONE K8up -> k8up
+        OK   0.839s  67048d87  15MB
+[51/93] CLONE kubefleet -> kubefleet
+        OK   1.158s  81194d7d  20MB
+[52/93] CLONE Easegress -> easegress
+        OK   1.021s  3bdb1923  20MB
+[53/93] CLONE Open Policy Containers -> policy
+        OK   0.802s  82a1abbd  2MB
+[54/93] CLONE Cedar -> cedar
+        OK   1.009s  ce6907b2  13MB
+[55/93] CLONE LoxiLB -> loxilb
+        OK   2.884s  d6129f4e  96MB
+[56/93] CLONE Opencost -> opencost
+        OK   4.716s  c467650a  81MB
+[57/93] CLONE OpenChoreo -> openchoreo
+        OK   1.901s  3fe559c9  51MB
+[58/93] CLONE K8sGPT -> k8sgpt
+        OK   0.977s  731a6c90  9MB
+[59/93] CLONE vitess -> vitess
+        OK   5.404s  44321d8c  122MB
+[60/93] CLONE kuma -> kuma
+        OK   2.206s  0668cf1b  67MB
+[61/93] CLONE k8gb -> k8gb
+        OK   0.850s  34b4535c  12MB
+[62/93] CLONE Open Cluster Management -> ocm
+        OK   4.833s  709c2ae7  158MB
+[63/93] CLONE kube-ovn -> kube-ovn
+        OK   1.268s  2471f1ae  20MB
+[64/93] CLONE Kgateway -> kgateway
+        OK   1.414s  d6a7d38d  32MB
+[65/93] CLONE Kubescape -> kubescape
+        OK   2.769s  ddbd0ac3  110MB
+[66/93] CLONE Higress -> higress
+        OK   20.413s  637ba40c  474MB
+[67/93] CLONE openGemini -> openGemini
+        OK   1.366s  65c76137  33MB
+[68/93] CLONE Eraser -> eraser
+        OK   0.750s  b31791f5  4MB
+[69/93] CLONE Volcano -> volcano
+        OK   2.700s  4ca2f825  75MB
+[70/93] CLONE external-secrets -> external-secrets
+        OK   1.645s  793381bd  61MB
+[71/93] CLONE koordinator -> koordinator
+        OK   1.593s  2153b6a7  48MB
+[72/93] CLONE OpenKruise -> kruise
+        OK   1.737s  cfed56d8  27MB
+[73/93] CLONE kcp -> kcp
+        OK   1.693s  0069551c  43MB
+[74/93] CLONE Karmada -> karmada
+        OK   5.525s  806289fd  191MB
+[75/93] CLONE Clusterpedia -> clusterpedia
+        OK   4.841s  40811e9e  127MB
+[76/93] CLONE kanister -> kanister
+        OK   0.868s  534f1523  17MB
+[77/93] CLONE Jaeger -> jaeger
+        OK   6.451s  a600b080  36MB
+[78/93] CLONE Cadence Workflow -> cadence
+        OK   4.917s  b1f4b5c8  69MB
+[79/93] CLONE Aeraki Mesh -> aeraki
+        OK   0.732s  56e4de0f  3MB
+[80/93] CLONE Kubevela -> kubevela
+        OK   1.313s  e6bbce3f  34MB
+[81/93] CLONE Lima -> lima
+        OK   4.238s  659e69a5  25MB
+[82/93] CLONE kusionStack -> kusion
+        OK   1.722s  7524b142  18MB
+[83/93] CLONE ChaosMesh -> chaos-mesh
+        OK   1.080s  536c193f  23MB
+[84/93] CLONE Cortex -> cortex
+        OK   4.968s  d50fcabf  174MB
+[85/93] CLONE Keda -> keda
+        OK   1.060s  e1bf427d  13MB
+[86/93] CLONE cert-manager -> cert-manager
+        OK   1.189s  7cf91c45  22MB
+[87/93] CLONE cubefs -> cubefs
+        OK   3.255s  ca5609b0  168MB
+[88/93] CLONE KServe -> kserve
+        OK   5.535s  dac936ab  470MB
+[89/93] CLONE HwameiStor -> hwameistor
+        OK   4.685s  684e99b9  360MB
+[90/93] CLONE wasmcloud -> wasmCloud
+        OK   1.183s  b0145815  15MB
+[91/93] CLONE kcl -> kcl
+        OK   1.369s  07b88a37  44MB
+[92/93] CLONE Fluid -> fluid
+        OK   3.859s  f2785f84  115MB
+[93/93] CLONE cilium -> cilium
+        OK   5.963s  d20668dc  471MB
+
+=== 완료 (231초) ===
+총 93 / 성공 93 / 건너뜀 0 / 실패 0
+결과: /home/jake/sbomit-overhead-experiment/results/clones.jsonl

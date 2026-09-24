@@ -1,0 +1,1489 @@
+project_name,lang,build_command,github_url,rep,arm,duration_sec
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,1,clean,153.706
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,1,ebpf,154.691
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,2,clean,141.459
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,2,ebpf,154.356
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,3,clean,141.785
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,3,ebpf,154.556
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,4,clean,141.761
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,4,ebpf,154.441
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,5,clean,141.433
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,5,ebpf,154.939
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,6,clean,141.505
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,6,ebpf,154.857
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,7,clean,143.208
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,7,ebpf,155.094
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,8,clean,141.765
+Aeraki Mesh,go,make build,https://github.com/aeraki-mesh/aeraki,8,ebpf,155.214
+Antrea,go,make bin,https://github.com/antrea-io/antrea,1,clean,64.859
+Antrea,go,make bin,https://github.com/antrea-io/antrea,1,ebpf,71.182
+Antrea,go,make bin,https://github.com/antrea-io/antrea,2,clean,63.942
+Antrea,go,make bin,https://github.com/antrea-io/antrea,2,ebpf,70.997
+Antrea,go,make bin,https://github.com/antrea-io/antrea,3,clean,63.808
+Antrea,go,make bin,https://github.com/antrea-io/antrea,3,ebpf,70.444
+Antrea,go,make bin,https://github.com/antrea-io/antrea,4,clean,64.021
+Antrea,go,make bin,https://github.com/antrea-io/antrea,4,ebpf,71.609
+Antrea,go,make bin,https://github.com/antrea-io/antrea,5,clean,64.944
+Antrea,go,make bin,https://github.com/antrea-io/antrea,5,ebpf,70.834
+Antrea,go,make bin,https://github.com/antrea-io/antrea,6,clean,64.495
+Antrea,go,make bin,https://github.com/antrea-io/antrea,6,ebpf,71.089
+Antrea,go,make bin,https://github.com/antrea-io/antrea,7,clean,64.402
+Antrea,go,make bin,https://github.com/antrea-io/antrea,7,ebpf,70.954
+Antrea,go,make bin,https://github.com/antrea-io/antrea,8,clean,63.502
+Antrea,go,make bin,https://github.com/antrea-io/antrea,8,ebpf,70.399
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,1,clean,31.102
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,1,ebpf,33.216
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,2,clean,30.197
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,2,ebpf,32.904
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,3,clean,30.578
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,3,ebpf,33.116
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,4,clean,30.186
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,4,ebpf,33.123
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,5,clean,30.880
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,5,ebpf,33.482
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,6,clean,30.180
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,6,ebpf,33.119
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,7,clean,30.134
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,7,ebpf,33.005
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,8,clean,30.086
+atlantis,go,make build-service,https://github.com/runatlantis/atlantis,8,ebpf,33.369
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,1,clean,60.061
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,1,ebpf,66.511
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,2,clean,60.291
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,2,ebpf,66.535
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,3,clean,60.567
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,3,ebpf,66.773
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,4,clean,60.021
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,4,ebpf,66.304
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,5,clean,60.178
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,5,ebpf,66.686
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,6,clean,60.994
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,6,ebpf,66.771
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,7,clean,60.268
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,7,ebpf,66.750
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,8,clean,60.222
+Bank-Vaults,go,make build,https://github.com/bank-vaults/bank-vaults,8,ebpf,66.678
+BFE,go,make build,https://github.com/bfenetworks/bfe,1,clean,19.417
+BFE,go,make build,https://github.com/bfenetworks/bfe,1,ebpf,22.094
+BFE,go,make build,https://github.com/bfenetworks/bfe,2,clean,18.466
+BFE,go,make build,https://github.com/bfenetworks/bfe,2,ebpf,21.924
+BFE,go,make build,https://github.com/bfenetworks/bfe,3,clean,19.217
+BFE,go,make build,https://github.com/bfenetworks/bfe,3,ebpf,21.540
+BFE,go,make build,https://github.com/bfenetworks/bfe,4,clean,18.570
+BFE,go,make build,https://github.com/bfenetworks/bfe,4,ebpf,23.441
+BFE,go,make build,https://github.com/bfenetworks/bfe,5,clean,19.154
+BFE,go,make build,https://github.com/bfenetworks/bfe,5,ebpf,23.719
+BFE,go,make build,https://github.com/bfenetworks/bfe,6,clean,18.724
+BFE,go,make build,https://github.com/bfenetworks/bfe,6,ebpf,22.025
+BFE,go,make build,https://github.com/bfenetworks/bfe,7,clean,19.360
+BFE,go,make build,https://github.com/bfenetworks/bfe,7,ebpf,23.242
+BFE,go,make build,https://github.com/bfenetworks/bfe,8,clean,18.774
+BFE,go,make build,https://github.com/bfenetworks/bfe,8,ebpf,22.618
+Buildpack,go,make build,https://github.com/buildpacks/pack,1,clean,26.849
+Buildpack,go,make build,https://github.com/buildpacks/pack,1,ebpf,30.153
+Buildpack,go,make build,https://github.com/buildpacks/pack,2,clean,26.708
+Buildpack,go,make build,https://github.com/buildpacks/pack,2,ebpf,30.529
+Buildpack,go,make build,https://github.com/buildpacks/pack,3,clean,26.907
+Buildpack,go,make build,https://github.com/buildpacks/pack,3,ebpf,29.962
+Buildpack,go,make build,https://github.com/buildpacks/pack,4,clean,26.824
+Buildpack,go,make build,https://github.com/buildpacks/pack,4,ebpf,30.754
+Buildpack,go,make build,https://github.com/buildpacks/pack,5,clean,26.974
+Buildpack,go,make build,https://github.com/buildpacks/pack,5,ebpf,30.159
+Buildpack,go,make build,https://github.com/buildpacks/pack,6,clean,26.587
+Buildpack,go,make build,https://github.com/buildpacks/pack,6,ebpf,29.833
+Buildpack,go,make build,https://github.com/buildpacks/pack,7,clean,26.413
+Buildpack,go,make build,https://github.com/buildpacks/pack,7,ebpf,29.582
+Buildpack,go,make build,https://github.com/buildpacks/pack,8,clean,26.643
+Buildpack,go,make build,https://github.com/buildpacks/pack,8,ebpf,30.235
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,1,clean,141.073
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,1,ebpf,153.134
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,2,clean,139.475
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,2,ebpf,156.450
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,3,clean,139.800
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,3,ebpf,155.236
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,4,clean,140.327
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,4,ebpf,156.511
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,5,clean,141.292
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,5,ebpf,154.835
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,6,clean,137.634
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,6,ebpf,155.677
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,7,clean,140.003
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,7,ebpf,154.084
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,8,clean,139.493
+Cadence Workflow,go,make build,https://github.com/cadence-workflow/cadence,8,ebpf,155.348
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,1,clean,47.065
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,1,ebpf,50.172
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,2,clean,46.557
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,2,ebpf,49.445
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,3,clean,46.393
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,3,ebpf,50.214
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,4,clean,46.998
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,4,ebpf,49.640
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,5,clean,46.775
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,5,ebpf,50.147
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,6,clean,46.535
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,6,ebpf,50.138
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,7,clean,46.083
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,7,ebpf,50.071
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,8,clean,46.564
+Capsule,go,go build -o bin/manager ./cmd/controller/,https://github.com/projectcapsule/capsule,8,ebpf,50.048
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,1,clean,10.670
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,1,ebpf,11.727
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,2,clean,9.326
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,2,ebpf,11.934
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,3,clean,9.575
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,3,ebpf,11.546
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,4,clean,9.261
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,4,ebpf,13.046
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,5,clean,10.479
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,5,ebpf,11.757
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,6,clean,9.279
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,6,ebpf,12.134
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,7,clean,10.611
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,7,ebpf,11.597
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,8,clean,9.238
+Cartography,python,uv build,https://github.com/cartography-cncf/cartography,8,ebpf,12.573
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,1,clean,79.038
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,1,ebpf,89.847
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,2,clean,77.607
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,2,ebpf,87.049
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,3,clean,77.003
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,3,ebpf,86.121
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,4,clean,78.752
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,4,ebpf,91.515
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,5,clean,79.507
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,5,ebpf,90.443
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,6,clean,77.582
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,6,ebpf,87.135
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,7,clean,76.812
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,7,ebpf,85.874
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,8,clean,77.066
+Cedar,rust,cargo build --release --all-features,https://github.com/cedar-policy/cedar,8,ebpf,86.030
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,1,clean,318.082
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,1,ebpf,327.860
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,2,clean,316.273
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,2,ebpf,327.190
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,3,clean,318.344
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,3,ebpf,326.477
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,4,clean,317.294
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,4,ebpf,330.273
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,5,clean,318.410
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,5,ebpf,327.287
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,6,clean,315.256
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,6,ebpf,328.187
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,7,clean,316.937
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,7,ebpf,325.879
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,8,clean,326.398
+cert-manager,go,make server-binaries,https://github.com/cert-manager/cert-manager,8,ebpf,387.317
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,1,clean,63.447
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,1,ebpf,68.428
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,2,clean,62.293
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,2,ebpf,69.220
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,3,clean,63.276
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,3,ebpf,69.826
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,4,clean,64.473
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,4,ebpf,68.590
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,5,clean,63.454
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,5,ebpf,69.576
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,6,clean,63.108
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,6,ebpf,68.782
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,7,clean,62.967
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,7,ebpf,67.435
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,8,clean,62.901
+ChaosMesh,go,make local/chaos-controller-manager,https://github.com/chaos-mesh/chaos-mesh,8,ebpf,69.533
+cilium,go,make build,https://github.com/cilium/cilium,1,clean,265.726
+cilium,go,make build,https://github.com/cilium/cilium,1,ebpf,282.442
+cilium,go,make build,https://github.com/cilium/cilium,2,clean,268.218
+cilium,go,make build,https://github.com/cilium/cilium,2,ebpf,277.492
+cilium,go,make build,https://github.com/cilium/cilium,3,clean,266.788
+cilium,go,make build,https://github.com/cilium/cilium,3,ebpf,278.008
+cilium,go,make build,https://github.com/cilium/cilium,4,clean,268.007
+cilium,go,make build,https://github.com/cilium/cilium,4,ebpf,290.187
+cilium,go,make build,https://github.com/cilium/cilium,5,clean,268.550
+cilium,go,make build,https://github.com/cilium/cilium,5,ebpf,280.563
+cilium,go,make build,https://github.com/cilium/cilium,6,clean,264.357
+cilium,go,make build,https://github.com/cilium/cilium,6,ebpf,275.121
+cilium,go,make build,https://github.com/cilium/cilium,7,clean,262.197
+cilium,go,make build,https://github.com/cilium/cilium,7,ebpf,278.285
+cilium,go,make build,https://github.com/cilium/cilium,8,clean,263.754
+cilium,go,make build,https://github.com/cilium/cilium,8,ebpf,278.413
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,1,clean,7.873
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,1,ebpf,10.677
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,2,clean,7.019
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,2,ebpf,11.528
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,3,clean,7.311
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,3,ebpf,11.311
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,4,clean,7.092
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,4,ebpf,14.440
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,5,clean,7.264
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,5,ebpf,14.337
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,6,clean,7.020
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,6,ebpf,10.641
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,7,clean,6.905
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,7,ebpf,14.243
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,8,clean,7.070
+cloud-custodian,python,make pkg-build-wheel,https://github.com/cloud-custodian/cloud-custodian,8,ebpf,12.449
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,1,clean,85.121
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,1,ebpf,89.679
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,2,clean,81.565
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,2,ebpf,90.904
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,3,clean,81.591
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,3,ebpf,89.706
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,4,clean,81.930
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,4,ebpf,94.663
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,5,clean,83.694
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,5,ebpf,91.440
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,6,clean,82.021
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,6,ebpf,91.530
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,7,clean,81.158
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,7,ebpf,89.725
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,8,clean,81.060
+CloudNativePG,go,make build,https://github.com/cloudnative-pg/cloudnative-pg,8,ebpf,90.152
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,1,clean,71.432
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,1,ebpf,71.643
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,2,clean,67.487
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,2,ebpf,72.209
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,3,clean,68.209
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,3,ebpf,71.168
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,4,clean,67.969
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,4,ebpf,71.809
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,5,clean,68.368
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,5,ebpf,71.536
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,6,clean,67.247
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,6,ebpf,74.531
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,7,clean,69.389
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,7,ebpf,71.337
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,8,clean,67.048
+Clusternet,go,make binaries,https://github.com/clusternet/clusternet,8,ebpf,73.264
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,1,clean,125.700
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,1,ebpf,132.489
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,2,clean,121.087
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,2,ebpf,131.286
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,3,clean,123.162
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,3,ebpf,128.841
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,4,clean,119.029
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,4,ebpf,129.535
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,5,clean,124.344
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,5,ebpf,127.394
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,6,clean,119.292
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,6,ebpf,131.236
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,7,clean,121.564
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,7,ebpf,127.296
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,8,clean,119.391
+Clusterpedia,go,make all,https://github.com/clusterpedia-io/clusterpedia,8,ebpf,129.491
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,1,clean,9.813
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,1,ebpf,10.143
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,2,clean,9.675
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,2,ebpf,10.053
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,3,clean,9.520
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,3,ebpf,10.079
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,4,clean,9.745
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,4,ebpf,10.201
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,5,clean,9.951
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,5,ebpf,10.280
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,6,clean,9.794
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,6,ebpf,10.713
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,7,clean,9.692
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,7,ebpf,10.027
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,8,clean,9.881
+CNI,go,go build -o ./bin/cnitool ./cnitool/,https://github.com/containernetworking/cni,8,ebpf,10.329
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,1,clean,14.287
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,1,ebpf,15.046
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,2,clean,13.612
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,2,ebpf,14.668
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,3,clean,14.233
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,3,ebpf,14.557
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,4,clean,13.599
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,4,ebpf,14.706
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,5,clean,14.661
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,5,ebpf,14.590
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,6,clean,13.445
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,6,ebpf,14.726
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,7,clean,13.751
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,7,ebpf,14.357
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,8,clean,13.673
+container2wasm,go,make build,https://github.com/container2wasm/container2wasm,8,ebpf,14.626
+containerd,go,make all,https://github.com/containerd/containerd,1,clean,49.696
+containerd,go,make all,https://github.com/containerd/containerd,1,ebpf,50.675
+containerd,go,make all,https://github.com/containerd/containerd,2,clean,49.188
+containerd,go,make all,https://github.com/containerd/containerd,2,ebpf,51.227
+containerd,go,make all,https://github.com/containerd/containerd,3,clean,49.545
+containerd,go,make all,https://github.com/containerd/containerd,3,ebpf,50.044
+containerd,go,make all,https://github.com/containerd/containerd,4,clean,49.103
+containerd,go,make all,https://github.com/containerd/containerd,4,ebpf,53.265
+containerd,go,make all,https://github.com/containerd/containerd,5,clean,49.110
+containerd,go,make all,https://github.com/containerd/containerd,5,ebpf,49.454
+containerd,go,make all,https://github.com/containerd/containerd,6,clean,47.634
+containerd,go,make all,https://github.com/containerd/containerd,6,ebpf,50.283
+containerd,go,make all,https://github.com/containerd/containerd,7,clean,48.306
+containerd,go,make all,https://github.com/containerd/containerd,7,ebpf,49.914
+containerd,go,make all,https://github.com/containerd/containerd,8,clean,47.530
+containerd,go,make all,https://github.com/containerd/containerd,8,ebpf,50.952
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,1,clean,29.903
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,1,ebpf,32.206
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,2,clean,29.157
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,2,ebpf,31.819
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,3,clean,28.971
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,3,ebpf,31.814
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,4,clean,29.017
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,4,ebpf,31.382
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,5,clean,28.959
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,5,ebpf,31.853
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,6,clean,29.259
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,6,ebpf,31.614
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,7,clean,29.191
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,7,ebpf,31.331
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,8,clean,29.590
+ContainerSSH,go,go build,https://github.com/containerssh/containerssh,8,ebpf,31.587
+contour,go,make build,https://github.com/projectcontour/contour,1,clean,42.340
+contour,go,make build,https://github.com/projectcontour/contour,1,ebpf,44.145
+contour,go,make build,https://github.com/projectcontour/contour,2,clean,40.686
+contour,go,make build,https://github.com/projectcontour/contour,2,ebpf,44.438
+contour,go,make build,https://github.com/projectcontour/contour,3,clean,40.701
+contour,go,make build,https://github.com/projectcontour/contour,3,ebpf,43.626
+contour,go,make build,https://github.com/projectcontour/contour,4,clean,40.382
+contour,go,make build,https://github.com/projectcontour/contour,4,ebpf,44.512
+contour,go,make build,https://github.com/projectcontour/contour,5,clean,41.668
+contour,go,make build,https://github.com/projectcontour/contour,5,ebpf,44.726
+contour,go,make build,https://github.com/projectcontour/contour,6,clean,39.945
+contour,go,make build,https://github.com/projectcontour/contour,6,ebpf,45.203
+contour,go,make build,https://github.com/projectcontour/contour,7,clean,40.788
+contour,go,make build,https://github.com/projectcontour/contour,7,ebpf,44.506
+contour,go,make build,https://github.com/projectcontour/contour,8,clean,40.217
+contour,go,make build,https://github.com/projectcontour/contour,8,ebpf,44.923
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,1,clean,22.144
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,1,ebpf,23.265
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,2,clean,22.143
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,2,ebpf,23.508
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,3,clean,21.876
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,3,ebpf,23.218
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,4,clean,21.771
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,4,ebpf,23.653
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,5,clean,21.790
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,5,ebpf,23.430
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,6,clean,21.340
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,6,ebpf,23.769
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,7,clean,22.045
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,7,ebpf,23.211
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,8,clean,22.132
+copacetic,go,make build,https://github.com/project-copacetic/copacetic,8,ebpf,23.884
+CoreDNS,go,make,https://github.com/coredns/coredns,1,clean,45.594
+CoreDNS,go,make,https://github.com/coredns/coredns,1,ebpf,50.184
+CoreDNS,go,make,https://github.com/coredns/coredns,2,clean,44.685
+CoreDNS,go,make,https://github.com/coredns/coredns,2,ebpf,50.171
+CoreDNS,go,make,https://github.com/coredns/coredns,3,clean,45.068
+CoreDNS,go,make,https://github.com/coredns/coredns,3,ebpf,49.705
+CoreDNS,go,make,https://github.com/coredns/coredns,4,clean,44.481
+CoreDNS,go,make,https://github.com/coredns/coredns,4,ebpf,50.429
+CoreDNS,go,make,https://github.com/coredns/coredns,5,clean,44.699
+CoreDNS,go,make,https://github.com/coredns/coredns,5,ebpf,51.240
+CoreDNS,go,make,https://github.com/coredns/coredns,6,clean,45.709
+CoreDNS,go,make,https://github.com/coredns/coredns,6,ebpf,53.607
+CoreDNS,go,make,https://github.com/coredns/coredns,7,clean,43.657
+CoreDNS,go,make,https://github.com/coredns/coredns,7,ebpf,51.461
+CoreDNS,go,make,https://github.com/coredns/coredns,8,clean,44.005
+CoreDNS,go,make,https://github.com/coredns/coredns,8,ebpf,51.162
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,1,clean,194.248
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,1,ebpf,210.736
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,2,clean,192.459
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,2,ebpf,208.566
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,3,clean,193.406
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,3,ebpf,208.621
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,4,clean,194.242
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,4,ebpf,208.887
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,5,clean,192.040
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,5,ebpf,209.178
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,6,clean,190.827
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,6,ebpf,213.602
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,7,clean,191.351
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,7,ebpf,207.653
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,8,clean,193.370
+Cortex,go,make BUILD_IN_CONTAINER=false dist,https://github.com/cortexproject/cortex,8,ebpf,207.920
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,1,clean,60.163
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,1,ebpf,63.893
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,2,clean,59.608
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,2,ebpf,64.431
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,3,clean,59.980
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,3,ebpf,63.883
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,4,clean,60.273
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,4,ebpf,64.722
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,5,clean,60.208
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,5,ebpf,64.626
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,6,clean,60.181
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,6,ebpf,67.178
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,7,clean,59.750
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,7,ebpf,64.461
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,8,clean,60.148
+cri-o,go,make binaries,https://github.com/cri-o/cri-o,8,ebpf,65.689
+cubefs,go,make all,https://github.com/cubeFS/cubefs,1,clean,211.200
+cubefs,go,make all,https://github.com/cubeFS/cubefs,1,ebpf,219.060
+cubefs,go,make all,https://github.com/cubeFS/cubefs,2,clean,210.646
+cubefs,go,make all,https://github.com/cubeFS/cubefs,2,ebpf,220.849
+cubefs,go,make all,https://github.com/cubeFS/cubefs,3,clean,209.892
+cubefs,go,make all,https://github.com/cubeFS/cubefs,3,ebpf,218.463
+cubefs,go,make all,https://github.com/cubeFS/cubefs,4,clean,208.161
+cubefs,go,make all,https://github.com/cubeFS/cubefs,4,ebpf,219.151
+cubefs,go,make all,https://github.com/cubeFS/cubefs,5,clean,210.508
+cubefs,go,make all,https://github.com/cubeFS/cubefs,5,ebpf,216.231
+cubefs,go,make all,https://github.com/cubeFS/cubefs,6,clean,208.029
+cubefs,go,make all,https://github.com/cubeFS/cubefs,6,ebpf,216.179
+cubefs,go,make all,https://github.com/cubeFS/cubefs,7,clean,209.741
+cubefs,go,make all,https://github.com/cubeFS/cubefs,7,ebpf,216.055
+cubefs,go,make all,https://github.com/cubeFS/cubefs,8,clean,208.387
+cubefs,go,make all,https://github.com/cubeFS/cubefs,8,ebpf,216.808
+Dex,go,make build,https://github.com/dexidp/dex,1,clean,51.070
+Dex,go,make build,https://github.com/dexidp/dex,1,ebpf,53.163
+Dex,go,make build,https://github.com/dexidp/dex,2,clean,50.617
+Dex,go,make build,https://github.com/dexidp/dex,2,ebpf,52.936
+Dex,go,make build,https://github.com/dexidp/dex,3,clean,51.366
+Dex,go,make build,https://github.com/dexidp/dex,3,ebpf,52.854
+Dex,go,make build,https://github.com/dexidp/dex,4,clean,50.662
+Dex,go,make build,https://github.com/dexidp/dex,4,ebpf,53.062
+Dex,go,make build,https://github.com/dexidp/dex,5,clean,51.320
+Dex,go,make build,https://github.com/dexidp/dex,5,ebpf,53.275
+Dex,go,make build,https://github.com/dexidp/dex,6,clean,51.082
+Dex,go,make build,https://github.com/dexidp/dex,6,ebpf,53.576
+Dex,go,make build,https://github.com/dexidp/dex,7,clean,51.451
+Dex,go,make build,https://github.com/dexidp/dex,7,ebpf,53.320
+Dex,go,make build,https://github.com/dexidp/dex,8,clean,51.096
+Dex,go,make build,https://github.com/dexidp/dex,8,ebpf,53.638
+Distribution,go,make binaries,https://github.com/distribution/distribution,1,clean,26.511
+Distribution,go,make binaries,https://github.com/distribution/distribution,1,ebpf,28.039
+Distribution,go,make binaries,https://github.com/distribution/distribution,2,clean,26.116
+Distribution,go,make binaries,https://github.com/distribution/distribution,2,ebpf,29.103
+Distribution,go,make binaries,https://github.com/distribution/distribution,3,clean,25.970
+Distribution,go,make binaries,https://github.com/distribution/distribution,3,ebpf,28.215
+Distribution,go,make binaries,https://github.com/distribution/distribution,4,clean,26.068
+Distribution,go,make binaries,https://github.com/distribution/distribution,4,ebpf,29.894
+Distribution,go,make binaries,https://github.com/distribution/distribution,5,clean,26.152
+Distribution,go,make binaries,https://github.com/distribution/distribution,5,ebpf,28.816
+Distribution,go,make binaries,https://github.com/distribution/distribution,6,clean,26.087
+Distribution,go,make binaries,https://github.com/distribution/distribution,6,ebpf,29.684
+Distribution,go,make binaries,https://github.com/distribution/distribution,7,clean,25.709
+Distribution,go,make binaries,https://github.com/distribution/distribution,7,ebpf,29.297
+Distribution,go,make binaries,https://github.com/distribution/distribution,8,clean,26.025
+Distribution,go,make binaries,https://github.com/distribution/distribution,8,ebpf,29.629
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,1,clean,41.185
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,1,ebpf,44.667
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,2,clean,41.116
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,2,ebpf,44.078
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,3,clean,40.838
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,3,ebpf,43.979
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,4,clean,41.143
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,4,ebpf,44.156
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,5,clean,40.514
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,5,ebpf,43.964
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,6,clean,40.391
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,6,ebpf,44.220
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,7,clean,40.750
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,7,ebpf,43.945
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,8,clean,41.089
+dragonfly,go,make build-manager-server,https://github.com/dragonflyoss/dragonfly,8,ebpf,44.931
+Easegress,go,make build,https://github.com/easegress-io/easegress,1,clean,65.503
+Easegress,go,make build,https://github.com/easegress-io/easegress,1,ebpf,71.536
+Easegress,go,make build,https://github.com/easegress-io/easegress,2,clean,64.927
+Easegress,go,make build,https://github.com/easegress-io/easegress,2,ebpf,71.604
+Easegress,go,make build,https://github.com/easegress-io/easegress,3,clean,65.171
+Easegress,go,make build,https://github.com/easegress-io/easegress,3,ebpf,71.814
+Easegress,go,make build,https://github.com/easegress-io/easegress,4,clean,65.083
+Easegress,go,make build,https://github.com/easegress-io/easegress,4,ebpf,72.394
+Easegress,go,make build,https://github.com/easegress-io/easegress,5,clean,64.371
+Easegress,go,make build,https://github.com/easegress-io/easegress,5,ebpf,71.380
+Easegress,go,make build,https://github.com/easegress-io/easegress,6,clean,65.419
+Easegress,go,make build,https://github.com/easegress-io/easegress,6,ebpf,71.564
+Easegress,go,make build,https://github.com/easegress-io/easegress,7,clean,64.779
+Easegress,go,make build,https://github.com/easegress-io/easegress,7,ebpf,71.475
+Easegress,go,make build,https://github.com/easegress-io/easegress,8,clean,65.259
+Easegress,go,make build,https://github.com/easegress-io/easegress,8,ebpf,72.122
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,1,clean,41.449
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,1,ebpf,44.842
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,2,clean,41.326
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,2,ebpf,45.282
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,3,clean,41.110
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,3,ebpf,45.099
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,4,clean,40.868
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,4,ebpf,44.619
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,5,clean,40.791
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,5,ebpf,44.677
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,6,clean,40.520
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,6,ebpf,45.829
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,7,clean,41.190
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,7,ebpf,44.818
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,8,clean,40.936
+emissary,go,go build -o ./bin/ ./cmd/...,https://github.com/emissary-ingress/emissary,8,ebpf,45.550
+Eraser,go,make build,https://github.com/eraser-dev/eraser,1,clean,54.311
+Eraser,go,make build,https://github.com/eraser-dev/eraser,1,ebpf,54.632
+Eraser,go,make build,https://github.com/eraser-dev/eraser,2,clean,51.581
+Eraser,go,make build,https://github.com/eraser-dev/eraser,2,ebpf,57.210
+Eraser,go,make build,https://github.com/eraser-dev/eraser,3,clean,53.633
+Eraser,go,make build,https://github.com/eraser-dev/eraser,3,ebpf,54.659
+Eraser,go,make build,https://github.com/eraser-dev/eraser,4,clean,50.634
+Eraser,go,make build,https://github.com/eraser-dev/eraser,4,ebpf,56.486
+Eraser,go,make build,https://github.com/eraser-dev/eraser,5,clean,53.126
+Eraser,go,make build,https://github.com/eraser-dev/eraser,5,ebpf,55.231
+Eraser,go,make build,https://github.com/eraser-dev/eraser,6,clean,50.726
+Eraser,go,make build,https://github.com/eraser-dev/eraser,6,ebpf,56.183
+Eraser,go,make build,https://github.com/eraser-dev/eraser,7,clean,53.453
+Eraser,go,make build,https://github.com/eraser-dev/eraser,7,ebpf,54.475
+Eraser,go,make build,https://github.com/eraser-dev/eraser,8,clean,51.622
+Eraser,go,make build,https://github.com/eraser-dev/eraser,8,ebpf,56.944
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,1,clean,111.768
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,1,ebpf,121.107
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,2,clean,107.209
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,2,ebpf,118.978
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,3,clean,109.697
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,3,ebpf,116.407
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,4,clean,107.825
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,4,ebpf,119.846
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,5,clean,111.445
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,5,ebpf,123.103
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,6,clean,107.351
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,6,ebpf,119.862
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,7,clean,108.224
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,7,ebpf,118.304
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,8,clean,107.002
+external-secrets,go,make build-amd64,https://github.com/external-secrets/external-secrets,8,ebpf,119.167
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,1,clean,388.417
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,1,ebpf,372.892
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,2,clean,381.141
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,2,ebpf,375.941
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,3,clean,382.703
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,3,ebpf,373.726
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,4,clean,379.501
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,4,ebpf,376.709
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,5,clean,385.130
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,5,ebpf,372.952
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,6,clean,375.864
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,6,ebpf,374.152
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,7,clean,379.274
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,7,ebpf,368.789
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,8,clean,379.404
+Fluid,go,make build,https://github.com/fluid-cloudnative/fluid,8,ebpf,378.172
+flux2,go,make build,https://github.com/fluxcd/flux2,1,clean,51.997
+flux2,go,make build,https://github.com/fluxcd/flux2,1,ebpf,55.496
+flux2,go,make build,https://github.com/fluxcd/flux2,2,clean,50.130
+flux2,go,make build,https://github.com/fluxcd/flux2,2,ebpf,54.685
+flux2,go,make build,https://github.com/fluxcd/flux2,3,clean,51.461
+flux2,go,make build,https://github.com/fluxcd/flux2,3,ebpf,53.207
+flux2,go,make build,https://github.com/fluxcd/flux2,4,clean,49.971
+flux2,go,make build,https://github.com/fluxcd/flux2,4,ebpf,54.509
+flux2,go,make build,https://github.com/fluxcd/flux2,5,clean,51.514
+flux2,go,make build,https://github.com/fluxcd/flux2,5,ebpf,53.070
+flux2,go,make build,https://github.com/fluxcd/flux2,6,clean,49.413
+flux2,go,make build,https://github.com/fluxcd/flux2,6,ebpf,54.462
+flux2,go,make build,https://github.com/fluxcd/flux2,7,clean,51.019
+flux2,go,make build,https://github.com/fluxcd/flux2,7,ebpf,54.371
+flux2,go,make build,https://github.com/fluxcd/flux2,8,clean,50.439
+flux2,go,make build,https://github.com/fluxcd/flux2,8,ebpf,54.297
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,1,clean,53.316
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,1,ebpf,54.790
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,2,clean,51.789
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,2,ebpf,55.397
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,3,clean,51.938
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,3,ebpf,54.986
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,4,clean,51.536
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,4,ebpf,54.844
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,5,clean,51.970
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,5,ebpf,55.402
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,6,clean,51.986
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,6,ebpf,55.657
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,7,clean,51.212
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,7,ebpf,55.243
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,8,clean,51.394
+HAMi,go,make build,https://github.com/Project-HAMi/HAMi,8,ebpf,55.255
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,1,clean,44.736
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,1,ebpf,49.328
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,2,clean,43.591
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,2,ebpf,49.568
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,3,clean,43.878
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,3,ebpf,49.302
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,4,clean,44.192
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,4,ebpf,50.171
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,5,clean,44.098
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,5,ebpf,50.212
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,6,clean,43.792
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,6,ebpf,48.954
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,7,clean,44.103
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,7,ebpf,50.140
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,8,clean,44.085
+Headlamp,go,make backend,https://github.com/kubernetes-sigs/headlamp,8,ebpf,49.178
+Higress,go,make build,https://github.com/higress-group/higress,1,clean,98.282
+Higress,go,make build,https://github.com/higress-group/higress,1,ebpf,109.799
+Higress,go,make build,https://github.com/higress-group/higress,2,clean,87.857
+Higress,go,make build,https://github.com/higress-group/higress,2,ebpf,108.186
+Higress,go,make build,https://github.com/higress-group/higress,3,clean,91.926
+Higress,go,make build,https://github.com/higress-group/higress,3,ebpf,103.479
+Higress,go,make build,https://github.com/higress-group/higress,4,clean,87.497
+Higress,go,make build,https://github.com/higress-group/higress,4,ebpf,108.954
+Higress,go,make build,https://github.com/higress-group/higress,5,clean,98.087
+Higress,go,make build,https://github.com/higress-group/higress,5,ebpf,107.075
+Higress,go,make build,https://github.com/higress-group/higress,6,clean,88.656
+Higress,go,make build,https://github.com/higress-group/higress,6,ebpf,114.468
+Higress,go,make build,https://github.com/higress-group/higress,7,clean,88.828
+Higress,go,make build,https://github.com/higress-group/higress,7,ebpf,102.499
+Higress,go,make build,https://github.com/higress-group/higress,8,clean,88.355
+Higress,go,make build,https://github.com/higress-group/higress,8,ebpf,105.748
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,1,clean,291.000
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,1,ebpf,296.728
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,2,clean,284.521
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,2,ebpf,295.545
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,3,clean,284.381
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,3,ebpf,293.440
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,4,clean,284.726
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,4,ebpf,295.544
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,5,clean,284.623
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,5,ebpf,293.103
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,6,clean,282.107
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,6,ebpf,295.687
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,7,clean,282.674
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,7,ebpf,293.774
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,8,clean,287.620
+HwameiStor,go,make compile,https://github.com/hwameistor/hwameistor,8,ebpf,302.206
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,1,clean,9.821
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,1,ebpf,10.856
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,2,clean,9.774
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,2,ebpf,10.975
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,3,clean,9.657
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,3,ebpf,10.795
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,4,clean,9.742
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,4,ebpf,10.986
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,5,clean,9.744
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,5,ebpf,10.779
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,6,clean,9.695
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,6,ebpf,10.814
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,7,clean,9.699
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,7,ebpf,10.760
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,8,clean,9.653
+in-toto,python,python -m build,https://github.com/in-toto/in-toto,8,ebpf,10.745
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,1,clean,44.659
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,1,ebpf,48.050
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,2,clean,44.149
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,2,ebpf,49.577
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,3,clean,44.001
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,3,ebpf,48.432
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,4,clean,43.678
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,4,ebpf,47.992
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,5,clean,44.174
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,5,ebpf,48.872
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,6,clean,44.284
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,6,ebpf,48.112
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,7,clean,44.168
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,7,ebpf,48.374
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,8,clean,43.790
+Inspektor Gadget,go,make ig,https://github.com/inspektor-gadget/inspektor-gadget,8,ebpf,48.437
+Interlink,go,make all,https://github.com/interlink-hq/interLink,1,clean,41.653
+Interlink,go,make all,https://github.com/interlink-hq/interLink,1,ebpf,44.996
+Interlink,go,make all,https://github.com/interlink-hq/interLink,2,clean,41.404
+Interlink,go,make all,https://github.com/interlink-hq/interLink,2,ebpf,43.891
+Interlink,go,make all,https://github.com/interlink-hq/interLink,3,clean,41.860
+Interlink,go,make all,https://github.com/interlink-hq/interLink,3,ebpf,43.747
+Interlink,go,make all,https://github.com/interlink-hq/interLink,4,clean,42.556
+Interlink,go,make all,https://github.com/interlink-hq/interLink,4,ebpf,49.004
+Interlink,go,make all,https://github.com/interlink-hq/interLink,5,clean,41.694
+Interlink,go,make all,https://github.com/interlink-hq/interLink,5,ebpf,43.462
+Interlink,go,make all,https://github.com/interlink-hq/interLink,6,clean,41.573
+Interlink,go,make all,https://github.com/interlink-hq/interLink,6,ebpf,44.581
+Interlink,go,make all,https://github.com/interlink-hq/interLink,7,clean,41.262
+Interlink,go,make all,https://github.com/interlink-hq/interLink,7,ebpf,43.749
+Interlink,go,make all,https://github.com/interlink-hq/interLink,8,clean,41.904
+Interlink,go,make all,https://github.com/interlink-hq/interLink,8,ebpf,44.131
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,1,clean,137.404
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,1,ebpf,147.604
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,2,clean,136.329
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,2,ebpf,148.154
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,3,clean,137.320
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,3,ebpf,146.908
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,4,clean,135.745
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,4,ebpf,148.705
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,5,clean,135.438
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,5,ebpf,147.408
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,6,clean,134.734
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,6,ebpf,146.373
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,7,clean,136.427
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,7,ebpf,146.734
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,8,clean,133.695
+Jaeger,go,make build-binaries,https://github.com/jaegertracing/jaeger,8,ebpf,148.009
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,1,clean,78.305
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,1,ebpf,70.139
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,2,clean,64.676
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,2,ebpf,69.971
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,3,clean,66.043
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,3,ebpf,71.028
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,4,clean,65.604
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,4,ebpf,70.044
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,5,clean,64.725
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,5,ebpf,69.538
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,6,clean,64.810
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,6,ebpf,70.572
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,7,clean,64.957
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,7,ebpf,69.480
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,8,clean,64.768
+k8gb,go,make k8gb,https://github.com/k8gb-io/k8gb,8,ebpf,70.314
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,1,clean,60.743
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,1,ebpf,67.447
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,2,clean,61.699
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,2,ebpf,67.618
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,3,clean,60.477
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,3,ebpf,66.601
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,4,clean,60.630
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,4,ebpf,67.105
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,5,clean,61.017
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,5,ebpf,67.583
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,6,clean,60.316
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,6,ebpf,67.459
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,7,clean,60.537
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,7,ebpf,67.135
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,8,clean,60.597
+K8sGPT,go,make build,https://github.com/k8sgpt-ai/k8sgpt,8,ebpf,67.023
+K8up,go,make build,https://github.com/k8up-io/k8up,1,clean,78.468
+K8up,go,make build,https://github.com/k8up-io/k8up,1,ebpf,80.024
+K8up,go,make build,https://github.com/k8up-io/k8up,2,clean,75.406
+K8up,go,make build,https://github.com/k8up-io/k8up,2,ebpf,79.720
+K8up,go,make build,https://github.com/k8up-io/k8up,3,clean,76.468
+K8up,go,make build,https://github.com/k8up-io/k8up,3,ebpf,79.986
+K8up,go,make build,https://github.com/k8up-io/k8up,4,clean,75.755
+K8up,go,make build,https://github.com/k8up-io/k8up,4,ebpf,79.802
+K8up,go,make build,https://github.com/k8up-io/k8up,5,clean,75.527
+K8up,go,make build,https://github.com/k8up-io/k8up,5,ebpf,88.375
+K8up,go,make build,https://github.com/k8up-io/k8up,6,clean,74.959
+K8up,go,make build,https://github.com/k8up-io/k8up,6,ebpf,79.720
+K8up,go,make build,https://github.com/k8up-io/k8up,7,clean,75.304
+K8up,go,make build,https://github.com/k8up-io/k8up,7,ebpf,80.205
+K8up,go,make build,https://github.com/k8up-io/k8up,8,clean,74.887
+K8up,go,make build,https://github.com/k8up-io/k8up,8,ebpf,79.029
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,1,clean,65.463
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,1,ebpf,71.530
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,2,clean,63.821
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,2,ebpf,71.826
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,3,clean,64.401
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,3,ebpf,71.129
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,4,clean,64.214
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,4,ebpf,72.018
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,5,clean,63.874
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,5,ebpf,71.775
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,6,clean,63.836
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,6,ebpf,72.166
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,7,clean,64.256
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,7,ebpf,72.248
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,8,clean,63.923
+Kaito,go,make build-workspace,https://github.com/kaito-project/kaito,8,ebpf,71.822
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,1,clean,104.048
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,1,ebpf,109.599
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,2,clean,103.613
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,2,ebpf,109.460
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,3,clean,103.119
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,3,ebpf,108.413
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,4,clean,102.934
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,4,ebpf,109.726
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,5,clean,102.837
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,5,ebpf,108.261
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,6,clean,103.034
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,6,ebpf,108.509
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,7,clean,102.945
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,7,ebpf,108.162
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,8,clean,102.441
+kanister,go,DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64,https://github.com/kanisterio/kanister,8,ebpf,108.942
+Karmada,go,make all,https://github.com/karmada-io/karmada,1,clean,125.751
+Karmada,go,make all,https://github.com/karmada-io/karmada,1,ebpf,129.907
+Karmada,go,make all,https://github.com/karmada-io/karmada,2,clean,123.308
+Karmada,go,make all,https://github.com/karmada-io/karmada,2,ebpf,130.053
+Karmada,go,make all,https://github.com/karmada-io/karmada,3,clean,124.998
+Karmada,go,make all,https://github.com/karmada-io/karmada,3,ebpf,130.223
+Karmada,go,make all,https://github.com/karmada-io/karmada,4,clean,124.634
+Karmada,go,make all,https://github.com/karmada-io/karmada,4,ebpf,135.465
+Karmada,go,make all,https://github.com/karmada-io/karmada,5,clean,125.606
+Karmada,go,make all,https://github.com/karmada-io/karmada,5,ebpf,131.461
+Karmada,go,make all,https://github.com/karmada-io/karmada,6,clean,122.254
+Karmada,go,make all,https://github.com/karmada-io/karmada,6,ebpf,129.513
+Karmada,go,make all,https://github.com/karmada-io/karmada,7,clean,122.350
+Karmada,go,make all,https://github.com/karmada-io/karmada,7,ebpf,132.607
+Karmada,go,make all,https://github.com/karmada-io/karmada,8,clean,124.396
+Karmada,go,make all,https://github.com/karmada-io/karmada,8,ebpf,131.386
+kcl,rust,make build,https://github.com/kcl-lang/kcl,1,clean,288.425
+kcl,rust,make build,https://github.com/kcl-lang/kcl,1,ebpf,301.557
+kcl,rust,make build,https://github.com/kcl-lang/kcl,2,clean,287.953
+kcl,rust,make build,https://github.com/kcl-lang/kcl,2,ebpf,303.985
+kcl,rust,make build,https://github.com/kcl-lang/kcl,3,clean,285.399
+kcl,rust,make build,https://github.com/kcl-lang/kcl,3,ebpf,301.820
+kcl,rust,make build,https://github.com/kcl-lang/kcl,4,clean,284.209
+kcl,rust,make build,https://github.com/kcl-lang/kcl,4,ebpf,302.419
+kcl,rust,make build,https://github.com/kcl-lang/kcl,5,clean,285.812
+kcl,rust,make build,https://github.com/kcl-lang/kcl,5,ebpf,302.374
+kcl,rust,make build,https://github.com/kcl-lang/kcl,6,clean,285.321
+kcl,rust,make build,https://github.com/kcl-lang/kcl,6,ebpf,300.423
+kcl,rust,make build,https://github.com/kcl-lang/kcl,7,clean,285.069
+kcl,rust,make build,https://github.com/kcl-lang/kcl,7,ebpf,300.880
+kcl,rust,make build,https://github.com/kcl-lang/kcl,8,clean,286.569
+kcl,rust,make build,https://github.com/kcl-lang/kcl,8,ebpf,304.254
+kcp,go,make build,https://github.com/kcp-dev/kcp,1,clean,127.574
+kcp,go,make build,https://github.com/kcp-dev/kcp,1,ebpf,136.020
+kcp,go,make build,https://github.com/kcp-dev/kcp,2,clean,123.357
+kcp,go,make build,https://github.com/kcp-dev/kcp,2,ebpf,138.322
+kcp,go,make build,https://github.com/kcp-dev/kcp,3,clean,125.464
+kcp,go,make build,https://github.com/kcp-dev/kcp,3,ebpf,137.894
+kcp,go,make build,https://github.com/kcp-dev/kcp,4,clean,125.384
+kcp,go,make build,https://github.com/kcp-dev/kcp,4,ebpf,138.846
+kcp,go,make build,https://github.com/kcp-dev/kcp,5,clean,125.119
+kcp,go,make build,https://github.com/kcp-dev/kcp,5,ebpf,137.696
+kcp,go,make build,https://github.com/kcp-dev/kcp,6,clean,124.057
+kcp,go,make build,https://github.com/kcp-dev/kcp,6,ebpf,138.109
+kcp,go,make build,https://github.com/kcp-dev/kcp,7,clean,124.540
+kcp,go,make build,https://github.com/kcp-dev/kcp,7,ebpf,136.619
+kcp,go,make build,https://github.com/kcp-dev/kcp,8,clean,123.151
+kcp,go,make build,https://github.com/kcp-dev/kcp,8,ebpf,136.988
+Keda,go,make build,https://github.com/kedacore/keda,1,clean,203.258
+Keda,go,make build,https://github.com/kedacore/keda,1,ebpf,218.814
+Keda,go,make build,https://github.com/kedacore/keda,2,clean,200.249
+Keda,go,make build,https://github.com/kedacore/keda,2,ebpf,216.326
+Keda,go,make build,https://github.com/kedacore/keda,3,clean,203.543
+Keda,go,make build,https://github.com/kedacore/keda,3,ebpf,215.490
+Keda,go,make build,https://github.com/kedacore/keda,4,clean,199.963
+Keda,go,make build,https://github.com/kedacore/keda,4,ebpf,219.347
+Keda,go,make build,https://github.com/kedacore/keda,5,clean,199.245
+Keda,go,make build,https://github.com/kedacore/keda,5,ebpf,216.707
+Keda,go,make build,https://github.com/kedacore/keda,6,clean,199.659
+Keda,go,make build,https://github.com/kedacore/keda,6,ebpf,215.841
+Keda,go,make build,https://github.com/kedacore/keda,7,clean,201.604
+Keda,go,make build,https://github.com/kedacore/keda,7,ebpf,217.095
+Keda,go,make build,https://github.com/kedacore/keda,8,clean,200.330
+Keda,go,make build,https://github.com/kedacore/keda,8,ebpf,216.176
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,1,clean,40.086
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,1,ebpf,41.788
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,2,clean,39.565
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,2,ebpf,41.754
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,3,clean,39.427
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,3,ebpf,41.702
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,4,clean,38.802
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,4,ebpf,41.594
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,5,clean,39.590
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,5,ebpf,41.424
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,6,clean,39.437
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,6,ebpf,41.590
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,7,clean,39.192
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,7,ebpf,41.472
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,8,clean,39.447
+kepler,go,make build,https://github.com/sustainable-computing-io/kepler,8,ebpf,41.899
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,1,clean,11.320
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,1,ebpf,12.536
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,2,clean,11.373
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,2,ebpf,12.718
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,3,clean,11.109
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,3,ebpf,12.746
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,4,clean,11.124
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,4,ebpf,12.716
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,5,clean,11.303
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,5,ebpf,12.676
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,6,clean,11.184
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,6,ebpf,12.555
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,7,clean,11.274
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,7,ebpf,12.630
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,8,clean,11.187
+keylime,python,python3 -m build --sdist --wheel --outdir dist/ .,https://github.com/keylime/keylime,8,ebpf,12.675
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,1,clean,91.262
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,1,ebpf,100.231
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,2,clean,88.501
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,2,ebpf,94.884
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,3,clean,90.305
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,3,ebpf,93.920
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,4,clean,89.516
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,4,ebpf,96.235
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,5,clean,92.585
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,5,ebpf,98.817
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,6,clean,89.660
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,6,ebpf,97.472
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,7,clean,88.633
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,7,ebpf,97.008
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,8,clean,89.844
+Kgateway,go,/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit,https://github.com/kgateway-dev/kgateway,8,ebpf,97.146
+ko,go,go build -o ko .,https://github.com/ko-build/ko,1,clean,27.522
+ko,go,go build -o ko .,https://github.com/ko-build/ko,1,ebpf,31.642
+ko,go,go build -o ko .,https://github.com/ko-build/ko,2,clean,27.317
+ko,go,go build -o ko .,https://github.com/ko-build/ko,2,ebpf,30.888
+ko,go,go build -o ko .,https://github.com/ko-build/ko,3,clean,27.651
+ko,go,go build -o ko .,https://github.com/ko-build/ko,3,ebpf,30.519
+ko,go,go build -o ko .,https://github.com/ko-build/ko,4,clean,26.949
+ko,go,go build -o ko .,https://github.com/ko-build/ko,4,ebpf,31.025
+ko,go,go build -o ko .,https://github.com/ko-build/ko,5,clean,27.341
+ko,go,go build -o ko .,https://github.com/ko-build/ko,5,ebpf,30.979
+ko,go,go build -o ko .,https://github.com/ko-build/ko,6,clean,27.450
+ko,go,go build -o ko .,https://github.com/ko-build/ko,6,ebpf,31.049
+ko,go,go build -o ko .,https://github.com/ko-build/ko,7,clean,27.193
+ko,go,go build -o ko .,https://github.com/ko-build/ko,7,ebpf,30.610
+ko,go,go build -o ko .,https://github.com/ko-build/ko,8,clean,28.209
+ko,go,go build -o ko .,https://github.com/ko-build/ko,8,ebpf,30.857
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,1,clean,214.301
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,1,ebpf,187.108
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,2,clean,119.766
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,2,ebpf,127.084
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,3,clean,120.890
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,3,ebpf,127.818
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,4,clean,119.517
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,4,ebpf,128.169
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,5,clean,121.607
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,5,ebpf,131.740
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,6,clean,117.718
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,6,ebpf,126.771
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,7,clean,120.899
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,7,ebpf,126.460
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,8,clean,120.649
+koordinator,go,make build,https://github.com/koordinator-sh/koordinator,8,ebpf,128.147
+kpt,go,make build,https://github.com/kptdev/kpt,1,clean,46.263
+kpt,go,make build,https://github.com/kptdev/kpt,1,ebpf,48.890
+kpt,go,make build,https://github.com/kptdev/kpt,2,clean,46.772
+kpt,go,make build,https://github.com/kptdev/kpt,2,ebpf,49.541
+kpt,go,make build,https://github.com/kptdev/kpt,3,clean,46.005
+kpt,go,make build,https://github.com/kptdev/kpt,3,ebpf,49.016
+kpt,go,make build,https://github.com/kptdev/kpt,4,clean,46.070
+kpt,go,make build,https://github.com/kptdev/kpt,4,ebpf,50.774
+kpt,go,make build,https://github.com/kptdev/kpt,5,clean,46.285
+kpt,go,make build,https://github.com/kptdev/kpt,5,ebpf,49.761
+kpt,go,make build,https://github.com/kptdev/kpt,6,clean,46.007
+kpt,go,make build,https://github.com/kptdev/kpt,6,ebpf,49.665
+kpt,go,make build,https://github.com/kptdev/kpt,7,clean,46.585
+kpt,go,make build,https://github.com/kptdev/kpt,7,ebpf,49.667
+kpt,go,make build,https://github.com/kptdev/kpt,8,clean,45.920
+kpt,go,make build,https://github.com/kptdev/kpt,8,ebpf,49.930
+KServe,go,make manager,https://github.com/kserve/kserve,1,clean,251.975
+KServe,go,make manager,https://github.com/kserve/kserve,1,ebpf,265.345
+KServe,go,make manager,https://github.com/kserve/kserve,2,clean,244.204
+KServe,go,make manager,https://github.com/kserve/kserve,2,ebpf,273.680
+KServe,go,make manager,https://github.com/kserve/kserve,3,clean,249.150
+KServe,go,make manager,https://github.com/kserve/kserve,3,ebpf,266.233
+KServe,go,make manager,https://github.com/kserve/kserve,4,clean,244.274
+KServe,go,make manager,https://github.com/kserve/kserve,4,ebpf,270.222
+KServe,go,make manager,https://github.com/kserve/kserve,5,clean,256.091
+KServe,go,make manager,https://github.com/kserve/kserve,5,ebpf,267.708
+KServe,go,make manager,https://github.com/kserve/kserve,6,clean,243.590
+KServe,go,make manager,https://github.com/kserve/kserve,6,ebpf,268.209
+KServe,go,make manager,https://github.com/kserve/kserve,7,clean,247.619
+KServe,go,make manager,https://github.com/kserve/kserve,7,ebpf,265.872
+KServe,go,make manager,https://github.com/kserve/kserve,8,clean,245.614
+KServe,go,make manager,https://github.com/kserve/kserve,8,ebpf,264.404
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,1,clean,73.291
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,1,ebpf,80.510
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,2,clean,72.431
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,2,ebpf,79.794
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,3,clean,73.274
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,3,ebpf,80.305
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,4,clean,72.725
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,4,ebpf,79.159
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,5,clean,73.107
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,5,ebpf,80.290
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,6,clean,72.527
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,6,ebpf,80.079
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,7,clean,72.460
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,7,ebpf,80.407
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,8,clean,72.120
+kuadrant,go,make build,https://github.com/kuadrant/kuadrant-operator,8,ebpf,79.609
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,1,clean,46.888
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,1,ebpf,51.639
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,2,clean,47.563
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,2,ebpf,51.256
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,3,clean,47.062
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,3,ebpf,50.667
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,4,clean,47.047
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,4,ebpf,50.459
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,5,clean,46.545
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,5,ebpf,50.628
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,6,clean,46.979
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,6,ebpf,50.192
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,7,clean,46.920
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,7,ebpf,50.420
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,8,clean,47.149
+kube-burner,go,make build,https://github.com/kube-burner/kube-burner,8,ebpf,50.759
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,1,clean,102.168
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,1,ebpf,109.279
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,2,clean,102.051
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,2,ebpf,109.720
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,3,clean,100.182
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,3,ebpf,105.952
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,4,clean,100.211
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,4,ebpf,105.949
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,5,clean,101.776
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,5,ebpf,109.092
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,6,clean,99.697
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,6,ebpf,106.276
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,7,clean,98.847
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,7,ebpf,106.339
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,8,clean,99.470
+kube-ovn,go,make build-go,https://github.com/kubeovn/kube-ovn,8,ebpf,106.891
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,1,clean,39.889
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,1,ebpf,41.685
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,2,clean,39.520
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,2,ebpf,41.922
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,3,clean,39.055
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,3,ebpf,41.667
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,4,clean,38.934
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,4,ebpf,41.528
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,5,clean,39.400
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,5,ebpf,41.734
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,6,clean,39.153
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,6,ebpf,41.611
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,7,clean,39.303
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,7,ebpf,41.489
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,8,clean,39.127
+kube-vip,go,make build,https://github.com/kube-vip/kube-vip,8,ebpf,41.648
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,1,clean,54.089
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,1,ebpf,57.862
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,2,clean,53.434
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,2,ebpf,57.755
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,3,clean,54.088
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,3,ebpf,57.409
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,4,clean,53.408
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,4,ebpf,57.440
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,5,clean,54.039
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,5,ebpf,57.793
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,6,clean,53.309
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,6,ebpf,57.424
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,7,clean,54.160
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,7,ebpf,57.631
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,8,clean,53.773
+KubeClipper,go,make build,https://github.com/kubeclipper/kubeclipper,8,ebpf,57.358
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,1,clean,103.813
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,1,ebpf,111.821
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,2,clean,102.370
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,2,ebpf,112.487
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,3,clean,101.275
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,3,ebpf,110.608
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,4,clean,101.689
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,4,ebpf,110.302
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,5,clean,102.748
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,5,ebpf,110.197
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,6,clean,100.836
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,6,ebpf,108.794
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,7,clean,101.617
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,7,ebpf,110.204
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,8,clean,103.393
+kubefleet,go,make build,https://github.com/kubefleet-dev/kubefleet,8,ebpf,110.932
+Kubescape,go,make all,https://github.com/kubescape/kubescape,1,clean,107.291
+Kubescape,go,make all,https://github.com/kubescape/kubescape,1,ebpf,115.504
+Kubescape,go,make all,https://github.com/kubescape/kubescape,2,clean,105.002
+Kubescape,go,make all,https://github.com/kubescape/kubescape,2,ebpf,118.012
+Kubescape,go,make all,https://github.com/kubescape/kubescape,3,clean,104.663
+Kubescape,go,make all,https://github.com/kubescape/kubescape,3,ebpf,117.180
+Kubescape,go,make all,https://github.com/kubescape/kubescape,4,clean,104.820
+Kubescape,go,make all,https://github.com/kubescape/kubescape,4,ebpf,116.598
+Kubescape,go,make all,https://github.com/kubescape/kubescape,5,clean,104.906
+Kubescape,go,make all,https://github.com/kubescape/kubescape,5,ebpf,118.154
+Kubescape,go,make all,https://github.com/kubescape/kubescape,6,clean,104.186
+Kubescape,go,make all,https://github.com/kubescape/kubescape,6,ebpf,117.933
+Kubescape,go,make all,https://github.com/kubescape/kubescape,7,clean,105.711
+Kubescape,go,make all,https://github.com/kubescape/kubescape,7,ebpf,116.433
+Kubescape,go,make all,https://github.com/kubescape/kubescape,8,clean,105.719
+Kubescape,go,make all,https://github.com/kubescape/kubescape,8,ebpf,117.809
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,1,clean,38.789
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,1,ebpf,41.114
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,2,clean,38.689
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,2,ebpf,41.784
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,3,clean,38.605
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,3,ebpf,41.138
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,4,clean,38.106
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,4,ebpf,41.721
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,5,clean,38.078
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,5,ebpf,41.585
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,6,clean,38.229
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,6,ebpf,41.645
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,7,clean,38.508
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,7,ebpf,41.468
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,8,clean,38.281
+kubestellar,go,make build,https://github.com/kubestellar/kubestellar,8,ebpf,41.854
+Kubevela,go,make build,https://github.com/kubevela/kubevela,1,clean,129.292
+Kubevela,go,make build,https://github.com/kubevela/kubevela,1,ebpf,139.229
+Kubevela,go,make build,https://github.com/kubevela/kubevela,2,clean,129.916
+Kubevela,go,make build,https://github.com/kubevela/kubevela,2,ebpf,139.777
+Kubevela,go,make build,https://github.com/kubevela/kubevela,3,clean,130.799
+Kubevela,go,make build,https://github.com/kubevela/kubevela,3,ebpf,139.593
+Kubevela,go,make build,https://github.com/kubevela/kubevela,4,clean,128.399
+Kubevela,go,make build,https://github.com/kubevela/kubevela,4,ebpf,140.941
+Kubevela,go,make build,https://github.com/kubevela/kubevela,5,clean,130.005
+Kubevela,go,make build,https://github.com/kubevela/kubevela,5,ebpf,139.667
+Kubevela,go,make build,https://github.com/kubevela/kubevela,6,clean,128.196
+Kubevela,go,make build,https://github.com/kubevela/kubevela,6,ebpf,139.138
+Kubevela,go,make build,https://github.com/kubevela/kubevela,7,clean,132.805
+Kubevela,go,make build,https://github.com/kubevela/kubevela,7,ebpf,142.305
+Kubevela,go,make build,https://github.com/kubevela/kubevela,8,clean,128.278
+Kubevela,go,make build,https://github.com/kubevela/kubevela,8,ebpf,139.771
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,1,clean,31.860
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,1,ebpf,26.006
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,2,clean,25.145
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,2,ebpf,27.290
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,3,clean,25.354
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,3,ebpf,26.772
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,4,clean,25.105
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,4,ebpf,26.854
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,5,clean,25.962
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,5,ebpf,26.815
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,6,clean,24.826
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,6,ebpf,26.652
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,7,clean,25.176
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,7,ebpf,26.231
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,8,clean,25.289
+kudo,go,make manager-fast,https://github.com/kudobuilder/kudo,8,ebpf,26.961
+kuma,go,make build,https://github.com/kumahq/kuma,1,clean,85.551
+kuma,go,make build,https://github.com/kumahq/kuma,1,ebpf,90.683
+kuma,go,make build,https://github.com/kumahq/kuma,2,clean,84.212
+kuma,go,make build,https://github.com/kumahq/kuma,2,ebpf,91.104
+kuma,go,make build,https://github.com/kumahq/kuma,3,clean,84.925
+kuma,go,make build,https://github.com/kumahq/kuma,3,ebpf,90.311
+kuma,go,make build,https://github.com/kumahq/kuma,4,clean,84.487
+kuma,go,make build,https://github.com/kumahq/kuma,4,ebpf,91.345
+kuma,go,make build,https://github.com/kumahq/kuma,5,clean,85.298
+kuma,go,make build,https://github.com/kumahq/kuma,5,ebpf,91.369
+kuma,go,make build,https://github.com/kumahq/kuma,6,clean,84.261
+kuma,go,make build,https://github.com/kumahq/kuma,6,ebpf,92.543
+kuma,go,make build,https://github.com/kumahq/kuma,7,clean,84.828
+kuma,go,make build,https://github.com/kumahq/kuma,7,ebpf,91.107
+kuma,go,make build,https://github.com/kumahq/kuma,8,clean,84.215
+kuma,go,make build,https://github.com/kumahq/kuma,8,ebpf,92.956
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,1,clean,167.861
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,1,ebpf,162.139
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,2,clean,145.051
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,2,ebpf,176.371
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,3,clean,158.934
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,3,ebpf,160.712
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,4,clean,147.219
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,4,ebpf,180.958
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,5,clean,167.540
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,5,ebpf,164.162
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,6,clean,145.220
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,6,ebpf,178.319
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,7,clean,160.946
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,7,ebpf,161.517
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,8,clean,146.939
+kusionStack,go,make build-local-linux,https://github.com/KusionStack/kusion,8,ebpf,179.124
+Lima,go,make binaries,https://github.com/lima-vm/lima,1,clean,157.205
+Lima,go,make binaries,https://github.com/lima-vm/lima,1,ebpf,154.774
+Lima,go,make binaries,https://github.com/lima-vm/lima,2,clean,156.388
+Lima,go,make binaries,https://github.com/lima-vm/lima,2,ebpf,155.531
+Lima,go,make binaries,https://github.com/lima-vm/lima,3,clean,157.114
+Lima,go,make binaries,https://github.com/lima-vm/lima,3,ebpf,155.850
+Lima,go,make binaries,https://github.com/lima-vm/lima,4,clean,156.024
+Lima,go,make binaries,https://github.com/lima-vm/lima,4,ebpf,155.341
+Lima,go,make binaries,https://github.com/lima-vm/lima,5,clean,156.255
+Lima,go,make binaries,https://github.com/lima-vm/lima,5,ebpf,155.141
+Lima,go,make binaries,https://github.com/lima-vm/lima,6,clean,155.310
+Lima,go,make binaries,https://github.com/lima-vm/lima,6,ebpf,155.637
+Lima,go,make binaries,https://github.com/lima-vm/lima,7,clean,157.665
+Lima,go,make binaries,https://github.com/lima-vm/lima,7,ebpf,155.543
+Lima,go,make binaries,https://github.com/lima-vm/lima,8,clean,155.641
+Lima,go,make binaries,https://github.com/lima-vm/lima,8,ebpf,155.200
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,1,clean,62.167
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,1,ebpf,66.110
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,2,clean,60.625
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,2,ebpf,65.885
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,3,clean,60.039
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,3,ebpf,66.107
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,4,clean,60.381
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,4,ebpf,65.668
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,5,clean,61.442
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,5,ebpf,65.117
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,6,clean,60.423
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,6,ebpf,65.082
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,7,clean,59.931
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,7,ebpf,65.125
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,8,clean,60.788
+Logging Operator,go,make manager,https://github.com/kube-logging/logging-operator,8,ebpf,64.964
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,1,clean,42.899
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,1,ebpf,45.489
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,2,clean,42.650
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,2,ebpf,46.060
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,3,clean,42.521
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,3,ebpf,47.408
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,4,clean,42.294
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,4,ebpf,45.579
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,5,clean,43.800
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,5,ebpf,45.609
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,6,clean,44.127
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,6,ebpf,45.697
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,7,clean,43.154
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,7,ebpf,46.931
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,8,clean,42.163
+LoxiLB,go,make,https://github.com/loxilb-io/loxilb,8,ebpf,45.398
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,1,clean,21.260
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,1,ebpf,23.514
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,2,clean,20.585
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,2,ebpf,21.749
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,3,clean,20.956
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,3,ebpf,21.858
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,4,clean,20.270
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,4,ebpf,21.903
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,5,clean,20.831
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,5,ebpf,22.182
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,6,clean,20.334
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,6,ebpf,22.296
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,7,clean,20.474
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,7,ebpf,21.504
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,8,clean,20.482
+NATS,go,CGO_ENABLED=0 go build .,https://github.com/nats-io/nats-server,8,ebpf,21.962
+Notary Project,go,make build,https://github.com/notaryproject/notation,1,clean,11.249
+Notary Project,go,make build,https://github.com/notaryproject/notation,1,ebpf,11.686
+Notary Project,go,make build,https://github.com/notaryproject/notation,2,clean,10.706
+Notary Project,go,make build,https://github.com/notaryproject/notation,2,ebpf,11.744
+Notary Project,go,make build,https://github.com/notaryproject/notation,3,clean,11.169
+Notary Project,go,make build,https://github.com/notaryproject/notation,3,ebpf,11.806
+Notary Project,go,make build,https://github.com/notaryproject/notation,4,clean,10.900
+Notary Project,go,make build,https://github.com/notaryproject/notation,4,ebpf,12.022
+Notary Project,go,make build,https://github.com/notaryproject/notation,5,clean,11.047
+Notary Project,go,make build,https://github.com/notaryproject/notation,5,ebpf,11.940
+Notary Project,go,make build,https://github.com/notaryproject/notation,6,clean,11.000
+Notary Project,go,make build,https://github.com/notaryproject/notation,6,ebpf,11.975
+Notary Project,go,make build,https://github.com/notaryproject/notation,7,clean,10.862
+Notary Project,go,make build,https://github.com/notaryproject/notation,7,ebpf,11.707
+Notary Project,go,make build,https://github.com/notaryproject/notation,8,clean,10.890
+Notary Project,go,make build,https://github.com/notaryproject/notation,8,ebpf,11.733
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,1,clean,23.983
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,1,ebpf,25.598
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,2,clean,24.374
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,2,ebpf,26.119
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,3,clean,24.766
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,3,ebpf,25.367
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,4,clean,25.612
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,4,ebpf,26.226
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,5,clean,23.958
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,5,ebpf,25.460
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,6,clean,24.184
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,6,ebpf,26.240
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,7,clean,24.079
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,7,ebpf,26.101
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,8,clean,24.625
+OAuth2 Proxy,go,make build,https://github.com/oauth2-proxy/oauth2-proxy,8,ebpf,25.579
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,1,clean,92.414
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,1,ebpf,100.123
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,2,clean,87.546
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,2,ebpf,96.682
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,3,clean,87.160
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,3,ebpf,95.379
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,4,clean,87.530
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,4,ebpf,96.964
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,5,clean,89.861
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,5,ebpf,100.005
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,6,clean,90.418
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,6,ebpf,100.097
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,7,clean,87.103
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,7,ebpf,95.307
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,8,clean,87.522
+Open Cluster Management,go,make build,https://github.com/open-cluster-management-io/ocm,8,ebpf,99.428
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,1,clean,91.203
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,1,ebpf,96.555
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,2,clean,90.530
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,2,ebpf,98.334
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,3,clean,92.965
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,3,ebpf,96.051
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,4,clean,90.178
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,4,ebpf,98.570
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,5,clean,95.042
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,5,ebpf,96.772
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,6,clean,89.754
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,6,ebpf,104.759
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,7,clean,92.388
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,7,ebpf,97.456
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,8,clean,109.710
+Open Policy Containers,go,make deps && make build,https://github.com/opcr-io/policy,8,ebpf,107.151
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,1,clean,84.878
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,1,ebpf,90.035
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,2,clean,84.275
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,2,ebpf,88.164
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,3,clean,83.618
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,3,ebpf,87.041
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,4,clean,83.434
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,4,ebpf,88.475
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,5,clean,83.971
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,5,ebpf,87.753
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,6,clean,83.463
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,6,ebpf,87.616
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,7,clean,83.081
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,7,ebpf,87.201
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,8,clean,83.523
+OpenChoreo,go,make go.build,https://github.com/openchoreo/openchoreo,8,ebpf,87.309
+Opencost,go,make go/bin,https://github.com/opencost/opencost,1,clean,80.398
+Opencost,go,make go/bin,https://github.com/opencost/opencost,1,ebpf,89.130
+Opencost,go,make go/bin,https://github.com/opencost/opencost,2,clean,79.805
+Opencost,go,make go/bin,https://github.com/opencost/opencost,2,ebpf,90.374
+Opencost,go,make go/bin,https://github.com/opencost/opencost,3,clean,78.207
+Opencost,go,make go/bin,https://github.com/opencost/opencost,3,ebpf,88.955
+Opencost,go,make go/bin,https://github.com/opencost/opencost,4,clean,79.933
+Opencost,go,make go/bin,https://github.com/opencost/opencost,4,ebpf,89.247
+Opencost,go,make go/bin,https://github.com/opencost/opencost,5,clean,79.837
+Opencost,go,make go/bin,https://github.com/opencost/opencost,5,ebpf,89.715
+Opencost,go,make go/bin,https://github.com/opencost/opencost,6,clean,79.330
+Opencost,go,make go/bin,https://github.com/opencost/opencost,6,ebpf,88.300
+Opencost,go,make go/bin,https://github.com/opencost/opencost,7,clean,81.006
+Opencost,go,make go/bin,https://github.com/opencost/opencost,7,ebpf,89.872
+Opencost,go,make go/bin,https://github.com/opencost/opencost,8,clean,80.644
+Opencost,go,make go/bin,https://github.com/opencost/opencost,8,ebpf,89.820
+OpenFGA,go,make build,https://github.com/openfga/openfga,1,clean,43.647
+OpenFGA,go,make build,https://github.com/openfga/openfga,1,ebpf,46.863
+OpenFGA,go,make build,https://github.com/openfga/openfga,2,clean,42.868
+OpenFGA,go,make build,https://github.com/openfga/openfga,2,ebpf,46.401
+OpenFGA,go,make build,https://github.com/openfga/openfga,3,clean,43.164
+OpenFGA,go,make build,https://github.com/openfga/openfga,3,ebpf,45.952
+OpenFGA,go,make build,https://github.com/openfga/openfga,4,clean,42.882
+OpenFGA,go,make build,https://github.com/openfga/openfga,4,ebpf,46.307
+OpenFGA,go,make build,https://github.com/openfga/openfga,5,clean,42.990
+OpenFGA,go,make build,https://github.com/openfga/openfga,5,ebpf,46.098
+OpenFGA,go,make build,https://github.com/openfga/openfga,6,clean,42.741
+OpenFGA,go,make build,https://github.com/openfga/openfga,6,ebpf,46.858
+OpenFGA,go,make build,https://github.com/openfga/openfga,7,clean,42.659
+OpenFGA,go,make build,https://github.com/openfga/openfga,7,ebpf,46.376
+OpenFGA,go,make build,https://github.com/openfga/openfga,8,clean,42.777
+OpenFGA,go,make build,https://github.com/openfga/openfga,8,ebpf,46.481
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,1,clean,28.019
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,1,ebpf,29.459
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,2,clean,27.461
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,2,ebpf,29.777
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,3,clean,28.038
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,3,ebpf,29.560
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,4,clean,27.837
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,4,ebpf,29.864
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,5,clean,27.878
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,5,ebpf,29.607
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,6,clean,27.644
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,6,ebpf,29.745
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,7,clean,28.011
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,7,ebpf,29.567
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,8,clean,27.930
+OpenFunction,go,make binary,https://github.com/OpenFunction/OpenFunction,8,ebpf,30.072
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,1,clean,99.548
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,1,ebpf,101.290
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,2,clean,99.029
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,2,ebpf,102.347
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,3,clean,98.116
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,3,ebpf,100.938
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,4,clean,98.892
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,4,ebpf,102.698
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,5,clean,99.211
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,5,ebpf,101.381
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,6,clean,98.280
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,6,ebpf,101.098
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,7,clean,99.120
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,7,ebpf,101.225
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,8,clean,99.178
+openGemini,go,make go-build,https://github.com/openGemini/openGemini,8,ebpf,101.610
+OpenKruise,go,make build,https://github.com/openkruise/kruise,1,clean,127.061
+OpenKruise,go,make build,https://github.com/openkruise/kruise,1,ebpf,135.802
+OpenKruise,go,make build,https://github.com/openkruise/kruise,2,clean,124.111
+OpenKruise,go,make build,https://github.com/openkruise/kruise,2,ebpf,136.432
+OpenKruise,go,make build,https://github.com/openkruise/kruise,3,clean,125.069
+OpenKruise,go,make build,https://github.com/openkruise/kruise,3,ebpf,132.677
+OpenKruise,go,make build,https://github.com/openkruise/kruise,4,clean,122.419
+OpenKruise,go,make build,https://github.com/openkruise/kruise,4,ebpf,132.398
+OpenKruise,go,make build,https://github.com/openkruise/kruise,5,clean,127.156
+OpenKruise,go,make build,https://github.com/openkruise/kruise,5,ebpf,136.178
+OpenKruise,go,make build,https://github.com/openkruise/kruise,6,clean,123.351
+OpenKruise,go,make build,https://github.com/openkruise/kruise,6,ebpf,132.708
+OpenKruise,go,make build,https://github.com/openkruise/kruise,7,clean,122.953
+OpenKruise,go,make build,https://github.com/openkruise/kruise,7,ebpf,131.087
+OpenKruise,go,make build,https://github.com/openkruise/kruise,8,clean,123.672
+OpenKruise,go,make build,https://github.com/openkruise/kruise,8,ebpf,132.489
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,1,clean,74.409
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,1,ebpf,77.326
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,2,clean,72.887
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,2,ebpf,77.524
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,3,clean,73.961
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,3,ebpf,78.112
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,4,clean,73.423
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,4,ebpf,77.461
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,5,clean,74.103
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,5,ebpf,76.943
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,6,clean,73.000
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,6,ebpf,78.308
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,7,clean,73.050
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,7,ebpf,76.603
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,8,clean,73.084
+OpenYurt,go,make build,https://github.com/openyurtio/openyurt,8,ebpf,78.074
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,1,clean,65.592
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,1,ebpf,55.321
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,2,clean,49.441
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,2,ebpf,56.053
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,3,clean,50.004
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,3,ebpf,56.540
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,4,clean,49.998
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,4,ebpf,56.143
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,5,clean,50.043
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,5,ebpf,57.577
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,6,clean,49.723
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,6,ebpf,58.229
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,7,clean,50.456
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,7,ebpf,57.452
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,8,clean,49.192
+Operator Framework,go,make build,https://github.com/operator-framework/operator-sdk,8,ebpf,55.701
+Thanos,go,make build,https://github.com/thanos-io/thanos,1,clean,59.042
+Thanos,go,make build,https://github.com/thanos-io/thanos,1,ebpf,64.441
+Thanos,go,make build,https://github.com/thanos-io/thanos,2,clean,58.686
+Thanos,go,make build,https://github.com/thanos-io/thanos,2,ebpf,64.768
+Thanos,go,make build,https://github.com/thanos-io/thanos,3,clean,59.206
+Thanos,go,make build,https://github.com/thanos-io/thanos,3,ebpf,64.648
+Thanos,go,make build,https://github.com/thanos-io/thanos,4,clean,58.279
+Thanos,go,make build,https://github.com/thanos-io/thanos,4,ebpf,64.580
+Thanos,go,make build,https://github.com/thanos-io/thanos,5,clean,59.282
+Thanos,go,make build,https://github.com/thanos-io/thanos,5,ebpf,63.277
+Thanos,go,make build,https://github.com/thanos-io/thanos,6,clean,58.736
+Thanos,go,make build,https://github.com/thanos-io/thanos,6,ebpf,74.331
+Thanos,go,make build,https://github.com/thanos-io/thanos,7,clean,58.335
+Thanos,go,make build,https://github.com/thanos-io/thanos,7,ebpf,62.975
+Thanos,go,make build,https://github.com/thanos-io/thanos,8,clean,56.776
+Thanos,go,make build,https://github.com/thanos-io/thanos,8,ebpf,63.979
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,1,clean,53.316
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,1,ebpf,11.129
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,2,clean,9.612
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,2,ebpf,10.866
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,3,clean,9.642
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,3,ebpf,10.805
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,4,clean,9.815
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,4,ebpf,11.062
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,5,clean,9.886
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,5,ebpf,10.886
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,6,clean,9.631
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,6,ebpf,11.007
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,7,clean,9.842
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,7,ebpf,10.793
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,8,clean,9.723
+The Update Framework (TUF),python,python -m build,https://github.com/theupdateframework/python-tuf,8,ebpf,10.883
+vitess,go,make build,https://github.com/vitessio/vitess,1,clean,81.723
+vitess,go,make build,https://github.com/vitessio/vitess,1,ebpf,90.663
+vitess,go,make build,https://github.com/vitessio/vitess,2,clean,75.291
+vitess,go,make build,https://github.com/vitessio/vitess,2,ebpf,87.753
+vitess,go,make build,https://github.com/vitessio/vitess,3,clean,75.888
+vitess,go,make build,https://github.com/vitessio/vitess,3,ebpf,87.499
+vitess,go,make build,https://github.com/vitessio/vitess,4,clean,75.545
+vitess,go,make build,https://github.com/vitessio/vitess,4,ebpf,88.846
+vitess,go,make build,https://github.com/vitessio/vitess,5,clean,83.857
+vitess,go,make build,https://github.com/vitessio/vitess,5,ebpf,90.948
+vitess,go,make build,https://github.com/vitessio/vitess,6,clean,77.977
+vitess,go,make build,https://github.com/vitessio/vitess,6,ebpf,91.933
+vitess,go,make build,https://github.com/vitessio/vitess,7,clean,78.080
+vitess,go,make build,https://github.com/vitessio/vitess,7,ebpf,87.798
+vitess,go,make build,https://github.com/vitessio/vitess,8,clean,75.204
+vitess,go,make build,https://github.com/vitessio/vitess,8,ebpf,88.111
+Volcano,go,make all,https://github.com/volcano-sh/volcano,1,clean,118.577
+Volcano,go,make all,https://github.com/volcano-sh/volcano,1,ebpf,122.735
+Volcano,go,make all,https://github.com/volcano-sh/volcano,2,clean,116.480
+Volcano,go,make all,https://github.com/volcano-sh/volcano,2,ebpf,121.298
+Volcano,go,make all,https://github.com/volcano-sh/volcano,3,clean,116.940
+Volcano,go,make all,https://github.com/volcano-sh/volcano,3,ebpf,120.355
+Volcano,go,make all,https://github.com/volcano-sh/volcano,4,clean,114.865
+Volcano,go,make all,https://github.com/volcano-sh/volcano,4,ebpf,120.225
+Volcano,go,make all,https://github.com/volcano-sh/volcano,5,clean,118.136
+Volcano,go,make all,https://github.com/volcano-sh/volcano,5,ebpf,123.231
+Volcano,go,make all,https://github.com/volcano-sh/volcano,6,clean,114.557
+Volcano,go,make all,https://github.com/volcano-sh/volcano,6,ebpf,119.575
+Volcano,go,make all,https://github.com/volcano-sh/volcano,7,clean,114.579
+Volcano,go,make all,https://github.com/volcano-sh/volcano,7,ebpf,118.864
+Volcano,go,make all,https://github.com/volcano-sh/volcano,8,clean,115.372
+Volcano,go,make all,https://github.com/volcano-sh/volcano,8,ebpf,119.675
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,1,clean,342.407
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,1,ebpf,362.787
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,2,clean,328.310
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,2,ebpf,356.033
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,3,clean,332.378
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,3,ebpf,362.889
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,4,clean,327.657
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,4,ebpf,360.404
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,5,clean,328.646
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,5,ebpf,356.678
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,6,clean,325.704
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,6,ebpf,360.642
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,7,clean,324.944
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,7,ebpf,354.380
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,8,clean,323.784
+wasmcloud,rust,cargo build --release,https://github.com/wasmCloud/wasmCloud,8,ebpf,358.893

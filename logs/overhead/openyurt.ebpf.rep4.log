@@ -1,0 +1,372 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (7.746e-05s)"
+level=info msg="Finished git attestor... (0.082248694s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.418188137s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+GOPROXY=https://proxy.golang.org,direct GIT_VERSION=dev-fbefb6b bash hack/make-rules/build.sh 
++++ dirname hack/make-rules/build.sh
+++ cd hack/make-rules/../..
+++ pwd -P
++ YURT_ROOT=/home/jake/sbomit-overhead-experiment/repos/openyurt
++ source /home/jake/sbomit-overhead-experiment/repos/openyurt/hack/lib/init.sh
+++ set -o errexit
+++ set -o nounset
+++ set -o pipefail
++++ head -1 /home/jake/sbomit-overhead-experiment/repos/openyurt/go.mod
++++ awk '{print $2}'
+++ YURT_MOD=github.com/openyurtio/openyurt
+++ YURT_OUTPUT_DIR=/home/jake/sbomit-overhead-experiment/repos/openyurt/_output
+++ YURT_BIN_DIR=/home/jake/sbomit-overhead-experiment/repos/openyurt/_output/bin
+++ YURT_LOCAL_BIN_DIR=/home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin
+++ PROJECT_PREFIX=yurt
+++ LABEL_PREFIX=openyurt.io
+++ GIT_VERSION=dev-fbefb6b
++++ git rev-parse HEAD
+++ GIT_COMMIT=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
++++ date -u +%Y-%m-%dT%H:%M:%SZ
+++ BUILD_DATE=2026-09-05T20:44:51Z
+++ NODEPOOL_LABEL_KEY=apps.openyurt.io/nodepool
+++ source /home/jake/sbomit-overhead-experiment/repos/openyurt/hack/lib/common.sh
++++ set -x
++ source /home/jake/sbomit-overhead-experiment/repos/openyurt/hack/lib/build.sh
+++ set -x
++ YURT_ALL_TARGETS=('yurtadm' 'yurt-node-servant' 'yurthub' 'yurt-manager' 'yurt-iot-dock')
++ readonly YURT_ALL_TARGETS
+++ get_binary_dir_with_arch /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin
++++ go env GOOS
++++ go env GOARCH
+++ echo /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ rm -rf /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ build_binaries
++ local goflags goldflags gcflags
+++ project_info
+++ PROJECT_INFO_PKG=github.com/openyurtio/openyurt/pkg/projectinfo
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt'
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io'
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b'
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d'
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z'
++++ get_maintained_versions
++++ MAINTAINED_VERSION_NUM=3
++++ tr ' ' ,
+++++ git for-each-ref refs/tags --sort=authordate
+++++ awk '{print $3}'
+++++ awk -F / '{print $3}'
++++ allVersions=
+++++ git for-each-ref refs/tags --sort=authordate
+++++ awk 'END{print}'
+++++ awk '{print $3}'
+++++ awk -F / '{print $3}'
++++ latestVersion=
++++ [[ -z '' ]]
++++ return 0
+++ maintainingVersions=
+++ versionSeparator=,
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,'
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions='
+++ echo '-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool'
++ goldflags='-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool'
++ gcflags=
++ goflags=
++ targets=()
++ local -a targets
++ local arg
++ [[ 0 -eq 0 ]]
++ targets=("${YURT_ALL_TARGETS[@]}")
+++ get_binary_dir_with_arch /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin
++++ go env GOOS
++++ go env GOARCH
+++ echo /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ local target_bin_dir=/home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ mkdir -p /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ cd /home/jake/sbomit-overhead-experiment/repos/openyurt/_output/local/bin/linux/amd64
++ for binary in "${targets[@]}"
++ echo 'Building yurtadm'
+Building yurtadm
+++ get_output_name yurtadm
++++ canonicalize_target yurtadm
++++ local target=yurtadm
++++ [[ yurtadm =~ ^cmd/.* ]]
++++ echo yurtadm
+++ local oup_name=yurtadm
+++ PROJECT_PREFIX=yurt
+++ '[' -z yurt ']'
+++ '[' yurt = yurt ']'
+++ oup_name=yurtadm
+++ echo yurtadm
+++ canonicalize_target yurtadm
+++ local target=yurtadm
+++ [[ yurtadm =~ ^cmd/.* ]]
+++ echo yurtadm
++ go build -o yurtadm -ldflags '-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool' -gcflags '' /home/jake/sbomit-overhead-experiment/repos/openyurt/cmd/yurtadm
+go: downloading github.com/spf13/cobra v1.9.1
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading github.com/spf13/pflag v1.0.6
+go: downloading k8s.io/apimachinery v0.34.0
+go: downloading github.com/lithammer/dedent v1.1.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/prometheus/client_golang v1.22.0
+go: downloading k8s.io/client-go v0.34.0
+go: downloading gopkg.in/cheggaaa/pb.v1 v1.0.28
+go: downloading k8s.io/api v0.34.0
+go: downloading github.com/coreos/go-iptables v0.8.0
+go: downloading github.com/hashicorp/go-version v1.9.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading k8s.io/cli-runtime v0.34.0
+go: downloading sigs.k8s.io/controller-runtime v0.19.5
+go: downloading k8s.io/cluster-bootstrap v0.34.0
+go: downloading github.com/mattn/go-runewidth v0.0.16
+go: downloading golang.org/x/sys v0.46.0
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.6
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/client_model v0.6.1
+go: downloading github.com/prometheus/common v0.62.0
+go: downloading github.com/prometheus/procfs v0.15.1
+go: downloading google.golang.org/protobuf v1.36.10
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.0
+go: downloading github.com/opencontainers/selinux v1.13.1
+go: downloading github.com/kubernetes/kubernetes v1.34.0
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: downloading github.com/rivo/uniseg v0.2.0
+go: downloading github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
+go: downloading github.com/moby/term v0.5.0
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/evanphx/json-patch/v5 v5.9.0
+go: downloading github.com/evanphx/json-patch v5.9.11+incompatible
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading go.yaml.in/yaml/v2 v2.4.2
+go: downloading github.com/cyphar/filepath-securejoin v0.6.0
+go: downloading gopkg.in/go-jose/go-jose.v2 v2.6.3
+go: downloading k8s.io/kube-openapi v0.0.0-20250710124328-f3f2b991d03b
+go: downloading k8s.io/apiextensions-apiserver v0.34.0
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/fxamacker/cbor/v2 v2.9.0
+go: downloading golang.org/x/net v0.56.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading golang.org/x/crypto v0.53.0
+go: downloading golang.org/x/term v0.44.0
+go: downloading github.com/google/gnostic-models v0.7.0
+go: downloading golang.org/x/time v0.9.0
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading github.com/google/uuid v1.6.0
+go: downloading golang.org/x/oauth2 v0.34.0
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.12.0
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/emicklei/go-restful/v3 v3.12.2
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading golang.org/x/text v0.38.0
+go: downloading github.com/distribution/reference v0.6.0
+go: downloading k8s.io/apiserver v0.34.0
+go: downloading k8s.io/component-helpers v0.34.0
+go: downloading k8s.io/component-base v0.34.0
+go: downloading k8s.io/controller-manager v0.34.0
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading go.opentelemetry.io/otel/trace v1.43.0
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading go.opentelemetry.io/otel v1.43.0
++ for binary in "${targets[@]}"
++ echo 'Building yurt-node-servant'
+Building yurt-node-servant
+++ get_output_name yurt-node-servant
++++ canonicalize_target yurt-node-servant
++++ local target=yurt-node-servant
++++ [[ yurt-node-servant =~ ^cmd/.* ]]
++++ echo yurt-node-servant
+++ local oup_name=yurt-node-servant
+++ PROJECT_PREFIX=yurt
+++ '[' -z yurt ']'
+++ '[' yurt = yurt ']'
+++ oup_name=yurt-node-servant
+++ echo yurt-node-servant
+++ canonicalize_target yurt-node-servant
+++ local target=yurt-node-servant
+++ [[ yurt-node-servant =~ ^cmd/.* ]]
+++ echo yurt-node-servant
++ go build -o yurt-node-servant -ldflags '-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool' -gcflags '' /home/jake/sbomit-overhead-experiment/repos/openyurt/cmd/yurt-node-servant
++ for binary in "${targets[@]}"
++ echo 'Building yurthub'
+Building yurthub
+++ get_output_name yurthub
++++ canonicalize_target yurthub
++++ local target=yurthub
++++ [[ yurthub =~ ^cmd/.* ]]
++++ echo yurthub
+++ local oup_name=yurthub
+++ PROJECT_PREFIX=yurt
+++ '[' -z yurt ']'
+++ '[' yurt = yurt ']'
+++ oup_name=yurthub
+++ echo yurthub
+++ canonicalize_target yurthub
+++ local target=yurthub
+++ [[ yurthub =~ ^cmd/.* ]]
+++ echo yurthub
++ go build -o yurthub -ldflags '-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool' -gcflags '' /home/jake/sbomit-overhead-experiment/repos/openyurt/cmd/yurthub
+go: downloading github.com/gorilla/mux v1.8.0
+go: downloading k8s.io/kubectl v0.34.0
+go: downloading github.com/coreos/go-systemd/v22 v22.5.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.58.0
+go: downloading github.com/go-jose/go-jose/v3 v3.0.5
+go: downloading github.com/golang-jwt/jwt v3.2.2+incompatible
+go: downloading github.com/fsnotify/fsnotify v1.9.0
+go: downloading go.opentelemetry.io/otel/metric v1.43.0
+go: downloading google.golang.org/grpc v1.79.3
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.2.1
+go: downloading github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.34.0
+go: downloading github.com/vishvananda/netlink v1.3.1
+go: downloading go.opentelemetry.io/otel/sdk v1.43.0
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/google/btree v1.1.3
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.34.0
+go: downloading github.com/google/cel-go v0.29.0
+go: downloading sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.30.2
+go: downloading github.com/NYTimes/gziphandler v1.1.1
+go: downloading k8s.io/kms v0.34.0
+go: downloading github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.6.4
+go: downloading go.etcd.io/etcd/client/v3 v3.6.4
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0
+go: downloading go.uber.org/zap v1.27.0
+go: downloading github.com/openyurtio/apiserver-network-proxy v0.1.0
+go: downloading golang.org/x/sync v0.21.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217
+go: downloading go.opentelemetry.io/proto/otlp v1.5.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading go.etcd.io/etcd/api/v3 v3.6.4
+go: downloading github.com/vishvananda/netns v0.0.5
+go: downloading github.com/coreos/go-semver v0.3.1
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/cenkalti/backoff/v4 v4.3.0
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3
+go: downloading cel.dev/expr v0.25.1
+go: downloading k8s.io/kube-controller-manager v0.34.0
+go: downloading golang.org/x/exp v0.0.0-20240823005443-9b4947da3948
+go: downloading gomodules.xyz/jsonpatch/v2 v2.4.0
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.1
+go: downloading k8s.io/cloud-provider v0.34.0
++ for binary in "${targets[@]}"
++ echo 'Building yurt-manager'
+Building yurt-manager
+++ get_output_name yurt-manager
++++ canonicalize_target yurt-manager
++++ local target=yurt-manager
++++ [[ yurt-manager =~ ^cmd/.* ]]
++++ echo yurt-manager
+++ local oup_name=yurt-manager
+++ PROJECT_PREFIX=yurt
+++ '[' -z yurt ']'
+++ '[' yurt = yurt ']'
+++ oup_name=yurt-manager
+++ echo yurt-manager
+++ canonicalize_target yurt-manager
+++ local target=yurt-manager
+++ [[ yurt-manager =~ ^cmd/.* ]]
+++ echo yurt-manager
++ go build -o yurt-manager -ldflags '-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool' -gcflags '' /home/jake/sbomit-overhead-experiment/repos/openyurt/cmd/yurt-manager
+go: downloading github.com/go-logr/zapr v1.3.0
+go: downloading k8s.io/kubelet v0.34.0
+go: downloading github.com/projectcalico/api v0.0.0-20240708202104-e3f70b269c2c
++ for binary in "${targets[@]}"
++ echo 'Building yurt-iot-dock'
+Building yurt-iot-dock
+++ get_output_name yurt-iot-dock
++++ canonicalize_target yurt-iot-dock
++++ local target=yurt-iot-dock
++++ [[ yurt-iot-dock =~ ^cmd/.* ]]
++++ echo yurt-iot-dock
+++ local oup_name=yurt-iot-dock
+++ PROJECT_PREFIX=yurt
+++ '[' -z yurt ']'
+++ '[' yurt = yurt ']'
+++ oup_name=yurt-iot-dock
+++ echo yurt-iot-dock
+++ canonicalize_target yurt-iot-dock
+++ local target=yurt-iot-dock
+++ [[ yurt-iot-dock =~ ^cmd/.* ]]
+++ echo yurt-iot-dock
++ go build -o yurt-iot-dock -ldflags '-s -w -X github.com/openyurtio/openyurt/pkg/projectinfo.projectPrefix=yurt
+-X github.com/openyurtio/openyurt/pkg/projectinfo.labelPrefix=openyurt.io
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitVersion=dev-fbefb6b
+-X github.com/openyurtio/openyurt/pkg/projectinfo.gitCommit=fbefb6baca665cf4431cf37100a9cc0c0528fb4d
+-X github.com/openyurtio/openyurt/pkg/projectinfo.buildDate=2026-09-05T20:44:51Z
+-X github.com/openyurtio/openyurt/pkg/projectinfo.separator=,
+-X github.com/openyurtio/openyurt/pkg/projectinfo.maintainingVersions=
+-X github.com/openyurtio/openyurt/pkg/projectinfo.nodePoolLabelKey=apps.openyurt.io/nodepool' -gcflags '' /home/jake/sbomit-overhead-experiment/repos/openyurt/cmd/yurt-iot-dock
+go: downloading github.com/edgexfoundry/go-mod-core-contracts/v3 v3.1.0
+go: downloading github.com/go-resty/resty/v2 v2.12.0
+go: downloading github.com/go-playground/validator/v10 v10.15.5
+go: downloading github.com/go-playground/universal-translator v0.18.1
+go: downloading github.com/gabriel-vasile/mimetype v1.4.2
+go: downloading github.com/leodido/go-urn v1.2.4
+go: downloading github.com/go-playground/locales v0.14.1
+level=info msg="Finished command-run attestor... (75.190127836s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.353913012s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

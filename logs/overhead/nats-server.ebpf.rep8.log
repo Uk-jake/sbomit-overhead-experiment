@@ -1,0 +1,31 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (9.255e-05s)"
+level=info msg="Finished git attestor... (0.044358386s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.277166329s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading go1.26.8 (linux/amd64)
+go: downloading github.com/klauspost/compress v1.20.0
+go: downloading github.com/nats-io/jwt/v2 v2.8.2
+go: downloading github.com/minio/highwayhash v1.0.4
+go: downloading github.com/antithesishq/antithesis-sdk-go v0.8.0-default-no-op
+go: downloading github.com/nats-io/nkeys v0.4.16
+go: downloading github.com/nats-io/nuid v1.0.1
+go: downloading golang.org/x/crypto v0.56.0
+go: downloading golang.org/x/time v0.15.0
+go: downloading golang.org/x/sys v0.47.0
+level=info msg="Finished command-run attestor... (20.93618689s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.063324865s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

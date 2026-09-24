@@ -1,0 +1,72 @@
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-agent binary for linux/amd64 ...
+go: downloading k8s.io/component-base v0.32.4
+go: downloading github.com/clusternet/apimachinery v0.23.0-alpha.0.0.20250624132408-ceaa33cb8834
+go: downloading github.com/clusternet/apiserver v0.0.0-20250421025106-b12c3678f3d2
+go: downloading k8s.io/client-go v0.32.4
+go: downloading k8s.io/cluster-bootstrap v0.32.4
+go: downloading k8s.io/controller-manager v0.32.4
+go: downloading k8s.io/api v0.32.4
+go: downloading k8s.io/metrics v0.32.4
+go: downloading k8s.io/utils v0.0.0-20241210054802-24370beab758
+go: downloading sigs.k8s.io/mcs-api v0.1.1-0.20230217171204-d9e516ac3939
+go: downloading github.com/json-iterator/go v1.1.13-0.20220915233716-71ac16282d12
+go: downloading github.com/mattbaird/jsonpatch v0.0.0-20200820163806-098863c1fc24
+go: downloading helm.sh/helm/v3 v3.15.2
+go: downloading k8s.io/cli-runtime v0.32.4
+go: downloading k8s.io/kubectl v0.32.4
+go: downloading go.opentelemetry.io/otel/trace v1.28.0
+go: downloading github.com/gorilla/websocket v1.5.0
+go: downloading github.com/rancher/remotedialer v0.3.0
+go: downloading github.com/dixudx/yacht v0.10.1
+go: downloading k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7
+go: downloading go.opentelemetry.io/otel v1.28.0
+go: downloading go.opentelemetry.io/otel/metric v1.28.0
+go: downloading go.opentelemetry.io/otel/sdk v1.28.0
+go: downloading golang.org/x/sys v0.34.0
+go: downloading google.golang.org/grpc v1.65.0
+go: downloading golang.org/x/crypto v0.40.0
+go: downloading golang.org/x/net v0.42.0
+go: downloading github.com/Masterminds/semver/v3 v3.2.1
+go: downloading github.com/Masterminds/sprig/v3 v3.2.3
+go: downloading golang.org/x/term v0.33.0
+go: downloading github.com/jmoiron/sqlx v1.3.5
+go: downloading github.com/rubenv/sql-migrate v1.5.2
+go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.5.0
+go: downloading github.com/containerd/containerd v1.7.29
+go: downloading oras.land/oras-go v1.2.5
+go: downloading k8s.io/apiextensions-apiserver v0.32.4
+go: downloading google.golang.org/protobuf v1.36.1
+go: downloading sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.0
+go: downloading k8s.io/kms v0.32.4
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.5.16
+go: downloading go.etcd.io/etcd/client/v3 v3.5.16
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20240826202546-f6391c0de4c7
+go: downloading github.com/cyphar/filepath-securejoin v0.2.4
+go: downloading github.com/xeipuuv/gojsonschema v1.2.0
+go: downloading golang.org/x/text v0.27.0
+go: downloading github.com/imdario/mergo v0.3.13
+go: downloading github.com/shopspring/decimal v1.3.1
+go: downloading github.com/spf13/cast v1.5.1
+go: downloading github.com/docker/cli v25.0.1+incompatible
+go: downloading github.com/docker/docker v25.0.5+incompatible
+go: downloading github.com/docker/go-connections v0.5.0
+go: downloading k8s.io/component-helpers v0.32.4
+go: downloading cel.dev/expr v0.18.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20240826202546-f6391c0de4c7
+go: downloading github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
+go: downloading go.etcd.io/etcd/api/v3 v3.5.16
+go: downloading github.com/mattn/go-runewidth v0.0.14
+go: downloading github.com/klauspost/compress v1.16.7
+go: downloading golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6
+go: downloading github.com/rivo/uniseg v0.4.2
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-controller-manager binary for linux/amd64 ...
+go: downloading sigs.k8s.io/cluster-api v1.6.8
+go: downloading github.com/onsi/gomega v1.36.2
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-hub binary for linux/amd64 ...
+go: downloading k8s.io/kube-aggregator v0.32.4
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-scheduler binary for linux/amd64 ...

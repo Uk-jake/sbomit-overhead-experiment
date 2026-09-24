@@ -1,0 +1,94 @@
+name	repo_url	dir	build_dir	build_cmd	lang
+CNI	https://github.com/containernetworking/cni	cni	.	go build -o ./bin/cnitool ./cnitool/	go
+cloud-custodian	https://github.com/cloud-custodian/cloud-custodian	cloud-custodian	.	make pkg-build-wheel	python
+Cartography	https://github.com/cartography-cncf/cartography	cartography	.	uv build	python
+in-toto	https://github.com/in-toto/in-toto	in-toto	.	python -m build	python
+The Update Framework (TUF)	https://github.com/theupdateframework/python-tuf	python-tuf	.	python -m build	python
+Notary Project	https://github.com/notaryproject/notation	notation	.	make build	go
+keylime	https://github.com/keylime/keylime	keylime	.	python3 -m build --sdist --wheel --outdir dist/ .	python
+container2wasm	https://github.com/container2wasm/container2wasm	container2wasm	.	make build	go
+NATS	https://github.com/nats-io/nats-server	nats-server	.	CGO_ENABLED=0 go build .	go
+BFE	https://github.com/bfenetworks/bfe	bfe	.	make build	go
+atlantis	https://github.com/runatlantis/atlantis	atlantis	.	make build-service	go
+OAuth2 Proxy	https://github.com/oauth2-proxy/oauth2-proxy	oauth2-proxy	.	make build	go
+copacetic	https://github.com/project-copacetic/copacetic	copacetic	.	make build	go
+kudo	https://github.com/kudobuilder/kudo	kudo	.	make manager-fast	go
+OpenFunction	https://github.com/OpenFunction/OpenFunction	OpenFunction	.	make binary	go
+ko	https://github.com/ko-build/ko	ko	.	go build -o ko .	go
+Distribution	https://github.com/distribution/distribution	distribution	.	make binaries	go
+emissary	https://github.com/emissary-ingress/emissary	emissary	.	go build -o ./bin/ ./cmd/...	go
+contour	https://github.com/projectcontour/contour	contour	.	make build	go
+kube-burner	https://github.com/kube-burner/kube-burner	kube-burner	.	make build	go
+kepler	https://github.com/sustainable-computing-io/kepler	kepler	.	make build	go
+Interlink	https://github.com/interlink-hq/interLink	interLink	.	make all	go
+ContainerSSH	https://github.com/containerssh/containerssh	containerssh	.	go build	go
+containerd	https://github.com/containerd/containerd	containerd	.	make all	go
+dragonfly	https://github.com/dragonflyoss/dragonfly	dragonfly	.	make build-manager-server	go
+kubestellar	https://github.com/kubestellar/kubestellar	kubestellar	.	make build	go
+flux2	https://github.com/fluxcd/flux2	flux2	.	make build	go
+CoreDNS	https://github.com/coredns/coredns	coredns	.	make	go
+OpenFGA	https://github.com/openfga/openfga	openfga	.	make build	go
+Capsule	https://github.com/projectcapsule/capsule	capsule	.	go build -o bin/manager ./cmd/controller/	go
+kpt	https://github.com/kptdev/kpt	kpt	.	make build	go
+kube-vip	https://github.com/kube-vip/kube-vip	kube-vip	.	make build	go
+HAMi	https://github.com/Project-HAMi/HAMi	HAMi	.	make build	go
+Headlamp	https://github.com/kubernetes-sigs/headlamp	headlamp	.	make backend	go
+Operator Framework	https://github.com/operator-framework/operator-sdk	operator-sdk	.	make build	go
+Buildpack	https://github.com/buildpacks/pack	pack	.	make build	go
+KubeClipper	https://github.com/kubeclipper/kubeclipper	kubeclipper	.	make build	go
+kuadrant	https://github.com/kuadrant/kuadrant-operator	kuadrant-operator	.	make build	go
+Inspektor Gadget	https://github.com/inspektor-gadget/inspektor-gadget	inspektor-gadget	.	make ig	go
+cri-o	https://github.com/cri-o/cri-o	cri-o	.	make binaries	go
+Logging Operator	https://github.com/kube-logging/logging-operator	logging-operator	.	make manager	go
+Dex	https://github.com/dexidp/dex	dex	.	make build	go
+Bank-Vaults	https://github.com/bank-vaults/bank-vaults	bank-vaults	.	make build	go
+Clusternet	https://github.com/clusternet/clusternet	clusternet	.	make binaries	go
+Antrea	https://github.com/antrea-io/antrea	antrea	.	make bin	go
+Thanos	https://github.com/thanos-io/thanos	thanos	.	make build	go
+Kaito	https://github.com/kaito-project/kaito	kaito	.	make build-workspace	go
+OpenYurt	https://github.com/openyurtio/openyurt	openyurt	.	make build	go
+CloudNativePG	https://github.com/cloudnative-pg/cloudnative-pg	cloudnative-pg	.	make build	go
+K8up	https://github.com/k8up-io/k8up	k8up	.	make build	go
+kubefleet	https://github.com/kubefleet-dev/kubefleet	kubefleet	.	make build	go
+Easegress	https://github.com/easegress-io/easegress	easegress	.	make build	go
+Cedar	https://github.com/cedar-policy/cedar	cedar	.	cargo build --release --all-features	rust
+LoxiLB	https://github.com/loxilb-io/loxilb	loxilb	.	make	go
+Opencost	https://github.com/opencost/opencost	opencost	.	make go/bin	go
+OpenChoreo	https://github.com/openchoreo/openchoreo	openchoreo	.	make go.build	go
+K8sGPT	https://github.com/k8sgpt-ai/k8sgpt	k8sgpt	.	make build	go
+vitess	https://github.com/vitessio/vitess	vitess	.	make build	go
+kuma	https://github.com/kumahq/kuma	kuma	.	make build	go
+k8gb	https://github.com/k8gb-io/k8gb	k8gb	.	make k8gb	go
+Open Cluster Management	https://github.com/open-cluster-management-io/ocm	ocm	.	make build	go
+kube-ovn	https://github.com/kubeovn/kube-ovn	kube-ovn	.	make build-go	go
+Kgateway	https://github.com/kgateway-dev/kgateway	kgateway	.	/usr/bin/make kgateway && /usr/bin/make sds && /usr/bin/make envoyinit	go
+Kubescape	https://github.com/kubescape/kubescape	kubescape	.	make all	go
+Higress	https://github.com/higress-group/higress	higress	.	make build	go
+openGemini	https://github.com/openGemini/openGemini	openGemini	.	make go-build	go
+Eraser	https://github.com/eraser-dev/eraser	eraser	.	make build	go
+Volcano	https://github.com/volcano-sh/volcano	volcano	.	make all	go
+external-secrets	https://github.com/external-secrets/external-secrets	external-secrets	.	make build-amd64	go
+koordinator	https://github.com/koordinator-sh/koordinator	koordinator	.	make build	go
+OpenKruise	https://github.com/openkruise/kruise	kruise	.	make build	go
+kcp	https://github.com/kcp-dev/kcp	kcp	.	make build	go
+Karmada	https://github.com/karmada-io/karmada	karmada	.	make all	go
+Clusterpedia	https://github.com/clusterpedia-io/clusterpedia	clusterpedia	.	make all	go
+kanister	https://github.com/kanisterio/kanister	kanister	.	DOCKER_BUILD=false /usr/bin/make build BIN=controller ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kanctl ARCH=amd64 && DOCKER_BUILD=false /usr/bin/make build BIN=kando ARCH=amd64	go
+Jaeger	https://github.com/jaegertracing/jaeger	jaeger	.	make build-binaries	go
+Cadence Workflow	https://github.com/cadence-workflow/cadence	cadence	.	make build	go
+Aeraki Mesh	https://github.com/aeraki-mesh/aeraki	aeraki	.	make build	go
+Kubevela	https://github.com/kubevela/kubevela	kubevela	.	make build	go
+Lima	https://github.com/lima-vm/lima	lima	.	make binaries	go
+kusionStack	https://github.com/KusionStack/kusion	kusion	.	make build-local-linux	go
+ChaosMesh	https://github.com/chaos-mesh/chaos-mesh	chaos-mesh	.	make local/chaos-controller-manager	go
+Keda	https://github.com/kedacore/keda	keda	.	make build	go
+cubefs	https://github.com/cubeFS/cubefs	cubefs	.	make all	go
+KServe	https://github.com/kserve/kserve	kserve	.	make manager	go
+HwameiStor	https://github.com/hwameistor/hwameistor	hwameistor	.	make compile	go
+wasmcloud	https://github.com/wasmCloud/wasmCloud	wasmCloud	.	cargo build --release	rust
+kcl	https://github.com/kcl-lang/kcl	kcl	.	make build	rust
+Fluid	https://github.com/fluid-cloudnative/fluid	fluid	.	make build	go
+Cortex	https://github.com/cortexproject/cortex	cortex	.	make BUILD_IN_CONTAINER=false dist	go
+cilium	https://github.com/cilium/cilium	cilium	.	make build	go
+cert-manager	https://github.com/cert-manager/cert-manager	cert-manager	.	make server-binaries	go
+Open Policy Containers	https://github.com/opcr-io/policy	policy	.	make deps && make build	go

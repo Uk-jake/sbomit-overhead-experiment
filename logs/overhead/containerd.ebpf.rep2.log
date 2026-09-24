@@ -1,0 +1,43 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (0.00010433s)"
+level=info msg="Finished git attestor... (0.149862328s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (1.593283907s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading go1.26.6 (linux/amd64)
+go: downloading github.com/containerd/ttrpc v1.2.9
+go: downloading google.golang.org/grpc v1.81.1
+go: downloading google.golang.org/protobuf v1.36.11
+go: downloading github.com/containerd/typeurl/v2 v2.3.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260226221140-a57be14db171
+go: downloading github.com/opencontainers/image-spec v1.1.1
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading github.com/containerd/log v0.1.0
+go: downloading golang.org/x/sys v0.46.0
+go: downloading github.com/sirupsen/logrus v1.10.2
+go: downloading golang.org/x/net v0.55.0
+go: downloading golang.org/x/text v0.37.0
++ bin/ctr
+go build  -gcflags=-trimpath=/home/jake/go/src -buildmode=pie  -o bin/ctr -ldflags '-X github.com/containerd/containerd/v2/version.Version=84ae706 -X github.com/containerd/containerd/v2/version.Revision=84ae7063894863ebf65091b396ea34f424271e37 -X github.com/containerd/containerd/v2/version.Package=github.com/containerd/containerd/v2 -s -w ' -tags "urfave_cli_no_docs"  ./cmd/ctr
++ bin/containerd
+go build  -gcflags=-trimpath=/home/jake/go/src -buildmode=pie  -o bin/containerd -ldflags '-X github.com/containerd/containerd/v2/version.Version=84ae706 -X github.com/containerd/containerd/v2/version.Revision=84ae7063894863ebf65091b396ea34f424271e37 -X github.com/containerd/containerd/v2/version.Package=github.com/containerd/containerd/v2 -s -w ' -tags "urfave_cli_no_docs"  ./cmd/containerd
++ bin/containerd-stress
+go build  -gcflags=-trimpath=/home/jake/go/src -buildmode=pie  -o bin/containerd-stress -ldflags '-X github.com/containerd/containerd/v2/version.Version=84ae706 -X github.com/containerd/containerd/v2/version.Revision=84ae7063894863ebf65091b396ea34f424271e37 -X github.com/containerd/containerd/v2/version.Package=github.com/containerd/containerd/v2 -s -w ' -tags "urfave_cli_no_docs"  ./cmd/containerd-stress
++ bin/containerd-shim-runc-v2
+CGO_ENABLED=0 go build  -o bin/containerd-shim-runc-v2 -ldflags '-X github.com/containerd/containerd/v2/version.Version=84ae706 -X github.com/containerd/containerd/v2/version.Revision=84ae7063894863ebf65091b396ea34f424271e37 -X github.com/containerd/containerd/v2/version.Package=github.com/containerd/containerd/v2 -extldflags "-static" -s -w' -tags "urfave_cli_no_docs no_grpc" ./cmd/containerd-shim-runc-v2
++ binaries
+level=info msg="Finished command-run attestor... (47.822634177s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.417157898s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

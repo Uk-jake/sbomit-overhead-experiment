@@ -1,0 +1,16 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/operator-sdk'...
+Submodule 'website/themes/docsy' (https://github.com/asmacdo/docsy.git) registered for path 'website/themes/docsy'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/operator-sdk/website/themes/docsy'...
+From https://github.com/asmacdo/docsy
+ * branch            827627c376a2f672a0b310ac7f3516d25bb87c33 -> FETCH_HEAD
+Submodule path 'website/themes/docsy': checked out '827627c376a2f672a0b310ac7f3516d25bb87c33'
+Submodule 'assets/vendor/Font-Awesome' (https://github.com/FortAwesome/Font-Awesome.git) registered for path 'website/themes/docsy/assets/vendor/Font-Awesome'
+Submodule 'assets/vendor/bootstrap' (https://github.com/twbs/bootstrap.git) registered for path 'website/themes/docsy/assets/vendor/bootstrap'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/operator-sdk/website/themes/docsy/assets/vendor/Font-Awesome'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/operator-sdk/website/themes/docsy/assets/vendor/bootstrap'...
+From https://github.com/FortAwesome/Font-Awesome
+ * branch              538a5bc4cf7989821d052e3ff919e2bead07021c -> FETCH_HEAD
+Submodule path 'website/themes/docsy/assets/vendor/Font-Awesome': checked out '538a5bc4cf7989821d052e3ff919e2bead07021c'
+From https://github.com/twbs/bootstrap
+ * branch            3b558734382ce58b51e5fc676453bfd53bba9201 -> FETCH_HEAD
+Submodule path 'website/themes/docsy/assets/vendor/bootstrap': checked out '3b558734382ce58b51e5fc676453bfd53bba9201'

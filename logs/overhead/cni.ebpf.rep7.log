@@ -1,0 +1,25 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (8.3851e-05s)"
+level=info msg="Finished git attestor... (0.017640579s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.032841787s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading github.com/spf13/cobra v1.9.1
+go: downloading go.opentelemetry.io/otel v1.29.0
+go: downloading go.opentelemetry.io/otel/trace v1.29.0
+go: downloading github.com/spf13/pflag v1.0.6
+level=info msg="Finished command-run attestor... (9.499376123s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.016354788s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

@@ -1,0 +1,173 @@
+docker build . \
+	-t eraser-tooling \
+	-f build/tooling/Dockerfile
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [auth] library/golang:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#3 DONE 0.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 193B done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 resolve docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452 0.0s done
+#5 DONE 0.1s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 sha256:96e6e6513c13cd8bf42113565b3b2011920b24c412b2cbcb95f441a26b1903e2 125B / 125B 0.1s done
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 0B / 71.06MB 0.2s
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 8.39MB / 71.06MB 0.3s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 0B / 92.55MB 0.2s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 0B / 64.41MB 0.2s
+#5 sha256:08457856946d74c8aede7d750e185d1e479a79b8123d1b805182a580d224a6e2 0B / 24.06MB 0.2s
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 26.21MB / 71.06MB 0.5s
+#5 sha256:08457856946d74c8aede7d750e185d1e479a79b8123d1b805182a580d224a6e2 3.15MB / 24.06MB 0.3s
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 45.09MB / 71.06MB 0.6s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 25.17MB / 92.55MB 0.5s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 14.88MB / 64.41MB 0.5s
+#5 sha256:08457856946d74c8aede7d750e185d1e479a79b8123d1b805182a580d224a6e2 24.06MB / 24.06MB 0.5s done
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 62.91MB / 71.06MB 0.8s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 44.04MB / 92.55MB 0.6s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 36.70MB / 64.41MB 0.6s
+#5 sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d 12.58MB / 48.50MB 0.2s
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 71.06MB / 71.06MB 0.9s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 63.96MB / 92.55MB 0.8s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 58.72MB / 64.41MB 0.8s
+#5 sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d 32.51MB / 48.50MB 0.3s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 83.89MB / 92.55MB 0.9s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 64.41MB / 64.41MB 0.9s
+#5 sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d 48.50MB / 48.50MB 0.5s
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 92.55MB / 92.55MB 1.1s
+#5 sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 64.41MB / 64.41MB 1.2s done
+#5 sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 71.06MB / 71.06MB 1.5s done
+#5 sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 92.55MB / 92.55MB 1.5s done
+#5 sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d 48.50MB / 48.50MB 1.0s done
+#5 extracting sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d
+#5 extracting sha256:abf56b2f87242de589f03ea56779358079c07c4c099bd1e454d083538eb6666d 1.3s done
+#5 DONE 2.9s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 extracting sha256:08457856946d74c8aede7d750e185d1e479a79b8123d1b805182a580d224a6e2
+#5 extracting sha256:08457856946d74c8aede7d750e185d1e479a79b8123d1b805182a580d224a6e2 0.4s done
+#5 DONE 3.3s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 extracting sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d
+#5 extracting sha256:8cab6ce149c24516f80b26a762b6b9aaebcaf4fbe51d4c6844af7d7dbc372f2d 1.5s done
+#5 DONE 4.8s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 extracting sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73
+#5 extracting sha256:8c1ee0a41178d33d707ecac5e90dbecc99631c76982b30db6cc985a236ed7e73 1.4s done
+#5 DONE 6.2s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 extracting sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f
+#5 extracting sha256:daee4590c9478cfdac9f40a88759297738e75fbef28baa5b8ea3c56a8f9bb19f 3.6s done
+#5 DONE 9.8s
+
+#5 [1/5] FROM docker.io/library/golang:1.27.0-bookworm@sha256:ded31c68586d2e49e760acc2e65a884b23d032e9bbbed0ae0c55abd3fcaf4452
+#5 extracting sha256:96e6e6513c13cd8bf42113565b3b2011920b24c412b2cbcb95f441a26b1903e2 0.0s done
+#5 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+#5 DONE 9.8s
+
+#6 [2/5] RUN GOTOOLCHAIN=local GO111MODULE=on go install sigs.k8s.io/controller-tools/cmd/controller-gen@v0.16.4
+#6 0.312 go: downloading sigs.k8s.io/controller-tools v0.16.4
+#6 0.823 go: downloading golang.org/x/tools v0.26.0
+#6 0.823 go: downloading gopkg.in/yaml.v2 v2.4.0
+#6 0.824 go: downloading github.com/spf13/cobra v1.8.1
+#6 0.831 go: downloading github.com/gobuffalo/flect v1.0.3
+#6 0.831 go: downloading k8s.io/apiextensions-apiserver v0.31.1
+#6 0.831 go: downloading k8s.io/apimachinery v0.31.1
+#6 0.832 go: downloading k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
+#6 0.836 go: downloading github.com/fatih/color v1.17.0
+#6 0.839 go: downloading gopkg.in/yaml.v3 v3.0.1
+#6 0.845 go: downloading sigs.k8s.io/yaml v1.4.0
+#6 0.857 go: downloading k8s.io/api v0.31.1
+#6 1.016 go: downloading github.com/mattn/go-colorable v0.1.13
+#6 1.016 go: downloading github.com/mattn/go-isatty v0.0.20
+#6 1.018 go: downloading github.com/spf13/pflag v1.0.5
+#6 1.039 go: downloading golang.org/x/sys v0.26.0
+#6 1.143 go: downloading github.com/gogo/protobuf v1.3.2
+#6 1.145 go: downloading github.com/google/gofuzz v1.2.0
+#6 1.145 go: downloading k8s.io/klog/v2 v2.130.1
+#6 1.145 go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.4.1
+#6 1.145 go: downloading github.com/fxamacker/cbor/v2 v2.7.0
+#6 1.145 go: downloading golang.org/x/net v0.30.0
+#6 1.146 go: downloading sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd
+#6 1.146 go: downloading gopkg.in/inf.v0 v0.9.1
+#6 1.208 go: downloading github.com/x448/float16 v0.8.4
+#6 1.217 go: downloading github.com/go-logr/logr v1.4.2
+#6 1.439 go: downloading golang.org/x/text v0.19.0
+#6 1.449 go: downloading golang.org/x/sync v0.8.0
+#6 1.449 go: downloading golang.org/x/mod v0.21.0
+#6 1.658 go: downloading github.com/json-iterator/go v1.1.12
+#6 1.706 go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+#6 1.706 go: downloading github.com/modern-go/reflect2 v1.0.2
+#6 DONE 16.7s
+
+#7 [3/5] RUN GOTOOLCHAIN=local GO111MODULE=on go install k8s.io/code-generator/cmd/conversion-gen@v0.29.0
+#7 0.415 go: downloading k8s.io/code-generator v0.29.0
+#7 0.631 go: downloading k8s.io/klog/v2 v2.110.1
+#7 0.632 go: downloading k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01
+#7 0.703 go: downloading github.com/go-logr/logr v1.3.0
+#7 1.407 go: downloading golang.org/x/tools v0.12.0
+#7 1.914 go: downloading golang.org/x/mod v0.12.0
+#7 1.914 go: downloading golang.org/x/sys v0.13.0
+#7 DONE 4.3s
+
+#8 [4/5] RUN git config --global --add safe.directory "*"
+#8 DONE 0.2s
+
+#9 [5/5] WORKDIR /eraser
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 14.8s done
+#10 exporting manifest sha256:c4c199328812892ba117e55db1124afd762c4383de1ef06e0105a4362245afaf done
+#10 exporting config sha256:b6bf85b048903db49793f96ddaa4b5c2480bd5b4d78fb034bb24095219b9a543 done
+#10 exporting attestation manifest sha256:eb3a2de8e062fe302debc881421bd13602dd65403c0b396c0dc6341e0958ea44 0.0s done
+#10 exporting manifest list sha256:5c5723c36125a2bc7ecd8b8fabbdd1805fe7febfda0de5a5dbef755607ac39c4 done
+#10 naming to docker.io/library/eraser-tooling:latest done
+#10 unpacking to docker.io/library/eraser-tooling:latest
+#10 unpacking to docker.io/library/eraser-tooling:latest 3.9s done
+#10 DONE 18.8s
+docker run --rm -v /home/jake/sbomit-overhead-experiment/repos/eraser:/eraser eraser-tooling controller-gen object:headerFile="hack/boilerplate.go.txt" paths="./api/..."
+docker run --rm -v /home/jake/sbomit-overhead-experiment/repos/eraser:/eraser eraser-tooling conversion-gen \
+	--output-base=/eraser \
+	--input-dirs=./api/v1alpha1,./api/v1,./api/v1alpha2,./api/v1alpha3 \
+	--go-header-file=./hack/boilerplate.go.txt \
+	--output-file-base=zz_generated.conversion
+W0903 20:05:47.341381       1 parse.go:863] Making unsupported type entry "any" for: &types.Alias{obj:(*types.TypeName)(0xf6e5340a00), orig:(*types.Alias)(0xf6e533e140), tparams:(*types.TypeParamList)(nil), targs:(*types.TypeList)(nil), fromRHS:(*types.Interface)(0xba5ee0), actual:(*types.Interface)(0xba5ee0)}
+W0903 20:05:47.341966       1 parse.go:863] Making unsupported type entry "reflect.uncommonType" for: &types.Alias{obj:(*types.TypeName)(0xf6e8444d70), orig:(*types.Alias)(0xf6e6f7ab00), tparams:(*types.TypeParamList)(nil), targs:(*types.TypeList)(nil), fromRHS:(*types.Named)(0xf6e56cc080), actual:(*types.Named)(0xf6e56cc080)}
+go fmt ./...
+go: downloading sigs.k8s.io/controller-runtime v0.16.6
+go: downloading k8s.io/apimachinery v0.28.12
+go: downloading k8s.io/api v0.28.12
+go: downloading sigs.k8s.io/e2e-framework v0.0.8
+go: downloading golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.43.0
+go: downloading sigs.k8s.io/kind v0.15.0
+go: downloading k8s.io/cri-api v0.25.0
+go: downloading k8s.io/client-go v0.28.12
+go: downloading k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
+go: downloading github.com/evanphx/json-patch/v5 v5.8.0
+go: downloading k8s.io/component-base v0.28.12
+go: downloading k8s.io/apiextensions-apiserver v0.28.12
+go: downloading github.com/google/gnostic-models v0.6.9-0.20230804172637-c7be7c783f49
+go: downloading github.com/vladimirvivien/gexe v0.1.1
+go: downloading github.com/alessio/shellescape v1.4.1
+go: downloading github.com/BurntSushi/toml v1.4.0
+go vet ./...
+go: downloading github.com/onsi/ginkgo/v2 v2.14.0
+go: downloading github.com/onsi/gomega v1.30.0
+go build -o bin/manager -ldflags "-X 'github.com/eraser-dev/eraser/version.buildTime=1788368535' -X 'github.com/eraser-dev/eraser/version.vcsCommit=b31791f5a2ab0fe7c8a71715c6dbcd31f13323df' -X 'github.com/eraser-dev/eraser/version.vcsState=clean' -X 'github.com/eraser-dev/eraser/version.BuildVersion=v1.5.0-beta.0'" main.go

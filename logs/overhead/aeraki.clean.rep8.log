@@ -1,0 +1,212 @@
+gofmt -l -d ./internal
+goimports -l -d ./internal
+go test -race  `go list ./internal/... | grep -v e2e`
+go: downloading go.uber.org/atomic v1.11.0
+go: downloading github.com/envoyproxy/go-control-plane v0.11.2-0.20230811160418-a0dbac19f027
+go: downloading istio.io/istio v0.0.0-20230713183549-b39cf4080772
+go: downloading github.com/aeraki-mesh/api v1.4.1
+go: downloading github.com/aeraki-mesh/meta-protocol-control-plane-api v1.4.1
+go: downloading github.com/aeraki-mesh/client-go v1.4.1
+go: downloading istio.io/pkg v0.0.0-20230524020242-1015535057be
+go: downloading k8s.io/apimachinery v0.28.0
+go: downloading istio.io/api v0.0.0-20230713061407-06047cce866f
+go: downloading github.com/golang/protobuf v1.5.3
+go: downloading k8s.io/client-go v0.27.0
+go: downloading github.com/zhaohuabing/debounce v1.0.0
+go: downloading google.golang.org/protobuf v1.33.0
+go: downloading github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4
+go: downloading google.golang.org/grpc v1.57.1
+go: downloading sigs.k8s.io/controller-runtime v0.15.1
+go: downloading istio.io/client-go v1.18.1-0.20230713061908-17d95fabac25
+go: downloading k8s.io/api v0.27.0
+go: downloading github.com/hashicorp/go-multierror v1.1.1
+go: downloading github.com/envoyproxy/protoc-gen-validate v1.0.1
+go: downloading cloud.google.com/go/logging v1.7.0
+go: downloading github.com/spf13/cobra v1.7.0
+go: downloading github.com/go-logr/logr v1.2.4
+go: downloading github.com/spf13/pflag v1.0.5
+go: downloading go.uber.org/zap v1.24.0
+go: downloading google.golang.org/api v0.132.0
+go: downloading cloud.google.com/go v0.110.4
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20230720185612-659f7aaaa771
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.2.1
+go: downloading k8s.io/klog/v2 v2.100.1
+go: downloading google.golang.org/genproto v0.0.0-20230720185612-659f7aaaa771
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading github.com/google/gofuzz v1.2.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20230720185612-659f7aaaa771
+go: downloading contrib.go.opencensus.io/exporter/prometheus v0.4.2
+go: downloading github.com/fsnotify/fsnotify v1.6.0
+go: downloading github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+go: downloading github.com/prometheus/client_golang v1.16.0
+go: downloading go.opencensus.io v0.24.0
+go: downloading golang.org/x/net v0.36.0
+go: downloading golang.org/x/sync v0.11.0
+go: downloading github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
+go: downloading k8s.io/apiextensions-apiserver v0.28.0-beta.0
+go: downloading k8s.io/cli-runtime v0.27.0
+go: downloading k8s.io/kubectl v0.27.0
+go: downloading sigs.k8s.io/gateway-api v0.6.2
+go: downloading sigs.k8s.io/yaml v1.3.0
+go: downloading sigs.k8s.io/mcs-api v0.1.0
+go: downloading k8s.io/utils v0.0.0-20230711102312-30195339c3c7
+go: downloading github.com/imdario/mergo v0.3.5
+go: downloading golang.org/x/term v0.29.0
+go: downloading golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1
+go: downloading gopkg.in/square/go-jose.v2 v2.6.0
+go: downloading github.com/google/go-cmp v0.6.0
+go: downloading github.com/hashicorp/golang-lru/v2 v2.0.4
+go: downloading github.com/miekg/dns v1.1.55
+go: downloading github.com/mitchellh/copystructure v1.2.0
+go: downloading go.opentelemetry.io/proto/otlp v1.0.0
+go: downloading cloud.google.com/go/compute/metadata v0.2.3
+go: downloading github.com/google/cel-go v0.16.0
+go: downloading cloud.google.com/go/compute v1.20.1
+go: downloading github.com/lestrrat-go/jwx v1.2.28
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/hashicorp/errwrap v1.1.0
+go: downloading github.com/evanphx/json-patch/v5 v5.6.0
+go: downloading github.com/evanphx/json-patch v5.6.0+incompatible
+go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.2.3
+go: downloading github.com/census-instrumentation/opencensus-proto v0.4.1
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/google/gnostic v0.6.9
+go: downloading golang.org/x/time v0.3.0
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading gomodules.xyz/jsonpatch/v3 v3.0.1
+go: downloading k8s.io/apiserver v0.28.0-beta.0
+go: downloading github.com/yl2chen/cidranger v1.0.2
+go: downloading github.com/Masterminds/sprig/v3 v3.2.3
+go: downloading github.com/openshift/api v0.0.0-20230720094506-afcbe27aec7c
+go: downloading github.com/prometheus/prometheus v0.45.0
+go: downloading github.com/cespare/xxhash/v2 v2.2.0
+go: downloading github.com/google/uuid v1.3.0
+go: downloading github.com/alecholmes/xfccparser v0.1.0
+go: downloading github.com/coreos/go-oidc/v3 v3.6.0
+go: downloading github.com/gorilla/mux v1.8.0
+go: downloading github.com/spaolacci/murmur3 v1.1.0
+go: downloading github.com/prometheus/statsd_exporter v0.23.0
+go: downloading golang.org/x/sys v0.30.0
+go: downloading github.com/moby/spdystream v0.2.0
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/prometheus/client_model v0.4.0
+go: downloading github.com/prometheus/common v0.42.0
+go: downloading github.com/prometheus/procfs v0.10.1
+go: downloading github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
+go: downloading github.com/peterbourgon/diskv v2.0.1+incompatible
+go: downloading k8s.io/kube-openapi v0.0.0-20230327201221-f5883ff37f0c
+go: downloading github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
+go: downloading golang.org/x/text v0.22.0
+go: downloading sigs.k8s.io/kustomize/api v0.13.2
+go: downloading sigs.k8s.io/kustomize/kyaml v0.14.1
+go: downloading github.com/cenkalti/backoff/v4 v4.2.1
+go: downloading github.com/davecgh/go-spew v1.1.1
+go: downloading golang.org/x/oauth2 v0.10.0
+go: downloading github.com/jonboulle/clockwork v0.3.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading k8s.io/component-base v0.28.0-beta.0
+go: downloading github.com/stretchr/testify v1.8.4
+go: downloading github.com/exponent-io/jsonpath v0.0.0-20151013193312-d6023ce2651d
+go: downloading github.com/mitchellh/reflectwalk v1.0.2
+go: downloading sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd
+go: downloading github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
+go: downloading gomodules.xyz/jsonpatch/v2 v2.3.0
+go: downloading golang.org/x/crypto v0.35.0
+go: downloading cloud.google.com/go/longrunning v0.5.1
+go: downloading github.com/googleapis/gax-go/v2 v2.12.0
+go: downloading github.com/lestrrat-go/backoff/v2 v2.0.8
+go: downloading github.com/lestrrat-go/httpcc v1.0.1
+go: downloading github.com/lestrrat-go/blackmagic v1.0.2
+go: downloading github.com/lestrrat-go/iter v1.0.2
+go: downloading github.com/lestrrat-go/option v1.0.1
+go: downloading github.com/ryanuber/go-glob v1.0.0
+go: downloading gomodules.xyz/orderedmap v0.1.0
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/pmezard/go-difflib v1.0.0
+go: downloading github.com/Masterminds/goutils v1.1.1
+go: downloading github.com/Masterminds/semver/v3 v3.2.1
+go: downloading github.com/huandu/xstrings v1.4.0
+go: downloading github.com/shopspring/decimal v1.3.1
+go: downloading github.com/spf13/cast v1.5.1
+go: downloading github.com/prometheus/prom2json v1.3.2
+go: downloading github.com/alecthomas/participle v0.4.1
+go: downloading github.com/go-jose/go-jose/v3 v3.0.4
+go: downloading github.com/google/btree v1.1.2
+go: downloading github.com/go-kit/log v0.2.1
+go: downloading github.com/matttproud/golang_protobuf_extensions v1.0.4
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/chai2010/gettext-go v1.0.2
+go: downloading github.com/MakeNowJust/heredoc v1.0.0
+go: downloading github.com/mitchellh/go-wordwrap v1.0.1
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: downloading github.com/moby/term v0.0.0-20221205130635-1aeaba878587
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/go-openapi/swag v0.22.3
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/mitchellh/go-homedir v1.1.0
+go: downloading github.com/stoewer/go-strcase v1.3.0
+go: downloading github.com/antlr/antlr4/runtime/Go/antlr/v4 v4.0.0-20230305170008-8188dc5388df
+go: downloading helm.sh/helm/v3 v3.11.2
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.2
+go: downloading github.com/go-logfmt/logfmt v0.6.0
+go: downloading github.com/fvbommel/sortorder v1.0.2
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/emicklei/go-restful/v3 v3.10.1
+go: downloading github.com/go-openapi/jsonpointer v0.19.6
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/grafana/regexp v0.0.0-20221122212121-6b5c0a4cb7fd
+go: downloading github.com/hashicorp/go-version v1.6.0
+go: downloading github.com/docker/cli v24.0.4+incompatible
+go: downloading github.com/google/go-containerregistry v0.15.2
+go: downloading github.com/fatih/camelcase v1.0.0
+go: downloading github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00
+go: downloading github.com/xlab/treeprint v1.1.0
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading github.com/cyphar/filepath-securejoin v0.2.4
+go: downloading github.com/xeipuuv/gojsonschema v1.2.0
+go: downloading github.com/BurntSushi/toml v1.2.1
+go: downloading github.com/gobwas/glob v0.2.3
+go: downloading github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415
+go: downloading go.starlark.net v0.0.0-20211013185944-b0039bd2cfe3
+go: downloading github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading github.com/docker/distribution v2.8.2+incompatible
+go: downloading github.com/opencontainers/image-spec v1.1.0-rc3
+go: downloading github.com/klauspost/compress v1.16.5
+go: downloading github.com/containerd/stargz-snapshotter/estargz v0.14.3
+go: downloading github.com/vbatts/tar-split v0.11.3
+go: downloading github.com/sirupsen/logrus v1.9.0
+go: downloading github.com/docker/docker v24.0.7+incompatible
+go: downloading github.com/docker/docker-credential-helpers v0.7.0
+go: downloading github.com/googleapis/enterprise-certificate-proxy v0.2.5
+go: downloading github.com/google/s2a-go v0.1.4
+go: downloading google.golang.org/appengine v1.6.7
+?   	github.com/aeraki-mesh/aeraki/internal/bootstrap	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/ca	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/config/constants	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/controller/istio	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/controller/kube	2.105s
+ok  	github.com/aeraki-mesh/aeraki/internal/envoyfilter	2.061s
+ok  	github.com/aeraki-mesh/aeraki/internal/leaderelection	4.596s
+?   	github.com/aeraki-mesh/aeraki/internal/model	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/model/metaprotocol	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/model/protocol	1.049s
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/builder	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/matcher	1.263s
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/model	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/kafka	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/metaprotocol	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/redis	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/thrift	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/zookeeper	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/util	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/util/protoconv	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation/scheme	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation/server	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/xds	[no test files]
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./out/amd64/linux/aeraki ./cmd/aeraki/main.go

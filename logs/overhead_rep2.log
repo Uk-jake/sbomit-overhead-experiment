@@ -1,0 +1,204 @@
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+resume: 완료된 조합 0개는 건너뜀
+실행 대상: 89개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[ 1/89] CNI                      ebpf   OK      10.053s  (cmdrun 9.594604s, files 7745)
+[ 1/89] CNI                      clean  OK       9.675s
+[ 2/89] Notary Project           ebpf   OK      11.744s  (cmdrun 11.104928s, files 11290)
+[ 2/89] Notary Project           clean  OK      10.706s
+[ 3/89] kuma                     ebpf   FAIL rc=1       1.515s
+[ 3/89] kuma                     clean  FAIL rc=2       0.052s
+[ 4/89] Cartography              ebpf   OK      11.934s  (cmdrun 10.594717s, files 21382)
+[ 4/89] Cartography              clean  OK       9.326s
+[ 5/89] cloud-custodian          ebpf   OK      11.528s  (cmdrun 7.713607s, files 24644)
+[ 5/89] cloud-custodian          clean  OK       7.019s
+[ 6/89] The Update Framework (TU ebpf   OK      10.866s  (cmdrun 10.385442s, files 5564)
+[ 6/89] The Update Framework (TU clean  OK       9.612s
+[ 7/89] in-toto                  ebpf   OK      10.975s  (cmdrun 10.501688s, files 5530)
+[ 7/89] in-toto                  clean  OK       9.774s
+[ 8/89] keylime                  ebpf   OK      12.718s  (cmdrun 12.021041s, files 6858)
+[ 8/89] keylime                  clean  OK      11.373s
+[ 9/89] BFE                      ebpf   OK      21.924s  (cmdrun 19.886268s, files 35915)
+[ 9/89] BFE                      clean  OK      18.466s
+[10/89] container2wasm           ebpf   OK      14.668s  (cmdrun 14.003011s, files 15130)
+[10/89] container2wasm           clean  OK      13.612s
+[11/89] ContainerSSH             ebpf   OK      31.819s  (cmdrun 30.790157s, files 40624)
+[11/89] ContainerSSH             clean  OK      29.157s
+[12/89] Buildpack                ebpf   OK      30.529s  (cmdrun 28.621960s, files 60655)
+[12/89] Buildpack                clean  OK      26.708s
+[13/89] OpenFunction             ebpf   OK      29.777s  (cmdrun 28.774486s, files 33541)
+[13/89] OpenFunction             clean  OK      27.461s
+[14/89] ko                       ebpf   OK      30.888s  (cmdrun 29.579259s, files 67530)
+[14/89] ko                       clean  OK      27.317s
+[15/89] NATS                     ebpf   OK      21.749s  (cmdrun 20.893057s, files 17901)
+[15/89] NATS                     clean  OK      20.585s
+[16/89] copacetic                ebpf   OK      23.508s  (cmdrun 22.414969s, files 40988)
+[16/89] copacetic                clean  OK      22.143s
+[17/89] kudo                     ebpf   OK      27.290s  (cmdrun 26.310730s, files 28047)
+[17/89] kudo                     clean  OK      25.145s
+[18/89] OAuth2 Proxy             ebpf   OK      26.119s  (cmdrun 25.208377s, files 23691)
+[18/89] OAuth2 Proxy             clean  OK      24.374s
+[19/89] Distribution             ebpf   OK      29.103s  (cmdrun 27.112322s, files 20195)
+[19/89] Distribution             clean  OK      26.116s
+[20/89] dragonfly                ebpf   OK      44.078s  (cmdrun 42.467488s, files 65007)
+[20/89] dragonfly                clean  OK      41.116s
+[21/89] kubestellar              ebpf   OK      41.784s  (cmdrun 40.234799s, files 37072)
+[21/89] kubestellar              clean  OK      38.689s
+[22/89] kube-vip                 ebpf   OK      41.922s  (cmdrun 40.942157s, files 33550)
+[22/89] kube-vip                 clean  OK      39.520s
+[23/89] CoreDNS                  ebpf   OK      50.171s  (cmdrun 48.456104s, files 83885)
+[23/89] CoreDNS                  clean  OK      44.685s
+[24/89] kepler                   ebpf   OK      41.754s  (cmdrun 40.632384s, files 30513)
+[24/89] kepler                   clean  OK      39.565s
+[25/89] atlantis                 ebpf   OK      32.904s  (cmdrun 31.440304s, files 42049)
+[25/89] atlantis                 clean  OK      30.197s
+[26/89] emissary                 ebpf   OK      45.282s  (cmdrun 43.730911s, files 51162)
+[26/89] emissary                 clean  OK      41.326s
+[27/89] OpenFGA                  ebpf   OK      46.401s  (cmdrun 45.187098s, files 48275)
+[27/89] OpenFGA                  clean  OK      42.868s
+[28/89] Inspektor Gadget         ebpf   OK      49.577s  (cmdrun 47.944807s, files 67403)
+[28/89] Inspektor Gadget         clean  OK      44.149s
+[29/89] Interlink                ebpf   OK      43.891s  (cmdrun 42.336254s, files 34163)
+[29/89] Interlink                clean  OK      41.404s
+[30/89] contour                  ebpf   OK      44.438s  (cmdrun 42.848447s, files 36494)
+[30/89] contour                  clean  OK      40.686s
+[31/89] kpt                      ebpf   OK      49.541s  (cmdrun 47.934544s, files 40483)
+[31/89] kpt                      clean  OK      46.772s
+[32/89] kube-burner              ebpf   OK      51.256s  (cmdrun 49.842951s, files 59322)
+[32/89] kube-burner              clean  OK      47.563s
+[33/89] containerd               ebpf   OK      51.227s  (cmdrun 47.822634s, files 45113)
+[33/89] containerd               clean  OK      49.188s
+[34/89] flux2                    ebpf   OK      54.685s  (cmdrun 53.303492s, files 59524)
+[34/89] flux2                    clean  OK      50.130s
+[35/89] Dex                      ebpf   OK      52.936s  (cmdrun 51.907516s, files 32454)
+[35/89] Dex                      clean  OK      50.617s
+[36/89] Capsule                  ebpf   OK      49.445s  (cmdrun 48.124962s, files 46688)
+[36/89] Capsule                  clean  OK      46.557s
+[37/89] Headlamp                 ebpf   OK      49.568s  (cmdrun 46.760847s, files 59913)
+[37/89] Headlamp                 clean  OK      43.591s
+[38/89] KubeClipper              ebpf   OK      57.755s  (cmdrun 55.981799s, files 57217)
+[38/89] KubeClipper              clean  OK      53.434s
+[39/89] Logging Operator         ebpf   OK      65.885s  (cmdrun 63.575010s, files 93462)
+[39/89] Logging Operator         clean  OK      60.625s
+[40/89] ChaosMesh                ebpf   OK      69.220s  (cmdrun 67.428806s, files 88641)
+[40/89] ChaosMesh                clean  OK      62.293s
+[41/89] K8sGPT                   ebpf   OK      67.618s  (cmdrun 65.546233s, files 110282)
+[41/89] K8sGPT                   clean  OK      61.699s
+[42/89] Operator Framework       ebpf   OK      56.053s  (cmdrun 52.790584s, files 73781)
+[42/89] Operator Framework       clean  OK      49.441s
+[43/89] Antrea                   ebpf   OK      70.997s  (cmdrun 68.718458s, files 66407)
+[43/89] Antrea                   clean  OK      63.942s
+[44/89] cri-o                    ebpf   OK      64.431s  (cmdrun 60.626551s, files 26287)
+[44/89] cri-o                    clean  OK      59.608s
+[45/89] HAMi                     ebpf   OK      55.397s  (cmdrun 53.871305s, files 42645)
+[45/89] HAMi                     clean  OK      51.789s
+[46/89] Kaito                    ebpf   OK      71.826s  (cmdrun 69.064427s, files 74634)
+[46/89] Kaito                    clean  OK      63.821s
+[47/89] Thanos                   ebpf   OK      64.768s  (cmdrun 61.442862s, files 117158)
+[47/89] Thanos                   clean  OK      58.686s
+[48/89] Bank-Vaults              ebpf   OK      66.535s  (cmdrun 64.302636s, files 124124)
+[48/89] Bank-Vaults              clean  OK      60.291s
+[49/89] Clusternet               ebpf   OK      72.209s  (cmdrun 70.456477s, files 47638)
+[49/89] Clusternet               clean  OK      67.487s
+[50/89] K8up                     ebpf   OK      79.720s  (cmdrun 77.647445s, files 45036)
+[50/89] K8up                     clean  OK      75.406s
+[51/89] k8gb                     ebpf   OK      69.971s  (cmdrun 67.270468s, files 103567)
+[51/89] k8gb                     clean  OK      64.676s
+[52/89] Easegress                ebpf   OK      71.604s  (cmdrun 68.795526s, files 113822)
+[52/89] Easegress                clean  OK      64.927s
+[53/89] OpenYurt                 ebpf   OK      77.524s  (cmdrun 75.205257s, files 59262)
+[53/89] OpenYurt                 clean  OK      72.887s
+[54/89] kuadrant                 ebpf   OK      79.794s  (cmdrun 77.136719s, files 93308)
+[54/89] kuadrant                 clean  OK      72.431s
+[55/89] Cedar                    ebpf   OK      87.049s  (cmdrun 85.207740s, files 18667)
+[55/89] Cedar                    clean  OK      77.607s
+[56/89] CloudNativePG            ebpf   OK      90.904s  (cmdrun 87.261995s, files 75751)
+[56/89] CloudNativePG            clean  OK      81.565s
+[57/89] LoxiLB                   ebpf   OK      46.060s  (cmdrun 43.611982s, files 36318)
+[57/89] LoxiLB                   clean  OK      42.650s
+[58/89] OpenChoreo               ebpf   OK      88.164s  (cmdrun 85.050466s, files 65390)
+[58/89] OpenChoreo               clean  OK      84.275s
+[59/89] vitess                   ebpf   OK      87.753s  (cmdrun 81.569227s, files 112081)
+[59/89] vitess                   clean  OK      75.291s
+[60/89] Open Cluster Management  ebpf   OK      96.682s  (cmdrun 91.129697s, files 39394)
+[60/89] Open Cluster Management  clean  OK      87.546s
+[61/89] Kgateway                 ebpf   OK      94.884s  (cmdrun 92.096510s, files 80772)
+[61/89] Kgateway                 clean  OK      88.501s
+[62/89] external-secrets         ebpf   OK     118.978s  (cmdrun 115.116283s, files 180946)
+[62/89] external-secrets         clean  OK     107.209s
+[63/89] Opencost                 ebpf   OK      90.374s  (cmdrun 87.250592s, files 155875)
+[63/89] Opencost                 clean  OK      79.805s
+[64/89] Kubescape                ebpf   OK     118.012s  (cmdrun 113.691197s, files 214656)
+[64/89] Kubescape                clean  OK     105.002s
+[65/89] openGemini               ebpf   OK     102.347s  (cmdrun 99.758149s, files 62274)
+[65/89] openGemini               clean  OK      99.029s
+[66/89] kubefleet                ebpf   OK     112.487s  (cmdrun 109.291629s, files 85626)
+[66/89] kubefleet                clean  OK     102.370s
+[67/89] Eraser                   ebpf   OK      57.210s  (cmdrun 55.864547s, files 41527)
+[67/89] Eraser                   clean  OK      51.581s
+[68/89] kanister                 ebpf   OK     109.460s  (cmdrun 107.028286s, files 99774)
+[68/89] kanister                 clean  OK     103.613s
+[69/89] Higress                  ebpf   OK     108.186s  (cmdrun 95.537187s, files 186409)
+[69/89] Higress                  clean  OK      87.857s
+[70/89] koordinator              ebpf   OK     127.084s  (cmdrun 123.635689s, files 98697)
+[70/89] koordinator              clean  OK     119.766s
+[71/89] Volcano                  ebpf   OK     121.298s  (cmdrun 117.536550s, files 64215)
+[71/89] Volcano                  clean  OK     116.480s
+[72/89] kube-ovn                 ebpf   OK     109.720s  (cmdrun 106.761628s, files 118436)
+[72/89] kube-ovn                 clean  OK     102.051s
+[73/89] OpenKruise               ebpf   OK     136.432s  (cmdrun 132.574472s, files 114410)
+[73/89] OpenKruise               clean  OK     124.111s
+[74/89] Clusterpedia             ebpf   OK     131.286s  (cmdrun 125.256475s, files 55909)
+[74/89] Clusterpedia             clean  OK     121.087s
+[75/89] kcp                      ebpf   OK     138.322s  (cmdrun 134.249536s, files 100915)
+[75/89] kcp                      clean  OK     123.357s
+[76/89] Karmada                  ebpf   OK     130.053s  (cmdrun 123.942400s, files 46614)
+[76/89] Karmada                  clean  OK     123.308s
+[77/89] Kubevela                 ebpf   OK     139.777s  (cmdrun 136.729301s, files 118639)
+[77/89] Kubevela                 clean  OK     129.916s
+[78/89] Lima                     ebpf   OK     155.531s  (cmdrun 153.416476s, files 48913)
+[78/89] Lima                     clean  OK     156.388s
+[79/89] Aeraki Mesh              ebpf   OK     154.356s  (cmdrun 151.598746s, files 100061)
+[79/89] Aeraki Mesh              clean  OK     141.459s
+[80/89] kusionStack              ebpf   OK     176.371s  (cmdrun 167.223677s, files 265672)
+[80/89] kusionStack              clean  OK     145.051s
+[81/89] KServe                   ebpf   OK     273.680s  (cmdrun 262.642621s, files 305980)
+[81/89] KServe                   clean  OK     244.204s
+[82/89] Keda                     ebpf   OK     216.326s  (cmdrun 211.781056s, files 160223)
+[82/89] Keda                     clean  OK     200.249s
+[83/89] Cadence Workflow         ebpf   OK     156.450s  (cmdrun 151.325866s, files 107415)
+[83/89] Cadence Workflow         clean  OK     139.475s
+[84/89] cubefs                   ebpf   OK     220.849s  (cmdrun 213.619917s, files 40018)
+[84/89] cubefs                   clean  OK     210.646s
+[85/89] Jaeger                   ebpf   OK     148.154s  (cmdrun 143.692924s, files 102558)
+[85/89] Jaeger                   clean  OK     136.329s
+[86/89] kcl                      ebpf   OK     303.985s  (cmdrun 299.769735s, files 26539)
+[86/89] kcl                      clean  OK     287.953s
+[87/89] HwameiStor               ebpf   OK     295.545s  (cmdrun 288.411547s, files 47040)
+[87/89] HwameiStor               clean  OK     284.521s
+[88/89] wasmcloud                ebpf   OK     356.033s  (cmdrun 351.989113s, files 44050)
+[88/89] wasmcloud                clean  OK     328.310s
+[89/89] Fluid                    ebpf   OK     375.941s  (cmdrun 364.320524s, files 85095)
+[89/89] Fluid                    clean  OK     381.141s
+
+=== 완료 (4h 21m 49s) ===
+실행 178 / 성공 176 / 실패 2 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  88개  중앙값 60.625초
+ebpf   88개  중앙값 66.535초
+
+--- 실패 ---
+ebpf   kuma  rc=1
+clean  kuma  rc=2

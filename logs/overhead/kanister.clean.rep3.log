@@ -1,0 +1,2063 @@
+building: bin/amd64/controller
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/kanister'
+go: downloading k8s.io/client-go v0.33.13
+go: downloading github.com/prometheus/client_golang v1.23.2
+go: downloading github.com/kanisterio/errkit v0.0.3
+go: downloading k8s.io/apiextensions-apiserver v0.33.13
+go: downloading sigs.k8s.io/controller-runtime v0.20.4
+go: downloading github.com/go-logr/logr v1.4.4
+go: downloading github.com/sirupsen/logrus v1.10.0
+go: downloading github.com/openshift/client-go v0.0.0-20231221125933-2aa81c72f992
+go: downloading gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637
+go: downloading k8s.io/api v0.33.13
+go: downloading k8s.io/apimachinery v0.33.13
+go: downloading github.com/Masterminds/semver v1.5.0
+go: downloading github.com/kastenhq/check v0.0.0-20180626002341-0264cfcea734
+go: downloading k8s.io/code-generator v0.33.13
+go: downloading github.com/gofrs/uuid v4.4.0+incompatible
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/openshift/api v0.0.0-20231222123017-053aee22b4b4
+go: downloading k8s.io/cli-runtime v0.33.13
+go: downloading k8s.io/kubectl v0.33.13
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading github.com/aws/aws-sdk-go-v2 v1.43.6
+go: downloading github.com/aws/aws-sdk-go-v2/service/rds v1.124.3
+go: downloading github.com/hashicorp/go-version v1.9.0
+go: downloading github.com/mitchellh/mapstructure v1.5.0
+go: downloading github.com/kubernetes-csi/external-snapshotter/client/v4 v4.2.0
+go: downloading gonum.org/v1/gonum v0.17.0
+go: downloading golang.org/x/sys v0.46.0
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading github.com/prometheus/common v0.66.1
+go: downloading github.com/prometheus/procfs v0.17.0
+go: downloading google.golang.org/protobuf v1.36.12
+go: downloading gomodules.xyz/jsonpatch/v2 v2.4.0
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.7.0
+go: downloading k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff
+go: downloading github.com/jpillora/backoff v1.0.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.2
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading github.com/spf13/pflag v1.0.9
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.12.0
+go: downloading github.com/google/gnostic-models v0.6.9
+go: downloading golang.org/x/sync v0.22.0
+go: downloading golang.org/x/text v0.40.0
+go: downloading sigs.k8s.io/kustomize/api v0.19.0
+go: downloading sigs.k8s.io/kustomize/kyaml v0.19.0
+go: downloading go.yaml.in/yaml/v2 v2.4.2
+go: downloading github.com/aws/smithy-go v1.27.8
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading golang.org/x/net v0.41.0
+go: downloading github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
+go: downloading golang.org/x/term v0.44.0
+go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.36
+go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.45.6
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading github.com/Masterminds/sprig v2.22.0+incompatible
+go: downloading github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
+go: downloading github.com/moby/term v0.5.0
+go: downloading github.com/lib/pq v1.12.3
+go: downloading golang.org/x/time v0.14.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azcore v1.23.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.14.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.8.0
+go: downloading github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.43
+go: downloading github.com/aws/aws-sdk-go-v2/service/s3 v1.107.2
+go: downloading github.com/aws/aws-sdk-go v1.55.7
+go: downloading github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
+go: downloading github.com/kastenhq/stow v0.2.6-kasten.1.0.20260814152323-9bc81125e6c8
+go: downloading golang.org/x/oauth2 v0.33.0
+go: downloading google.golang.org/api v0.256.0
+go: downloading sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3
+go: downloading github.com/evanphx/json-patch/v5 v5.9.11
+go: downloading github.com/fsnotify/fsnotify v1.7.0
+go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.37
+go: downloading github.com/evanphx/json-patch v5.6.0+incompatible
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.17
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.37
+go: downloading github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
+go: downloading github.com/peterbourgon/diskv v2.0.1+incompatible
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading k8s.io/component-base v0.33.13
+go: downloading github.com/fxamacker/cbor/v2 v2.7.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/go-openapi/strfmt v0.27.0
+go: downloading github.com/Masterminds/goutils v1.1.1
+go: downloading github.com/huandu/xstrings v1.2.0
+go: downloading github.com/imdario/mergo v0.3.12
+go: downloading github.com/mitchellh/copystructure v1.0.0
+go: downloading golang.org/x/crypto v0.53.0
+go: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.38
+go: downloading github.com/Azure/go-autorest/autorest v0.11.30
+go: downloading github.com/Azure/go-autorest v14.2.0+incompatible
+go: downloading cloud.google.com/go/compute/metadata v0.9.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.37
+go: downloading github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.18
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.30
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.38
+go: downloading cloud.google.com/go v0.121.3
+go: downloading github.com/chai2010/gettext-go v1.0.2
+go: downloading github.com/MakeNowJust/heredoc v1.0.0
+go: downloading github.com/mitchellh/go-wordwrap v1.0.1
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: downloading github.com/exponent-io/jsonpath v0.0.0-20210407135951-1de76d718b3f
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/moby/spdystream v0.5.1
+go: downloading github.com/google/btree v1.1.3
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/mitchellh/reflectwalk v1.0.0
+go: downloading github.com/go-openapi/errors v0.22.8
+go: downloading github.com/go-viper/mapstructure/v2 v2.5.0
+go: downloading github.com/oklog/ulid/v2 v2.1.1
+go: downloading github.com/Azure/go-autorest/logger v0.2.1
+go: downloading github.com/Azure/go-autorest/tracing v0.6.0
+go: downloading github.com/googleapis/gax-go/v2 v2.15.0
+go: downloading github.com/emicklei/go-restful/v3 v3.11.0
+go: downloading github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00
+go: downloading github.com/xlab/treeprint v1.2.0
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+go: downloading github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f
+go: downloading github.com/Azure/go-autorest/autorest/adal v0.9.22
+go: downloading github.com/jmespath/go-jmespath v0.4.0
+go: downloading cloud.google.com/go/auth v0.17.0
+go: downloading cloud.google.com/go/auth/oauth2adapt v0.2.8
+go: downloading github.com/google/s2a-go v0.1.9
+go: downloading google.golang.org/grpc v1.76.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.62.0
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/Azure/go-autorest/autorest/date v0.3.0
+go: downloading github.com/golang-jwt/jwt/v4 v4.5.2
+go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.7
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20251103181224-f26f9409b101
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading go.opentelemetry.io/otel v1.43.0
+go: downloading google.golang.org/genproto v0.0.0-20250715232539-7130f93afb79
+go: downloading go.opentelemetry.io/otel/metric v1.43.0
+go: downloading go.opentelemetry.io/otel/trace v1.43.0
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading github.com/AzureAD/microsoft-authentication-library-for-go v1.7.2
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/internal v1.12.0
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
+go: downloading github.com/golang-jwt/jwt/v5 v5.3.1
+internal/goarch
+internal/unsafeheader
+internal/byteorder
+internal/coverage/rtcov
+internal/godebugs
+internal/goos
+internal/profilerecord
+internal/asan
+cmp
+internal/trace/tracev2
+internal/goexperiment
+internal/runtime/pprof/label
+internal/msan
+math/bits
+internal/cpu
+sync/atomic
+unicode/utf8
+internal/runtime/atomic
+internal/runtime/syscall/linux
+internal/abi
+internal/runtime/gc
+internal/runtime/sys
+internal/runtime/math
+unicode
+encoding
+unicode/utf16
+log/internal
+k8s.io/apimachinery/pkg/selection
+log/slog/internal
+internal/nettrace
+internal/strconv
+container/list
+crypto/internal/fips140/alias
+crypto/internal/fips140deps/byteorder
+crypto/internal/constanttime
+crypto/internal/boring/sig
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/internal/alias
+k8s.io/apimachinery/pkg/types
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/set
+github.com/google/go-cmp/cmp/internal/flags
+k8s.io/utils/buffer
+k8s.io/code-generator
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/internal/utf8internal
+crypto/internal/fips140/subtle
+sigs.k8s.io/kustomize/kyaml/sets
+sigs.k8s.io/kustomize/kyaml/sliceutil
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/selection
+internal/chacha8rand
+internal/bytealg
+internal/runtime/gc/scan
+internal/runtime/exithook
+math
+crypto/internal/fips140deps/cpu
+sigs.k8s.io/kustomize/kyaml/ext
+golang.org/x/net/html/atom
+k8s.io/apimachinery/pkg/util/portforward
+k8s.io/client-go/util/exec
+github.com/aws/smithy-go/endpoints/private/bdd
+github.com/Azure/azure-sdk-for-go/sdk/azcore/to
+github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/exported
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/internal/grant
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/version
+github.com/aws/aws-sdk-go-v2/internal/sdkio
+github.com/aws/smithy-go/container/private/cache
+crypto/subtle
+github.com/Azure/azure-sdk-for-go/version
+google.golang.org/grpc/serviceconfig
+github.com/googleapis/gax-go/v2/internal
+golang.org/x/crypto/internal/alias
+golang.org/x/crypto/cryptobyte/asn1
+go.opentelemetry.io/otel/trace/embedded
+go.opentelemetry.io/otel/metric/embedded
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/smithy-go/container/private/cache/lru
+k8s.io/utils/internal/third_party/forked/golang/golang-lru
+github.com/go-openapi/strfmt/internal/countries
+github.com/lib/pq/internal/pqsql
+github.com/lib/pq/oid
+github.com/lib/pq/pqerror
+internal/synctest
+internal/race
+internal/sync
+internal/runtime/maps
+internal/stringslite
+internal/runtime/cgroup
+runtime
+github.com/aws/aws-sdk-go/internal/sdkmath
+iter
+internal/reflectlite
+k8s.io/klog/v2/internal/dbg
+weak
+sync
+runtime/metrics
+maps
+slices
+internal/bisect
+internal/testlog
+log/slog/internal/buffer
+internal/singleflight
+crypto/internal/fips140cache
+github.com/josharian/intern
+github.com/aws/smithy-go/sync
+google.golang.org/protobuf/internal/pragma
+unique
+github.com/aws/aws-sdk-go/internal/sync/singleflight
+errors
+sort
+internal/godebug
+internal/oserror
+strconv
+io
+path
+github.com/gogo/protobuf/sortkeys
+k8s.io/apimachinery/pkg/util/sets
+vendor/golang.org/x/net/dns/dnsmessage
+math/rand/v2
+container/heap
+github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo
+google.golang.org/grpc/internal/buffer
+github.com/beorn7/perks/quantile
+syscall
+gonum.org/v1/gonum/stat/combin
+github.com/go-viper/mapstructure/v2/internal/errors
+golang.org/x/text/internal/tag
+golang.org/x/text/internal/stringset
+reflect
+github.com/x448/float16
+net/netip
+encoding/base64
+bytes
+encoding/base32
+hash
+strings
+internal/saferio
+runtime/cgo
+github.com/liggitt/tabwriter
+crypto/internal/randutil
+github.com/aws/smithy-go/transport/http/internal/io
+hash/crc32
+crypto
+math/rand
+crypto/internal/fips140deps/godebug
+hash/fnv
+hash/adler32
+hash/crc64
+github.com/aws/aws-sdk-go/internal/sdkio
+github.com/prometheus/client_golang/prometheus/promhttp/internal
+vendor/golang.org/x/text/transform
+k8s.io/cli-runtime/pkg/genericiooptions
+golang.org/x/text/transform
+github.com/mitchellh/go-wordwrap
+sigs.k8s.io/kustomize/api/internal/konfig/builtinpluginconsts
+github.com/aws/smithy-go/io
+github.com/kanisterio/errkit/internal/stack
+k8s.io/klog/v2/internal/severity
+go/build/constraint
+regexp/syntax
+crypto/internal/fips140
+bufio
+crypto/internal/impl
+encoding/pem
+net/http/internal/ascii
+github.com/munnerz/goautoneg
+github.com/huandu/xstrings
+crypto/internal/fips140/sha3
+html
+golang.org/x/text/encoding
+crypto/internal/fips140/sha256
+crypto/internal/fips140/sha512
+golang.org/x/text/runes
+sigs.k8s.io/kustomize/kyaml/utils
+github.com/chai2010/gettext-go/plural
+golang.org/x/text/encoding/internal
+github.com/aws/aws-sdk-go-v2/internal/strings
+github.com/aws/aws-sdk-go-v2/aws/arn
+github.com/aws/aws-sdk-go/internal/strings
+github.com/aws/aws-sdk-go/internal/sdkuri
+github.com/aws/aws-sdk-go/aws/arn
+golang.org/x/text/encoding/unicode
+k8s.io/client-go/tools/cache/synctrack
+k8s.io/apimachinery/pkg/api/operation
+crypto/sha3
+crypto/internal/fips140/hmac
+crypto/internal/fips140/check
+crypto/internal/fips140hash
+crypto/fips140
+crypto/internal/fips140/tls12
+crypto/internal/fips140/bigmod
+crypto/internal/fips140/hkdf
+crypto/internal/fips140/edwards25519/field
+crypto/internal/fips140/pbkdf2
+crypto/internal/fips140/aes
+crypto/internal/fips140/nistec/fiat
+regexp
+crypto/internal/fips140/tls13
+internal/syscall/execenv
+time
+internal/syscall/unix
+crypto/tls/internal/fips140tls
+crypto/internal/fips140/edwards25519
+github.com/kanisterio/kanister/pkg/caller
+sigs.k8s.io/kustomize/api/internal/image
+k8s.io/apimachinery/pkg/version
+google.golang.org/api/internal/third_party/uritemplates
+plugin
+context
+crypto/internal/fips140deps/time
+k8s.io/klog/v2/internal/clock
+github.com/jpillora/backoff
+github.com/google/go-cmp/cmp/internal/diff
+io/fs
+github.com/Azure/azure-sdk-for-go/sdk/internal/temporal
+github.com/aws/aws-sdk-go-v2/internal/timeconv
+k8s.io/utils/clock
+github.com/aws/smithy-go/ptr
+google.golang.org/grpc/backoff
+github.com/mxk/go-flowrate/flowrate
+internal/poll
+crypto/internal/fips140/nistec
+google.golang.org/grpc/balancer/pickfirst/internal
+crypto/internal/entropy/v1.0.0
+google.golang.org/grpc/keepalive
+github.com/aws/aws-sdk-go/internal/sdkrand
+k8s.io/apimachinery/pkg/util/rand
+sigs.k8s.io/controller-runtime/pkg/config
+k8s.io/apimachinery/pkg/util/cache
+internal/fmtsort
+encoding/binary
+sigs.k8s.io/structured-merge-diff/v4/schema
+github.com/google/go-cmp/cmp/internal/function
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/sets
+github.com/aws/aws-sdk-go-v2/internal/sdk
+github.com/modern-go/reflect2
+github.com/aws/smithy-go/context
+github.com/Azure/azure-sdk-for-go/sdk/azcore/tracing
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/cache
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared/config
+golang.org/x/net/context
+internal/filepathlite
+embed
+github.com/Azure/azure-sdk-for-go/sdk/azidentity/internal
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/grpcsync
+go.opentelemetry.io/otel/attribute/internal
+go.opentelemetry.io/otel/internal/baggage
+sigs.k8s.io/controller-runtime/pkg/internal/syncs
+google.golang.org/protobuf/internal/editiondefaults
+os
+sigs.k8s.io/randfill/bytesource
+vendor/golang.org/x/crypto/internal/poly1305
+github.com/cespare/xxhash/v2
+golang.org/x/crypto/internal/poly1305
+golang.org/x/sys/unix
+go.opentelemetry.io/otel/attribute/internal/xxhash
+github.com/kanisterio/kanister/pkg/consts
+fmt
+internal/sysinfo
+internal/lazyregexp
+k8s.io/klog/v2/internal/buffer
+google.golang.org/grpc/internal/envconfig
+io/ioutil
+path/filepath
+os/signal
+vendor/golang.org/x/sys/cpu
+google.golang.org/protobuf/internal/detrand
+crypto/internal/sysrand
+golang.org/x/sys/cpu
+github.com/prometheus/procfs/internal/util
+crypto/internal/fips140/drbg
+k8s.io/client-go/util/homedir
+os/exec
+github.com/monochromegane/go-gitignore
+crypto/internal/fips140only
+crypto/internal/fips140/ecdh
+crypto/internal/fips140/aes/gcm
+crypto/internal/fips140/ecdsa
+crypto/internal/fips140/ed25519
+crypto/internal/fips140/mlkem
+crypto/internal/fips140/rsa
+k8s.io/kubectl/pkg/util/interrupt
+sigs.k8s.io/controller-runtime/pkg/manager/signals
+crypto/hkdf
+crypto/md5
+crypto/rc4
+crypto/pbkdf2
+golang.org/x/crypto/pbkdf2
+k8s.io/utils/exec
+crypto/mlkem
+flag
+go/token
+log
+text/tabwriter
+runtime/debug
+k8s.io/apimachinery/third_party/forked/golang/reflect
+go/doc/comment
+runtime/trace
+encoding/hex
+encoding/json
+math/big
+k8s.io/apimachinery/pkg/fields
+k8s.io/apimachinery/pkg/util/errors
+net/url
+compress/flate
+k8s.io/apimachinery/pkg/util/validation/field
+crypto/cipher
+vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/text/unicode/norm
+k8s.io/apimachinery/pkg/conversion
+go/internal/scannerhooks
+go/scanner
+testing
+k8s.io/apimachinery/pkg/conversion/queryparams
+k8s.io/apimachinery/pkg/util/naming
+crypto/internal/boring
+compress/gzip
+crypto/des
+vendor/golang.org/x/crypto/chacha20
+vendor/golang.org/x/text/secure/bidirule
+go/ast
+vendor/golang.org/x/net/http2/hpack
+crypto/internal/rand
+crypto/aes
+crypto/sha512
+net
+crypto/hmac
+crypto/sha256
+crypto/sha1
+mime
+mime/quotedprintable
+net/http/internal
+crypto/ecdh
+vendor/golang.org/x/crypto/chacha20poly1305
+github.com/modern-go/concurrent
+go.yaml.in/yaml/v2
+sigs.k8s.io/randfill
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+golang.org/x/net/http2/hpack
+vendor/golang.org/x/net/idna
+github.com/kanisterio/errkit
+github.com/Masterminds/semver
+github.com/gogo/protobuf/proto
+log/slog
+os/user
+sigs.k8s.io/json/internal/golang/encoding/json
+crypto/hpke
+gopkg.in/inf.v0
+github.com/fxamacker/cbor/v2
+crypto/rand
+crypto/elliptic
+crypto/internal/boring/bbig
+encoding/asn1
+crypto/ed25519
+crypto/rsa
+crypto/dsa
+go/parser
+go/printer
+go/doc
+github.com/json-iterator/go
+golang.org/x/text/secure/bidirule
+k8s.io/utils/ptr
+github.com/go-logr/logr
+k8s.io/klog/v2/internal/sloghandler
+k8s.io/utils/pointer
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/version
+gopkg.in/yaml.v3
+golang.org/x/net/idna
+google.golang.org/protobuf/encoding/protowire
+github.com/mailru/easyjson/jlexer
+github.com/go-openapi/jsonreference/internal
+k8s.io/klog/v2/internal/serialize
+vendor/golang.org/x/crypto/cryptobyte
+crypto/x509/pkix
+sigs.k8s.io/yaml/goyaml.v2
+google.golang.org/protobuf/reflect/protoreflect
+k8s.io/klog/v2
+k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
+k8s.io/apimachinery/pkg/util/framer
+sigs.k8s.io/yaml
+k8s.io/client-go/pkg/version
+golang.org/x/term
+crypto/ecdsa
+github.com/davecgh/go-spew/spew
+k8s.io/client-go/tools/metrics
+gopkg.in/check.v1
+golang.org/x/time/rate
+database/sql/driver
+sigs.k8s.io/json
+k8s.io/kube-openapi/pkg/cached
+k8s.io/client-go/util/flowcontrol
+compress/zlib
+k8s.io/apimachinery/pkg/util/json
+encoding/xml
+github.com/emicklei/go-restful/v3/log
+github.com/pkg/errors
+k8s.io/apimachinery/third_party/forked/golang/json
+github.com/google/go-cmp/cmp/internal/value
+k8s.io/utils/trace
+k8s.io/apimachinery/pkg/util/dump
+k8s.io/apimachinery/pkg/util/yaml
+k8s.io/apimachinery/pkg/util/mergepatch
+gopkg.in/evanphx/json-patch.v4
+github.com/kanisterio/kanister/pkg/field
+encoding/csv
+github.com/sirupsen/logrus
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/protolazy
+k8s.io/apimachinery/pkg/runtime/serializer/cbor/internal/modes
+github.com/google/gnostic-models/jsonschema
+github.com/google/go-cmp/cmp
+github.com/Masterminds/goutils
+github.com/imdario/mergo
+github.com/mitchellh/reflectwalk
+golang.org/x/crypto/scrypt
+google.golang.org/protobuf/proto
+text/template/parse
+database/sql
+github.com/kanisterio/kanister/pkg/poll
+github.com/moby/term
+k8s.io/apimachinery/pkg/util/duration
+k8s.io/client-go/third_party/forked/golang/template
+golang.org/x/sync/errgroup
+github.com/mitchellh/copystructure
+google.golang.org/protobuf/internal/encoding/defval
+github.com/go-errors/errors
+k8s.io/utils/internal/third_party/forked/golang/net
+crypto/x509
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
+sigs.k8s.io/structured-merge-diff/v4/value
+github.com/mailru/easyjson/buffer
+k8s.io/utils/net
+k8s.io/client-go/util/connrotation
+github.com/google/uuid
+github.com/spf13/pflag
+github.com/mailru/easyjson/jwriter
+k8s.io/client-go/util/jsonpath
+sigs.k8s.io/kustomize/kyaml/errors
+k8s.io/apimachinery/pkg/runtime/serializer/cbor/direct
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
+golang.org/x/net/http/httpguts
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/encoding/prototext
+k8s.io/apimachinery/pkg/util/validation
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/errors
+go.yaml.in/yaml/v3
+sigs.k8s.io/kustomize/kyaml/filesys
+sigs.k8s.io/kustomize/kyaml/openapi/kubernetesapi/v1_21_2
+text/template
+sigs.k8s.io/kustomize/kyaml/openapi/kustomizationapi
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/validation/field
+k8s.io/apimachinery/pkg/util/diff
+github.com/gofrs/uuid
+k8s.io/apimachinery/pkg/labels
+github.com/xlab/treeprint
+k8s.io/apimachinery/pkg/api/resource
+k8s.io/apimachinery/pkg/runtime/schema
+k8s.io/apimachinery/pkg/util/intstr
+sigs.k8s.io/kustomize/kyaml/openapi/kubernetesapi
+sigs.k8s.io/kustomize/api/internal/kusterr
+github.com/google/shlex
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/validation
+github.com/blang/semver/v4
+github.com/google/btree
+golang.org/x/net/internal/socks
+golang.org/x/net/html
+k8s.io/apimachinery/third_party/forked/golang/netutil
+k8s.io/apimachinery/pkg/util/version
+archive/zip
+sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/labels
+github.com/chai2010/gettext-go/mo
+golang.org/x/net/proxy
+github.com/chai2010/gettext-go/po
+sigs.k8s.io/kustomize/api/provenance
+k8s.io/component-base/version
+crypto/tls
+k8s.io/client-go/util/keyutil
+github.com/peterbourgon/diskv
+github.com/MakeNowJust/heredoc
+github.com/russross/blackfriday/v2
+github.com/exponent-io/jsonpath
+github.com/aws/aws-sdk-go-v2/internal/rand
+github.com/aws/aws-sdk-go-v2/internal/sync/singleflight
+github.com/aws/smithy-go/internal/sync/singleflight
+sigs.k8s.io/structured-merge-diff/v4/fieldpath
+github.com/aws/smithy-go/logging
+github.com/aws/smithy-go/document
+github.com/aws/smithy-go/time
+github.com/aws/smithy-go/middleware
+github.com/aws/smithy-go/rand
+github.com/aws/aws-sdk-go-v2/aws/ratelimit
+github.com/aws/aws-sdk-go-v2/aws/protocol/xml
+github.com/aws/smithy-go
+html/template
+github.com/aws/aws-sdk-go-v2/internal/v4a/internal/crypto
+github.com/aws/smithy-go/encoding
+github.com/Azure/azure-sdk-for-go/sdk/internal/log
+github.com/Azure/azure-sdk-for-go/sdk/internal/diag
+github.com/aws/smithy-go/encoding/xml
+github.com/Azure/azure-sdk-for-go/sdk/internal/uuid
+github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/internal/resource
+github.com/Azure/azure-sdk-for-go/sdk/azcore/log
+github.com/kylelemons/godebug/diff
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/json
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/log
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/json/types/time
+google.golang.org/protobuf/internal/encoding/tag
+github.com/golang-jwt/jwt/v5
+github.com/aws/smithy-go/auth
+github.com/aws/smithy-go/traits
+github.com/aws/smithy-go/metrics
+github.com/aws/smithy-go/tracing
+github.com/aws/aws-sdk-go-v2/internal/context
+github.com/aws/aws-sdk-go-v2/service/sts/types
+github.com/spf13/cobra
+github.com/aws/smithy-go/eventstream
+github.com/kylelemons/godebug/pretty
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/options
+github.com/pkg/browser
+golang.org/x/crypto/pkcs12/internal/rc2
+github.com/chai2010/gettext-go
+sigs.k8s.io/yaml/goyaml.v3
+github.com/aws/aws-sdk-go-v2/internal/awsutil
+golang.org/x/crypto/pkcs12
+google.golang.org/protobuf/internal/impl
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared/arn
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+github.com/aws/aws-sdk-go-v2/service/s3/types
+sigs.k8s.io/structured-merge-diff/v4/typed
+github.com/aws/smithy-go/waiter
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go-v2/service/s3/internal/arn
+github.com/graymeta/stow
+github.com/Azure/go-autorest/autorest/date
+github.com/golang-jwt/jwt/v4
+golang.org/x/oauth2/jws
+google.golang.org/grpc/grpclog/internal
+google.golang.org/protobuf/internal/encoding/json
+k8s.io/kubectl/pkg/util/i18n
+github.com/googleapis/gax-go/v2/callctx
+golang.org/x/net/internal/timeseries
+google.golang.org/grpc/attributes
+github.com/Masterminds/sprig
+google.golang.org/grpc/internal/idle
+google.golang.org/grpc/internal/resolver/dns/internal
+google.golang.org/grpc/grpclog
+github.com/googleapis/gax-go/v2/internallog/internal
+cloud.google.com/go/auth/internal/jwt
+cloud.google.com/go/auth/internal/credsfile
+encoding/gob
+github.com/googleapis/enterprise-certificate-proxy/client/util
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/grpc/internal/grpclog
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/internal/syscall
+golang.org/x/crypto/chacha20
+golang.org/x/crypto/cryptobyte
+golang.org/x/crypto/hkdf
+google.golang.org/grpc/internal
+github.com/google/s2a-go/retry
+go.opentelemetry.io/otel/attribute
+github.com/go-logr/logr/funcr
+go.opentelemetry.io/otel/codes
+go.opentelemetry.io/auto/sdk/internal/telemetry
+go.opentelemetry.io/otel/trace/internal/telemetry
+golang.org/x/crypto/chacha20poly1305
+go.opentelemetry.io/otel/internal/errorhandler
+google.golang.org/grpc/codes
+google.golang.org/grpc/metadata
+google.golang.org/grpc/mem
+go.opentelemetry.io/otel/baggage
+github.com/aws/aws-sdk-go/internal/ini
+sigs.k8s.io/structured-merge-diff/v4/merge
+k8s.io/client-go/applyconfigurations/internal
+github.com/kanisterio/kanister/pkg/ksprig
+github.com/openshift/client-go/apps/applyconfigurations/internal
+google.golang.org/grpc/stats
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/tap
+github.com/go-logr/stdr
+go.opentelemetry.io/otel/semconv/v1.20.0
+go.opentelemetry.io/otel/semconv/v1.37.0
+go.opentelemetry.io/otel/semconv/v1.40.0
+go.opentelemetry.io/otel/metric
+go.opentelemetry.io/otel/semconv/v1.34.0
+google.golang.org/grpc/experimental/stats
+google.golang.org/grpc/encoding
+github.com/google/s2a-go/internal/record/internal/aeadcrypter
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/aws/endpoints
+google.golang.org/grpc/internal/stats
+github.com/jmespath/go-jmespath
+github.com/aws/aws-sdk-go/internal/s3shared/arn
+github.com/kanisterio/kanister/pkg/secrets/errors
+k8s.io/utils/lru
+github.com/aws/aws-sdk-go/aws/credentials
+google.golang.org/protobuf/encoding/protodelim
+github.com/prometheus/procfs/internal/fs
+gopkg.in/tomb.v2
+github.com/aws/aws-sdk-go-v2/service/rds/types
+github.com/prometheus/procfs
+github.com/hashicorp/go-version
+go.opentelemetry.io/otel/metric/noop
+github.com/go-openapi/strfmt/internal/bsonlite
+github.com/aws/aws-sdk-go/aws/credentials/processcreds
+github.com/go-viper/mapstructure/v2
+github.com/oklog/ulid/v2
+golang.org/x/text/internal/language
+net/mail
+github.com/aws/aws-sdk-go/aws/awsutil
+k8s.io/apimachinery/pkg/util/uuid
+go.opentelemetry.io/otel/semconv/v1.34.0/httpconv
+github.com/lib/pq/internal/pqutil
+github.com/lib/pq/internal/pqtime
+github.com/lib/pq/internal/proto
+github.com/lib/pq/scram
+github.com/mitchellh/mapstructure
+github.com/lib/pq/internal/pgpass
+github.com/lib/pq/internal/pgservice
+go.opentelemetry.io/otel/trace
+gomodules.xyz/jsonpatch/v2
+sigs.k8s.io/controller-runtime/pkg/log
+github.com/kanisterio/kanister/pkg/version
+github.com/evanphx/json-patch/v5/internal/json
+sigs.k8s.io/controller-runtime/pkg/internal/field/selector
+internal/profile
+runtime/pprof
+github.com/fsnotify/fsnotify
+sigs.k8s.io/controller-runtime/pkg/internal/log
+golang.org/x/text/internal/language/compact
+net/http/httptrace
+google.golang.org/grpc/internal/credentials
+k8s.io/client-go/util/cert
+github.com/lib/pq
+google.golang.org/grpc/credentials
+golang.org/x/text/language
+net/http/internal/httpcommon
+golang.org/x/net/internal/httpcommon
+go.opentelemetry.io/otel/trace/noop
+net/http
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/credentials/insecure
+github.com/google/s2a-go/fallback
+google.golang.org/grpc/peer
+google.golang.org/grpc/resolver
+go.opentelemetry.io/auto/sdk
+golang.org/x/text/internal/format
+golang.org/x/text/internal/number
+google.golang.org/grpc/internal/proxyattributes
+google.golang.org/grpc/internal/transport/networktype
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/balancer/grpclb/state
+google.golang.org/grpc/internal/metadata
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/internal/resolver/unix
+github.com/evanphx/json-patch/v5
+google.golang.org/grpc/resolver/dns
+google.golang.org/grpc/channelz
+google.golang.org/protobuf/internal/filetype
+google.golang.org/grpc/balancer
+golang.org/x/text/currency
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/internal/serviceconfig
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/grpc/internal/resolver
+google.golang.org/grpc/balancer/endpointsharding
+google.golang.org/grpc/internal/balancer/gracefulswitch
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/genproto/googleapis/rpc/code
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/protoadapt
+github.com/google/s2a-go/internal/proto/common_go_proto
+google.golang.org/protobuf/types/known/timestamppb
+github.com/google/s2a-go/internal/proto/v2/common_go_proto
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/grpc/internal/pretty
+google.golang.org/grpc/encoding/proto
+github.com/kanisterio/kanister/pkg/postgres
+github.com/prometheus/client_model/go
+google.golang.org/genproto/googleapis/rpc/errdetails
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+github.com/google/s2a-go/internal/proto/s2a_context_go_proto
+github.com/google/s2a-go/internal/record/internal/halfconn
+github.com/google/gnostic-models/extensions
+google.golang.org/genproto/googleapis/rpc/status
+github.com/googleapis/gax-go/v2/apierror/internal/proto
+github.com/google/s2a-go/internal/tokenmanager
+github.com/google/s2a-go/internal/proto/v2/s2a_context_go_proto
+google.golang.org/grpc/balancer/pickfirst/pickfirstleaf
+google.golang.org/grpc/internal/status
+github.com/prometheus/common/model
+google.golang.org/grpc/status
+google.golang.org/grpc/balancer/pickfirst
+google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/internal/binarylog
+github.com/prometheus/client_golang/prometheus/internal
+k8s.io/apimachinery/pkg/util/runtime
+github.com/google/gnostic-models/compiler
+golang.org/x/oauth2/internal
+k8s.io/apimachinery/pkg/util/httpstream
+golang.org/x/net/websocket
+github.com/aws/smithy-go/encoding/httpbinding
+github.com/aws/smithy-go/endpoints
+github.com/gorilla/websocket
+github.com/aws/aws-sdk-go-v2/internal/v4a/internal/v4
+github.com/moby/spdystream/spdy
+net/http/httputil
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared
+github.com/go-openapi/swag
+github.com/emicklei/go-restful/v3
+golang.org/x/net/http2
+github.com/Azure/azure-sdk-for-go/sdk/internal/exported
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/errors
+k8s.io/apimachinery/pkg/runtime
+k8s.io/client-go/features
+k8s.io/apimachinery/pkg/util/wait
+golang.org/x/oauth2
+k8s.io/client-go/util/workqueue
+github.com/moby/spdystream
+github.com/google/gnostic-models/openapiv2
+github.com/google/gnostic-models/openapiv3
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported
+github.com/Azure/azure-sdk-for-go/sdk/internal/poller
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/authority
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/shared
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/internal/comm
+github.com/gregjones/httpcache
+github.com/aws/smithy-go/transport/http
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/local
+github.com/Azure/azure-sdk-for-go/sdk/azcore/policy
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers
+github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming
+github.com/Azure/go-autorest/logger
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/wstrust/defs
+github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/policy
+github.com/Azure/azure-sdk-for-go/sdk/azidentity/internal/customtokenproxy
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/async
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/body
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/fake
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/loc
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/op
+github.com/Azure/go-autorest/tracing
+net/http/cookiejar
+github.com/go-openapi/jsonpointer
+cloud.google.com/go/compute/metadata
+golang.org/x/oauth2/authhandler
+golang.org/x/oauth2/google/internal/impersonate
+golang.org/x/oauth2/google/internal/stsexchange
+golang.org/x/oauth2/jwt
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/wstrust
+google.golang.org/api/googleapi
+golang.org/x/net/trace
+github.com/googleapis/gax-go/v2/internallog
+net/rpc
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops/accesstokens
+golang.org/x/oauth2/google/externalaccount
+golang.org/x/oauth2/google/internal/externalaccountauthorizeduser
+github.com/Azure/go-autorest/autorest/adal
+cloud.google.com/go/auth/internal/retry
+google.golang.org/api/internal/impersonate
+github.com/googleapis/gax-go/v2/apierror
+github.com/go-openapi/jsonreference
+cloud.google.com/go/auth/internal
+github.com/felixge/httpsnoop
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/request
+k8s.io/kube-openapi/pkg/internal
+cloud.google.com/go/auth
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth/ops
+github.com/aws/smithy-go/auth/bearer
+github.com/aws/aws-sdk-go-v2/aws/protocol/query
+k8s.io/apimachinery/pkg/runtime/serializer/streaming
+k8s.io/apimachinery/pkg/runtime/serializer/recognizer
+k8s.io/client-go/tools/clientcmd/api
+github.com/aws/aws-sdk-go-v2/internal/auth
+github.com/aws/aws-sdk-go-v2/internal/endpoints/awsrulesfn
+github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+github.com/aws/smithy-go/endpoints/private/rulesfn
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/oauth
+github.com/aws/aws-sdk-go-v2/aws
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi
+golang.org/x/oauth2/google
+github.com/googleapis/enterprise-certificate-proxy/client
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/semconvutil
+go.opentelemetry.io/otel/propagation
+google.golang.org/api/googleapi/transport
+github.com/aws/aws-sdk-go/aws
+cloud.google.com/go/auth/internal/transport/headers
+github.com/Azure/go-autorest/autorest
+cloud.google.com/go/auth/credentials/internal/stsexchange
+cloud.google.com/go/auth/credentials/internal/impersonate
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/base/storage
+cloud.google.com/go/auth/credentials/internal/gdch
+cloud.google.com/go/auth/internal/transport/cert
+cloud.google.com/go/auth/internal/trustboundary
+k8s.io/client-go/tools/clientcmd/api/v1
+google.golang.org/api/internal/cert
+cloud.google.com/go/auth/credentials/internal/externalaccountuser
+k8s.io/client-go/tools/internal/events
+go.opentelemetry.io/otel/internal/global
+cloud.google.com/go/auth/credentials/internal/externalaccount
+expvar
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/aws/auth/bearer
+cloud.google.com/go/auth/oauth2adapt
+github.com/aws/aws-sdk-go/private/protocol/eventstream
+github.com/aws/aws-sdk-go-v2/credentials
+github.com/aws/aws-sdk-go-v2/aws/middleware
+github.com/aws/aws-sdk-go-v2/aws/defaults
+github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4
+github.com/aws/aws-sdk-go-v2/internal/configsources
+github.com/aws/aws-sdk-go-v2/internal/endpoints
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+github.com/prometheus/common/expfmt
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/internal/base
+k8s.io/apimachinery/pkg/util/net
+github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime
+google.golang.org/grpc/internal/transport
+github.com/aws/aws-sdk-go-v2/service/sts/internal/endpoints
+github.com/aws/aws-sdk-go-v2/aws/retry
+github.com/aws/aws-sdk-go-v2/aws/signer/v4
+github.com/aws/aws-sdk-go-v2/aws/transport/http
+github.com/aws/aws-sdk-go-v2/service/s3/internal/endpoints
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/confidential
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/managedidentity
+github.com/AzureAD/microsoft-authentication-library-for-go/apps/public
+cloud.google.com/go/auth/credentials
+go.opentelemetry.io/otel
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/Azure/go-autorest/autorest/azure
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared
+github.com/aws/aws-sdk-go-v2/internal/auth/smithy
+github.com/aws/aws-sdk-go-v2/internal/v4a
+k8s.io/apimachinery/pkg/watch
+k8s.io/client-go/transport
+github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/semconv
+github.com/Azure/azure-sdk-for-go/sdk/azcore
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/aws/csm
+github.com/aws/aws-sdk-go/internal/s3shared
+github.com/aws/aws-sdk-go/internal/s3shared/s3err
+github.com/aws/aws-sdk-go/private/checksum
+github.com/aws/aws-sdk-go-v2/service/internal/checksum
+github.com/prometheus/client_golang/prometheus
+github.com/aws/aws-sdk-go-v2/service/rds/internal/endpoints
+github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/runtime
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated
+k8s.io/apimachinery/pkg/apis/meta/v1
+github.com/aws/aws-sdk-go-v2/service/sts
+github.com/go-openapi/errors
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/Azure/azure-sdk-for-go/storage
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
+github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations
+github.com/Azure/azure-sdk-for-go/sdk/azidentity
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+k8s.io/kube-openapi/pkg/validation/spec
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/private/protocol/jsonrpc
+github.com/aws/aws-sdk-go/aws/signer/v4
+k8s.io/kube-openapi/pkg/util/proto
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamapi
+github.com/aws/aws-sdk-go/private/protocol/restjson
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go-v2/service/s3
+github.com/aws/aws-sdk-go-v2/service/rds
+github.com/go-openapi/strfmt
+google.golang.org/grpc/internal/resolver/delegatingresolver
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil/header
+github.com/aws/aws-sdk-go/service/sts
+github.com/aws/aws-sdk-go/service/sso
+k8s.io/kube-openapi/pkg/util/proto/validation
+github.com/aws/aws-sdk-go/service/ssooidc
+google.golang.org/grpc
+github.com/aws/aws-sdk-go/private/protocol/restxml
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil
+github.com/aws/aws-sdk-go/service/sso/ssoiface
+net/http/pprof
+github.com/aws/aws-sdk-go/service/s3
+sigs.k8s.io/controller-runtime/pkg/healthz
+github.com/aws/aws-sdk-go/service/sts/stsiface
+sigs.k8s.io/controller-runtime/pkg/internal/httpserver
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/credentials/ssocreds
+sigs.k8s.io/controller-runtime/pkg/conversion
+github.com/aws/aws-sdk-go/aws/session
+k8s.io/kube-openapi/pkg/spec3
+sigs.k8s.io/kustomize/kyaml/yaml
+k8s.io/kube-openapi/pkg/schemaconv
+github.com/prometheus/client_golang/prometheus/promhttp
+github.com/prometheus/client_golang/prometheus/collectors
+github.com/graymeta/stow/azure
+github.com/kanisterio/kanister/pkg/utils/volumesnapshot
+github.com/aws/aws-sdk-go-v2/credentials/stscreds
+github.com/kanisterio/kanister/pkg/aws/role
+k8s.io/kube-openapi/pkg/common
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/bloberror
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/shared
+sigs.k8s.io/kustomize/api/filters/filtersutil
+sigs.k8s.io/kustomize/kyaml/openapi
+sigs.k8s.io/kustomize/kyaml/kio/kioutil
+sigs.k8s.io/kustomize/kyaml/order
+sigs.k8s.io/kustomize/api/hasher
+github.com/google/s2a-go/internal/proto/s2a_go_proto
+github.com/google/s2a-go/internal/handshaker/service
+github.com/google/s2a-go/internal/proto/v2/s2a_go_proto
+github.com/googleapis/gax-go/v2
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported
+sigs.k8s.io/kustomize/kyaml/kio
+k8s.io/apimachinery/pkg/api/equality
+k8s.io/apimachinery/pkg/apis/meta/v1/unstructured
+k8s.io/apimachinery/pkg/api/meta
+k8s.io/apimachinery/pkg/api/errors
+k8s.io/apiextensions-apiserver/pkg/apis/apiextensions
+k8s.io/apimachinery/pkg/apis/meta/v1/validation
+k8s.io/api/apidiscovery/v2
+k8s.io/api/apidiscovery/v2beta1
+k8s.io/api/admissionregistration/v1
+k8s.io/api/apiserverinternal/v1alpha1
+k8s.io/api/core/v1
+k8s.io/api/authentication/v1
+k8s.io/api/authorization/v1
+k8s.io/apimachinery/pkg/runtime/serializer/versioning
+k8s.io/api/certificates/v1alpha1
+k8s.io/api/coordination/v1
+k8s.io/api/flowcontrol/v1
+k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1
+k8s.io/api/flowcontrol/v1beta1
+k8s.io/api/flowcontrol/v1beta2
+k8s.io/apimachinery/pkg/api/validation
+k8s.io/apimachinery/pkg/runtime/serializer/json
+k8s.io/apimachinery/pkg/runtime/serializer/protobuf
+k8s.io/api/flowcontrol/v1beta3
+k8s.io/api/coordination/v1alpha2
+k8s.io/api/authentication/v1alpha1
+k8s.io/apimachinery/pkg/util/managedfields/internal
+k8s.io/api/authentication/v1beta1
+k8s.io/apimachinery/pkg/runtime/serializer
+k8s.io/api/coordination/v1beta1
+k8s.io/api/networking/v1alpha1
+k8s.io/api/authorization/v1beta1
+k8s.io/api/policy/v1
+k8s.io/api/policy/v1beta1
+k8s.io/api/admissionregistration/v1alpha1
+k8s.io/api/admissionregistration/v1beta1
+k8s.io/api/rbac/v1
+k8s.io/api/rbac/v1alpha1
+k8s.io/apimachinery/pkg/util/managedfields
+k8s.io/api/rbac/v1beta1
+k8s.io/apimachinery/pkg/runtime/serializer/cbor
+k8s.io/client-go/pkg/apis/clientauthentication
+k8s.io/client-go/rest/watch
+k8s.io/kube-openapi/pkg/handler3
+k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1
+k8s.io/apimachinery/pkg/api/meta/testrestmapper
+k8s.io/client-go/pkg/apis/clientauthentication/v1
+k8s.io/client-go/pkg/apis/clientauthentication/v1beta1
+k8s.io/apimachinery/pkg/util/strategicpatch
+k8s.io/client-go/util/consistencydetector
+k8s.io/apimachinery/pkg/apis/meta/v1beta1
+k8s.io/client-go/util/retry
+k8s.io/client-go/tools/clientcmd/api/latest
+k8s.io/cli-runtime/pkg/printers
+k8s.io/apimachinery/pkg/apis/meta/v1/unstructured/unstructuredscheme
+sigs.k8s.io/kustomize/kyaml/resid
+sigs.k8s.io/kustomize/api/filters/patchjson6902
+k8s.io/client-go/pkg/apis/clientauthentication/install
+sigs.k8s.io/kustomize/kyaml/fieldmeta
+sigs.k8s.io/kustomize/kyaml/yaml/schema
+k8s.io/apimachinery/pkg/apis/meta/internalversion
+sigs.k8s.io/kustomize/api/types
+sigs.k8s.io/kustomize/api/filters/valueadd
+k8s.io/apimachinery/pkg/util/remotecommand
+k8s.io/client-go/plugin/pkg/client/auth/exec
+k8s.io/apimachinery/pkg/util/proxy
+k8s.io/apimachinery/pkg/util/httpstream/wsstream
+k8s.io/api/admission/v1
+k8s.io/api/admission/v1beta1
+k8s.io/apimachinery/pkg/apis/meta/internalversion/validation
+k8s.io/client-go/tools/pager
+k8s.io/api/imagepolicy/v1alpha1
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas
+sigs.k8s.io/kustomize/kyaml/yaml/walk
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/base
+k8s.io/client-go/util/watchlist
+github.com/google/s2a-go/internal/authinfo
+k8s.io/client-go/rest
+sigs.k8s.io/kustomize/api/filters/fieldspec
+sigs.k8s.io/kustomize/api/filters/iampolicygenerator
+sigs.k8s.io/kustomize/api/filters/fsslice
+sigs.k8s.io/kustomize/api/konfig
+sigs.k8s.io/kustomize/api/filters/prefix
+sigs.k8s.io/kustomize/api/ifc
+sigs.k8s.io/kustomize/api/filters/annotations
+sigs.k8s.io/kustomize/api/filters/labels
+sigs.k8s.io/kustomize/api/filters/namespace
+sigs.k8s.io/kustomize/api/filters/replicacount
+sigs.k8s.io/kustomize/api/internal/generators
+sigs.k8s.io/kustomize/api/internal/utils
+sigs.k8s.io/kustomize/api/filters/suffix
+sigs.k8s.io/kustomize/api/filters/refvar
+sigs.k8s.io/kustomize/api/internal/plugins/builtinconfig
+sigs.k8s.io/kustomize/api/internal/validate
+k8s.io/apimachinery/pkg/util/httpstream/spdy
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob
+sigs.k8s.io/kustomize/api/filters/imagetag
+sigs.k8s.io/kustomize/api/internal/git
+github.com/google/s2a-go/internal/record
+sigs.k8s.io/kustomize/api/kv
+github.com/google/s2a-go/stream
+github.com/kanisterio/kanister/pkg/jsonpath
+k8s.io/apimachinery/pkg/apis/meta/internalversion/scheme
+sigs.k8s.io/controller-runtime/pkg/webhook/conversion
+github.com/aws/aws-sdk-go/service/s3/s3iface
+sigs.k8s.io/kustomize/kyaml/yaml/merge2
+sigs.k8s.io/kustomize/kyaml/comments
+sigs.k8s.io/kustomize/api/internal/loader
+sigs.k8s.io/controller-runtime/pkg/scheme
+github.com/google/s2a-go/internal/v2/certverifier
+github.com/google/s2a-go/internal/v2/remotesigner
+github.com/google/s2a-go/internal/handshaker
+k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/scheme
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/pageblob
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/appendblob
+github.com/google/s2a-go/internal/v2/tlsconfigstore
+sigs.k8s.io/kustomize/api/filters/patchstrategicmerge
+k8s.io/client-go/util/apply
+k8s.io/client-go/testing
+k8s.io/client-go/openapi
+k8s.io/client-go/tools/auth
+k8s.io/client-go/tools/cache
+k8s.io/client-go/plugin/pkg/client/auth/azure
+k8s.io/client-go/plugin/pkg/client/auth/gcp
+sigs.k8s.io/kustomize/kyaml/fn/runtime/runtimeutil
+k8s.io/client-go/dynamic
+k8s.io/client-go/tools/clientcmd
+k8s.io/client-go/plugin/pkg/client/auth/oidc
+sigs.k8s.io/kustomize/api/resource
+k8s.io/client-go/transport/spdy
+k8s.io/client-go/transport/websocket
+github.com/google/s2a-go/internal/v2
+github.com/aws/aws-sdk-go/service/s3/s3manager
+k8s.io/client-go/plugin/pkg/client/auth
+sigs.k8s.io/kustomize/kyaml/fn/runtime/exec
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container
+k8s.io/client-go/metadata
+k8s.io/client-go/openapi3
+k8s.io/client-go/openapi/cached
+sigs.k8s.io/kustomize/kyaml/fn/runtime/container
+sigs.k8s.io/kustomize/api/filters/replacement
+sigs.k8s.io/kustomize/api/resmap
+sigs.k8s.io/kustomize/api/provider
+github.com/google/s2a-go
+sigs.k8s.io/kustomize/kyaml/runfn
+sigs.k8s.io/controller-runtime/pkg/client/config
+github.com/graymeta/stow/s3
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/service
+sigs.k8s.io/kustomize/api/internal/plugins/utils
+sigs.k8s.io/kustomize/api/filters/nameref
+sigs.k8s.io/kustomize/api/internal/builtins
+cloud.google.com/go/auth/internal/transport
+google.golang.org/api/internal
+k8s.io/client-go/gentype
+sigs.k8s.io/kustomize/api/internal/plugins/execplugin
+sigs.k8s.io/kustomize/api/internal/plugins/fnplugin
+sigs.k8s.io/kustomize/api/internal/accumulator
+k8s.io/client-go/listers
+k8s.io/client-go/listers/admissionregistration/v1
+cloud.google.com/go/auth/httptransport
+k8s.io/client-go/listers/admissionregistration/v1alpha1
+k8s.io/client-go/listers/admissionregistration/v1beta1
+k8s.io/client-go/listers/apiserverinternal/v1alpha1
+k8s.io/client-go/listers/certificates/v1alpha1
+k8s.io/client-go/listers/coordination/v1alpha2
+k8s.io/client-go/listers/coordination/v1
+k8s.io/client-go/listers/coordination/v1beta1
+k8s.io/client-go/listers/flowcontrol/v1
+k8s.io/client-go/listers/flowcontrol/v1beta1
+k8s.io/client-go/listers/flowcontrol/v1beta2
+k8s.io/client-go/listers/flowcontrol/v1beta3
+k8s.io/client-go/listers/networking/v1alpha1
+k8s.io/client-go/listers/rbac/v1
+sigs.k8s.io/kustomize/api/internal/plugins/builtinhelpers
+k8s.io/client-go/listers/rbac/v1alpha1
+google.golang.org/api/internal/gensupport
+google.golang.org/api/option
+k8s.io/client-go/listers/rbac/v1beta1
+sigs.k8s.io/kustomize/api/internal/plugins/loader
+google.golang.org/api/option/internaloption
+google.golang.org/api/transport/http
+sigs.k8s.io/kustomize/api/internal/target
+sigs.k8s.io/kustomize/api/krusty
+google.golang.org/api/storage/v1
+google.golang.org/api/compute/v1
+github.com/graymeta/stow/google
+k8s.io/api/apps/v1
+k8s.io/api/apps/v1beta1
+k8s.io/api/apps/v1beta2
+k8s.io/api/autoscaling/v1
+k8s.io/api/autoscaling/v2
+k8s.io/api/autoscaling/v2beta1
+k8s.io/api/certificates/v1beta1
+k8s.io/api/discovery/v1
+k8s.io/api/events/v1
+k8s.io/api/autoscaling/v2beta2
+k8s.io/api/certificates/v1
+k8s.io/api/discovery/v1beta1
+k8s.io/api/batch/v1
+k8s.io/api/events/v1beta1
+k8s.io/api/networking/v1
+k8s.io/api/networking/v1beta1
+k8s.io/api/node/v1
+k8s.io/api/node/v1alpha1
+k8s.io/api/node/v1beta1
+k8s.io/api/resource/v1alpha3
+k8s.io/api/batch/v1beta1
+k8s.io/api/resource/v1beta1
+k8s.io/api/resource/v1beta2
+k8s.io/api/scheduling/v1
+k8s.io/api/scheduling/v1alpha1
+k8s.io/api/scheduling/v1beta1
+k8s.io/api/storage/v1
+k8s.io/api/extensions/v1beta1
+k8s.io/api/storage/v1alpha1
+k8s.io/api/storage/v1beta1
+k8s.io/api/storagemigration/v1alpha1
+k8s.io/client-go/tools/reference
+k8s.io/client-go/tools/remotecommand
+k8s.io/client-go/scale/scheme
+github.com/aws/aws-sdk-go-v2/feature/s3/manager
+k8s.io/client-go/tools/record/util
+github.com/kubernetes-csi/external-snapshotter/client/v4/apis/volumesnapshot/v1
+k8s.io/client-go/tools/record
+k8s.io/kubectl/pkg/util/term
+k8s.io/client-go/scale/scheme/appsint
+k8s.io/client-go/scale/scheme/appsv1beta1
+k8s.io/client-go/scale/scheme/appsv1beta2
+k8s.io/client-go/scale/scheme/autoscalingv1
+k8s.io/client-go/listers/apps/v1
+k8s.io/client-go/listers/apps/v1beta1
+k8s.io/kubectl/pkg/util/templates
+k8s.io/client-go/listers/apps/v1beta2
+k8s.io/client-go/listers/autoscaling/v1
+k8s.io/client-go/listers/autoscaling/v2
+k8s.io/client-go/listers/autoscaling/v2beta1
+k8s.io/client-go/listers/autoscaling/v2beta2
+k8s.io/client-go/listers/batch/v1
+k8s.io/client-go/listers/batch/v1beta1
+k8s.io/client-go/listers/certificates/v1
+k8s.io/client-go/listers/certificates/v1beta1
+k8s.io/client-go/listers/core/v1
+k8s.io/client-go/listers/discovery/v1
+k8s.io/client-go/listers/discovery/v1beta1
+k8s.io/client-go/listers/events/v1
+k8s.io/client-go/listers/events/v1beta1
+k8s.io/client-go/listers/networking/v1
+k8s.io/client-go/listers/networking/v1beta1
+k8s.io/client-go/listers/node/v1
+k8s.io/client-go/listers/node/v1alpha1
+k8s.io/client-go/listers/node/v1beta1
+k8s.io/client-go/listers/policy/v1
+k8s.io/client-go/listers/policy/v1beta1
+k8s.io/client-go/listers/scheduling/v1
+k8s.io/client-go/listers/scheduling/v1alpha1
+k8s.io/client-go/listers/scheduling/v1beta1
+k8s.io/client-go/listers/storage/v1
+k8s.io/client-go/listers/storage/v1alpha1
+k8s.io/client-go/listers/storage/v1beta1
+k8s.io/client-go/listers/storagemigration/v1alpha1
+sigs.k8s.io/controller-runtime/pkg/recorder
+k8s.io/client-go/listers/resource/v1beta1
+k8s.io/client-go/listers/resource/v1alpha3
+k8s.io/client-go/scale/scheme/extensionsint
+k8s.io/client-go/listers/extensions/v1beta1
+k8s.io/client-go/scale/scheme/extensionsv1beta1
+github.com/openshift/api/apps/v1
+k8s.io/client-go/kubernetes/scheme
+k8s.io/client-go/listers/resource/v1beta2
+k8s.io/client-go/discovery
+k8s.io/client-go/kubernetes/typed/authentication/v1alpha1
+k8s.io/client-go/kubernetes/typed/authentication/v1beta1
+k8s.io/client-go/kubernetes/typed/authentication/v1
+k8s.io/client-go/kubernetes/typed/authorization/v1beta1
+k8s.io/client-go/kubernetes/typed/authorization/v1
+k8s.io/kubectl/pkg/scheme
+k8s.io/client-go/discovery/cached/memory
+k8s.io/kubectl/pkg/util/openapi
+k8s.io/client-go/restmapper
+k8s.io/client-go/applyconfigurations/meta/v1
+k8s.io/client-go/scale
+k8s.io/client-go/discovery/cached/disk
+sigs.k8s.io/controller-runtime/pkg/client/apiutil
+k8s.io/cli-runtime/pkg/resource
+k8s.io/apiextensions-apiserver/pkg/client/applyconfiguration/apiextensions/v1beta1
+k8s.io/client-go/applyconfigurations/autoscaling/v1
+k8s.io/client-go/applyconfigurations/admissionregistration/v1
+k8s.io/client-go/applyconfigurations/apiserverinternal/v1alpha1
+k8s.io/client-go/applyconfigurations/autoscaling/v2
+k8s.io/client-go/applyconfigurations/certificates/v1
+k8s.io/apiextensions-apiserver/pkg/client/applyconfiguration/apiextensions/v1
+k8s.io/client-go/applyconfigurations/autoscaling/v2beta2
+k8s.io/client-go/applyconfigurations/autoscaling/v2beta1
+k8s.io/client-go/applyconfigurations/core/v1
+k8s.io/client-go/applyconfigurations/certificates/v1alpha1
+k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1
+k8s.io/client-go/applyconfigurations/certificates/v1beta1
+k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1
+k8s.io/client-go/applyconfigurations/coordination/v1
+k8s.io/client-go/kubernetes/typed/apiserverinternal/v1alpha1
+k8s.io/client-go/kubernetes/typed/certificates/v1
+k8s.io/client-go/kubernetes/typed/autoscaling/v1
+k8s.io/client-go/kubernetes/typed/autoscaling/v2
+k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2
+k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1
+k8s.io/client-go/kubernetes/typed/certificates/v1alpha1
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1
+k8s.io/client-go/applyconfigurations/admissionregistration/v1alpha1
+k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset
+k8s.io/client-go/applyconfigurations/admissionregistration/v1beta1
+k8s.io/client-go/kubernetes/typed/certificates/v1beta1
+k8s.io/client-go/kubernetes/typed/coordination/v1
+k8s.io/client-go/applyconfigurations/coordination/v1alpha2
+k8s.io/client-go/applyconfigurations/coordination/v1beta1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta2
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta3
+k8s.io/client-go/applyconfigurations/networking/v1alpha1
+k8s.io/client-go/applyconfigurations/policy/v1
+k8s.io/client-go/applyconfigurations/policy/v1beta1
+k8s.io/client-go/kubernetes/typed/coordination/v1alpha2
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1alpha1
+k8s.io/client-go/kubernetes/typed/coordination/v1beta1
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1beta1
+k8s.io/client-go/applyconfigurations/rbac/v1
+k8s.io/client-go/applyconfigurations/rbac/v1alpha1
+k8s.io/client-go/kubernetes/typed/networking/v1alpha1
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta3
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta1
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta2
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1
+k8s.io/client-go/kubernetes/typed/policy/v1beta1
+k8s.io/client-go/kubernetes/typed/policy/v1
+k8s.io/client-go/applyconfigurations/rbac/v1beta1
+k8s.io/client-go/kubernetes/typed/rbac/v1alpha1
+k8s.io/client-go/kubernetes/typed/rbac/v1
+k8s.io/client-go/applyconfigurations/scheduling/v1
+k8s.io/client-go/applyconfigurations/scheduling/v1alpha1
+k8s.io/client-go/applyconfigurations/scheduling/v1beta1
+k8s.io/client-go/applyconfigurations/storagemigration/v1alpha1
+github.com/openshift/client-go/apps/applyconfigurations/apps/v1
+github.com/openshift/client-go/apps/clientset/versioned/scheme
+k8s.io/cli-runtime/pkg/genericclioptions
+k8s.io/client-go/kubernetes/typed/rbac/v1beta1
+k8s.io/kubectl/pkg/validation
+sigs.k8s.io/controller-runtime/pkg/client
+k8s.io/client-go/applyconfigurations/apps/v1
+k8s.io/client-go/applyconfigurations/apps/v1beta1
+k8s.io/client-go/applyconfigurations/batch/v1
+k8s.io/client-go/kubernetes/typed/core/v1
+k8s.io/client-go/applyconfigurations/apps/v1beta2
+k8s.io/client-go/applyconfigurations/discovery/v1
+k8s.io/client-go/applyconfigurations/discovery/v1beta1
+k8s.io/client-go/applyconfigurations/events/v1
+k8s.io/client-go/applyconfigurations/events/v1beta1
+k8s.io/client-go/applyconfigurations/extensions/v1beta1
+k8s.io/client-go/applyconfigurations/networking/v1
+k8s.io/client-go/applyconfigurations/networking/v1beta1
+k8s.io/client-go/kubernetes/typed/events/v1
+k8s.io/client-go/kubernetes/typed/discovery/v1beta1
+k8s.io/client-go/kubernetes/typed/discovery/v1
+k8s.io/client-go/applyconfigurations/node/v1
+k8s.io/client-go/kubernetes/typed/apps/v1beta1
+k8s.io/client-go/kubernetes/typed/batch/v1
+k8s.io/client-go/applyconfigurations/batch/v1beta1
+k8s.io/client-go/kubernetes/typed/events/v1beta1
+k8s.io/client-go/kubernetes/typed/apps/v1
+k8s.io/client-go/kubernetes/typed/apps/v1beta2
+k8s.io/client-go/applyconfigurations/node/v1alpha1
+k8s.io/client-go/applyconfigurations/node/v1beta1
+k8s.io/client-go/kubernetes/typed/node/v1
+k8s.io/client-go/applyconfigurations/resource/v1alpha3
+k8s.io/client-go/applyconfigurations/resource/v1beta1
+k8s.io/client-go/kubernetes/typed/networking/v1
+k8s.io/client-go/kubernetes/typed/networking/v1beta1
+k8s.io/client-go/applyconfigurations/resource/v1beta2
+k8s.io/client-go/kubernetes/typed/batch/v1beta1
+k8s.io/client-go/kubernetes/typed/scheduling/v1
+k8s.io/client-go/kubernetes/typed/extensions/v1beta1
+k8s.io/client-go/kubernetes/typed/node/v1alpha1
+k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
+k8s.io/client-go/kubernetes/typed/node/v1beta1
+k8s.io/client-go/kubernetes/typed/scheduling/v1beta1
+k8s.io/client-go/applyconfigurations/storage/v1
+k8s.io/client-go/kubernetes/typed/resource/v1alpha3
+k8s.io/client-go/kubernetes/typed/resource/v1beta1
+k8s.io/client-go/applyconfigurations/storage/v1alpha1
+k8s.io/client-go/applyconfigurations/storage/v1beta1
+k8s.io/client-go/kubernetes/typed/resource/v1beta2
+k8s.io/client-go/kubernetes/typed/storagemigration/v1alpha1
+github.com/openshift/client-go/apps/clientset/versioned/typed/apps/v1
+github.com/kanisterio/kanister/pkg/aws/rds
+sigs.k8s.io/controller-runtime/pkg/reconcile
+sigs.k8s.io/controller-runtime/pkg/cache/internal
+sigs.k8s.io/controller-runtime/pkg/event
+sigs.k8s.io/controller-runtime/pkg/controller/controllerutil
+sigs.k8s.io/controller-runtime/pkg/predicate
+k8s.io/client-go/kubernetes/typed/storage/v1alpha1
+k8s.io/client-go/kubernetes/typed/storage/v1
+github.com/openshift/client-go/apps/clientset/versioned
+sigs.k8s.io/controller-runtime/pkg/cache
+k8s.io/client-go/kubernetes/typed/storage/v1beta1
+sigs.k8s.io/controller-runtime/pkg/internal/recorder
+sigs.k8s.io/controller-runtime/pkg/cluster
+k8s.io/client-go/kubernetes
+github.com/kanisterio/kanister/pkg/config
+k8s.io/client-go/informers/internalinterfaces
+k8s.io/client-go/tools/leaderelection/resourcelock
+k8s.io/kubectl/pkg/cmd/util
+github.com/kanisterio/kanister/pkg/kube/snapshot
+github.com/kanisterio/kanister/pkg/customresource
+sigs.k8s.io/controller-runtime/pkg/leaderelection
+github.com/kanisterio/kanister/pkg/log
+k8s.io/client-go/informers/admissionregistration/v1
+k8s.io/client-go/informers/apiserverinternal/v1alpha1
+k8s.io/client-go/informers/autoscaling/v1
+k8s.io/client-go/informers/admissionregistration/v1beta1
+k8s.io/client-go/informers/apps/v1beta2
+k8s.io/client-go/informers/admissionregistration/v1alpha1
+k8s.io/client-go/informers/apps/v1
+k8s.io/client-go/informers/autoscaling/v2
+k8s.io/client-go/informers/apps/v1beta1
+k8s.io/client-go/informers/autoscaling/v2beta1
+github.com/kanisterio/kanister/pkg/apis/cr/v1alpha1
+k8s.io/client-go/informers/autoscaling/v2beta2
+k8s.io/client-go/informers/batch/v1
+k8s.io/client-go/informers/batch/v1beta1
+github.com/kanisterio/kanister/pkg/client/applyconfiguration/cr/v1alpha1
+github.com/kanisterio/kanister/pkg/client/clientset/versioned/scheme
+github.com/kanisterio/kanister/pkg/output
+github.com/kanisterio/kanister/pkg/format
+github.com/kanisterio/kanister/pkg/client/clientset/versioned/typed/cr/v1alpha1
+github.com/kanisterio/kanister/pkg/aws
+github.com/kanisterio/kanister/pkg/utils
+github.com/kanisterio/kanister/pkg/eventer
+github.com/kanisterio/kanister/pkg/kube
+github.com/kanisterio/kanister/pkg/metrics
+k8s.io/client-go/informers/certificates/v1
+k8s.io/client-go/informers/certificates/v1alpha1
+k8s.io/client-go/informers/autoscaling
+k8s.io/client-go/informers/admissionregistration
+k8s.io/client-go/informers/apiserverinternal
+k8s.io/client-go/informers/certificates/v1beta1
+k8s.io/client-go/informers/coordination/v1
+k8s.io/client-go/informers/apps
+k8s.io/client-go/informers/coordination/v1alpha2
+k8s.io/client-go/informers/coordination/v1beta1
+github.com/kanisterio/kanister/pkg/client/clientset/versioned
+github.com/kanisterio/kanister/pkg/objectstore
+k8s.io/client-go/informers/batch
+k8s.io/client-go/informers/core/v1
+k8s.io/client-go/informers/discovery/v1
+k8s.io/client-go/informers/discovery/v1beta1
+github.com/kanisterio/kanister/pkg/secrets
+k8s.io/client-go/informers/events/v1
+k8s.io/client-go/informers/events/v1beta1
+k8s.io/client-go/informers/extensions/v1beta1
+k8s.io/client-go/informers/flowcontrol/v1beta1
+k8s.io/client-go/informers/flowcontrol/v1
+k8s.io/client-go/informers/flowcontrol/v1beta2
+k8s.io/client-go/informers/flowcontrol/v1beta3
+k8s.io/client-go/informers/networking/v1
+k8s.io/client-go/informers/networking/v1alpha1
+k8s.io/client-go/informers/coordination
+k8s.io/client-go/informers/certificates
+k8s.io/client-go/informers/networking/v1beta1
+github.com/kanisterio/kanister/pkg/param
+k8s.io/client-go/informers/core
+k8s.io/client-go/informers/node/v1
+k8s.io/client-go/informers/discovery
+k8s.io/client-go/informers/node/v1alpha1
+k8s.io/client-go/informers/events
+k8s.io/client-go/informers/node/v1beta1
+k8s.io/client-go/informers/policy/v1
+k8s.io/client-go/informers/extensions
+k8s.io/client-go/informers/policy/v1beta1
+k8s.io/client-go/informers/rbac/v1
+k8s.io/client-go/informers/rbac/v1alpha1
+k8s.io/client-go/informers/flowcontrol
+k8s.io/client-go/informers/rbac/v1beta1
+k8s.io/client-go/informers/resource/v1alpha3
+k8s.io/client-go/informers/networking
+github.com/kanisterio/kanister/pkg
+github.com/kanisterio/kanister/pkg/validate
+github.com/kanisterio/kanister/pkg/ephemeral
+github.com/kanisterio/kanister/pkg/location
+k8s.io/client-go/informers/resource/v1beta1
+k8s.io/client-go/informers/resource/v1beta2
+k8s.io/client-go/informers/scheduling/v1
+k8s.io/client-go/informers/scheduling/v1alpha1
+github.com/kanisterio/kanister/pkg/restic
+k8s.io/client-go/informers/scheduling/v1beta1
+k8s.io/client-go/informers/policy
+k8s.io/client-go/informers/storage/v1
+k8s.io/client-go/informers/node
+k8s.io/client-go/informers/storage/v1alpha1
+k8s.io/client-go/informers/storage/v1beta1
+k8s.io/client-go/informers/rbac
+k8s.io/client-go/informers/storagemigration/v1alpha1
+github.com/kanisterio/kanister/pkg/resource
+github.com/kanisterio/kanister/pkg/reconcile
+k8s.io/client-go/informers/scheduling
+github.com/kanisterio/kanister/pkg/progress
+k8s.io/client-go/informers/resource
+k8s.io/client-go/informers/storagemigration
+github.com/kanisterio/kanister/pkg/controller
+github.com/kanisterio/kanister/pkg/function
+k8s.io/client-go/informers/storage
+k8s.io/client-go/informers
+github.com/kanisterio/kanister/pkg/blueprint/validate
+k8s.io/client-go/tools/leaderelection
+sigs.k8s.io/controller-runtime/pkg/metrics
+sigs.k8s.io/controller-runtime/pkg/webhook/admission/metrics
+sigs.k8s.io/controller-runtime/pkg/webhook/internal/metrics
+sigs.k8s.io/controller-runtime/pkg/internal/metrics
+sigs.k8s.io/controller-runtime/pkg/internal/controller/metrics
+sigs.k8s.io/controller-runtime/pkg/certwatcher/metrics
+sigs.k8s.io/controller-runtime/pkg/controller/priorityqueue
+sigs.k8s.io/controller-runtime/pkg/certwatcher
+sigs.k8s.io/controller-runtime/pkg/webhook/admission
+sigs.k8s.io/controller-runtime/pkg/handler
+sigs.k8s.io/controller-runtime/pkg/metrics/server
+sigs.k8s.io/controller-runtime/pkg/internal/source
+github.com/kanisterio/kanister/pkg/validatingwebhook
+sigs.k8s.io/controller-runtime/pkg/webhook
+sigs.k8s.io/controller-runtime/pkg/source
+sigs.k8s.io/controller-runtime/pkg/manager
+sigs.k8s.io/controller-runtime/pkg/internal/controller
+sigs.k8s.io/controller-runtime/pkg/controller
+sigs.k8s.io/controller-runtime/pkg/builder
+sigs.k8s.io/controller-runtime
+github.com/kanisterio/kanister/pkg/handler
+github.com/kanisterio/kanister/pkg/kancontroller
+github.com/kanisterio/kanister/cmd/controller
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/kanister'
+building: bin/amd64/kanctl
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/kanister'
+go: downloading github.com/kanisterio/blueprints v0.0.0-20251121103612-0e5855fe8223
+go: downloading github.com/aws/aws-sdk-go-v2/service/ec2 v1.321.2
+github.com/kanisterio/blueprints
+github.com/kanisterio/blueprints/utils
+github.com/aws/aws-sdk-go-v2/aws/protocol/ec2query
+github.com/aws/aws-sdk-go-v2/service/ec2/types
+github.com/aws/aws-sdk-go-v2/service/ec2/internal/endpoints
+k8s.io/client-go/tools/portforward
+github.com/kanisterio/kanister/pkg/helm
+github.com/kanisterio/kanister/pkg/openshift
+github.com/aws/aws-sdk-go-v2/service/ec2
+github.com/kanisterio/kanister/pkg/aws/ec2
+github.com/kanisterio/kanister/pkg/app
+github.com/kanisterio/kanister/pkg/kanctl
+github.com/kanisterio/kanister/cmd/kanctl
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/kanister'
+building: bin/amd64/kando
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/kanister'
+go: downloading github.com/kopia/kopia v0.20.2-0.20250717071305-692c1f465ba3
+go: downloading github.com/edsrzf/mmap-go v1.2.0
+go: downloading github.com/hashicorp/cronexpr v1.1.2
+go: downloading cloud.google.com/go/storage v1.55.0
+go: downloading github.com/minio/minio-go/v7 v7.0.94
+go: downloading go.uber.org/zap v1.28.0
+go: downloading golang.org/x/exp v0.0.0-20250711185948-6ae5c78190dc
+go: downloading github.com/klauspost/compress v1.18.0
+go: downloading github.com/natefinch/atomic v1.0.1
+go: downloading github.com/klauspost/pgzip v1.2.6
+go: downloading github.com/pierrec/lz4 v2.6.1+incompatible
+go: downloading github.com/petar/GoLLRB v0.0.0-20210522233825-ae3b015fd3e9
+go: downloading github.com/chmduquesne/rollinghash v4.0.0+incompatible
+go: downloading github.com/zeebo/blake3 v0.2.4
+go: downloading github.com/klauspost/reedsolomon v1.12.5
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/klauspost/cpuid/v2 v2.3.0
+go: downloading github.com/go-ini/ini v1.67.0
+go: downloading github.com/minio/md5-simd v1.1.2
+go: downloading github.com/dustin/go-humanize v1.0.1
+go: downloading github.com/minio/crc64nvme v1.0.2
+go: downloading github.com/goccy/go-json v0.10.5
+go: downloading github.com/rs/xid v1.6.0
+go: downloading github.com/tinylib/msgp v1.3.0
+go: downloading cloud.google.com/go/iam v1.5.2
+go: downloading go.opentelemetry.io/contrib/detectors/gcp v1.38.0
+go: downloading go.opentelemetry.io/otel/sdk/metric v1.43.0
+go: downloading github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.53.0
+go: downloading go.opentelemetry.io/otel/sdk v1.43.0
+go: downloading github.com/philhofer/fwd v1.2.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20251022142026-3a174f9686a8
+go: downloading github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.30.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.62.0
+go: downloading cloud.google.com/go/monitoring v1.24.2
+go: downloading github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.53.0
+go: downloading github.com/envoyproxy/go-control-plane/envoy v1.35.0
+go: downloading github.com/spiffe/go-spiffe/v2 v2.6.0
+go: downloading github.com/cncf/xds/go v0.0.0-20251022180443-0feb69152e9f
+go: downloading cel.dev/expr v0.24.0
+go: downloading github.com/envoyproxy/protoc-gen-validate v1.2.1
+go: downloading github.com/go-jose/go-jose/v4 v4.1.4
+github.com/kopia/kopia/internal/impossible
+golang.org/x/exp/constraints
+github.com/klauspost/compress/internal/le
+github.com/klauspost/compress/internal/race
+cloud.google.com/go/storage/internal
+github.com/zeebo/blake3/internal/alg/compress/compress_sse41
+github.com/zeebo/blake3/internal/alg/hash/hash_avx2
+github.com/klauspost/compress/internal/cpuinfo
+go.opentelemetry.io/otel/sdk/metric/internal
+go.opentelemetry.io/otel/sdk/metric/internal/reservoir
+go.opentelemetry.io/otel/sdk
+cloud.google.com/go/monitoring/internal
+google.golang.org/grpc/internal/xds/clients/xdsclient/metrics
+google.golang.org/grpc/internal/xds/xdsclient/xdsresource/version
+github.com/klauspost/compress
+github.com/kanisterio/kanister/pkg/envdir
+github.com/kopia/kopia/internal/ospath
+go.uber.org/zap/internal/pool
+github.com/kopia/kopia/internal/clock
+go.uber.org/zap/internal/color
+github.com/natefinch/atomic
+go.uber.org/zap/internal/exit
+github.com/kopia/kopia/internal/releasable
+go.uber.org/multierr
+github.com/kopia/kopia/internal/dirutil
+github.com/kopia/kopia/internal/iocopy
+github.com/kopia/kopia/internal/crypto
+github.com/kopia/kopia/internal/feature
+github.com/klauspost/cpuid/v2
+github.com/zeebo/blake3/internal/utils
+github.com/kopia/kopia/internal/atomicfile
+go.uber.org/zap/buffer
+github.com/kopia/kopia/internal/parallelwork
+github.com/kopia/kopia/internal/timetrack
+github.com/kopia/kopia/internal/grpcapi
+golang.org/x/crypto/blake2b
+github.com/prometheus/client_golang/prometheus/promauto
+golang.org/x/crypto/blake2s
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/fse
+github.com/klauspost/compress/s2
+github.com/klauspost/compress/internal/snapref
+github.com/klauspost/compress/zstd/internal/xxhash
+github.com/kopia/kopia/internal/freepool
+github.com/kanisterio/kanister/pkg/chronicle
+github.com/pierrec/lz4/internal/xxh32
+github.com/edsrzf/mmap-go
+github.com/kopia/kopia/internal/tempfile
+github.com/petar/GoLLRB/llrb
+go.uber.org/zap/internal/bufferpool
+github.com/kopia/kopia/internal/cachedir
+github.com/pierrec/lz4
+go.uber.org/zap/zapcore
+go.uber.org/zap/internal/stacktrace
+github.com/kopia/kopia/internal/units
+github.com/chmduquesne/rollinghash
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob
+github.com/kopia/kopia/internal/timestampmeta
+google.golang.org/genproto/googleapis/api
+github.com/chmduquesne/rollinghash/buzhash32
+github.com/chmduquesne/rollinghash/rabinkarp64
+google.golang.org/genproto/googleapis/type/expr
+google.golang.org/protobuf/types/known/fieldmaskpb
+github.com/klauspost/compress/huff0
+cloud.google.com/go/internal
+cloud.google.com/go/internal/optional
+cloud.google.com/go/internal/trace
+github.com/kopia/kopia/repo/splitter
+cloud.google.com/go/internal/version
+go.opentelemetry.io/otel/sdk/instrumentation
+google.golang.org/genproto/googleapis/api/annotations
+go.opentelemetry.io/otel/sdk/metric/exemplar
+go.opentelemetry.io/otel/sdk/internal/x
+go.opentelemetry.io/otel/semconv/v1.40.0/otelconv
+google.golang.org/genproto/googleapis/type/date
+google.golang.org/protobuf/types/known/emptypb
+github.com/googleapis/gax-go/v2/internallog/grpclog
+google.golang.org/api/iterator
+cloud.google.com/go/auth/internal/compute
+go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc/internal
+go.opentelemetry.io/otel/sdk/resource
+go.opentelemetry.io/otel/semconv/v1.34.0/rpcconv
+google.golang.org/grpc/credentials/alts/internal
+golang.org/x/sync/semaphore
+google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp
+google.golang.org/grpc/credentials/alts/internal/handshaker/service
+github.com/zeebo/blake3/internal/consts
+github.com/googleapis/gax-go/v2/iterator
+github.com/zeebo/blake3/internal/alg/compress/compress_pure
+github.com/klauspost/reedsolomon
+google.golang.org/grpc/credentials/alts/internal/conn
+google.golang.org/grpc/internal/googlecloud
+google.golang.org/grpc/credentials/oauth
+google.golang.org/grpc/internal/xds/clients
+google.golang.org/grpc/balancer/grpclb/grpc_lb_v1
+github.com/zeebo/blake3/internal/alg/compress
+google.golang.org/grpc/internal/xds
+github.com/zeebo/blake3/internal/alg/hash/hash_pure
+google.golang.org/grpc/resolver/manual
+google.golang.org/genproto/googleapis/api/distribution
+github.com/klauspost/compress/zstd
+go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
+google.golang.org/genproto/googleapis/api/label
+github.com/zeebo/blake3/internal/alg/hash
+google.golang.org/protobuf/types/known/structpb
+google.golang.org/genproto/googleapis/type/calendarperiod
+github.com/zeebo/blake3/internal/alg
+github.com/zeebo/blake3
+github.com/klauspost/pgzip
+go.opentelemetry.io/otel/sdk/metric/internal/observ
+google.golang.org/genproto/googleapis/api/metric
+cloud.google.com/go/iam/apiv1/iampb
+go.opentelemetry.io/otel/sdk/metric/metricdata
+google.golang.org/genproto/googleapis/type/timeofday
+google.golang.org/protobuf/types/known/wrapperspb
+go.opentelemetry.io/otel/semconv/v1.24.0
+google.golang.org/grpc/credentials/alts/internal/authinfo
+google.golang.org/genproto/googleapis/api/monitoredres
+github.com/kopia/kopia/internal/zaplogutil
+go.uber.org/zap/internal
+go.opentelemetry.io/otel/sdk/metric/internal/aggregate
+go.uber.org/zap
+google.golang.org/grpc/balancer/grpclb
+google.golang.org/grpc/encoding/gzip
+google.golang.org/grpc/credentials/alts/internal/handshaker
+github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp
+google.golang.org/api/iamcredentials/v1
+google.golang.org/grpc/balancer/rls/internal/adaptive
+google.golang.org/grpc/internal/proto/grpc_lookup_v1
+google.golang.org/grpc/internal/cache
+cloud.google.com/go/monitoring/apiv3/v2/monitoringpb
+google.golang.org/grpc/experimental/opentelemetry
+google.golang.org/grpc/stats/opentelemetry/internal
+google.golang.org/grpc/internal/balancergroup
+go.opentelemetry.io/contrib/detectors/gcp
+google.golang.org/grpc/stats/opentelemetry/internal/tracing
+github.com/cncf/xds/go/udpa/annotations
+github.com/cncf/xds/go/xds/annotations/v3
+google.golang.org/grpc/stats/opentelemetry
+google.golang.org/grpc/credentials/alts
+cloud.google.com/go/iam
+cloud.google.com/go/storage/internal/apiv2/storagepb
+github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping
+go.opentelemetry.io/otel/sdk/metric
+google.golang.org/grpc/balancer/rls/internal/keys
+github.com/envoyproxy/protoc-gen-validate/validate
+github.com/envoyproxy/go-control-plane/envoy/annotations
+google.golang.org/grpc/credentials/google
+github.com/go-jose/go-jose/v4/cipher
+github.com/go-jose/go-jose/v4/json
+github.com/spiffe/go-spiffe/v2/internal/cryptoutil
+github.com/spiffe/go-spiffe/v2/spiffeid
+cloud.google.com/go/auth/grpctransport
+github.com/spiffe/go-spiffe/v2/internal/pemutil
+google.golang.org/grpc/balancer/rls
+github.com/spiffe/go-spiffe/v2/internal/jwtutil
+github.com/spiffe/go-spiffe/v2/internal/x509util
+cel.dev/expr
+google.golang.org/genproto/googleapis/api/expr/v1alpha1
+google.golang.org/grpc/internal/xds/clients/grpctransport
+google.golang.org/grpc/internal/xds/clients/internal/backoff
+github.com/spiffe/go-spiffe/v2/bundle/x509bundle
+google.golang.org/grpc/internal/xds/clients/lrsclient/internal
+google.golang.org/grpc/internal/xds/clients/internal/buffer
+google.golang.org/grpc/internal/xds/clients/internal/pretty
+github.com/kopia/kopia/repo/logging
+google.golang.org/grpc/internal/xds/clients/xdsclient/internal
+google.golang.org/grpc/internal/xds/clients/internal/syncutil
+github.com/cncf/xds/go/udpa/type/v1
+github.com/cncf/xds/go/xds/core/v3
+github.com/envoyproxy/go-control-plane/envoy/type/metadata/v3
+github.com/envoyproxy/go-control-plane/envoy/type/v3
+github.com/envoyproxy/go-control-plane/envoy/type/http/v3
+google.golang.org/api/transport/grpc
+google.golang.org/grpc/internal/xds/clusterspecifier
+google.golang.org/grpc/internal/xds/httpfilter
+google.golang.org/grpc/internal/admin
+google.golang.org/grpc/balancer/leastrequest
+google.golang.org/grpc/internal/wrr
+github.com/kopia/kopia/internal/gather
+github.com/kopia/kopia/internal/metrics
+github.com/kopia/kopia/repo/blob
+github.com/kopia/kopia/internal/retry
+github.com/kopia/kopia/internal/tlsutil
+github.com/go-jose/go-jose/v4
+github.com/cncf/xds/go/xds/type/v3
+github.com/envoyproxy/go-control-plane/envoy/type/tracing/v3
+google.golang.org/grpc/balancer/weightedtarget/weightedaggregator
+github.com/kopia/kopia/repo/blob/throttling
+github.com/kopia/kopia/internal/completeset
+github.com/kopia/kopia/repo/blob/beforeop
+github.com/kopia/kopia/repo/blob/logging
+github.com/kopia/kopia/internal/hmac
+github.com/kopia/kopia/repo/encryption
+github.com/kopia/kopia/repo/blob/sharded
+github.com/kopia/kopia/internal/epoch
+github.com/kopia/kopia/repo/hashing
+github.com/kopia/kopia/repo/blob/readonly
+github.com/kopia/kopia/repo/blob/storagemetrics
+github.com/kopia/kopia/repo/compression
+github.com/kopia/kopia/internal/bigmap
+github.com/kopia/kopia/internal/listcache
+github.com/kopia/kopia/internal/ownwrites
+github.com/kopia/kopia/internal/cacheprot
+cloud.google.com/go/storage/internal/apiv2
+google.golang.org/api/transport
+github.com/kopia/kopia/internal/blobcrypto
+github.com/cncf/xds/go/xds/type/matcher/v3
+github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3
+github.com/kopia/kopia/repo/blob/filesystem
+github.com/kopia/kopia/internal/repodiag
+github.com/envoyproxy/go-control-plane/envoy/config/overload/v3
+google.golang.org/grpc/internal/hierarchy
+google.golang.org/grpc/internal/balancer/nop
+github.com/kopia/kopia/repo/content/index
+google.golang.org/grpc/internal/balancer/weight
+github.com/cncf/xds/go/xds/data/orca/v3
+google.golang.org/grpc/internal/xds/balancer/outlierdetection
+google.golang.org/grpc/balancer/weightedtarget
+google.golang.org/grpc/internal/xds/balancer/priority
+google.golang.org/grpc/resolver/ringhash
+google.golang.org/grpc/internal/xds/balancer/clustermanager
+google.golang.org/grpc/internal/xds/clusterspecifier/rls
+github.com/envoyproxy/go-control-plane/envoy/extensions/filters/common/fault/v3
+google.golang.org/grpc/internal/xds/balancer/wrrlocality
+github.com/kopia/kopia/internal/cache
+github.com/envoyproxy/go-control-plane/envoy/extensions/rbac/audit_loggers/stream/v3
+github.com/spiffe/go-spiffe/v2/bundle/jwtbundle
+google.golang.org/grpc/authz/audit
+google.golang.org/grpc/internal/ringhash
+google.golang.org/grpc/internal/xds/resolver/internal
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/client_side_weighted_round_robin/v3
+google.golang.org/grpc/authz/audit/stdout
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/pick_first/v3
+google.golang.org/grpc/balancer/lazy
+google.golang.org/grpc/balancer/weightedroundrobin/internal
+github.com/spiffe/go-spiffe/v2/bundle/spiffebundle
+github.com/cncf/xds/go/xds/service/orca/v3
+google.golang.org/grpc/orca/internal
+github.com/kopia/kopia/repo/jsonencoding
+google.golang.org/grpc/balancer/ringhash
+cloud.google.com/go/storage/experimental
+archive/tar
+github.com/dustin/go-humanize
+github.com/minio/crc64nvme
+github.com/minio/md5-simd
+github.com/goccy/go-json/internal/errors
+github.com/goccy/go-json/internal/runtime
+google.golang.org/grpc/credentials/tls/certprovider
+google.golang.org/grpc/internal/credentials/spiffe
+github.com/go-ini/ini
+github.com/minio/minio-go/v7/pkg/s3utils
+golang.org/x/crypto/argon2
+github.com/minio/minio-go/v7/pkg/kvcache
+github.com/philhofer/fwd
+github.com/minio/minio-go/v7/pkg/cors
+github.com/goccy/go-json/internal/decoder
+github.com/goccy/go-json/internal/encoder
+github.com/rs/xid
+google.golang.org/grpc/orca
+google.golang.org/grpc/credentials/tls/certprovider/pemfile
+github.com/minio/minio-go/v7/pkg/singleflight
+github.com/minio/minio-go/v7/pkg/sse
+github.com/tinylib/msgp/msgp
+github.com/minio/minio-go/v7/pkg/tags
+cloud.google.com/go/monitoring/apiv3/v2
+github.com/minio/minio-go/v7/pkg/replication
+github.com/minio/minio-go/v7/pkg/signer
+github.com/minio/minio-go/v7/pkg/utils
+golang.org/x/net/publicsuffix
+github.com/kopia/kopia/fs
+google.golang.org/grpc/internal/xds/bootstrap/tlscreds
+google.golang.org/grpc/internal/xds/matcher
+github.com/envoyproxy/go-control-plane/envoy/config/core/v3
+github.com/kopia/kopia/repo/ecc
+github.com/kopia/kopia/internal/workshare
+github.com/hashicorp/cronexpr
+github.com/kopia/kopia/fs/virtualfs
+github.com/kopia/kopia/internal/sparsefile
+github.com/kopia/kopia/internal/stat
+github.com/kopia/kopia/internal/wcmatch
+google.golang.org/grpc/xds/bootstrap
+github.com/kopia/kopia/internal/volumesizeinfo
+google.golang.org/grpc/balancer/weightedroundrobin
+github.com/kopia/kopia/repo/format
+google.golang.org/grpc/internal/credentials/xds
+github.com/kanisterio/kanister/pkg/kanx
+github.com/kanisterio/kanister/pkg/virtualfs
+github.com/goccy/go-json/internal/encoder/vm_color_indent
+github.com/kopia/kopia/repo/content/indexblob
+github.com/kopia/kopia/repo/content
+github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric
+github.com/kopia/kopia/repo/manifest
+github.com/kopia/kopia/repo/object
+github.com/kopia/kopia/internal/uitask
+github.com/kopia/kopia/repo
+github.com/kopia/kopia/repo/blob/retrying
+github.com/kopia/kopia/snapshot
+github.com/kopia/kopia/repo/blob/azure
+github.com/kopia/kopia/fs/localfs
+github.com/kopia/kopia/snapshot/policy
+github.com/kopia/kopia/snapshot/restore
+github.com/kopia/kopia/fs/ignorefs
+github.com/kopia/kopia/snapshot/snapshotfs
+github.com/kopia/kopia/snapshot/upload
+google.golang.org/grpc/internal/xds/bootstrap
+google.golang.org/grpc/internal/xds/clients/internal
+github.com/envoyproxy/go-control-plane/envoy/data/accesslog/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/clusters/aggregate/v3
+github.com/envoyproxy/go-control-plane/envoy/config/metrics/v3
+github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3
+github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3
+github.com/envoyproxy/go-control-plane/envoy/config/trace/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3
+github.com/envoyproxy/go-control-plane/envoy/config/route/v3
+github.com/goccy/go-json/internal/encoder/vm_color
+google.golang.org/grpc/internal/xds/clients/xdsclient/internal/xdsresource
+github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v3
+github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3
+google.golang.org/grpc/internal/xds/clients/lrsclient
+google.golang.org/grpc/internal/xds/balancer/loadstore
+google.golang.org/grpc/internal/xds/xdsclient/xdslbregistry
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/wrr_locality/v3
+github.com/envoyproxy/go-control-plane/envoy/config/accesslog/v3
+github.com/envoyproxy/go-control-plane/envoy/config/rbac/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/common/v3
+github.com/envoyproxy/go-control-plane/envoy/config/common/matcher/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/fault/v3
+google.golang.org/grpc/internal/xds/httpfilter/fault
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/least_request/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/ring_hash/v3
+google.golang.org/grpc/internal/xds/xdsclient/xdslbregistry/converter
+github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/rbac/v3
+google.golang.org/grpc/internal/xds/rbac
+github.com/envoyproxy/go-control-plane/envoy/config/tap/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3
+github.com/envoyproxy/go-control-plane/envoy/config/listener/v3
+google.golang.org/grpc/internal/xds/httpfilter/rbac
+github.com/envoyproxy/go-control-plane/envoy/config/bootstrap/v3
+github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3
+github.com/goccy/go-json/internal/encoder/vm_indent
+google.golang.org/grpc/internal/xds/httpfilter/router
+github.com/envoyproxy/go-control-plane/envoy/admin/v3
+github.com/envoyproxy/go-control-plane/envoy/service/status/v3
+google.golang.org/grpc/internal/xds/clients/xdsclient
+google.golang.org/grpc/internal/xds/xdsclient/xdsresource
+google.golang.org/grpc/internal/xds/server
+google.golang.org/grpc/internal/xds/xdsclient
+google.golang.org/grpc/xds/csds
+google.golang.org/grpc/internal/xds/balancer/clusterimpl
+google.golang.org/grpc/internal/xds/resolver
+google.golang.org/grpc/internal/xds/balancer/clusterresolver
+google.golang.org/grpc/internal/xds/balancer/cdsbalancer
+google.golang.org/grpc/internal/xds/balancer
+google.golang.org/grpc/xds
+google.golang.org/grpc/xds/googledirectpath
+cloud.google.com/go/storage
+github.com/goccy/go-json/internal/encoder/vm
+github.com/kopia/kopia/repo/blob/gcs
+github.com/goccy/go-json
+github.com/minio/minio-go/v7/internal/json
+github.com/minio/minio-go/v7/pkg/encrypt
+github.com/minio/minio-go/v7/pkg/lifecycle
+github.com/minio/minio-go/v7/pkg/set
+github.com/minio/minio-go/v7/pkg/credentials
+github.com/minio/minio-go/v7/pkg/notification
+github.com/minio/minio-go/v7
+github.com/kopia/kopia/repo/blob/s3
+github.com/kanisterio/kanister/pkg/kopia
+github.com/kanisterio/kanister/pkg/kopia/repository
+github.com/kanisterio/kanister/pkg/kopia/snapshot
+github.com/kanisterio/kanister/pkg/stream
+github.com/kanisterio/kanister/pkg/datamover
+github.com/kanisterio/kanister/pkg/kando
+github.com/kanisterio/kanister/cmd/kando
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/kanister'

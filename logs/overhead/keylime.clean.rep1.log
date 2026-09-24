@@ -1,0 +1,1287 @@
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - jinja2
+  - setuptools>=42
+* Getting build dependencies for sdist...
+/tmp/build-env-ne3awsfl/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+creating keylime.egg-info
+writing keylime.egg-info/PKG-INFO
+writing dependency_links to keylime.egg-info/dependency_links.txt
+writing entry points to keylime.egg-info/entry_points.txt
+writing top-level names to keylime.egg-info/top_level.txt
+writing manifest file 'keylime.egg-info/SOURCES.txt'
+reading manifest file 'keylime.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'config/*.conf'
+no previously-included directories found matching 'templates/*/__pycache__'
+adding license file 'LICENSE'
+writing manifest file 'keylime.egg-info/SOURCES.txt'
+* Building sdist...
+/tmp/build-env-ne3awsfl/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running sdist
+running egg_info
+writing keylime.egg-info/PKG-INFO
+writing dependency_links to keylime.egg-info/dependency_links.txt
+writing entry points to keylime.egg-info/entry_points.txt
+writing top-level names to keylime.egg-info/top_level.txt
+reading manifest file 'keylime.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'config/*.conf'
+no previously-included directories found matching 'templates/*/__pycache__'
+adding license file 'LICENSE'
+writing manifest file 'keylime.egg-info/SOURCES.txt'
+running check
+creating keylime-7.14.3
+creating keylime-7.14.3/keylime
+creating keylime-7.14.3/keylime.egg-info
+creating keylime-7.14.3/keylime/authorization
+creating keylime-7.14.3/keylime/authorization/providers
+creating keylime-7.14.3/keylime/cli
+creating keylime-7.14.3/keylime/cmd
+creating keylime-7.14.3/keylime/common
+creating keylime-7.14.3/keylime/da
+creating keylime-7.14.3/keylime/da/examples
+creating keylime-7.14.3/keylime/db
+creating keylime-7.14.3/keylime/dsse
+creating keylime-7.14.3/keylime/ima
+creating keylime-7.14.3/keylime/mba
+creating keylime-7.14.3/keylime/mba/elchecking
+creating keylime-7.14.3/keylime/mba/elparsing
+creating keylime-7.14.3/keylime/migrations
+creating keylime-7.14.3/keylime/migrations/versions
+creating keylime-7.14.3/keylime/models
+creating keylime-7.14.3/keylime/models/base
+creating keylime-7.14.3/keylime/models/base/types
+creating keylime-7.14.3/keylime/models/common
+creating keylime-7.14.3/keylime/models/registrar
+creating keylime-7.14.3/keylime/models/verifier
+creating keylime-7.14.3/keylime/policy
+creating keylime-7.14.3/keylime/tee
+creating keylime-7.14.3/keylime/tpm
+creating keylime-7.14.3/keylime/verification
+creating keylime-7.14.3/keylime/verification/base
+creating keylime-7.14.3/keylime/web
+creating keylime-7.14.3/keylime/web/base
+creating keylime-7.14.3/keylime/web/base/api_messages
+creating keylime-7.14.3/keylime/web/registrar
+creating keylime-7.14.3/keylime/web/verifier
+creating keylime-7.14.3/templates/2.0
+creating keylime-7.14.3/templates/2.1
+creating keylime-7.14.3/templates/2.2
+creating keylime-7.14.3/templates/2.3
+creating keylime-7.14.3/templates/2.4
+creating keylime-7.14.3/templates/2.5
+creating keylime-7.14.3/templates/2.6
+creating keylime-7.14.3/test
+copying files to keylime-7.14.3...
+copying LICENSE -> keylime-7.14.3
+copying MANIFEST.in -> keylime-7.14.3
+copying README.md -> keylime-7.14.3
+copying _pypi-notice.md -> keylime-7.14.3
+copying pyproject.toml -> keylime-7.14.3
+copying setup.cfg -> keylime-7.14.3
+copying setup.py -> keylime-7.14.3
+copying keylime/__init__.py -> keylime-7.14.3/keylime
+copying keylime/agent_util.py -> keylime-7.14.3/keylime
+copying keylime/agentstates.py -> keylime-7.14.3/keylime
+copying keylime/api_version.py -> keylime-7.14.3/keylime
+copying keylime/backport_dataclasses.py -> keylime-7.14.3/keylime
+copying keylime/ca_impl_openssl.py -> keylime-7.14.3/keylime
+copying keylime/ca_util.py -> keylime-7.14.3/keylime
+copying keylime/cert_utils.py -> keylime-7.14.3/keylime
+copying keylime/certificate_wrapper.py -> keylime-7.14.3/keylime
+copying keylime/cloud_verifier_common.py -> keylime-7.14.3/keylime
+copying keylime/cloud_verifier_tornado.py -> keylime-7.14.3/keylime
+copying keylime/cmd_exec.py -> keylime-7.14.3/keylime
+copying keylime/config.py -> keylime-7.14.3/keylime
+copying keylime/crypto.py -> keylime-7.14.3/keylime
+copying keylime/failure.py -> keylime-7.14.3/keylime
+copying keylime/fs_util.py -> keylime-7.14.3/keylime
+copying keylime/ip_util.py -> keylime-7.14.3/keylime
+copying keylime/json.py -> keylime-7.14.3/keylime
+copying keylime/keylime_logging.py -> keylime-7.14.3/keylime
+copying keylime/push_agent_monitor.py -> keylime-7.14.3/keylime
+copying keylime/registrar_client.py -> keylime-7.14.3/keylime
+copying keylime/requests_client.py -> keylime-7.14.3/keylime
+copying keylime/revocation_notifier.py -> keylime-7.14.3/keylime
+copying keylime/shared_data.py -> keylime-7.14.3/keylime
+copying keylime/shutdown.py -> keylime-7.14.3/keylime
+copying keylime/signing.py -> keylime-7.14.3/keylime
+copying keylime/tenant.py -> keylime-7.14.3/keylime
+copying keylime/tornado_requests.py -> keylime-7.14.3/keylime
+copying keylime/tpm_ek_ca.py -> keylime-7.14.3/keylime
+copying keylime/types.py -> keylime-7.14.3/keylime
+copying keylime/web_util.py -> keylime-7.14.3/keylime
+copying keylime.egg-info/PKG-INFO -> keylime-7.14.3/keylime.egg-info
+copying keylime.egg-info/SOURCES.txt -> keylime-7.14.3/keylime.egg-info
+copying keylime.egg-info/dependency_links.txt -> keylime-7.14.3/keylime.egg-info
+copying keylime.egg-info/entry_points.txt -> keylime-7.14.3/keylime.egg-info
+copying keylime.egg-info/not-zip-safe -> keylime-7.14.3/keylime.egg-info
+copying keylime.egg-info/top_level.txt -> keylime-7.14.3/keylime.egg-info
+copying keylime/authorization/__init__.py -> keylime-7.14.3/keylime/authorization
+copying keylime/authorization/manager.py -> keylime-7.14.3/keylime/authorization
+copying keylime/authorization/provider.py -> keylime-7.14.3/keylime/authorization
+copying keylime/authorization/providers/__init__.py -> keylime-7.14.3/keylime/authorization/providers
+copying keylime/authorization/providers/simple.py -> keylime-7.14.3/keylime/authorization/providers
+copying keylime/cli/__init__.py -> keylime-7.14.3/keylime/cli
+copying keylime/cli/options.py -> keylime-7.14.3/keylime/cli
+copying keylime/cli/policies.py -> keylime-7.14.3/keylime/cli
+copying keylime/cmd/__init__.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/attest.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/ca.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/convert_config.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/convert_runtime_policy.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/create_policy.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/keylime_policy.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/registrar.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/sign_runtime_policy.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/tenant.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/user_data_encrypt.py -> keylime-7.14.3/keylime/cmd
+copying keylime/cmd/verifier.py -> keylime-7.14.3/keylime/cmd
+copying keylime/common/__init__.py -> keylime-7.14.3/keylime/common
+copying keylime/common/algorithms.py -> keylime-7.14.3/keylime/common
+copying keylime/common/exception.py -> keylime-7.14.3/keylime/common
+copying keylime/common/migrations.py -> keylime-7.14.3/keylime/common
+copying keylime/common/retry.py -> keylime-7.14.3/keylime/common
+copying keylime/common/states.py -> keylime-7.14.3/keylime/common
+copying keylime/common/validators.py -> keylime-7.14.3/keylime/common
+copying keylime/common/version.py -> keylime-7.14.3/keylime/common
+copying keylime/da/__init__.py -> keylime-7.14.3/keylime/da
+copying keylime/da/attest.py -> keylime-7.14.3/keylime/da
+copying keylime/da/record.py -> keylime-7.14.3/keylime/da
+copying keylime/da/examples/__init__.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/da/examples/file.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/da/examples/redis.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/da/examples/rekor.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/da/examples/sqldb.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/da/examples/tsa_rfc3161.py -> keylime-7.14.3/keylime/da/examples
+copying keylime/db/__init__.py -> keylime-7.14.3/keylime/db
+copying keylime/db/keylime_db.py -> keylime-7.14.3/keylime/db
+copying keylime/db/registrar_db.py -> keylime-7.14.3/keylime/db
+copying keylime/db/verifier_db.py -> keylime-7.14.3/keylime/db
+copying keylime/dsse/__init__.py -> keylime-7.14.3/keylime/dsse
+copying keylime/dsse/dsse.py -> keylime-7.14.3/keylime/dsse
+copying keylime/dsse/ecdsa.py -> keylime-7.14.3/keylime/dsse
+copying keylime/dsse/x509.py -> keylime-7.14.3/keylime/dsse
+copying keylime/ima/__init__.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/ast.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/dm_grammar.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/file_signatures.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/ima.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/ima_dm.py -> keylime-7.14.3/keylime/ima
+copying keylime/ima/types.py -> keylime-7.14.3/keylime/ima
+copying keylime/mba/__init__.py -> keylime-7.14.3/keylime/mba
+copying keylime/mba/mba.py -> keylime-7.14.3/keylime/mba
+copying keylime/mba/elchecking/__init__.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elchecking/__main__.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elchecking/elchecker.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elchecking/example.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elchecking/policies.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elchecking/tests.py -> keylime-7.14.3/keylime/mba/elchecking
+copying keylime/mba/elparsing/__init__.py -> keylime-7.14.3/keylime/mba/elparsing
+copying keylime/mba/elparsing/tpm2_tools_elparser.py -> keylime-7.14.3/keylime/mba/elparsing
+copying keylime/mba/elparsing/tpm_bootlog_enrich.py -> keylime-7.14.3/keylime/mba/elparsing
+copying keylime/migrations/__init__.py -> keylime-7.14.3/keylime/migrations
+copying keylime/migrations/alembic.ini -> keylime-7.14.3/keylime/migrations
+copying keylime/migrations/env.py -> keylime-7.14.3/keylime/migrations
+copying keylime/migrations/versions/00766b7fd0c5_add_certs_iak_and_idevid.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/039322ea079b_add_generator_column.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/160f932fde5b_increase_length_of_verifier_ip_column.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/1ac1513ef2a1_fix_mb_and_ima_column_types.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/21b5cb88fcdb_add_idevid_and_iak.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/257fe0f0c039_add_fields_for_revocation_context_to_.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/2fbc0fb8fa4d_add_checksum_to_allowlist.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/32902c0a8d90_add_mbpolicies_table.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/330024be7bef_convert_registrar_column_types.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/4089e1c79be9_add_tpm_clockinfo.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/4329e2d14944_associate_moved_allowlists_to_agents.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/460d7adda633_add_sessions_table.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/517a2d6b5cd3_add_consecutive_attestation_failures.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/57b24ee21dfa_extend_meta_data_field.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/5a8b2c3d4e6f_hash_session_tokens.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/63c30820fdc1_add_mtls_cert_and_ak_to_verifier_db.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/7d5db1a6ffb0_add_agentstates_columns.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/870c218abd9a_add_push_attestation_support.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/8a44a4364f5a_initial_database_migration.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/8c0f8ded1f90_convert_allowlists_to_ima_policies.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/8da20383f6e1_extend_ip_field.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/9169f80345ed_add_supported_version_to_verifiermain_.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/9d2f6fab52b1_associate_moved_mb_refstates_to_agents.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/__init__.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/a09cc94177f0_add_last_received_quote.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/a59cc9366774_fix_evidence_items_agent_id_length.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/a72aec03d720_migrate_allowlists_to_separate_table.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/a79c27ec1054_add_mtls_cert_field_to_registrar.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/a7a64155ab3a_add_ima_filesigning_keys_column.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/ae898986c6e9_add_mb_refstate_column.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/b4d024197413_add_verfier_id_to_verifiermain_table.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/bc3b6b551b0a_drop_vtpm_colums.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/bf48e0c4751d_add_attestation_count_column.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/c3842cc9ee69_store_keyrings_learned_from_ima_log.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/cc2630851a1f_receive_the_aik_tpm_from_the_agent.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/eb869a77abd1_create_allowlist_table.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/eeb702f77d7d_allowlist_rename.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/f35cdd35eb83_move_v_tpm_policy_to_jsonpickletype.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/f4196d13fe45_migrate_mb_refstates_to_mbpolicies.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/f82c4252bc4f_add_ip_and_port_to_registrar.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/migrations/versions/f838d3cdeead_add_last_successful_attestation.py -> keylime-7.14.3/keylime/migrations/versions
+copying keylime/models/__init__.py -> keylime-7.14.3/keylime/models
+copying keylime/models/base/__init__.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/associated_record_set.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/associations.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/basic_model.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/basic_model_meta.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/da.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/db.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/errors.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/field.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/persistable_model.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/persistable_model_meta.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/pylint.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/record_set.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/type.py -> keylime-7.14.3/keylime/models/base
+copying keylime/models/base/types/__init__.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/binary.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/certificate.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/dictionary.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/list.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/nonce.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/one_of.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/base/types/timestamp.py -> keylime-7.14.3/keylime/models/base/types
+copying keylime/models/common/__init__.py -> keylime-7.14.3/keylime/models/common
+copying keylime/models/common/json_api.py -> keylime-7.14.3/keylime/models/common
+copying keylime/models/registrar/__init__.py -> keylime-7.14.3/keylime/models/registrar
+copying keylime/models/registrar/registrar_agent.py -> keylime-7.14.3/keylime/models/registrar
+copying keylime/models/verifier/__init__.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/attestation.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/auth_session.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/evidence.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/ima_policy.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/mb_policy.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/rate_limiter.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/models/verifier/verifier_agent.py -> keylime-7.14.3/keylime/models/verifier
+copying keylime/policy/__init__.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/create_mb_policy.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/create_runtime_policy.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/initrd.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/logger.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/rpm_repo.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/sign_runtime_policy.py -> keylime-7.14.3/keylime/policy
+copying keylime/policy/utils.py -> keylime-7.14.3/keylime/policy
+copying keylime/tee/__init__.py -> keylime-7.14.3/keylime/tee
+copying keylime/tee/snp.py -> keylime-7.14.3/keylime/tee
+copying keylime/tpm/__init__.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/errors.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/tpm2_objects.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/tpm2_objects_test.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/tpm_main.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/tpm_util.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/tpm_util_test.py -> keylime-7.14.3/keylime/tpm
+copying keylime/tpm/types.py -> keylime-7.14.3/keylime/tpm
+copying keylime/verification/__init__.py -> keylime-7.14.3/keylime/verification
+copying keylime/verification/tpm_engine.py -> keylime-7.14.3/keylime/verification
+copying keylime/verification/base/__init__.py -> keylime-7.14.3/keylime/verification/base
+copying keylime/verification/base/engine_driver.py -> keylime-7.14.3/keylime/verification/base
+copying keylime/verification/base/verification_engine.py -> keylime-7.14.3/keylime/verification/base
+copying keylime/verification/base/verification_engine_meta.py -> keylime-7.14.3/keylime/verification/base
+copying keylime/web/__init__.py -> keylime-7.14.3/keylime/web
+copying keylime/web/registrar_server.py -> keylime-7.14.3/keylime/web
+copying keylime/web/verifier_server.py -> keylime-7.14.3/keylime/web
+copying keylime/web/base/__init__.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/action_handler.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/controller.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/default_controller.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/exceptions.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/route.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/server.py -> keylime-7.14.3/keylime/web/base
+copying keylime/web/base/api_messages/__init__.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_error.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_info.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_links.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_message_body.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_message_helpers.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_meta.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_resource.py -> keylime-7.14.3/keylime/web/base/api_messages
+copying keylime/web/registrar/__init__.py -> keylime-7.14.3/keylime/web/registrar
+copying keylime/web/registrar/agents_controller.py -> keylime-7.14.3/keylime/web/registrar
+copying keylime/web/registrar/version_controller.py -> keylime-7.14.3/keylime/web/registrar
+copying keylime/web/verifier/__init__.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/agent_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/attestation_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/evidence_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/identity_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/ima_policy_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/mb_ref_state_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/server_info_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying keylime/web/verifier/session_controller.py -> keylime-7.14.3/keylime/web/verifier
+copying templates/2.0/adjust.py -> keylime-7.14.3/templates/2.0
+copying templates/2.0/agent.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.0/ca.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.0/logging.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.0/mapping.json -> keylime-7.14.3/templates/2.0
+copying templates/2.0/registrar.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.0/tenant.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.0/verifier.j2 -> keylime-7.14.3/templates/2.0
+copying templates/2.1/agent.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.1/ca.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.1/logging.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.1/mapping.json -> keylime-7.14.3/templates/2.1
+copying templates/2.1/registrar.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.1/tenant.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.1/verifier.j2 -> keylime-7.14.3/templates/2.1
+copying templates/2.2/agent.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.2/ca.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.2/logging.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.2/mapping.json -> keylime-7.14.3/templates/2.2
+copying templates/2.2/registrar.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.2/tenant.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.2/verifier.j2 -> keylime-7.14.3/templates/2.2
+copying templates/2.3/agent.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.3/ca.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.3/logging.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.3/mapping.json -> keylime-7.14.3/templates/2.3
+copying templates/2.3/registrar.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.3/tenant.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.3/verifier.j2 -> keylime-7.14.3/templates/2.3
+copying templates/2.4/agent.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.4/ca.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.4/logging.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.4/mapping.json -> keylime-7.14.3/templates/2.4
+copying templates/2.4/registrar.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.4/tenant.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.4/verifier.j2 -> keylime-7.14.3/templates/2.4
+copying templates/2.5/agent.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.5/ca.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.5/logging.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.5/mapping.json -> keylime-7.14.3/templates/2.5
+copying templates/2.5/registrar.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.5/tenant.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.5/verifier.j2 -> keylime-7.14.3/templates/2.5
+copying templates/2.6/agent.j2 -> keylime-7.14.3/templates/2.6
+copying templates/2.6/ca.j2 -> keylime-7.14.3/templates/2.6
+copying templates/2.6/logging.j2 -> keylime-7.14.3/templates/2.6
+copying templates/2.6/mapping.json -> keylime-7.14.3/templates/2.6
+copying templates/2.6/registrar.j2 -> keylime-7.14.3/templates/2.6
+copying templates/2.6/tenant.j2 -> keylime-7.14.3/templates/2.6
+copying templates/2.6/verifier.j2 -> keylime-7.14.3/templates/2.6
+copying test/test_agents_controller.py -> keylime-7.14.3/test
+copying test/test_agentstates.py -> keylime-7.14.3/test
+copying test/test_algorithms.py -> keylime-7.14.3/test
+copying test/test_api_error.py -> keylime-7.14.3/test
+copying test/test_api_message_body.py -> keylime-7.14.3/test
+copying test/test_api_messages.py -> keylime-7.14.3/test
+copying test/test_api_resource.py -> keylime-7.14.3/test
+copying test/test_api_version.py -> keylime-7.14.3/test
+copying test/test_associations.py -> keylime-7.14.3/test
+copying test/test_attestation_controller.py -> keylime-7.14.3/test
+copying test/test_attestation_model.py -> keylime-7.14.3/test
+copying test/test_auth_session.py -> keylime-7.14.3/test
+copying test/test_authorization.py -> keylime-7.14.3/test
+copying test/test_authorization_integration.py -> keylime-7.14.3/test
+copying test/test_binary.py -> keylime-7.14.3/test
+copying test/test_ca_impl_openssl.py -> keylime-7.14.3/test
+copying test/test_ca_util.py -> keylime-7.14.3/test
+copying test/test_cert_utils.py -> keylime-7.14.3/test
+copying test/test_certificate_modeltype.py -> keylime-7.14.3/test
+copying test/test_certificate_wrapper.py -> keylime-7.14.3/test
+copying test/test_cloud_verifier_common.py -> keylime-7.14.3/test
+copying test/test_cloud_verifier_tornado.py -> keylime-7.14.3/test
+copying test/test_config.py -> keylime-7.14.3/test
+copying test/test_convert_config.py -> keylime-7.14.3/test
+copying test/test_create_mb_policy.py -> keylime-7.14.3/test
+copying test/test_create_runtime_policy.py -> keylime-7.14.3/test
+copying test/test_crypto.py -> keylime-7.14.3/test
+copying test/test_dictionary.py -> keylime-7.14.3/test
+copying test/test_evidence_model.py -> keylime-7.14.3/test
+copying test/test_fs_util.py -> keylime-7.14.3/test
+copying test/test_ima_ast.py -> keylime-7.14.3/test
+copying test/test_ima_dm.py -> keylime-7.14.3/test
+copying test/test_ima_verification.py -> keylime-7.14.3/test
+copying test/test_json.py -> keylime-7.14.3/test
+copying test/test_list.py -> keylime-7.14.3/test
+copying test/test_mba_parsing.py -> keylime-7.14.3/test
+copying test/test_nonce.py -> keylime-7.14.3/test
+copying test/test_one_of.py -> keylime-7.14.3/test
+copying test/test_persistable_model.py -> keylime-7.14.3/test
+copying test/test_policy_conversion.py -> keylime-7.14.3/test
+copying test/test_push_agent_monitor.py -> keylime-7.14.3/test
+copying test/test_rate_limiter.py -> keylime-7.14.3/test
+copying test/test_record_set.py -> keylime-7.14.3/test
+copying test/test_registrar_agent_cert_compliance.py -> keylime-7.14.3/test
+copying test/test_registrar_db.py -> keylime-7.14.3/test
+copying test/test_registrar_server.py -> keylime-7.14.3/test
+copying test/test_registrar_tpm_identity.py -> keylime-7.14.3/test
+copying test/test_request_timeout.py -> keylime-7.14.3/test
+copying test/test_retry_algo.py -> keylime-7.14.3/test
+copying test/test_rpm_repo.py -> keylime-7.14.3/test
+copying test/test_server_base.py -> keylime-7.14.3/test
+copying test/test_session_controller.py -> keylime-7.14.3/test
+copying test/test_shared_data.py -> keylime-7.14.3/test
+copying test/test_shutdown.py -> keylime-7.14.3/test
+copying test/test_sign_runtime_policy.py -> keylime-7.14.3/test
+copying test/test_signing.py -> keylime-7.14.3/test
+copying test/test_timestamp.py -> keylime-7.14.3/test
+copying test/test_tornado_mb_policy_name.py -> keylime-7.14.3/test
+copying test/test_tpm2_objects.py -> keylime-7.14.3/test
+copying test/test_tpm_check_pcrs.py -> keylime-7.14.3/test
+copying test/test_tpm_engine.py -> keylime-7.14.3/test
+copying test/test_tpm_verify.py -> keylime-7.14.3/test
+copying test/test_tpm_verify_aik_with_iak.py -> keylime-7.14.3/test
+copying test/test_validators.py -> keylime-7.14.3/test
+copying test/test_verifier_db.py -> keylime-7.14.3/test
+copying test/test_verifier_server.py -> keylime-7.14.3/test
+copying test/test_version.py -> keylime-7.14.3/test
+copying test/test_version_controller.py -> keylime-7.14.3/test
+copying test/test_web_util.py -> keylime-7.14.3/test
+Writing keylime-7.14.3/setup.cfg
+Creating tar archive
+removing 'keylime-7.14.3' (and everything under it)
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - jinja2
+  - setuptools>=42
+* Getting build dependencies for wheel...
+/tmp/build-env-0tb1z5zi/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+writing keylime.egg-info/PKG-INFO
+writing dependency_links to keylime.egg-info/dependency_links.txt
+writing entry points to keylime.egg-info/entry_points.txt
+writing top-level names to keylime.egg-info/top_level.txt
+reading manifest file 'keylime.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'config/*.conf'
+no previously-included directories found matching 'templates/*/__pycache__'
+adding license file 'LICENSE'
+writing manifest file 'keylime.egg-info/SOURCES.txt'
+* Building wheel...
+/tmp/build-env-0tb1z5zi/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running bdist_wheel
+running build
+running build_py
+Added new section [formatter_formatter]
+Writing agent configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/agent.conf
+Writing verifier configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/verifier.conf
+Writing tenant configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/tenant.conf
+Writing registrar configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/registrar.conf
+Writing ca configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/ca.conf
+Writing logging configuration to /home/jake/sbomit-overhead-experiment/repos/keylime/config/logging.conf
+creating build/lib/keylime
+copying keylime/cloud_verifier_common.py -> build/lib/keylime
+copying keylime/types.py -> build/lib/keylime
+copying keylime/shared_data.py -> build/lib/keylime
+copying keylime/ca_util.py -> build/lib/keylime
+copying keylime/config.py -> build/lib/keylime
+copying keylime/revocation_notifier.py -> build/lib/keylime
+copying keylime/cloud_verifier_tornado.py -> build/lib/keylime
+copying keylime/cmd_exec.py -> build/lib/keylime
+copying keylime/requests_client.py -> build/lib/keylime
+copying keylime/shutdown.py -> build/lib/keylime
+copying keylime/keylime_logging.py -> build/lib/keylime
+copying keylime/ip_util.py -> build/lib/keylime
+copying keylime/push_agent_monitor.py -> build/lib/keylime
+copying keylime/tornado_requests.py -> build/lib/keylime
+copying keylime/certificate_wrapper.py -> build/lib/keylime
+copying keylime/api_version.py -> build/lib/keylime
+copying keylime/cert_utils.py -> build/lib/keylime
+copying keylime/agent_util.py -> build/lib/keylime
+copying keylime/ca_impl_openssl.py -> build/lib/keylime
+copying keylime/registrar_client.py -> build/lib/keylime
+copying keylime/__init__.py -> build/lib/keylime
+copying keylime/agentstates.py -> build/lib/keylime
+copying keylime/fs_util.py -> build/lib/keylime
+copying keylime/signing.py -> build/lib/keylime
+copying keylime/backport_dataclasses.py -> build/lib/keylime
+copying keylime/tpm_ek_ca.py -> build/lib/keylime
+copying keylime/tenant.py -> build/lib/keylime
+copying keylime/json.py -> build/lib/keylime
+copying keylime/crypto.py -> build/lib/keylime
+copying keylime/web_util.py -> build/lib/keylime
+copying keylime/failure.py -> build/lib/keylime
+creating build/lib/keylime/ima
+copying keylime/ima/types.py -> build/lib/keylime/ima
+copying keylime/ima/file_signatures.py -> build/lib/keylime/ima
+copying keylime/ima/ast.py -> build/lib/keylime/ima
+copying keylime/ima/ima_dm.py -> build/lib/keylime/ima
+copying keylime/ima/dm_grammar.py -> build/lib/keylime/ima
+copying keylime/ima/ima.py -> build/lib/keylime/ima
+copying keylime/ima/__init__.py -> build/lib/keylime/ima
+creating build/lib/keylime/da
+copying keylime/da/attest.py -> build/lib/keylime/da
+copying keylime/da/record.py -> build/lib/keylime/da
+copying keylime/da/__init__.py -> build/lib/keylime/da
+creating build/lib/keylime/authorization
+copying keylime/authorization/manager.py -> build/lib/keylime/authorization
+copying keylime/authorization/provider.py -> build/lib/keylime/authorization
+copying keylime/authorization/__init__.py -> build/lib/keylime/authorization
+creating build/lib/keylime/web
+copying keylime/web/verifier_server.py -> build/lib/keylime/web
+copying keylime/web/registrar_server.py -> build/lib/keylime/web
+copying keylime/web/__init__.py -> build/lib/keylime/web
+creating build/lib/keylime/common
+copying keylime/common/version.py -> build/lib/keylime/common
+copying keylime/common/exception.py -> build/lib/keylime/common
+copying keylime/common/retry.py -> build/lib/keylime/common
+copying keylime/common/migrations.py -> build/lib/keylime/common
+copying keylime/common/states.py -> build/lib/keylime/common
+copying keylime/common/__init__.py -> build/lib/keylime/common
+copying keylime/common/algorithms.py -> build/lib/keylime/common
+copying keylime/common/validators.py -> build/lib/keylime/common
+creating build/lib/keylime/tee
+copying keylime/tee/snp.py -> build/lib/keylime/tee
+copying keylime/tee/__init__.py -> build/lib/keylime/tee
+creating build/lib/keylime/tpm
+copying keylime/tpm/tpm_util_test.py -> build/lib/keylime/tpm
+copying keylime/tpm/types.py -> build/lib/keylime/tpm
+copying keylime/tpm/tpm_main.py -> build/lib/keylime/tpm
+copying keylime/tpm/tpm_util.py -> build/lib/keylime/tpm
+copying keylime/tpm/tpm2_objects.py -> build/lib/keylime/tpm
+copying keylime/tpm/tpm2_objects_test.py -> build/lib/keylime/tpm
+copying keylime/tpm/__init__.py -> build/lib/keylime/tpm
+copying keylime/tpm/errors.py -> build/lib/keylime/tpm
+creating build/lib/keylime/cmd
+copying keylime/cmd/convert_config.py -> build/lib/keylime/cmd
+copying keylime/cmd/user_data_encrypt.py -> build/lib/keylime/cmd
+copying keylime/cmd/registrar.py -> build/lib/keylime/cmd
+copying keylime/cmd/verifier.py -> build/lib/keylime/cmd
+copying keylime/cmd/ca.py -> build/lib/keylime/cmd
+copying keylime/cmd/attest.py -> build/lib/keylime/cmd
+copying keylime/cmd/create_policy.py -> build/lib/keylime/cmd
+copying keylime/cmd/convert_runtime_policy.py -> build/lib/keylime/cmd
+copying keylime/cmd/__init__.py -> build/lib/keylime/cmd
+copying keylime/cmd/sign_runtime_policy.py -> build/lib/keylime/cmd
+copying keylime/cmd/keylime_policy.py -> build/lib/keylime/cmd
+copying keylime/cmd/tenant.py -> build/lib/keylime/cmd
+creating build/lib/keylime/db
+copying keylime/db/registrar_db.py -> build/lib/keylime/db
+copying keylime/db/verifier_db.py -> build/lib/keylime/db
+copying keylime/db/keylime_db.py -> build/lib/keylime/db
+copying keylime/db/__init__.py -> build/lib/keylime/db
+creating build/lib/keylime/dsse
+copying keylime/dsse/ecdsa.py -> build/lib/keylime/dsse
+copying keylime/dsse/dsse.py -> build/lib/keylime/dsse
+copying keylime/dsse/x509.py -> build/lib/keylime/dsse
+copying keylime/dsse/__init__.py -> build/lib/keylime/dsse
+creating build/lib/keylime/cli
+copying keylime/cli/policies.py -> build/lib/keylime/cli
+copying keylime/cli/options.py -> build/lib/keylime/cli
+copying keylime/cli/__init__.py -> build/lib/keylime/cli
+creating build/lib/keylime/mba
+copying keylime/mba/mba.py -> build/lib/keylime/mba
+copying keylime/mba/__init__.py -> build/lib/keylime/mba
+creating build/lib/keylime/models
+copying keylime/models/__init__.py -> build/lib/keylime/models
+creating build/lib/keylime/migrations
+copying keylime/migrations/env.py -> build/lib/keylime/migrations
+copying keylime/migrations/__init__.py -> build/lib/keylime/migrations
+creating build/lib/keylime/verification
+copying keylime/verification/__init__.py -> build/lib/keylime/verification
+copying keylime/verification/tpm_engine.py -> build/lib/keylime/verification
+creating build/lib/keylime/policy
+copying keylime/policy/initrd.py -> build/lib/keylime/policy
+copying keylime/policy/logger.py -> build/lib/keylime/policy
+copying keylime/policy/utils.py -> build/lib/keylime/policy
+copying keylime/policy/create_runtime_policy.py -> build/lib/keylime/policy
+copying keylime/policy/__init__.py -> build/lib/keylime/policy
+copying keylime/policy/rpm_repo.py -> build/lib/keylime/policy
+copying keylime/policy/sign_runtime_policy.py -> build/lib/keylime/policy
+copying keylime/policy/create_mb_policy.py -> build/lib/keylime/policy
+creating build/lib/keylime/da/examples
+copying keylime/da/examples/rekor.py -> build/lib/keylime/da/examples
+copying keylime/da/examples/redis.py -> build/lib/keylime/da/examples
+copying keylime/da/examples/file.py -> build/lib/keylime/da/examples
+copying keylime/da/examples/tsa_rfc3161.py -> build/lib/keylime/da/examples
+copying keylime/da/examples/sqldb.py -> build/lib/keylime/da/examples
+copying keylime/da/examples/__init__.py -> build/lib/keylime/da/examples
+creating build/lib/keylime/authorization/providers
+copying keylime/authorization/providers/simple.py -> build/lib/keylime/authorization/providers
+copying keylime/authorization/providers/__init__.py -> build/lib/keylime/authorization/providers
+creating build/lib/keylime/web/base
+copying keylime/web/base/server.py -> build/lib/keylime/web/base
+copying keylime/web/base/default_controller.py -> build/lib/keylime/web/base
+copying keylime/web/base/route.py -> build/lib/keylime/web/base
+copying keylime/web/base/exceptions.py -> build/lib/keylime/web/base
+copying keylime/web/base/action_handler.py -> build/lib/keylime/web/base
+copying keylime/web/base/__init__.py -> build/lib/keylime/web/base
+copying keylime/web/base/controller.py -> build/lib/keylime/web/base
+creating build/lib/keylime/web/verifier
+copying keylime/web/verifier/server_info_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/mb_ref_state_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/attestation_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/evidence_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/agent_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/identity_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/session_controller.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/__init__.py -> build/lib/keylime/web/verifier
+copying keylime/web/verifier/ima_policy_controller.py -> build/lib/keylime/web/verifier
+creating build/lib/keylime/web/registrar
+copying keylime/web/registrar/agents_controller.py -> build/lib/keylime/web/registrar
+copying keylime/web/registrar/version_controller.py -> build/lib/keylime/web/registrar
+copying keylime/web/registrar/__init__.py -> build/lib/keylime/web/registrar
+creating build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_resource.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_error.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_message_body.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_meta.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_links.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_message_helpers.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/__init__.py -> build/lib/keylime/web/base/api_messages
+copying keylime/web/base/api_messages/api_info.py -> build/lib/keylime/web/base/api_messages
+creating build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/policies.py -> build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/example.py -> build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/elchecker.py -> build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/tests.py -> build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/__init__.py -> build/lib/keylime/mba/elchecking
+copying keylime/mba/elchecking/__main__.py -> build/lib/keylime/mba/elchecking
+creating build/lib/keylime/mba/elparsing
+copying keylime/mba/elparsing/tpm2_tools_elparser.py -> build/lib/keylime/mba/elparsing
+copying keylime/mba/elparsing/tpm_bootlog_enrich.py -> build/lib/keylime/mba/elparsing
+copying keylime/mba/elparsing/__init__.py -> build/lib/keylime/mba/elparsing
+creating build/lib/keylime/models/common
+copying keylime/models/common/json_api.py -> build/lib/keylime/models/common
+copying keylime/models/common/__init__.py -> build/lib/keylime/models/common
+creating build/lib/keylime/models/base
+copying keylime/models/base/associations.py -> build/lib/keylime/models/base
+copying keylime/models/base/associated_record_set.py -> build/lib/keylime/models/base
+copying keylime/models/base/da.py -> build/lib/keylime/models/base
+copying keylime/models/base/field.py -> build/lib/keylime/models/base
+copying keylime/models/base/db.py -> build/lib/keylime/models/base
+copying keylime/models/base/basic_model.py -> build/lib/keylime/models/base
+copying keylime/models/base/record_set.py -> build/lib/keylime/models/base
+copying keylime/models/base/pylint.py -> build/lib/keylime/models/base
+copying keylime/models/base/persistable_model_meta.py -> build/lib/keylime/models/base
+copying keylime/models/base/type.py -> build/lib/keylime/models/base
+copying keylime/models/base/__init__.py -> build/lib/keylime/models/base
+copying keylime/models/base/persistable_model.py -> build/lib/keylime/models/base
+copying keylime/models/base/errors.py -> build/lib/keylime/models/base
+copying keylime/models/base/basic_model_meta.py -> build/lib/keylime/models/base
+creating build/lib/keylime/models/verifier
+copying keylime/models/verifier/auth_session.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/rate_limiter.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/attestation.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/evidence.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/verifier_agent.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/mb_policy.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/__init__.py -> build/lib/keylime/models/verifier
+copying keylime/models/verifier/ima_policy.py -> build/lib/keylime/models/verifier
+creating build/lib/keylime/models/registrar
+copying keylime/models/registrar/registrar_agent.py -> build/lib/keylime/models/registrar
+copying keylime/models/registrar/__init__.py -> build/lib/keylime/models/registrar
+creating build/lib/keylime/models/base/types
+copying keylime/models/base/types/dictionary.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/nonce.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/one_of.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/timestamp.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/list.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/__init__.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/binary.py -> build/lib/keylime/models/base/types
+copying keylime/models/base/types/certificate.py -> build/lib/keylime/models/base/types
+creating build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/517a2d6b5cd3_add_consecutive_attestation_failures.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/257fe0f0c039_add_fields_for_revocation_context_to_.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/21b5cb88fcdb_add_idevid_and_iak.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/57b24ee21dfa_extend_meta_data_field.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/f4196d13fe45_migrate_mb_refstates_to_mbpolicies.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/7d5db1a6ffb0_add_agentstates_columns.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/2fbc0fb8fa4d_add_checksum_to_allowlist.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/eeb702f77d7d_allowlist_rename.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/330024be7bef_convert_registrar_column_types.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/63c30820fdc1_add_mtls_cert_and_ak_to_verifier_db.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/9d2f6fab52b1_associate_moved_mb_refstates_to_agents.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/4329e2d14944_associate_moved_allowlists_to_agents.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/a72aec03d720_migrate_allowlists_to_separate_table.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/ae898986c6e9_add_mb_refstate_column.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/a79c27ec1054_add_mtls_cert_field_to_registrar.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/a7a64155ab3a_add_ima_filesigning_keys_column.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/f82c4252bc4f_add_ip_and_port_to_registrar.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/cc2630851a1f_receive_the_aik_tpm_from_the_agent.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/c3842cc9ee69_store_keyrings_learned_from_ima_log.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/f838d3cdeead_add_last_successful_attestation.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/039322ea079b_add_generator_column.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/8c0f8ded1f90_convert_allowlists_to_ima_policies.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/9169f80345ed_add_supported_version_to_verifiermain_.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/32902c0a8d90_add_mbpolicies_table.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/00766b7fd0c5_add_certs_iak_and_idevid.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/bc3b6b551b0a_drop_vtpm_colums.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/eb869a77abd1_create_allowlist_table.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/8da20383f6e1_extend_ip_field.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/a09cc94177f0_add_last_received_quote.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/f35cdd35eb83_move_v_tpm_policy_to_jsonpickletype.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/a59cc9366774_fix_evidence_items_agent_id_length.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/bf48e0c4751d_add_attestation_count_column.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/160f932fde5b_increase_length_of_verifier_ip_column.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/870c218abd9a_add_push_attestation_support.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/__init__.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/1ac1513ef2a1_fix_mb_and_ima_column_types.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/460d7adda633_add_sessions_table.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/8a44a4364f5a_initial_database_migration.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/4089e1c79be9_add_tpm_clockinfo.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/5a8b2c3d4e6f_hash_session_tokens.py -> build/lib/keylime/migrations/versions
+copying keylime/migrations/versions/b4d024197413_add_verfier_id_to_verifiermain_table.py -> build/lib/keylime/migrations/versions
+creating build/lib/keylime/verification/base
+copying keylime/verification/base/engine_driver.py -> build/lib/keylime/verification/base
+copying keylime/verification/base/verification_engine_meta.py -> build/lib/keylime/verification/base
+copying keylime/verification/base/verification_engine.py -> build/lib/keylime/verification/base
+copying keylime/verification/base/__init__.py -> build/lib/keylime/verification/base
+copying keylime/migrations/alembic.ini -> build/lib/keylime/migrations
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/keylime
+creating build/bdist.linux-x86_64/wheel/keylime/ima
+copying build/lib/keylime/ima/types.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/file_signatures.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/ast.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/ima_dm.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/dm_grammar.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/ima.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+copying build/lib/keylime/ima/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/ima
+creating build/bdist.linux-x86_64/wheel/keylime/da
+copying build/lib/keylime/da/attest.py -> build/bdist.linux-x86_64/wheel/./keylime/da
+copying build/lib/keylime/da/record.py -> build/bdist.linux-x86_64/wheel/./keylime/da
+creating build/bdist.linux-x86_64/wheel/keylime/da/examples
+copying build/lib/keylime/da/examples/rekor.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/examples/redis.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/examples/file.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/examples/tsa_rfc3161.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/examples/sqldb.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/examples/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/da/examples
+copying build/lib/keylime/da/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/da
+copying build/lib/keylime/cloud_verifier_common.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/types.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/shared_data.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/ca_util.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/config.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/authorization
+creating build/bdist.linux-x86_64/wheel/keylime/authorization/providers
+copying build/lib/keylime/authorization/providers/simple.py -> build/bdist.linux-x86_64/wheel/./keylime/authorization/providers
+copying build/lib/keylime/authorization/providers/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/authorization/providers
+copying build/lib/keylime/authorization/manager.py -> build/bdist.linux-x86_64/wheel/./keylime/authorization
+copying build/lib/keylime/authorization/provider.py -> build/bdist.linux-x86_64/wheel/./keylime/authorization
+copying build/lib/keylime/authorization/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/authorization
+copying build/lib/keylime/revocation_notifier.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/web
+copying build/lib/keylime/web/verifier_server.py -> build/bdist.linux-x86_64/wheel/./keylime/web
+copying build/lib/keylime/web/registrar_server.py -> build/bdist.linux-x86_64/wheel/./keylime/web
+creating build/bdist.linux-x86_64/wheel/keylime/web/base
+copying build/lib/keylime/web/base/server.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+copying build/lib/keylime/web/base/default_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+copying build/lib/keylime/web/base/route.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+creating build/bdist.linux-x86_64/wheel/keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_resource.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_error.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_message_body.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_meta.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_links.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_message_helpers.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/api_messages/api_info.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base/api_messages
+copying build/lib/keylime/web/base/exceptions.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+copying build/lib/keylime/web/base/action_handler.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+copying build/lib/keylime/web/base/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+copying build/lib/keylime/web/base/controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/base
+creating build/bdist.linux-x86_64/wheel/keylime/web/verifier
+copying build/lib/keylime/web/verifier/server_info_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/mb_ref_state_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/attestation_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/evidence_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/agent_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/identity_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/session_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/verifier/ima_policy_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/verifier
+copying build/lib/keylime/web/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/web
+creating build/bdist.linux-x86_64/wheel/keylime/web/registrar
+copying build/lib/keylime/web/registrar/agents_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/registrar
+copying build/lib/keylime/web/registrar/version_controller.py -> build/bdist.linux-x86_64/wheel/./keylime/web/registrar
+copying build/lib/keylime/web/registrar/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/web/registrar
+copying build/lib/keylime/cloud_verifier_tornado.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/common
+copying build/lib/keylime/common/version.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/exception.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/retry.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/migrations.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/states.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/algorithms.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+copying build/lib/keylime/common/validators.py -> build/bdist.linux-x86_64/wheel/./keylime/common
+creating build/bdist.linux-x86_64/wheel/keylime/tee
+copying build/lib/keylime/tee/snp.py -> build/bdist.linux-x86_64/wheel/./keylime/tee
+copying build/lib/keylime/tee/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/tee
+copying build/lib/keylime/cmd_exec.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/requests_client.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/tpm
+copying build/lib/keylime/tpm/tpm_util_test.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/types.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/tpm_main.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/tpm_util.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/tpm2_objects.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/tpm2_objects_test.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/tpm/errors.py -> build/bdist.linux-x86_64/wheel/./keylime/tpm
+copying build/lib/keylime/shutdown.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/cmd
+copying build/lib/keylime/cmd/convert_config.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/user_data_encrypt.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/registrar.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/verifier.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/ca.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/attest.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/create_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/convert_runtime_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/sign_runtime_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/keylime_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/cmd/tenant.py -> build/bdist.linux-x86_64/wheel/./keylime/cmd
+copying build/lib/keylime/keylime_logging.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/db
+copying build/lib/keylime/db/registrar_db.py -> build/bdist.linux-x86_64/wheel/./keylime/db
+copying build/lib/keylime/db/verifier_db.py -> build/bdist.linux-x86_64/wheel/./keylime/db
+copying build/lib/keylime/db/keylime_db.py -> build/bdist.linux-x86_64/wheel/./keylime/db
+copying build/lib/keylime/db/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/db
+copying build/lib/keylime/ip_util.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/push_agent_monitor.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/tornado_requests.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/certificate_wrapper.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/api_version.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/cert_utils.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/dsse
+copying build/lib/keylime/dsse/ecdsa.py -> build/bdist.linux-x86_64/wheel/./keylime/dsse
+copying build/lib/keylime/dsse/dsse.py -> build/bdist.linux-x86_64/wheel/./keylime/dsse
+copying build/lib/keylime/dsse/x509.py -> build/bdist.linux-x86_64/wheel/./keylime/dsse
+copying build/lib/keylime/dsse/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/dsse
+creating build/bdist.linux-x86_64/wheel/keylime/cli
+copying build/lib/keylime/cli/policies.py -> build/bdist.linux-x86_64/wheel/./keylime/cli
+copying build/lib/keylime/cli/options.py -> build/bdist.linux-x86_64/wheel/./keylime/cli
+copying build/lib/keylime/cli/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/cli
+copying build/lib/keylime/agent_util.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/mba
+copying build/lib/keylime/mba/mba.py -> build/bdist.linux-x86_64/wheel/./keylime/mba
+creating build/bdist.linux-x86_64/wheel/keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/policies.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/example.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/elchecker.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/tests.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/elchecking/__main__.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elchecking
+copying build/lib/keylime/mba/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/mba
+creating build/bdist.linux-x86_64/wheel/keylime/mba/elparsing
+copying build/lib/keylime/mba/elparsing/tpm2_tools_elparser.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elparsing
+copying build/lib/keylime/mba/elparsing/tpm_bootlog_enrich.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elparsing
+copying build/lib/keylime/mba/elparsing/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/mba/elparsing
+creating build/bdist.linux-x86_64/wheel/keylime/models
+creating build/bdist.linux-x86_64/wheel/keylime/models/common
+copying build/lib/keylime/models/common/json_api.py -> build/bdist.linux-x86_64/wheel/./keylime/models/common
+copying build/lib/keylime/models/common/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models/common
+creating build/bdist.linux-x86_64/wheel/keylime/models/base
+copying build/lib/keylime/models/base/associations.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/associated_record_set.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/da.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/field.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/db.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/basic_model.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/record_set.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/pylint.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/persistable_model_meta.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/type.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/persistable_model.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+creating build/bdist.linux-x86_64/wheel/keylime/models/base/types
+copying build/lib/keylime/models/base/types/dictionary.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/nonce.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/one_of.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/timestamp.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/list.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/binary.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/types/certificate.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base/types
+copying build/lib/keylime/models/base/errors.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+copying build/lib/keylime/models/base/basic_model_meta.py -> build/bdist.linux-x86_64/wheel/./keylime/models/base
+creating build/bdist.linux-x86_64/wheel/keylime/models/verifier
+copying build/lib/keylime/models/verifier/auth_session.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/rate_limiter.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/attestation.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/evidence.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/verifier_agent.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/mb_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/verifier/ima_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/models/verifier
+copying build/lib/keylime/models/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models
+creating build/bdist.linux-x86_64/wheel/keylime/models/registrar
+copying build/lib/keylime/models/registrar/registrar_agent.py -> build/bdist.linux-x86_64/wheel/./keylime/models/registrar
+copying build/lib/keylime/models/registrar/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/models/registrar
+creating build/bdist.linux-x86_64/wheel/keylime/migrations
+creating build/bdist.linux-x86_64/wheel/keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/517a2d6b5cd3_add_consecutive_attestation_failures.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/257fe0f0c039_add_fields_for_revocation_context_to_.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/21b5cb88fcdb_add_idevid_and_iak.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/57b24ee21dfa_extend_meta_data_field.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/f4196d13fe45_migrate_mb_refstates_to_mbpolicies.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/7d5db1a6ffb0_add_agentstates_columns.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/2fbc0fb8fa4d_add_checksum_to_allowlist.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/eeb702f77d7d_allowlist_rename.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/330024be7bef_convert_registrar_column_types.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/63c30820fdc1_add_mtls_cert_and_ak_to_verifier_db.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/9d2f6fab52b1_associate_moved_mb_refstates_to_agents.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/4329e2d14944_associate_moved_allowlists_to_agents.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/a72aec03d720_migrate_allowlists_to_separate_table.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/ae898986c6e9_add_mb_refstate_column.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/a79c27ec1054_add_mtls_cert_field_to_registrar.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/a7a64155ab3a_add_ima_filesigning_keys_column.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/f82c4252bc4f_add_ip_and_port_to_registrar.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/cc2630851a1f_receive_the_aik_tpm_from_the_agent.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/c3842cc9ee69_store_keyrings_learned_from_ima_log.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/f838d3cdeead_add_last_successful_attestation.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/039322ea079b_add_generator_column.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/8c0f8ded1f90_convert_allowlists_to_ima_policies.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/9169f80345ed_add_supported_version_to_verifiermain_.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/32902c0a8d90_add_mbpolicies_table.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/00766b7fd0c5_add_certs_iak_and_idevid.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/bc3b6b551b0a_drop_vtpm_colums.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/eb869a77abd1_create_allowlist_table.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/8da20383f6e1_extend_ip_field.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/a09cc94177f0_add_last_received_quote.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/f35cdd35eb83_move_v_tpm_policy_to_jsonpickletype.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/a59cc9366774_fix_evidence_items_agent_id_length.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/bf48e0c4751d_add_attestation_count_column.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/160f932fde5b_increase_length_of_verifier_ip_column.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/870c218abd9a_add_push_attestation_support.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/1ac1513ef2a1_fix_mb_and_ima_column_types.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/460d7adda633_add_sessions_table.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/8a44a4364f5a_initial_database_migration.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/4089e1c79be9_add_tpm_clockinfo.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/5a8b2c3d4e6f_hash_session_tokens.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/versions/b4d024197413_add_verfier_id_to_verifiermain_table.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations/versions
+copying build/lib/keylime/migrations/alembic.ini -> build/bdist.linux-x86_64/wheel/./keylime/migrations
+copying build/lib/keylime/migrations/env.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations
+copying build/lib/keylime/migrations/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/migrations
+copying build/lib/keylime/ca_impl_openssl.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/registrar_client.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/agentstates.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/fs_util.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/signing.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/backport_dataclasses.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/tpm_ek_ca.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/tenant.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/json.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/crypto.py -> build/bdist.linux-x86_64/wheel/./keylime
+creating build/bdist.linux-x86_64/wheel/keylime/verification
+creating build/bdist.linux-x86_64/wheel/keylime/verification/base
+copying build/lib/keylime/verification/base/engine_driver.py -> build/bdist.linux-x86_64/wheel/./keylime/verification/base
+copying build/lib/keylime/verification/base/verification_engine_meta.py -> build/bdist.linux-x86_64/wheel/./keylime/verification/base
+copying build/lib/keylime/verification/base/verification_engine.py -> build/bdist.linux-x86_64/wheel/./keylime/verification/base
+copying build/lib/keylime/verification/base/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/verification/base
+copying build/lib/keylime/verification/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/verification
+copying build/lib/keylime/verification/tpm_engine.py -> build/bdist.linux-x86_64/wheel/./keylime/verification
+creating build/bdist.linux-x86_64/wheel/keylime/policy
+copying build/lib/keylime/policy/initrd.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/logger.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/utils.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/create_runtime_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/__init__.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/rpm_repo.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/sign_runtime_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/policy/create_mb_policy.py -> build/bdist.linux-x86_64/wheel/./keylime/policy
+copying build/lib/keylime/web_util.py -> build/bdist.linux-x86_64/wheel/./keylime
+copying build/lib/keylime/failure.py -> build/bdist.linux-x86_64/wheel/./keylime
+running install_egg_info
+running egg_info
+writing keylime.egg-info/PKG-INFO
+writing dependency_links to keylime.egg-info/dependency_links.txt
+writing entry points to keylime.egg-info/entry_points.txt
+writing top-level names to keylime.egg-info/top_level.txt
+reading manifest file 'keylime.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'keylime.egg-info/SOURCES.txt'
+Copying keylime.egg-info to build/bdist.linux-x86_64/wheel/./keylime-7.14.3-py3.10.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/keylime-7.14.3.dist-info/WHEEL
+creating '/home/jake/sbomit-overhead-experiment/repos/keylime/dist/.tmp-2ytpx6t3/keylime-7.14.3-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'keylime/__init__.py'
+adding 'keylime/agent_util.py'
+adding 'keylime/agentstates.py'
+adding 'keylime/api_version.py'
+adding 'keylime/backport_dataclasses.py'
+adding 'keylime/ca_impl_openssl.py'
+adding 'keylime/ca_util.py'
+adding 'keylime/cert_utils.py'
+adding 'keylime/certificate_wrapper.py'
+adding 'keylime/cloud_verifier_common.py'
+adding 'keylime/cloud_verifier_tornado.py'
+adding 'keylime/cmd_exec.py'
+adding 'keylime/config.py'
+adding 'keylime/crypto.py'
+adding 'keylime/failure.py'
+adding 'keylime/fs_util.py'
+adding 'keylime/ip_util.py'
+adding 'keylime/json.py'
+adding 'keylime/keylime_logging.py'
+adding 'keylime/push_agent_monitor.py'
+adding 'keylime/registrar_client.py'
+adding 'keylime/requests_client.py'
+adding 'keylime/revocation_notifier.py'
+adding 'keylime/shared_data.py'
+adding 'keylime/shutdown.py'
+adding 'keylime/signing.py'
+adding 'keylime/tenant.py'
+adding 'keylime/tornado_requests.py'
+adding 'keylime/tpm_ek_ca.py'
+adding 'keylime/types.py'
+adding 'keylime/web_util.py'
+adding 'keylime/authorization/__init__.py'
+adding 'keylime/authorization/manager.py'
+adding 'keylime/authorization/provider.py'
+adding 'keylime/authorization/providers/__init__.py'
+adding 'keylime/authorization/providers/simple.py'
+adding 'keylime/cli/__init__.py'
+adding 'keylime/cli/options.py'
+adding 'keylime/cli/policies.py'
+adding 'keylime/cmd/__init__.py'
+adding 'keylime/cmd/attest.py'
+adding 'keylime/cmd/ca.py'
+adding 'keylime/cmd/convert_config.py'
+adding 'keylime/cmd/convert_runtime_policy.py'
+adding 'keylime/cmd/create_policy.py'
+adding 'keylime/cmd/keylime_policy.py'
+adding 'keylime/cmd/registrar.py'
+adding 'keylime/cmd/sign_runtime_policy.py'
+adding 'keylime/cmd/tenant.py'
+adding 'keylime/cmd/user_data_encrypt.py'
+adding 'keylime/cmd/verifier.py'
+adding 'keylime/common/__init__.py'
+adding 'keylime/common/algorithms.py'
+adding 'keylime/common/exception.py'
+adding 'keylime/common/migrations.py'
+adding 'keylime/common/retry.py'
+adding 'keylime/common/states.py'
+adding 'keylime/common/validators.py'
+adding 'keylime/common/version.py'
+adding 'keylime/da/__init__.py'
+adding 'keylime/da/attest.py'
+adding 'keylime/da/record.py'
+adding 'keylime/da/examples/__init__.py'
+adding 'keylime/da/examples/file.py'
+adding 'keylime/da/examples/redis.py'
+adding 'keylime/da/examples/rekor.py'
+adding 'keylime/da/examples/sqldb.py'
+adding 'keylime/da/examples/tsa_rfc3161.py'
+adding 'keylime/db/__init__.py'
+adding 'keylime/db/keylime_db.py'
+adding 'keylime/db/registrar_db.py'
+adding 'keylime/db/verifier_db.py'
+adding 'keylime/dsse/__init__.py'
+adding 'keylime/dsse/dsse.py'
+adding 'keylime/dsse/ecdsa.py'
+adding 'keylime/dsse/x509.py'
+adding 'keylime/ima/__init__.py'
+adding 'keylime/ima/ast.py'
+adding 'keylime/ima/dm_grammar.py'
+adding 'keylime/ima/file_signatures.py'
+adding 'keylime/ima/ima.py'
+adding 'keylime/ima/ima_dm.py'
+adding 'keylime/ima/types.py'
+adding 'keylime/mba/__init__.py'
+adding 'keylime/mba/mba.py'
+adding 'keylime/mba/elchecking/__init__.py'
+adding 'keylime/mba/elchecking/__main__.py'
+adding 'keylime/mba/elchecking/elchecker.py'
+adding 'keylime/mba/elchecking/example.py'
+adding 'keylime/mba/elchecking/policies.py'
+adding 'keylime/mba/elchecking/tests.py'
+adding 'keylime/mba/elparsing/__init__.py'
+adding 'keylime/mba/elparsing/tpm2_tools_elparser.py'
+adding 'keylime/mba/elparsing/tpm_bootlog_enrich.py'
+adding 'keylime/migrations/__init__.py'
+adding 'keylime/migrations/alembic.ini'
+adding 'keylime/migrations/env.py'
+adding 'keylime/migrations/versions/00766b7fd0c5_add_certs_iak_and_idevid.py'
+adding 'keylime/migrations/versions/039322ea079b_add_generator_column.py'
+adding 'keylime/migrations/versions/160f932fde5b_increase_length_of_verifier_ip_column.py'
+adding 'keylime/migrations/versions/1ac1513ef2a1_fix_mb_and_ima_column_types.py'
+adding 'keylime/migrations/versions/21b5cb88fcdb_add_idevid_and_iak.py'
+adding 'keylime/migrations/versions/257fe0f0c039_add_fields_for_revocation_context_to_.py'
+adding 'keylime/migrations/versions/2fbc0fb8fa4d_add_checksum_to_allowlist.py'
+adding 'keylime/migrations/versions/32902c0a8d90_add_mbpolicies_table.py'
+adding 'keylime/migrations/versions/330024be7bef_convert_registrar_column_types.py'
+adding 'keylime/migrations/versions/4089e1c79be9_add_tpm_clockinfo.py'
+adding 'keylime/migrations/versions/4329e2d14944_associate_moved_allowlists_to_agents.py'
+adding 'keylime/migrations/versions/460d7adda633_add_sessions_table.py'
+adding 'keylime/migrations/versions/517a2d6b5cd3_add_consecutive_attestation_failures.py'
+adding 'keylime/migrations/versions/57b24ee21dfa_extend_meta_data_field.py'
+adding 'keylime/migrations/versions/5a8b2c3d4e6f_hash_session_tokens.py'
+adding 'keylime/migrations/versions/63c30820fdc1_add_mtls_cert_and_ak_to_verifier_db.py'
+adding 'keylime/migrations/versions/7d5db1a6ffb0_add_agentstates_columns.py'
+adding 'keylime/migrations/versions/870c218abd9a_add_push_attestation_support.py'
+adding 'keylime/migrations/versions/8a44a4364f5a_initial_database_migration.py'
+adding 'keylime/migrations/versions/8c0f8ded1f90_convert_allowlists_to_ima_policies.py'
+adding 'keylime/migrations/versions/8da20383f6e1_extend_ip_field.py'
+adding 'keylime/migrations/versions/9169f80345ed_add_supported_version_to_verifiermain_.py'
+adding 'keylime/migrations/versions/9d2f6fab52b1_associate_moved_mb_refstates_to_agents.py'
+adding 'keylime/migrations/versions/__init__.py'
+adding 'keylime/migrations/versions/a09cc94177f0_add_last_received_quote.py'
+adding 'keylime/migrations/versions/a59cc9366774_fix_evidence_items_agent_id_length.py'
+adding 'keylime/migrations/versions/a72aec03d720_migrate_allowlists_to_separate_table.py'
+adding 'keylime/migrations/versions/a79c27ec1054_add_mtls_cert_field_to_registrar.py'
+adding 'keylime/migrations/versions/a7a64155ab3a_add_ima_filesigning_keys_column.py'
+adding 'keylime/migrations/versions/ae898986c6e9_add_mb_refstate_column.py'
+adding 'keylime/migrations/versions/b4d024197413_add_verfier_id_to_verifiermain_table.py'
+adding 'keylime/migrations/versions/bc3b6b551b0a_drop_vtpm_colums.py'
+adding 'keylime/migrations/versions/bf48e0c4751d_add_attestation_count_column.py'
+adding 'keylime/migrations/versions/c3842cc9ee69_store_keyrings_learned_from_ima_log.py'
+adding 'keylime/migrations/versions/cc2630851a1f_receive_the_aik_tpm_from_the_agent.py'
+adding 'keylime/migrations/versions/eb869a77abd1_create_allowlist_table.py'
+adding 'keylime/migrations/versions/eeb702f77d7d_allowlist_rename.py'
+adding 'keylime/migrations/versions/f35cdd35eb83_move_v_tpm_policy_to_jsonpickletype.py'
+adding 'keylime/migrations/versions/f4196d13fe45_migrate_mb_refstates_to_mbpolicies.py'
+adding 'keylime/migrations/versions/f82c4252bc4f_add_ip_and_port_to_registrar.py'
+adding 'keylime/migrations/versions/f838d3cdeead_add_last_successful_attestation.py'
+adding 'keylime/models/__init__.py'
+adding 'keylime/models/base/__init__.py'
+adding 'keylime/models/base/associated_record_set.py'
+adding 'keylime/models/base/associations.py'
+adding 'keylime/models/base/basic_model.py'
+adding 'keylime/models/base/basic_model_meta.py'
+adding 'keylime/models/base/da.py'
+adding 'keylime/models/base/db.py'
+adding 'keylime/models/base/errors.py'
+adding 'keylime/models/base/field.py'
+adding 'keylime/models/base/persistable_model.py'
+adding 'keylime/models/base/persistable_model_meta.py'
+adding 'keylime/models/base/pylint.py'
+adding 'keylime/models/base/record_set.py'
+adding 'keylime/models/base/type.py'
+adding 'keylime/models/base/types/__init__.py'
+adding 'keylime/models/base/types/binary.py'
+adding 'keylime/models/base/types/certificate.py'
+adding 'keylime/models/base/types/dictionary.py'
+adding 'keylime/models/base/types/list.py'
+adding 'keylime/models/base/types/nonce.py'
+adding 'keylime/models/base/types/one_of.py'
+adding 'keylime/models/base/types/timestamp.py'
+adding 'keylime/models/common/__init__.py'
+adding 'keylime/models/common/json_api.py'
+adding 'keylime/models/registrar/__init__.py'
+adding 'keylime/models/registrar/registrar_agent.py'
+adding 'keylime/models/verifier/__init__.py'
+adding 'keylime/models/verifier/attestation.py'
+adding 'keylime/models/verifier/auth_session.py'
+adding 'keylime/models/verifier/evidence.py'
+adding 'keylime/models/verifier/ima_policy.py'
+adding 'keylime/models/verifier/mb_policy.py'
+adding 'keylime/models/verifier/rate_limiter.py'
+adding 'keylime/models/verifier/verifier_agent.py'
+adding 'keylime/policy/__init__.py'
+adding 'keylime/policy/create_mb_policy.py'
+adding 'keylime/policy/create_runtime_policy.py'
+adding 'keylime/policy/initrd.py'
+adding 'keylime/policy/logger.py'
+adding 'keylime/policy/rpm_repo.py'
+adding 'keylime/policy/sign_runtime_policy.py'
+adding 'keylime/policy/utils.py'
+adding 'keylime/tee/__init__.py'
+adding 'keylime/tee/snp.py'
+adding 'keylime/tpm/__init__.py'
+adding 'keylime/tpm/errors.py'
+adding 'keylime/tpm/tpm2_objects.py'
+adding 'keylime/tpm/tpm2_objects_test.py'
+adding 'keylime/tpm/tpm_main.py'
+adding 'keylime/tpm/tpm_util.py'
+adding 'keylime/tpm/tpm_util_test.py'
+adding 'keylime/tpm/types.py'
+adding 'keylime/verification/__init__.py'
+adding 'keylime/verification/tpm_engine.py'
+adding 'keylime/verification/base/__init__.py'
+adding 'keylime/verification/base/engine_driver.py'
+adding 'keylime/verification/base/verification_engine.py'
+adding 'keylime/verification/base/verification_engine_meta.py'
+adding 'keylime/web/__init__.py'
+adding 'keylime/web/registrar_server.py'
+adding 'keylime/web/verifier_server.py'
+adding 'keylime/web/base/__init__.py'
+adding 'keylime/web/base/action_handler.py'
+adding 'keylime/web/base/controller.py'
+adding 'keylime/web/base/default_controller.py'
+adding 'keylime/web/base/exceptions.py'
+adding 'keylime/web/base/route.py'
+adding 'keylime/web/base/server.py'
+adding 'keylime/web/base/api_messages/__init__.py'
+adding 'keylime/web/base/api_messages/api_error.py'
+adding 'keylime/web/base/api_messages/api_info.py'
+adding 'keylime/web/base/api_messages/api_links.py'
+adding 'keylime/web/base/api_messages/api_message_body.py'
+adding 'keylime/web/base/api_messages/api_message_helpers.py'
+adding 'keylime/web/base/api_messages/api_meta.py'
+adding 'keylime/web/base/api_messages/api_resource.py'
+adding 'keylime/web/registrar/__init__.py'
+adding 'keylime/web/registrar/agents_controller.py'
+adding 'keylime/web/registrar/version_controller.py'
+adding 'keylime/web/verifier/__init__.py'
+adding 'keylime/web/verifier/agent_controller.py'
+adding 'keylime/web/verifier/attestation_controller.py'
+adding 'keylime/web/verifier/evidence_controller.py'
+adding 'keylime/web/verifier/identity_controller.py'
+adding 'keylime/web/verifier/ima_policy_controller.py'
+adding 'keylime/web/verifier/mb_ref_state_controller.py'
+adding 'keylime/web/verifier/server_info_controller.py'
+adding 'keylime/web/verifier/session_controller.py'
+adding 'keylime-7.14.3.dist-info/licenses/LICENSE'
+adding 'keylime-7.14.3.dist-info/METADATA'
+adding 'keylime-7.14.3.dist-info/WHEEL'
+adding 'keylime-7.14.3.dist-info/entry_points.txt'
+adding 'keylime-7.14.3.dist-info/top_level.txt'
+adding 'keylime-7.14.3.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built keylime-7.14.3.tar.gz and keylime-7.14.3-py3-none-any.whl

@@ -1,0 +1,89 @@
+2.153	cni	CNI
+3.374	notation	Notary Project
+4.524	kuma	kuma
+9.29	cartography	Cartography
+9.497	cloud-custodian	cloud-custodian
+9.889	python-tuf	The Update Framework (TUF)
+10.276	in-toto	in-toto
+11.358	keylime	keylime
+14.479	bfe	BFE
+14.526	container2wasm	container2wasm
+19.924	containerssh	ContainerSSH
+20.155	pack	Buildpack
+20.702	OpenFunction	OpenFunction
+20.796	ko	ko
+21.886	nats-server	NATS
+22.248	copacetic	copacetic
+24.702	kudo	kudo
+24.724	oauth2-proxy	OAuth2 Proxy
+26.825	distribution	Distribution
+27.069	dragonfly	dragonfly
+28.319	kubestellar	kubestellar
+29.008	kube-vip	kube-vip
+31.38	coredns	CoreDNS
+31.826	kepler	kepler
+32.215	atlantis	atlantis
+32.236	emissary	emissary
+33.102	openfga	OpenFGA
+33.362	inspektor-gadget	Inspektor Gadget
+33.556	interLink	Interlink
+34.429	contour	contour
+35.877	kpt	kpt
+39.287	kube-burner	kube-burner
+40.447	containerd	containerd
+41.716	flux2	flux2
+42.421	dex	Dex
+42.484	capsule	Capsule
+45.985	headlamp	Headlamp
+46.363	kubeclipper	KubeClipper
+46.787	logging-operator	Logging Operator
+48.963	chaos-mesh	ChaosMesh
+49.613	k8sgpt	K8sGPT
+51.788	operator-sdk	Operator Framework
+53.077	antrea	Antrea
+53.414	cri-o	cri-o
+53.949	HAMi	HAMi
+56.483	kaito	Kaito
+58.331	thanos	Thanos
+59.992	bank-vaults	Bank-Vaults
+61.358	clusternet	Clusternet
+62.481	k8up	K8up
+63.523	k8gb	k8gb
+71.088	easegress	Easegress
+71.376	openyurt	OpenYurt
+72.087	kuadrant-operator	kuadrant
+74.067	cedar	Cedar
+74.683	cloudnative-pg	CloudNativePG
+76.944	loxilb	LoxiLB
+77.203	openchoreo	OpenChoreo
+77.288	vitess	vitess
+78.545	ocm	Open Cluster Management
+78.785	kgateway	Kgateway
+80.734	external-secrets	external-secrets
+87.241	opencost	Opencost
+89.891	kubescape	Kubescape
+91.048	openGemini	openGemini
+93.971	kubefleet	kubefleet
+95.728	eraser	Eraser
+101.055	kanister	kanister
+101.106	higress	Higress
+105.793	koordinator	koordinator
+106.68	volcano	Volcano
+107.793	kube-ovn	kube-ovn
+115.458	kruise	OpenKruise
+116.071	clusterpedia	Clusterpedia
+122.785	kcp	kcp
+124.689	karmada	Karmada
+135.639	kubevela	Kubevela
+146.984	lima	Lima
+149.359	aeraki	Aeraki Mesh
+168.152	kusion	kusionStack
+170.691	kserve	KServe
+174.825	keda	Keda
+189.612	cadence	Cadence Workflow
+218.097	cubefs	cubefs
+218.854	jaeger	Jaeger
+285.665	kcl	kcl
+286.903	hwameistor	HwameiStor
+333.175	wasmCloud	wasmcloud
+381.275	fluid	Fluid

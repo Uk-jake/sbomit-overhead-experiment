@@ -1,0 +1,123 @@
+cd cmd/controller && GOOS=linux GOARCH=amd64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/controller-linux-amd64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+go: downloading k8s.io/component-base v0.37.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azcore v1.23.1
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.14.1
+go: downloading github.com/digitalocean/godo v1.206.0
+go: downloading k8s.io/apiserver v0.37.0
+go: downloading github.com/Venafi/vcert/v5 v5.13.9
+go: downloading github.com/aws/aws-sdk-go-v2/config v1.33.1
+go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.47.1
+go: downloading github.com/hashicorp/vault/sdk v0.25.1
+go: downloading github.com/akamai/AkamaiOPEN-edgegrid-golang/v13 v13.4.0
+go: downloading google.golang.org/api v0.295.0
+go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.20.1
+go: downloading github.com/nrdcg/goacmedns v0.2.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/privatedns/armprivatedns/v2 v2.0.0
+go: downloading github.com/aws/aws-sdk-go-v2/service/route53 v1.67.1
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/dns/armdns v1.2.0
+go: downloading github.com/AzureAD/microsoft-authentication-library-for-go v1.8.0
+go: downloading github.com/pavlo-v-chernykh/keystore-go/v4 v4.5.0
+go: downloading software.sslmate.com/src/go-pkcs12 v0.7.3
+go: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.7.1
+go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.35.1
+go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.40.1
+go: downloading github.com/Khan/genqlient v0.8.1
+go: downloading github.com/sosodev/duration v1.4.0
+go: downloading github.com/google/certificate-transparency-go v1.3.1
+go: downloading github.com/hashicorp/go-secure-stdlib/cryptoutil v0.1.1
+go: downloading github.com/hashicorp/go-hmac-drbg v0.0.0-20210916214228-a6e5a68489f6
+go: downloading github.com/vektah/gqlparser/v2 v2.5.30
+go: downloading github.com/go-ozzo/ozzo-validation/v4 v4.3.0
+go: downloading go.uber.org/ratelimit v0.3.1
+go: downloading github.com/benbjohnson/clock v1.3.5
+go: downloading go.etcd.io/etcd/client/v3 v3.7.0
+go: downloading go.etcd.io/etcd/api/v3 v3.7.0
+cd cmd/controller && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/controller-linux-arm64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/controller && GOOS=linux GOARCH=s390x CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/controller-linux-s390x -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/controller && GOOS=linux GOARCH=ppc64le CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/controller-linux-ppc64le -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/controller && GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/controller-linux-arm -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/acmesolver && GOOS=linux GOARCH=amd64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/acmesolver-linux-amd64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/acmesolver && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/acmesolver-linux-arm64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/acmesolver && GOOS=linux GOARCH=s390x CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/acmesolver-linux-s390x -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/acmesolver && GOOS=linux GOARCH=ppc64le CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/acmesolver-linux-ppc64le -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/acmesolver && GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/acmesolver-linux-arm -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/webhook && GOOS=linux GOARCH=amd64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/webhook-linux-amd64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/webhook && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/webhook-linux-arm64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/webhook && GOOS=linux GOARCH=s390x CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/webhook-linux-s390x -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/webhook && GOOS=linux GOARCH=ppc64le CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/webhook-linux-ppc64le -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/webhook && GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/webhook-linux-arm -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/cainjector && GOOS=linux GOARCH=amd64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/cainjector-linux-amd64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+go: downloading k8s.io/kube-aggregator v0.37.0
+cd cmd/cainjector && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/cainjector-linux-arm64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/cainjector && GOOS=linux GOARCH=s390x CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/cainjector-linux-s390x -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/cainjector && GOOS=linux GOARCH=ppc64le CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/cainjector-linux-ppc64le -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/cainjector && GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/cainjector-linux-arm -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/startupapicheck && GOOS=linux GOARCH=amd64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/startupapicheck-linux-amd64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+go: downloading k8s.io/cli-runtime v0.37.0
+cd cmd/startupapicheck && GOOS=linux GOARCH=arm64 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/startupapicheck-linux-arm64 -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/startupapicheck && GOOS=linux GOARCH=s390x CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/startupapicheck-linux-s390x -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/startupapicheck && GOOS=linux GOARCH=ppc64le CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/startupapicheck-linux-ppc64le -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+cd cmd/startupapicheck && GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 GOEXPERIMENT= GOMAXPROCS= go build -o ../../_bin/server/startupapicheck-linux-arm -trimpath -ldflags '-w -s -X github.com/cert-manager/cert-manager/pkg/util.AppVersion=7cf91c451c07ab -X github.com/cert-manager/cert-manager/pkg/util.AppGitCommit=7cf91c451c07aba59b773cc16dd01919dd02e148' main.go
+sed -e "s:{{RELEASE_VERSION}}:7cf91c451c07ab:g" < deploy/charts/cert-manager/README.template.md > _bin/helm/cert-manager/README.md
+mkdir -p _bin/scratch
+[info]: downloaded /home/jake/.cache/makefile-modules/downloaded/tools/yq@v4.53.6_linux_amd64
+IFS= read -rd '' SIGNKEY_ANNOTATION < <(cat deploy/charts/cert-manager/signkey_annotation.txt) ; \
+	SIGNKEY_ANNOTATION=$SIGNKEY_ANNOTATION /home/jake/sbomit-overhead-experiment/repos/cert-manager/_bin/tools/yq eval \
+	'.annotations."artifacthub.io/signKey" = strenv(SIGNKEY_ANNOTATION) | .annotations."artifacthub.io/prerelease" = "false" | .version = "7cf91c451c07ab" | .appVersion = "7cf91c451c07ab"' \
+	deploy/charts/cert-manager/Chart.yaml > _bin/helm/cert-manager/Chart.yaml
+cp deploy/charts/cert-manager/values.yaml _bin/helm/cert-manager/values.yaml
+cp deploy/charts/cert-manager/values.schema.json _bin/helm/cert-manager/values.schema.json
+cp -f deploy/charts/cert-manager/templates/cainjector-config.yaml _bin/helm/cert-manager/templates/cainjector-config.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-deployment.yaml _bin/helm/cert-manager/templates/cainjector-deployment.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-poddisruptionbudget.yaml _bin/helm/cert-manager/templates/cainjector-poddisruptionbudget.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-psp-clusterrole.yaml _bin/helm/cert-manager/templates/cainjector-psp-clusterrole.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-psp-clusterrolebinding.yaml _bin/helm/cert-manager/templates/cainjector-psp-clusterrolebinding.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-psp.yaml _bin/helm/cert-manager/templates/cainjector-psp.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-rbac.yaml _bin/helm/cert-manager/templates/cainjector-rbac.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-service.yaml _bin/helm/cert-manager/templates/cainjector-service.yaml
+cp -f deploy/charts/cert-manager/templates/cainjector-serviceaccount.yaml _bin/helm/cert-manager/templates/cainjector-serviceaccount.yaml
+cp -f deploy/charts/cert-manager/templates/controller-config.yaml _bin/helm/cert-manager/templates/controller-config.yaml
+cp -f deploy/charts/cert-manager/templates/crd-acme.cert-manager.io_challenges.yaml _bin/helm/cert-manager/templates/crd-acme.cert-manager.io_challenges.yaml
+cp -f deploy/charts/cert-manager/templates/crd-acme.cert-manager.io_orders.yaml _bin/helm/cert-manager/templates/crd-acme.cert-manager.io_orders.yaml
+cp -f deploy/charts/cert-manager/templates/crd-cert-manager.io_certificaterequests.yaml _bin/helm/cert-manager/templates/crd-cert-manager.io_certificaterequests.yaml
+cp -f deploy/charts/cert-manager/templates/crd-cert-manager.io_certificates.yaml _bin/helm/cert-manager/templates/crd-cert-manager.io_certificates.yaml
+cp -f deploy/charts/cert-manager/templates/crd-cert-manager.io_clusterissuers.yaml _bin/helm/cert-manager/templates/crd-cert-manager.io_clusterissuers.yaml
+cp -f deploy/charts/cert-manager/templates/crd-cert-manager.io_issuers.yaml _bin/helm/cert-manager/templates/crd-cert-manager.io_issuers.yaml
+cp -f deploy/charts/cert-manager/templates/deployment.yaml _bin/helm/cert-manager/templates/deployment.yaml
+cp -f deploy/charts/cert-manager/templates/extras-objects.yaml _bin/helm/cert-manager/templates/extras-objects.yaml
+cp -f deploy/charts/cert-manager/templates/networkpolicy-cainjector.yaml _bin/helm/cert-manager/templates/networkpolicy-cainjector.yaml
+cp -f deploy/charts/cert-manager/templates/networkpolicy-cert-manager.yaml _bin/helm/cert-manager/templates/networkpolicy-cert-manager.yaml
+cp -f deploy/charts/cert-manager/templates/networkpolicy-webhooks.yaml _bin/helm/cert-manager/templates/networkpolicy-webhooks.yaml
+cp -f deploy/charts/cert-manager/templates/poddisruptionbudget.yaml _bin/helm/cert-manager/templates/poddisruptionbudget.yaml
+cp -f deploy/charts/cert-manager/templates/podmonitor.yaml _bin/helm/cert-manager/templates/podmonitor.yaml
+cp -f deploy/charts/cert-manager/templates/psp-clusterrole.yaml _bin/helm/cert-manager/templates/psp-clusterrole.yaml
+cp -f deploy/charts/cert-manager/templates/psp-clusterrolebinding.yaml _bin/helm/cert-manager/templates/psp-clusterrolebinding.yaml
+cp -f deploy/charts/cert-manager/templates/psp.yaml _bin/helm/cert-manager/templates/psp.yaml
+cp -f deploy/charts/cert-manager/templates/rbac.yaml _bin/helm/cert-manager/templates/rbac.yaml
+cp -f deploy/charts/cert-manager/templates/service.yaml _bin/helm/cert-manager/templates/service.yaml
+cp -f deploy/charts/cert-manager/templates/serviceaccount.yaml _bin/helm/cert-manager/templates/serviceaccount.yaml
+cp -f deploy/charts/cert-manager/templates/servicemonitor.yaml _bin/helm/cert-manager/templates/servicemonitor.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-job.yaml _bin/helm/cert-manager/templates/startupapicheck-job.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-psp-clusterrole.yaml _bin/helm/cert-manager/templates/startupapicheck-psp-clusterrole.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-psp-clusterrolebinding.yaml _bin/helm/cert-manager/templates/startupapicheck-psp-clusterrolebinding.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-psp.yaml _bin/helm/cert-manager/templates/startupapicheck-psp.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-rbac.yaml _bin/helm/cert-manager/templates/startupapicheck-rbac.yaml
+cp -f deploy/charts/cert-manager/templates/startupapicheck-serviceaccount.yaml _bin/helm/cert-manager/templates/startupapicheck-serviceaccount.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-config.yaml _bin/helm/cert-manager/templates/webhook-config.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-deployment.yaml _bin/helm/cert-manager/templates/webhook-deployment.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-mutating-webhook.yaml _bin/helm/cert-manager/templates/webhook-mutating-webhook.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-poddisruptionbudget.yaml _bin/helm/cert-manager/templates/webhook-poddisruptionbudget.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-psp-clusterrole.yaml _bin/helm/cert-manager/templates/webhook-psp-clusterrole.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-psp-clusterrolebinding.yaml _bin/helm/cert-manager/templates/webhook-psp-clusterrolebinding.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-psp.yaml _bin/helm/cert-manager/templates/webhook-psp.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-rbac.yaml _bin/helm/cert-manager/templates/webhook-rbac.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-service.yaml _bin/helm/cert-manager/templates/webhook-service.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-serviceaccount.yaml _bin/helm/cert-manager/templates/webhook-serviceaccount.yaml
+cp -f deploy/charts/cert-manager/templates/webhook-validating-webhook.yaml _bin/helm/cert-manager/templates/webhook-validating-webhook.yaml
+cp deploy/charts/cert-manager/templates/NOTES.txt _bin/helm/cert-manager/templates/NOTES.txt
+cp deploy/charts/cert-manager/templates/_helpers.tpl _bin/helm/cert-manager/templates/_helpers.tpl
+cp deploy/charts/cert-manager/.helmignore _bin/helm/cert-manager/.helmignore
+[info]: downloaded /home/jake/.cache/makefile-modules/downloaded/tools/helm@v4.2.4_linux_amd64
+/home/jake/sbomit-overhead-experiment/repos/cert-manager/_bin/tools/helm package --app-version=7cf91c451c07ab --version=7cf91c451c07ab --destination "_bin/" ./_bin/helm/cert-manager
+Error: validation: chart.metadata.version "7cf91c451c07ab" is invalid
+make: *** [make/manifests.mk:87: _bin/cert-manager-7cf91c451c07ab.tgz] Error 1

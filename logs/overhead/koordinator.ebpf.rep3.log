@@ -1,0 +1,541 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Starting git attestor..."
+level=info msg="Finished environment attestor... (0.00011086s)"
+level=info msg="Finished git attestor... (0.050069486s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.217468273s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://us-central1.gce.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Get:4 https://aquasecurity.github.io/trivy-repo/deb jammy InRelease [3235 B]
+Hit:5 https://packages.cloud.google.com/apt cloud-sdk InRelease
+Hit:6 https://deb.nodesource.com/node_20.x nodistro InRelease
+Hit:7 https://packages.cloud.google.com/apt google-cloud-ops-agent-jammy-2 InRelease
+Get:8 https://packages.adoptium.net/artifactory/deb jammy InRelease [7501 B]
+Hit:9 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:10 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease
+Fetched 10.7 kB in 1s (8592 B/s)
+Reading package lists...
+W: https://aquasecurity.github.io/trivy-repo/deb/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.9ubuntu3).
+bash is already the newest version (5.1-6ubuntu1.1).
+cmake is already the newest version (3.22.1-1ubuntu1.22.04.2).
+wget is already the newest version (1.21.2-2ubuntu1.5).
+The following packages were automatically installed and are no longer required:
+  libprotobuf-dev libprotobuf-lite23 libprotobuf23 libprotoc23
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+hack/libpfm-4.13.0.tar.gz: OK
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0'
+Compiling for 'x86_64' target
+Compiling for 'Linux' system
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib'
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_common.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event_pmu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event_raw.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86_perf_event.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_perf_event.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_netburst_perf_event.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_perf_event.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_core.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86_arch.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_atom.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_nhm_unc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_nhm.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_wsm.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snb.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snb_unc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivb.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivb_unc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hsw.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdw.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_icl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_spr.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_rapl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_cbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_ha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_pcu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_ubo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_r2pcie.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_r3qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_cbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_ha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_pcu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_ubo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_r2pcie.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_r3qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_irp.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_cbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_ha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_pcu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_ubo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_r2pcie.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_r3qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_irp.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_sbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_cbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_ubo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_sbo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_ha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_irp.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_pcu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_r2pcie.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_r3qpi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_cha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_iio.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_irp.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_m2m.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_m3upi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_pcu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_ubo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_upi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_slm.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_tmt.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_imc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_edc.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_cha.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_m2pcie.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_glm.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_netburst.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_k7.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_k8.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam10h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam11h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam12h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam14h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam15h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam17h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam16h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam19h.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_rapl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam19h_l3.c
+rm -f libpfm.a
+ar cq libpfm.a pfmlib_common.o pfmlib_perf_event_pmu.o pfmlib_perf_event.o pfmlib_perf_event_raw.o pfmlib_intel_x86_perf_event.o pfmlib_amd64_perf_event.o pfmlib_intel_netburst_perf_event.o pfmlib_intel_snbep_unc_perf_event.o pfmlib_amd64.o pfmlib_intel_core.o pfmlib_intel_x86.o pfmlib_intel_x86_arch.o pfmlib_intel_atom.o pfmlib_intel_nhm_unc.o pfmlib_intel_nhm.o pfmlib_intel_wsm.o pfmlib_intel_snb.o pfmlib_intel_snb_unc.o pfmlib_intel_ivb.o pfmlib_intel_ivb_unc.o pfmlib_intel_hsw.o pfmlib_intel_bdw.o pfmlib_intel_skl.o pfmlib_intel_icl.o pfmlib_intel_spr.o pfmlib_intel_rapl.o pfmlib_intel_snbep_unc.o pfmlib_intel_snbep_unc_cbo.o pfmlib_intel_snbep_unc_ha.o pfmlib_intel_snbep_unc_imc.o pfmlib_intel_snbep_unc_pcu.o pfmlib_intel_snbep_unc_qpi.o pfmlib_intel_snbep_unc_ubo.o pfmlib_intel_snbep_unc_r2pcie.o pfmlib_intel_snbep_unc_r3qpi.o pfmlib_intel_ivbep_unc_cbo.o pfmlib_intel_ivbep_unc_ha.o pfmlib_intel_ivbep_unc_imc.o pfmlib_intel_ivbep_unc_pcu.o pfmlib_intel_ivbep_unc_qpi.o pfmlib_intel_ivbep_unc_ubo.o pfmlib_intel_ivbep_unc_r2pcie.o pfmlib_intel_ivbep_unc_r3qpi.o pfmlib_intel_ivbep_unc_irp.o pfmlib_intel_hswep_unc_cbo.o pfmlib_intel_hswep_unc_ha.o pfmlib_intel_hswep_unc_imc.o pfmlib_intel_hswep_unc_pcu.o pfmlib_intel_hswep_unc_qpi.o pfmlib_intel_hswep_unc_ubo.o pfmlib_intel_hswep_unc_r2pcie.o pfmlib_intel_hswep_unc_r3qpi.o pfmlib_intel_hswep_unc_irp.o pfmlib_intel_hswep_unc_sbo.o pfmlib_intel_bdx_unc_cbo.o pfmlib_intel_bdx_unc_ubo.o pfmlib_intel_bdx_unc_sbo.o pfmlib_intel_bdx_unc_ha.o pfmlib_intel_bdx_unc_imc.o pfmlib_intel_bdx_unc_irp.o pfmlib_intel_bdx_unc_pcu.o pfmlib_intel_bdx_unc_qpi.o pfmlib_intel_bdx_unc_r2pcie.o pfmlib_intel_bdx_unc_r3qpi.o pfmlib_intel_skx_unc_cha.o pfmlib_intel_skx_unc_iio.o pfmlib_intel_skx_unc_imc.o pfmlib_intel_skx_unc_irp.o pfmlib_intel_skx_unc_m2m.o pfmlib_intel_skx_unc_m3upi.o pfmlib_intel_skx_unc_pcu.o pfmlib_intel_skx_unc_ubo.o pfmlib_intel_skx_unc_upi.o pfmlib_intel_knc.o pfmlib_intel_slm.o pfmlib_intel_tmt.o pfmlib_intel_knl.o pfmlib_intel_knl_unc_imc.o pfmlib_intel_knl_unc_edc.o pfmlib_intel_knl_unc_cha.o pfmlib_intel_knl_unc_m2pcie.o pfmlib_intel_glm.o pfmlib_intel_netburst.o pfmlib_amd64_k7.o pfmlib_amd64_k8.o pfmlib_amd64_fam10h.o pfmlib_amd64_fam11h.o pfmlib_amd64_fam12h.o pfmlib_amd64_fam14h.o pfmlib_amd64_fam15h.o pfmlib_amd64_fam17h.o pfmlib_amd64_fam16h.o pfmlib_amd64_fam19h.o pfmlib_amd64_rapl.o pfmlib_amd64_fam19h_l3.o
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_common.c -o pfmlib_common.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event_pmu.c -o pfmlib_perf_event_pmu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event.c -o pfmlib_perf_event.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_perf_event_raw.c -o pfmlib_perf_event_raw.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86_perf_event.c -o pfmlib_intel_x86_perf_event.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_perf_event.c -o pfmlib_amd64_perf_event.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_netburst_perf_event.c -o pfmlib_intel_netburst_perf_event.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_perf_event.c -o pfmlib_intel_snbep_unc_perf_event.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64.c -o pfmlib_amd64.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_core.c -o pfmlib_intel_core.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86.c -o pfmlib_intel_x86.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_x86_arch.c -o pfmlib_intel_x86_arch.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_atom.c -o pfmlib_intel_atom.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_nhm_unc.c -o pfmlib_intel_nhm_unc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_nhm.c -o pfmlib_intel_nhm.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_wsm.c -o pfmlib_intel_wsm.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snb.c -o pfmlib_intel_snb.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snb_unc.c -o pfmlib_intel_snb_unc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivb.c -o pfmlib_intel_ivb.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivb_unc.c -o pfmlib_intel_ivb_unc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hsw.c -o pfmlib_intel_hsw.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdw.c -o pfmlib_intel_bdw.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skl.c -o pfmlib_intel_skl.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_icl.c -o pfmlib_intel_icl.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_spr.c -o pfmlib_intel_spr.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_rapl.c -o pfmlib_intel_rapl.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc.c -o pfmlib_intel_snbep_unc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_cbo.c -o pfmlib_intel_snbep_unc_cbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_ha.c -o pfmlib_intel_snbep_unc_ha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_imc.c -o pfmlib_intel_snbep_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_pcu.c -o pfmlib_intel_snbep_unc_pcu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_qpi.c -o pfmlib_intel_snbep_unc_qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_ubo.c -o pfmlib_intel_snbep_unc_ubo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_r2pcie.c -o pfmlib_intel_snbep_unc_r2pcie.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_snbep_unc_r3qpi.c -o pfmlib_intel_snbep_unc_r3qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_cbo.c -o pfmlib_intel_ivbep_unc_cbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_ha.c -o pfmlib_intel_ivbep_unc_ha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_imc.c -o pfmlib_intel_ivbep_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_pcu.c -o pfmlib_intel_ivbep_unc_pcu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_qpi.c -o pfmlib_intel_ivbep_unc_qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_ubo.c -o pfmlib_intel_ivbep_unc_ubo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_r2pcie.c -o pfmlib_intel_ivbep_unc_r2pcie.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_r3qpi.c -o pfmlib_intel_ivbep_unc_r3qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_ivbep_unc_irp.c -o pfmlib_intel_ivbep_unc_irp.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_cbo.c -o pfmlib_intel_hswep_unc_cbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_ha.c -o pfmlib_intel_hswep_unc_ha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_imc.c -o pfmlib_intel_hswep_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_pcu.c -o pfmlib_intel_hswep_unc_pcu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_qpi.c -o pfmlib_intel_hswep_unc_qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_ubo.c -o pfmlib_intel_hswep_unc_ubo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_r2pcie.c -o pfmlib_intel_hswep_unc_r2pcie.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_r3qpi.c -o pfmlib_intel_hswep_unc_r3qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_irp.c -o pfmlib_intel_hswep_unc_irp.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_hswep_unc_sbo.c -o pfmlib_intel_hswep_unc_sbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_cbo.c -o pfmlib_intel_bdx_unc_cbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_ubo.c -o pfmlib_intel_bdx_unc_ubo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_sbo.c -o pfmlib_intel_bdx_unc_sbo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_ha.c -o pfmlib_intel_bdx_unc_ha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_imc.c -o pfmlib_intel_bdx_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_irp.c -o pfmlib_intel_bdx_unc_irp.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_pcu.c -o pfmlib_intel_bdx_unc_pcu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_qpi.c -o pfmlib_intel_bdx_unc_qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_r2pcie.c -o pfmlib_intel_bdx_unc_r2pcie.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_bdx_unc_r3qpi.c -o pfmlib_intel_bdx_unc_r3qpi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_cha.c -o pfmlib_intel_skx_unc_cha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_iio.c -o pfmlib_intel_skx_unc_iio.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_imc.c -o pfmlib_intel_skx_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_irp.c -o pfmlib_intel_skx_unc_irp.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_m2m.c -o pfmlib_intel_skx_unc_m2m.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_m3upi.c -o pfmlib_intel_skx_unc_m3upi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_pcu.c -o pfmlib_intel_skx_unc_pcu.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_ubo.c -o pfmlib_intel_skx_unc_ubo.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_skx_unc_upi.c -o pfmlib_intel_skx_unc_upi.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knc.c -o pfmlib_intel_knc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_slm.c -o pfmlib_intel_slm.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_tmt.c -o pfmlib_intel_tmt.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl.c -o pfmlib_intel_knl.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_imc.c -o pfmlib_intel_knl_unc_imc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_edc.c -o pfmlib_intel_knl_unc_edc.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_cha.c -o pfmlib_intel_knl_unc_cha.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_knl_unc_m2pcie.c -o pfmlib_intel_knl_unc_m2pcie.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_glm.c -o pfmlib_intel_glm.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_intel_netburst.c -o pfmlib_intel_netburst.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_k7.c -o pfmlib_amd64_k7.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_k8.c -o pfmlib_amd64_k8.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam10h.c -o pfmlib_amd64_fam10h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam11h.c -o pfmlib_amd64_fam11h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam12h.c -o pfmlib_amd64_fam12h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam14h.c -o pfmlib_amd64_fam14h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam15h.c -o pfmlib_amd64_fam15h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam17h.c -o pfmlib_amd64_fam17h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam16h.c -o pfmlib_amd64_fam16h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam19h.c -o pfmlib_amd64_fam19h.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_rapl.c -o pfmlib_amd64_rapl.lo
+cc -fPIC -DPIC  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I. -c pfmlib_amd64_fam19h_l3.c -o pfmlib_amd64_fam19h_l3.lo
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -D_REENTRANT -I. -fvisibility=hidden -DCONFIG_PFMLIB_ARCH_X86 -DCONFIG_PFMLIB_ARCH_X86_64 -I.  -shared -Wl,-soname -Wl,libpfm.so.4  -o libpfm.so.4.13.0 pfmlib_common.lo pfmlib_perf_event_pmu.lo pfmlib_perf_event.lo pfmlib_perf_event_raw.lo pfmlib_intel_x86_perf_event.lo pfmlib_amd64_perf_event.lo pfmlib_intel_netburst_perf_event.lo pfmlib_intel_snbep_unc_perf_event.lo pfmlib_amd64.lo pfmlib_intel_core.lo pfmlib_intel_x86.lo pfmlib_intel_x86_arch.lo pfmlib_intel_atom.lo pfmlib_intel_nhm_unc.lo pfmlib_intel_nhm.lo pfmlib_intel_wsm.lo pfmlib_intel_snb.lo pfmlib_intel_snb_unc.lo pfmlib_intel_ivb.lo pfmlib_intel_ivb_unc.lo pfmlib_intel_hsw.lo pfmlib_intel_bdw.lo pfmlib_intel_skl.lo pfmlib_intel_icl.lo pfmlib_intel_spr.lo pfmlib_intel_rapl.lo pfmlib_intel_snbep_unc.lo pfmlib_intel_snbep_unc_cbo.lo pfmlib_intel_snbep_unc_ha.lo pfmlib_intel_snbep_unc_imc.lo pfmlib_intel_snbep_unc_pcu.lo pfmlib_intel_snbep_unc_qpi.lo pfmlib_intel_snbep_unc_ubo.lo pfmlib_intel_snbep_unc_r2pcie.lo pfmlib_intel_snbep_unc_r3qpi.lo pfmlib_intel_ivbep_unc_cbo.lo pfmlib_intel_ivbep_unc_ha.lo pfmlib_intel_ivbep_unc_imc.lo pfmlib_intel_ivbep_unc_pcu.lo pfmlib_intel_ivbep_unc_qpi.lo pfmlib_intel_ivbep_unc_ubo.lo pfmlib_intel_ivbep_unc_r2pcie.lo pfmlib_intel_ivbep_unc_r3qpi.lo pfmlib_intel_ivbep_unc_irp.lo pfmlib_intel_hswep_unc_cbo.lo pfmlib_intel_hswep_unc_ha.lo pfmlib_intel_hswep_unc_imc.lo pfmlib_intel_hswep_unc_pcu.lo pfmlib_intel_hswep_unc_qpi.lo pfmlib_intel_hswep_unc_ubo.lo pfmlib_intel_hswep_unc_r2pcie.lo pfmlib_intel_hswep_unc_r3qpi.lo pfmlib_intel_hswep_unc_irp.lo pfmlib_intel_hswep_unc_sbo.lo pfmlib_intel_bdx_unc_cbo.lo pfmlib_intel_bdx_unc_ubo.lo pfmlib_intel_bdx_unc_sbo.lo pfmlib_intel_bdx_unc_ha.lo pfmlib_intel_bdx_unc_imc.lo pfmlib_intel_bdx_unc_irp.lo pfmlib_intel_bdx_unc_pcu.lo pfmlib_intel_bdx_unc_qpi.lo pfmlib_intel_bdx_unc_r2pcie.lo pfmlib_intel_bdx_unc_r3qpi.lo pfmlib_intel_skx_unc_cha.lo pfmlib_intel_skx_unc_iio.lo pfmlib_intel_skx_unc_imc.lo pfmlib_intel_skx_unc_irp.lo pfmlib_intel_skx_unc_m2m.lo pfmlib_intel_skx_unc_m3upi.lo pfmlib_intel_skx_unc_pcu.lo pfmlib_intel_skx_unc_ubo.lo pfmlib_intel_skx_unc_upi.lo pfmlib_intel_knc.lo pfmlib_intel_slm.lo pfmlib_intel_tmt.lo pfmlib_intel_knl.lo pfmlib_intel_knl_unc_imc.lo pfmlib_intel_knl_unc_edc.lo pfmlib_intel_knl_unc_cha.lo pfmlib_intel_knl_unc_m2pcie.lo pfmlib_intel_glm.lo pfmlib_intel_netburst.lo pfmlib_amd64_k7.lo pfmlib_amd64_k8.lo pfmlib_amd64_fam10h.lo pfmlib_amd64_fam11h.lo pfmlib_amd64_fam12h.lo pfmlib_amd64_fam14h.lo pfmlib_amd64_fam15h.lo pfmlib_amd64_fam17h.lo pfmlib_amd64_fam16h.lo pfmlib_amd64_fam19h.lo pfmlib_amd64_rapl.lo pfmlib_amd64_fam19h_l3.lo
+ln -sf libpfm.so.4.13.0 libpfm.so.4
+ln -sf libpfm.so.4.13.0 libpfm.so
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib'
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests'
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c validate.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c validate_x86.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c validate_perf.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o validate  validate.o validate_x86.o validate_perf.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests/../lib/libpfm.a -lm 
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests'
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples'
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c showevtinfo.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o showevtinfo  showevtinfo.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../lib/libpfm.a -lm -lrt 
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c check_events.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o check_events  check_events.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples/../lib/libpfm.a -lm -lrt 
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples'
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples'
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c self.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c perf_util.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o self  self.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c self_basic.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o self_basic  self_basic.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c self_count.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o self_count  self_count.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c task.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o task  task.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c task_attach_timeout.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o task_attach_timeout  task_attach_timeout.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c syst.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o syst  syst.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c notify_self.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o notify_self  notify_self.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c notify_group.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o notify_group  notify_group.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c task_smpl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o task_smpl  task_smpl.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c self_smpl_multi.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o self_smpl_multi  self_smpl_multi.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c self_pipe.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o self_pipe  self_pipe.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c syst_count.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o syst_count  syst_count.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c task_cpu.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o task_cpu  task_cpu.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c syst_smpl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o syst_smpl  syst_smpl.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c evt2raw.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o evt2raw  evt2raw.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -c branch_smpl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -pthread -o branch_smpl  branch_smpl.o perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/../lib/libpfm.a  
+make[3]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/x86'
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/x86/../../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -I.. -pthread -c bts_smpl.c
+cc  -g -Wall -I. -I/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/x86/../../include -DCONFIG_PFMLIB_DEBUG -DCONFIG_PFMLIB_OS_LINUX -I. -D_GNU_SOURCE -I.. -pthread -o bts_smpl  bts_smpl.o ../perf_util.o /home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/x86/../../lib/libpfm.a -lm 
+make[3]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples/x86'
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples'
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/include'
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/docs'
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0'
+make: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0'
+installing in /usr/local
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib'
+building: libpfm.a libpfm.so.4.13.0
+mkdir -p /usr/local/lib
+install -m 644 libpfm.a /usr/local/lib
+install libpfm.so.4.13.0 /usr/local/lib
+cd /usr/local/lib; ln -sf libpfm.so.4.13.0 libpfm.so.4
+cd /usr/local/lib; ln -sf libpfm.so.4.13.0 libpfm.so
+ldconfig
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/lib'
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/tests'
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/examples'
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/perf_examples'
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/include'
+mkdir -p /usr/local/include/perfmon
+install -m 644 perfmon/pfmlib.h perfmon/perf_event.h perfmon/pfmlib_perf_event.h /usr/local/include/perfmon
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/include'
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/docs'
+mkdir -p /usr/local/share/man/man3
+( cd man3; install -m 644 libpfm.3 pfm_find_event.3 pfm_get_event_attr_info.3 pfm_get_event_info.3 pfm_get_event_encoding.3 pfm_get_event_next.3 pfm_get_pmu_info.3 pfm_get_os_event_encoding.3 pfm_get_version.3 pfm_initialize.3 pfm_terminate.3 pfm_strerror.3 libpfm_intel_core.3 libpfm_intel_x86_arch.3 libpfm_amd64.3 libpfm_amd64_k7.3 libpfm_amd64_k8.3 libpfm_amd64_fam10h.3 libpfm_amd64_fam15h.3 libpfm_amd64_fam16h.3 libpfm_amd64_fam17h.3 libpfm_amd64_fam17h_zen2.3 libpfm_amd64_fam19h_zen3.3 libpfm_amd64_fam19h_zen4.3 libpfm_amd64_fam19h_zen3_l3.3 libpfm_intel_atom.3 libpfm_intel_nhm.3 libpfm_intel_nhm_unc.3 libpfm_intel_wsm.3 libpfm_intel_wsm_unc.3 libpfm_intel_snb.3 libpfm_intel_snb_unc.3 libpfm_intel_ivb.3 libpfm_intel_ivb_unc.3 libpfm_intel_hsw.3 libpfm_intel_bdw.3 libpfm_intel_rapl.3 libpfm_intel_slm.3 libpfm_intel_tmt.3 libpfm_intel_skl.3 libpfm_intel_icl.3 libpfm_intel_icx.3 libpfm_intel_spr.3 libpfm_intel_glm.3 libpfm_intel_knl.3 libpfm_intel_knm.3 libpfm_intel_snbep_unc_cbo.3 libpfm_intel_snbep_unc_ha.3 libpfm_intel_snbep_unc_imc.3 libpfm_intel_snbep_unc_pcu.3 libpfm_intel_snbep_unc_qpi.3 libpfm_intel_snbep_unc_ubo.3 libpfm_intel_snbep_unc_r2pcie.3 libpfm_intel_snbep_unc_r3qpi.3 libpfm_intel_ivbep_unc_cbo.3 libpfm_intel_ivbep_unc_ha.3 libpfm_intel_ivbep_unc_imc.3 libpfm_intel_ivbep_unc_pcu.3 libpfm_intel_ivbep_unc_qpi.3 libpfm_intel_ivbep_unc_ubo.3 libpfm_intel_ivbep_unc_r2pcie.3 libpfm_intel_ivbep_unc_r3qpi.3 libpfm_intel_ivbep_unc_irp.3 libpfm_intel_knc.3 libpfm_intel_hswep_unc_cbo.3 libpfm_intel_hswep_unc_ha.3 libpfm_intel_hswep_unc_imc.3 libpfm_intel_hswep_unc_irp.3 libpfm_intel_hswep_unc_pcu.3 libpfm_intel_hswep_unc_qpi.3 libpfm_intel_hswep_unc_r2pcie.3 libpfm_intel_hswep_unc_r3qpi.3 libpfm_intel_hswep_unc_sbo.3 libpfm_intel_hswep_unc_ubo.3 libpfm_intel_bdx_unc_cbo.3 libpfm_intel_bdx_unc_ha.3 libpfm_intel_bdx_unc_imc.3 libpfm_intel_bdx_unc_irp.3 libpfm_intel_bdx_unc_pcu.3 libpfm_intel_bdx_unc_qpi.3 libpfm_intel_bdx_unc_r2pcie.3 libpfm_intel_bdx_unc_r3qpi.3 libpfm_intel_bdx_unc_sbo.3 libpfm_intel_bdx_unc_ubo.3 libpfm_intel_skx_unc_cha.3 libpfm_intel_skx_unc_imc.3 libpfm_intel_skx_unc_irp.3 libpfm_intel_skx_unc_m2m.3 libpfm_intel_skx_unc_m3upi.3 libpfm_intel_skx_unc_pcu.3 libpfm_intel_skx_unc_ubo.3 libpfm_intel_skx_unc_upi.3 pfm_get_perf_event_encoding.3 libpfm_perf_event_raw.3 /usr/local/share/man/man3 )
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0/docs'
+make: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/koordinator/libpfm-4.13.0'
+go build -o bin/koordlet cmd/koordlet/main.go
+go: downloading k8s.io/apimachinery v0.35.6
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading github.com/prometheus/client_golang v1.23.2
+go: downloading sigs.k8s.io/controller-runtime v0.23.1
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading k8s.io/apiserver v0.35.6
+go: downloading k8s.io/component-base v0.35.6
+go: downloading github.com/k8stopologyawareschedwg/noderesourcetopology-api v0.1.1
+go: downloading k8s.io/client-go v0.35.6
+go: downloading github.com/google/uuid v1.6.0
+go: downloading k8s.io/api v0.35.6
+go: downloading github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
+go: downloading github.com/go-kit/log v0.2.1
+go: downloading github.com/prometheus/prometheus v0.39.2
+go: downloading go.uber.org/atomic v1.11.0
+go: downloading k8s.io/utils v0.0.0-20260108192941-914a6e750570
+go: downloading github.com/evanphx/json-patch v5.6.0+incompatible
+go: downloading k8s.io/component-helpers v0.35.6
+go: downloading k8s.io/kube-scheduler v0.35.6
+go: downloading k8s.io/kubernetes v1.35.6
+go: downloading github.com/NVIDIA/go-nvml v0.11.6-0.0.20220823120812-7e2082095e82
+go: downloading golang.org/x/time v0.14.0
+go: downloading google.golang.org/grpc v1.79.1
+go: downloading k8s.io/kubelet v0.35.6
+go: downloading github.com/cakturk/go-netstat v0.0.0-20200220111822-e5b49efee7a5
+go: downloading github.com/opencontainers/runc v1.3.0
+go: downloading github.com/spf13/pflag v1.0.10
+go: downloading github.com/stretchr/testify v1.11.1
+go: downloading github.com/vishvananda/netlink v1.3.1
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading golang.org/x/sys v0.41.0
+go: downloading google.golang.org/protobuf v1.36.11
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/prometheus/common v0.67.5
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/procfs v0.16.1
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading k8s.io/kubectl v0.35.6
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.2-0.20260122202528-d9cc6641c482
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading github.com/patrickmn/go-cache v2.1.0+incompatible
+go: downloading github.com/Mellanox/rdmamap v1.1.0
+go: downloading github.com/jaypipes/ghw v0.20.0
+go: downloading github.com/go-logfmt/logfmt v0.6.0
+go: downloading go.uber.org/mock v0.6.0
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading github.com/coreos/go-iptables v0.5.0
+go: downloading github.com/containerd/nri v0.11.0
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading github.com/fsnotify/fsnotify v1.9.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading golang.org/x/net v0.51.0
+go: downloading github.com/grafana/regexp v0.0.0-20220304095617-2e8d9baf4ac2
+go: downloading github.com/oklog/ulid v1.3.1
+go: downloading golang.org/x/sync v0.19.0
+go: downloading github.com/go-playground/locales v0.14.1
+go: downloading github.com/go-playground/universal-translator v0.18.1
+go: downloading github.com/go-playground/validator/v10 v10.11.2
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading k8s.io/dynamic-resource-allocation v0.35.6
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/google/gnostic-models v0.7.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading github.com/vishvananda/netns v0.0.5
+go: downloading go.yaml.in/yaml/v2 v2.4.3
+go: downloading github.com/moby/sys/userns v0.1.0
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading go.opentelemetry.io/otel/trace v1.41.0
+go: downloading golang.org/x/term v0.40.0
+go: downloading sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/hodgesds/perf-utils v0.7.0
+go: downloading go.opentelemetry.io/otel v1.41.0
+go: downloading github.com/stretchr/objx v0.5.2
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/containerd/ttrpc v1.2.7
+go: downloading github.com/knqyf263/go-plugin v0.9.0
+go: downloading github.com/opencontainers/runtime-spec v1.3.0
+go: downloading github.com/tetratelabs/wazero v1.10.1
+go: downloading github.com/sirupsen/logrus v1.9.3
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/dennwc/varint v1.0.0
+go: downloading github.com/alecthomas/units v0.0.0-20240927000941-0f3dac36c52b
+go: downloading github.com/prometheus/common/sigv4 v0.1.0
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/golang/snappy v0.0.4
+go: downloading github.com/leodido/go-urn v1.2.1
+go: downloading golang.org/x/crypto v0.48.0
+go: downloading golang.org/x/text v0.34.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a
+go: downloading github.com/fxamacker/cbor/v2 v2.9.0
+go: downloading golang.org/x/oauth2 v0.35.0
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/jaypipes/pcidb v1.1.1
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading github.com/containerd/log v0.1.0
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading go.uber.org/goleak v1.3.0
+go: downloading github.com/golang-jwt/jwt/v5 v5.3.0
+go: downloading github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
+go: downloading github.com/aws/aws-sdk-go v1.44.102
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/google/cel-go v0.26.0
+go: downloading github.com/docker/docker v28.2.2+incompatible
+go: downloading k8s.io/cri-api v0.35.6
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading github.com/jpillora/backoff v1.0.0
+go: downloading github.com/google/cadvisor v0.53.0
+go: downloading github.com/opencontainers/cgroups v0.0.3
+go: downloading github.com/emicklei/go-restful/v3 v3.13.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20250303144028-a0af3efb3deb
+go: downloading k8s.io/apiextensions-apiserver v0.35.6
+go: downloading k8s.io/controller-manager v0.35.6
+go: downloading cel.dev/expr v0.25.1
+go: downloading github.com/stoewer/go-strcase v1.3.0
+go: downloading k8s.io/cloud-provider v0.35.6
+go: downloading github.com/docker/go-units v0.5.0
+go: downloading k8s.io/mount-utils v0.35.6
+go: downloading k8s.io/cri-client v0.35.6
+go: downloading github.com/coreos/go-systemd/v22 v22.6.0
+go: downloading github.com/cyphar/filepath-securejoin v0.6.0
+go: downloading github.com/moby/sys/mountinfo v0.7.2
+go: downloading github.com/opencontainers/selinux v1.13.1
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.0
+go: downloading github.com/distribution/reference v0.6.0
+go: downloading github.com/godbus/dbus/v5 v5.1.0
+go: downloading github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
+go: downloading github.com/karrick/godirwalk v1.17.0
+go: downloading github.com/containerd/containerd/api v1.10.0
+go: downloading github.com/containerd/errdefs v1.0.0
+go: downloading github.com/containerd/errdefs/pkg v0.3.0
+go: downloading go.opentelemetry.io/otel/metric v1.41.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.41.0
+go: downloading go.opentelemetry.io/otel/sdk v1.41.0
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.2.1
+go: downloading github.com/robfig/cron/v3 v3.0.1
+go: downloading github.com/mistifyio/go-zfs v2.1.2-0.20190413222219-f784269be439+incompatible
+go: downloading k8s.io/csi-translation-lib v0.35.6
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.41.0
+go: downloading golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f
+go: downloading github.com/euank/go-kmsg-parser v2.0.0+incompatible
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.66.0
+go: downloading sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2
+go: downloading github.com/NYTimes/gziphandler v1.1.1
+go: downloading github.com/containerd/typeurl/v2 v2.2.3
+go: downloading k8s.io/kms v0.35.6
+go: downloading github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+go: downloading go.etcd.io/etcd/client/v3 v3.6.5
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.6.5
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.66.0
+go: downloading go.uber.org/zap v1.27.0
+go: downloading github.com/moby/spdystream v0.5.1
+go: downloading go.opentelemetry.io/proto/otlp v1.9.0
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading github.com/google/btree v1.1.3
+go: downloading go.etcd.io/etcd/api/v3 v3.6.5
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f
+go: downloading github.com/cenkalti/backoff/v5 v5.0.3
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3
+go: downloading github.com/coreos/go-semver v0.3.1
+go: downloading github.com/opencontainers/image-spec v1.1.1
+go: downloading github.com/moby/docker-image-spec v1.3.1
+go: downloading github.com/docker/go-connections v0.5.0
+go: downloading github.com/jmespath/go-jmespath v0.4.0
+go build -o bin/koord-manager cmd/koord-manager/main.go
+go: downloading github.com/evanphx/json-patch/v5 v5.9.11
+go: downloading gomodules.xyz/jsonpatch/v2 v2.4.0
+go build -o bin/koord-scheduler cmd/koord-scheduler/main.go
+go: downloading github.com/gin-gonic/gin v1.9.0
+go: downloading github.com/moby/term v0.5.0
+go: downloading k8s.io/gengo v0.0.0-20220902162205-c0856e24416d
+go: downloading github.com/jedib0t/go-pretty/v6 v6.4.0
+go: downloading github.com/gin-contrib/sse v0.1.0
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading github.com/ugorji/go/codec v1.2.9
+go: downloading github.com/pelletier/go-toml/v2 v2.2.4
+go: downloading github.com/mattn/go-runewidth v0.0.16
+go: downloading github.com/rivo/uniseg v0.4.7
+go build -o bin/koord-descheduler cmd/koord-descheduler/main.go
+go: downloading github.com/openkruise/kruise-api v1.5.0
+go: downloading sigs.k8s.io/descheduler v0.35.1
+go: downloading k8s.io/metrics v0.35.6
+go build -o bin/koord-runtime-proxy cmd/koord-runtime-proxy/main.go
+go: downloading github.com/mwitkow/grpc-proxy v0.0.0-20230212185441-f345521cb9c9
+go: downloading github.com/containerd/cgroups/v3 v3.1.3
+go: downloading github.com/containerd/containerd/v2 v2.2.1
+go: downloading github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8
+go: downloading github.com/cilium/ebpf v0.17.3
+go build -o bin/koord-device-daemon cmd/koord-device-daemon/main.go
+go: downloading github.com/urfave/cli/v2 v2.27.7
+go: downloading github.com/google/renameio v0.1.0
+go: downloading github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.7
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+level=info msg="Finished command-run attestor... (124.552966404s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.774677038s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

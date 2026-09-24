@@ -1,0 +1,116 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Starting git attestor..."
+level=info msg="Finished environment attestor... (8.75e-05s)"
+level=info msg="Finished git attestor... (0.027318808s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.080080484s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+mkdir -p bin
+hack/verify-go-versions.sh
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build  -ldflags="-X main.Version=.527bf82 -X main.BuildDate=2026-09-04T03:27:00Z -X k8s.io/client-go/pkg/version.gitCommit=527bf82 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v0.32.13+kflex-v0.0.0-527bf82 -X k8s.io/client-go/pkg/version.gitMajor=0 -X k8s.io/client-go/pkg/version.gitMinor=32 -X k8s.io/client-go/pkg/version.buildDate=2026-09-04T03:27:00Z -X k8s.io/component-base/version.gitCommit=527bf82 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v0.32.13+kflex-v0.0.0-527bf82 -X k8s.io/component-base/version.gitMajor=0 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.buildDate=2026-09-04T03:27:00Z -extldflags '-static'" -o bin ./cmd/...
+go: downloading k8s.io/apimachinery v0.32.13
+go: downloading k8s.io/api v0.32.13
+go: downloading github.com/spf13/pflag v1.0.6
+go: downloading k8s.io/cli-runtime v0.32.13
+go: downloading k8s.io/client-go v0.32.13
+go: downloading k8s.io/component-base v0.32.13
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading sigs.k8s.io/controller-runtime v0.20.4
+go: downloading github.com/kubestellar/kubeflex v0.9.3
+go: downloading k8s.io/apiserver v0.32.13
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading golang.org/x/time v0.7.0
+go: downloading k8s.io/apiextensions-apiserver v0.32.13
+go: downloading open-cluster-management.io/api v1.0.0
+go: downloading github.com/prometheus/client_golang v1.19.1
+go: downloading github.com/google/cel-go v0.22.0
+go: downloading google.golang.org/protobuf v1.36.10
+go: downloading github.com/spf13/cobra v1.9.1
+go: downloading github.com/google/uuid v1.6.0
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0
+go: downloading k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
+go: downloading github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
+go: downloading github.com/moby/term v0.5.0
+go: downloading sigs.k8s.io/yaml v1.4.0
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading github.com/google/gofuzz v1.2.0
+go: downloading sigs.k8s.io/structured-merge-diff/v4 v4.6.0
+go: downloading github.com/evanphx/json-patch/v5 v5.9.11
+go: downloading github.com/emicklei/go-restful/v3 v3.11.0
+go: downloading k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading github.com/prometheus/client_model v0.6.1
+go: downloading github.com/prometheus/procfs v0.15.1
+go: downloading go.opentelemetry.io/otel/trace v1.43.0
+go: downloading github.com/google/gnostic-models v0.6.8
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading golang.org/x/net v0.55.0
+go: downloading golang.org/x/term v0.43.0
+go: downloading go.opentelemetry.io/otel v1.43.0
+go: downloading sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8
+go: downloading golang.org/x/sync v0.20.0
+go: downloading golang.org/x/text v0.37.0
+go: downloading sigs.k8s.io/kustomize/api v0.18.0
+go: downloading sigs.k8s.io/kustomize/kyaml v0.18.1
+go: downloading github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
+go: downloading github.com/peterbourgon/diskv v2.0.1+incompatible
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/common v0.55.0
+go: downloading golang.org/x/sys v0.45.0
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading cel.dev/expr v0.25.1
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217
+go: downloading github.com/stoewer/go-strcase v1.3.0
+go: downloading golang.org/x/oauth2 v0.34.0
+go: downloading github.com/fxamacker/cbor/v2 v2.7.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/NYTimes/gziphandler v1.1.1
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/google/btree v1.1.3
+go: downloading gomodules.xyz/jsonpatch/v2 v2.4.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.27.0
+go: downloading go.opentelemetry.io/otel/sdk v1.43.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.28.0
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.2
+go: downloading github.com/fsnotify/fsnotify v1.7.0
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading go.opentelemetry.io/otel/metric v1.43.0
+go: downloading golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+go: downloading github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00
+go: downloading github.com/xlab/treeprint v1.2.0
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading go.opentelemetry.io/proto/otlp v1.3.1
+go: downloading google.golang.org/grpc v1.79.3
+go: downloading github.com/cenkalti/backoff/v4 v4.3.0
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0
+level=info msg="Finished command-run attestor... (39.819143706s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.249756412s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

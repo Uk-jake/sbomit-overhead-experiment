@@ -1,0 +1,211 @@
+cd loxilb-ebpf && make 
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/loxilb/loxilb-ebpf'
+make -C kernel
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/loxilb/loxilb-ebpf/kernel'
+  MKDIR    staticobjs
+  CC       staticobjs/bpf.o
+  CC       staticobjs/btf.o
+  CC       staticobjs/libbpf.o
+  CC       staticobjs/libbpf_errno.o
+  CC       staticobjs/netlink.o
+  CC       staticobjs/nlattr.o
+  CC       staticobjs/str_error.o
+  CC       staticobjs/libbpf_probes.o
+  CC       staticobjs/bpf_prog_linfo.o
+  CC       staticobjs/btf_dump.o
+  CC       staticobjs/hashmap.o
+  CC       staticobjs/ringbuf.o
+  CC       staticobjs/strset.o
+  CC       staticobjs/linker.o
+  CC       staticobjs/gen_loader.o
+  CC       staticobjs/relo_core.o
+  CC       staticobjs/usdt.o
+  CC       staticobjs/zip.o
+  CC       staticobjs/elf.o
+  CC       staticobjs/features.o
+  CC       staticobjs/btf_iter.o
+  CC       staticobjs/btf_relocate.o
+  AR       libbpf.a
+  MKDIR    sharedobjs
+  CC       sharedobjs/bpf.o
+  CC       sharedobjs/btf.o
+  CC       sharedobjs/libbpf.o
+  CC       sharedobjs/libbpf_errno.o
+  CC       sharedobjs/netlink.o
+  CC       sharedobjs/nlattr.o
+  CC       sharedobjs/str_error.o
+  CC       sharedobjs/libbpf_probes.o
+  CC       sharedobjs/bpf_prog_linfo.o
+  CC       sharedobjs/btf_dump.o
+  CC       sharedobjs/hashmap.o
+  CC       sharedobjs/ringbuf.o
+  CC       sharedobjs/strset.o
+  CC       sharedobjs/linker.o
+  CC       sharedobjs/gen_loader.o
+  CC       sharedobjs/relo_core.o
+  CC       sharedobjs/usdt.o
+  CC       sharedobjs/zip.o
+  CC       sharedobjs/elf.o
+  CC       sharedobjs/features.o
+  CC       sharedobjs/btf_iter.o
+  CC       sharedobjs/btf_relocate.o
+  CC       libbpf.so.1.5.0
+  INSTALL  bpf.h libbpf.h btf.h libbpf_common.h libbpf_legacy.h bpf_helpers.h bpf_helper_defs.h bpf_tracing.h bpf_endian.h bpf_core_read.h skel_internal.h libbpf_version.h usdt.bpf.h
+  INSTALL  bpf.h libbpf.h btf.h libbpf_common.h libbpf_legacy.h bpf_helpers.h bpf_helper_defs.h bpf_tracing.h bpf_endian.h bpf_core_read.h skel_internal.h libbpf_version.h usdt.bpf.h
+  INSTALL  ./libbpf.pc
+  INSTALL  ./libbpf.a ./libbpf.so ./libbpf.so.1 ./libbpf.so.1.5.0
+make -C ../common
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o common_libbpf.o common_libbpf.c
+In file included from common_libbpf.c:10:
+../libbpf/src//build/usr/include/bpf/libbpf.h:70:54: warning: ‘enum bpf_link_type’ declared inside parameter list will not be visible outside of this definition or declaration
+   70 | LIBBPF_API const char *libbpf_bpf_link_type_str(enum bpf_link_type t);
+      |                                                      ^~~~~~~~~~~~~
+In file included from common_libbpf.c:12:
+../libbpf/src/bpf.h:583:60: warning: ‘struct bpf_link_info’ declared inside parameter list will not be visible outside of this definition or declaration
+  583 | LIBBPF_API int bpf_link_get_info_by_fd(int link_fd, struct bpf_link_info *info, __u32 *info_len);
+      |                                                            ^~~~~~~~~~~~~
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o common_pdi.o common_pdi.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o common_sum.o common_sum.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o common_frame.o common_frame.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o log.o log.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o throttler.o throttler.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o cgroup.o cgroup.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o sockproxy.o sockproxy.c
+In file included from sockproxy.c:24:
+../libbpf/src/bpf.h:583:60: warning: ‘struct bpf_link_info’ declared inside parameter list will not be visible outside of this definition or declaration
+  583 | LIBBPF_API int bpf_link_get_info_by_fd(int link_fd, struct bpf_link_info *info, __u32 *info_len);
+      |                                                            ^~~~~~~~~~~~~
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o notify.o notify.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o picohttpparser.o picohttpparser.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o llhttp.o llhttp.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o httpapi.o httpapi.c
+gcc -g -Wall -I../libbpf/src/ -I../libbpf/src//build/usr/include/  -I../headers -c -o http.o http.c
+bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-D__TARGET_ARCH_x86 \
+	-DLL_TC_EBPF=1 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-idirafter /usr/lib/llvm-14/lib/clang/14.0.0/include -idirafter /usr/local/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include \
+	-O2 -g -c -o llb_kern_mon.o llb_kern_mon.c
+  GEN-SKEL loxilb_libdp.skel.h
+bpftool gen skeleton llb_kern_mon.o > loxilb_libdp.skel.h
+gcc -Wall -I../libbpf/src//build/usr/include/ -g -I../headers/ -I../libbpf/src// -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 -lz  -o loxilb_dp_debug loxilb_dp_debug.c ../common/common_sum.o ../common/common_libbpf.o ../common/common_pdi.o ../common/common_frame.o ../common/log.o ../common/throttler.o ../common/cgroup.o ../common/sockproxy.o ../common/notify.o ../common/picohttpparser.o ../common/llhttp.o ../common/httpapi.o ../common/http.o loxilb_libdp.c ../libbpf/src//libbpf.a -lelf  -lz -lpthread -lssl -lcrypto
+In file included from loxilb_libdp.c:25:
+../libbpf/src//bpf.h:583:60: warning: ‘struct bpf_link_info’ declared inside parameter list will not be visible outside of this definition or declaration
+  583 | LIBBPF_API int bpf_link_get_info_by_fd(int link_fd, struct bpf_link_info *info, __u32 *info_len);
+      |                                                            ^~~~~~~~~~~~~
+In file included from loxilb_libdp.c:26:
+../libbpf/src//libbpf.h:70:54: warning: ‘enum bpf_link_type’ declared inside parameter list will not be visible outside of this definition or declaration
+   70 | LIBBPF_API const char *libbpf_bpf_link_type_str(enum bpf_link_type t);
+      |                                                      ^~~~~~~~~~~~~
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-Wall \
+	-Wno-unused-value \
+	-Wno-pointer-sign \
+	-Wno-compare-distinct-pointer-types \
+	-Werror \
+	-O2 -g -c -o llb_xdp_main.o llb_xdp_main.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-DLL_TC_EBPF=1 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-Wall \
+	-Wno-unused-value \
+	-Wno-pointer-sign \
+	-Wno-compare-distinct-pointer-types \
+	-Werror \
+	-O2 -g -c -o llb_ebpf_main.o llb_ebpf_main.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-DLL_TC_EBPF=1 \
+	-DLL_TC_EBPF_EHOOK=1 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-Wall \
+	-Wno-unused-value \
+	-Wno-pointer-sign \
+	-Wno-compare-distinct-pointer-types \
+	-Werror \
+	-O2 -g -c -o llb_ebpf_emain.o llb_ebpf_emain.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-D__TARGET_ARCH_x86 \
+	-DLL_TC_EBPF=1 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-idirafter /usr/lib/llvm-14/lib/clang/14.0.0/include -idirafter /usr/local/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include \
+	-O2 -g -c -o llb_kern_sock.o llb_kern_sock.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-D__TARGET_ARCH_x86 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-idirafter /usr/lib/llvm-14/lib/clang/14.0.0/include -idirafter /usr/local/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include \
+	-O2 -g -c -o llb_kern_sockmap.o llb_kern_sockmap.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-D__TARGET_ARCH_x86 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-idirafter /usr/lib/llvm-14/lib/clang/14.0.0/include -idirafter /usr/local/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include \
+	-O2 -g -c -o llb_kern_sockstream.o llb_kern_sockstream.c
+clang-14 \
+	-target bpf \
+	-D __BPF_TRACING__ \
+	-D__TARGET_ARCH_x86 \
+	-I../libbpf/src//build/usr/include/ -I../headers/ -I/usr/include/x86_64-linux-gnu -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1 \
+	-idirafter /usr/lib/llvm-14/lib/clang/14.0.0/include -idirafter /usr/local/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include \
+	-O2 -g -c -o llb_kern_sockdirect.o llb_kern_sockdirect.c
+gcc -I../libbpf/src//build/usr/include/ -g -I../headers/ -I../libbpf/src// -DHAVE_DP_FC=1 -DHAVE_DP_EXTCT=1 -DHAVE_DP_SCTP_SUM=1 -DHAVE_DP_CT_SYNC=1 -DMAX_REAL_CPUS=16 -DHAVE_DP_RSS=1 -DHAVE_DP_PERSIST_TFC=1 -DHAVE_DP_FW=1   -c -o loxilb_libdp.o loxilb_libdp.c
+In file included from loxilb_libdp.c:25:
+../libbpf/src//bpf.h:583:60: warning: ‘struct bpf_link_info’ declared inside parameter list will not be visible outside of this definition or declaration
+  583 | LIBBPF_API int bpf_link_get_info_by_fd(int link_fd, struct bpf_link_info *info, __u32 *info_len);
+      |                                                            ^~~~~~~~~~~~~
+In file included from loxilb_libdp.c:26:
+../libbpf/src//libbpf.h:70:54: warning: ‘enum bpf_link_type’ declared inside parameter list will not be visible outside of this definition or declaration
+   70 | LIBBPF_API const char *libbpf_bpf_link_type_str(enum bpf_link_type t);
+      |                                                      ^~~~~~~~~~~~~
+ar rcu libloxilbdp.a loxilb_libdp.o ../common/common_sum.o ../common/common_libbpf.o ../common/common_pdi.o ../common/common_frame.o ../common/log.o ../common/throttler.o ../common/cgroup.o ../common/sockproxy.o ../common/notify.o ../common/picohttpparser.o ../common/llhttp.o ../common/httpapi.o ../common/http.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libloxilbdp.a
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/loxilb/loxilb-ebpf/kernel'
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/loxilb/loxilb-ebpf'
+go: downloading github.com/jessevdk/go-flags v1.5.0
+go: downloading github.com/aws/aws-sdk-go-v2/service/ec2 v1.159.1
+go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.1
+go: downloading github.com/aws/aws-sdk-go-v2 v1.26.1
+go: downloading github.com/aws/aws-sdk-go-v2/config v1.27.11
+go: downloading github.com/loxilb-io/loxilib v0.8.9-0.20260804074046-0cd1e5f28d17
+go: downloading github.com/osrg/gobgp/v3 v3.35.0
+go: downloading github.com/prometheus-community/pro-bing v0.1.0
+go: downloading github.com/vishvananda/netlink v1.2.1
+go: downloading k8s.io/api v0.29.0
+go: downloading k8s.io/apimachinery v0.30.0
+go: downloading k8s.io/client-go v0.29.0
+go: downloading github.com/loxilb-io/ipvs v0.1.0
+go: downloading github.com/go-openapi/loads v0.21.2
+go: downloading github.com/go-openapi/errors v0.20.3
+go: downloading golang.org/x/crypto v0.52.0
+go: downloading github.com/loxilb-io/sctp v0.0.0-20241217032220-301b591b9ced
+go: downloading github.com/aws/smithy-go v1.20.2
+go: downloading github.com/go-openapi/runtime v0.24.1
+go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.17.11
+go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.20.5
+go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.23.4
+go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.28.6
+go: downloading github.com/go-openapi/strfmt v0.21.3
+go: downloading github.com/go-openapi/spec v0.20.7
+go: downloading github.com/go-openapi/validate v0.22.0
+go: downloading github.com/go-openapi/analysis v0.21.4
+go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.5
+go: downloading github.com/docker/go-units v0.4.0
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.2
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.11.7
+go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.5
+go: downloading github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d

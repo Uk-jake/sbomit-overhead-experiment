@@ -1,0 +1,6 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/HAMi'...
+Submodule 'libvgpu' (https://github.com/Project-HAMi/HAMi-core.git) registered for path 'libvgpu'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/HAMi/libvgpu'...
+From https://github.com/Project-HAMi/HAMi-core
+ * branch            b216ba1be1b8e21488d1c7370ed3357b3049aad1 -> FETCH_HEAD
+Submodule path 'libvgpu': checked out 'b216ba1be1b8e21488d1c7370ed3357b3049aad1'

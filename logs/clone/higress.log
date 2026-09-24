@@ -1,0 +1,30 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress'...
+Submodule 'envoy/envoy' (https://github.com/higress-group/envoy) registered for path 'envoy/envoy'
+Submodule 'envoy/go-control-plane' (https://github.com/higress-group/go-control-plane) registered for path 'envoy/go-control-plane'
+Submodule 'istio/api' (https://github.com/higress-group/api) registered for path 'istio/api'
+Submodule 'istio/client-go' (https://github.com/higress-group/client-go) registered for path 'istio/client-go'
+Submodule 'istio/istio' (https://github.com/higress-group/istio) registered for path 'istio/istio'
+Submodule 'istio/pkg' (https://github.com/higress-group/pkg) registered for path 'istio/pkg'
+Submodule 'istio/proxy' (https://github.com/higress-group/proxy) registered for path 'istio/proxy'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/envoy/envoy'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/envoy/go-control-plane'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/istio/api'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/istio/client-go'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/istio/istio'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/istio/pkg'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/higress/istio/proxy'...
+Submodule path 'envoy/envoy': checked out '9e54c67a6c89adef56a4fb9bf38120e16da9b4f4'
+From https://github.com/higress-group/go-control-plane
+ * branch            4f11f65d9bc54bb8b18f1cc7c25460d3f8afef75 -> FETCH_HEAD
+Submodule path 'envoy/go-control-plane': checked out '4f11f65d9bc54bb8b18f1cc7c25460d3f8afef75'
+From https://github.com/higress-group/api
+ * branch            efc0fe428cccecc0285dbf51e2023f8e0422597c -> FETCH_HEAD
+Submodule path 'istio/api': checked out 'efc0fe428cccecc0285dbf51e2023f8e0422597c'
+From https://github.com/higress-group/client-go
+ * branch            09ed8dc4e7484d303c931fa42df7f7c728296923 -> FETCH_HEAD
+Submodule path 'istio/client-go': checked out '09ed8dc4e7484d303c931fa42df7f7c728296923'
+Submodule path 'istio/istio': checked out '65133dd61c6c597fb301c53beaa777ca5c9e4ba2'
+Submodule path 'istio/pkg': checked out '15c662994e6515201dc106a2ec3de85ed50e8078'
+From https://github.com/higress-group/proxy
+ * branch            4735dd6b874700fc2bc9a218ce80ba0be759e53f -> FETCH_HEAD
+Submodule path 'istio/proxy': checked out '4735dd6b874700fc2bc9a218ce80ba0be759e53f'

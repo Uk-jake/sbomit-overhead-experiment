@@ -1,0 +1,135 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Starting git attestor..."
+level=info msg="Finished environment attestor... (8.865e-05s)"
+level=info msg="Finished git attestor... (0.020884018s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.055025586s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading golang.org/x/sys v0.47.0
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading github.com/prometheus/client_golang v1.24.1
+go: downloading k8s.io/api v0.36.4
+go: downloading github.com/vishvananda/netlink v1.3.1
+go: downloading k8s.io/apimachinery v0.36.4
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading k8s.io/client-go v0.36.4
+go: downloading github.com/florianl/go-conntrack v0.7.0
+go: downloading github.com/google/nftables v0.3.0
+go: downloading github.com/insomniacslk/dhcp v0.0.0-20260719225207-c76316d4aa82
+go: downloading github.com/jpillora/backoff v1.0.0
+go: downloading github.com/mdlayher/ndp v1.1.0
+go: downloading github.com/google/go-containerregistry v0.21.9
+go: downloading github.com/osrg/gobgp/v4 v4.8.0
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading go.etcd.io/etcd/client/v3 v3.7.1
+go: downloading github.com/huin/goupnp v1.3.0
+go: downloading golang.org/x/sync v0.22.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/spf13/pflag v1.0.10
+go: downloading github.com/vishvananda/netns v0.0.5
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading github.com/prometheus/common v0.70.1
+go: downloading github.com/prometheus/procfs v0.21.1
+go: downloading google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
+go: downloading github.com/mdlayher/netlink v1.8.0
+go: downloading golang.org/x/net v0.57.0
+go: downloading github.com/u-root/uio v0.0.0-20240224005618-d2acac8f3701
+go: downloading github.com/mdlayher/packet v1.1.2
+go: downloading k8s.io/klog/v2 v2.140.0
+go: downloading k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
+go: downloading k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.3
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading go.yaml.in/yaml/v2 v2.4.4
+go: downloading google.golang.org/grpc v1.83.1
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/fsnotify/fsnotify v1.9.0
+go: downloading github.com/go-viper/mapstructure/v2 v2.4.0
+go: downloading github.com/spf13/viper v1.20.1
+go: downloading github.com/dgryski/go-farm v0.0.0-20240924180020-3414d57e47da
+go: downloading github.com/eapache/channels v1.1.0
+go: downloading github.com/cloudflare/ipvs v0.12.0
+go: downloading go.etcd.io/etcd/api/v3 v3.7.1
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.7.1
+go: downloading golang.zx2c4.com/wireguard/wgctrl v0.0.0-20241231184526-a9ab2273dd10
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
+go: downloading github.com/coreos/go-semver v0.3.1
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading go.uber.org/zap v1.28.0
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/mdlayher/socket v0.5.1
+go: downloading github.com/pierrec/lz4/v4 v4.1.22
+go: downloading github.com/josharian/native v1.1.0
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading golang.org/x/term v0.45.0
+go: downloading github.com/orcaman/concurrent-map/v2 v2.0.1
+go: downloading github.com/gaissmai/bart v0.26.1
+go: downloading github.com/k-sone/critbitgo v1.4.0
+go: downloading github.com/segmentio/fasthash v1.0.3
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/sagikazarmark/locafero v0.7.0
+go: downloading github.com/spf13/afero v1.12.0
+go: downloading github.com/spf13/cast v1.7.1
+go: downloading github.com/eapache/queue v1.1.0
+go: downloading github.com/mdlayher/genetlink v1.3.2
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa
+go: downloading github.com/coreos/go-systemd/v22 v22.7.0
+go: downloading golang.org/x/crypto v0.54.0
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading golang.org/x/text v0.40.0
+go: downloading github.com/fxamacker/cbor/v2 v2.9.0
+go: downloading github.com/google/gnostic-models v0.7.0
+go: downloading golang.org/x/time v0.14.0
+go: downloading golang.org/x/oauth2 v0.36.0
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/subosito/gotenv v1.6.0
+go: downloading github.com/pelletier/go-toml/v2 v2.2.3
+go: downloading github.com/sourcegraph/conc v0.3.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa
+go: downloading github.com/go-openapi/jsonreference v0.21.0
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0
+go: downloading github.com/emicklei/go-restful/v3 v3.13.0
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/mailru/easyjson v0.9.0
+go: downloading github.com/pelletier/go-toml v1.9.5
+go: downloading github.com/josharian/intern v1.0.0
+# github.com/kube-vip/kube-vip
+/usr/bin/ld: /tmp/go-link-4254876839/000023.o: in function `mygetgrouplist':
+/_/GOROOT/src/os/user/getgrouplist_unix.go:15: warning: Using 'getgrouplist' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-4254876839/000022.o: in function `mygetgrgid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:45: warning: Using 'getgrgid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-4254876839/000022.o: in function `mygetgrnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:54: warning: Using 'getgrnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-4254876839/000022.o: in function `mygetpwnam_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:36: warning: Using 'getpwnam_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-4254876839/000022.o: in function `mygetpwuid_r':
+/_/GOROOT/src/os/user/cgo_lookup_cgo.go:27: warning: Using 'getpwuid_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-4254876839/000004.o: in function `_cgo_77133bf98b3a_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:60: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+level=info msg="Finished command-run attestor... (40.525831557s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.082168084s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

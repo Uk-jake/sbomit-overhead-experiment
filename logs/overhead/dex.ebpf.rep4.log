@@ -1,0 +1,935 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (0.000110951s)"
+level=info msg="Finished git attestor... (0.030414257s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.240559321s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading github.com/AppsFlyer/go-sundheit v0.6.0
+go: downloading github.com/fsnotify/fsnotify v1.10.1
+go: downloading github.com/ghodss/yaml v1.0.0
+go: downloading github.com/go-jose/go-jose/v4 v4.1.4
+go: downloading github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+go: downloading github.com/oklog/run v1.2.0
+go: downloading github.com/prometheus/client_golang v1.24.1
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading golang.org/x/crypto v0.54.0
+go: downloading google.golang.org/grpc v1.82.1
+go: downloading github.com/coreos/go-oidc/v3 v3.19.0
+go: downloading github.com/gorilla/mux v1.8.1
+go: downloading google.golang.org/protobuf v1.36.11
+go: downloading github.com/go-webauthn/webauthn v0.17.4
+go: downloading github.com/pquerna/otp v1.5.0
+go: downloading github.com/google/uuid v1.6.0
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.6.13
+go: downloading go.etcd.io/etcd/client/v3 v3.6.13
+go: downloading github.com/openbao/openbao/api/v2 v2.6.0
+go: downloading github.com/Masterminds/semver v1.5.0
+go: downloading golang.org/x/net v0.57.0
+go: downloading entgo.io/ent v0.14.6
+go: downloading github.com/go-sql-driver/mysql v1.10.0
+go: downloading github.com/lib/pq v1.12.3
+go: downloading github.com/mattn/go-sqlite3 v1.14.48
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading golang.org/x/sys v0.47.0
+go: downloading github.com/gorilla/handlers v1.5.2
+go: downloading github.com/Masterminds/sprig/v3 v3.3.0
+go: downloading github.com/spf13/pflag v1.0.9
+go: downloading golang.org/x/oauth2 v0.36.0
+go: downloading github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading github.com/prometheus/common v0.70.1
+go: downloading github.com/prometheus/procfs v0.21.1
+go: downloading cloud.google.com/go/compute/metadata v0.9.0
+go: downloading golang.org/x/exp v0.0.0-20240823005443-9b4947da3948
+go: downloading google.golang.org/api v0.291.0
+go: downloading github.com/go-ldap/ldap/v3 v3.4.14
+go: downloading github.com/jcmturner/goidentity/v6 v6.0.1
+go: downloading github.com/jcmturner/gokrb5/v8 v8.4.4
+go: downloading github.com/beevik/etree v1.7.0
+go: downloading github.com/mattermost/xml-roundtrip-validator v0.1.0
+go: downloading github.com/russellhaering/goxmldsig v1.6.0
+go: downloading github.com/tinylib/msgp v1.6.4
+go: downloading github.com/go-viper/mapstructure/v2 v2.5.0
+go: downloading github.com/golang-jwt/jwt/v5 v5.3.1
+go: downloading github.com/google/go-tpm v0.9.8
+go: downloading go.uber.org/zap v1.27.0
+go: downloading go.etcd.io/etcd/api/v3 v3.6.13
+go: downloading github.com/coreos/go-semver v0.3.1
+go: downloading filippo.io/edwards25519 v1.2.0
+go: downloading github.com/cenkalti/backoff/v5 v5.0.3
+go: downloading github.com/hashicorp/go-cleanhttp v0.5.2
+go: downloading github.com/hashicorp/go-multierror v1.1.1
+go: downloading github.com/hashicorp/go-retryablehttp v0.7.8
+go: downloading github.com/hashicorp/go-secure-stdlib/parseutil v0.2.0
+go: downloading github.com/hashicorp/hcl v1.0.1-vault-7
+go: downloading golang.org/x/time v0.15.0
+go: downloading dario.cat/mergo v1.0.1
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading github.com/Masterminds/goutils v1.1.1
+go: downloading github.com/Masterminds/semver/v3 v3.3.0
+go: downloading github.com/huandu/xstrings v1.5.0
+go: downloading github.com/mitchellh/copystructure v1.2.0
+go: downloading github.com/shopspring/decimal v1.4.0
+go: downloading github.com/spf13/cast v1.7.0
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading github.com/hashicorp/go-uuid v1.0.3
+go: downloading github.com/Azure/go-ntlmssp v0.1.1
+go: downloading github.com/go-asn1-ber/asn1-ber v1.5.8
+go: downloading github.com/jonboulle/clockwork v0.5.0
+go: downloading github.com/jcmturner/gofork v1.7.6
+go: downloading github.com/go-webauthn/x v0.2.6
+go: downloading github.com/fxamacker/cbor/v2 v2.9.2
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260630182238-925bb5da69e7
+go: downloading github.com/coreos/go-systemd/v22 v22.5.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260724162435-b2f20204f0df
+go: downloading github.com/hashicorp/errwrap v1.1.0
+go: downloading github.com/hashicorp/go-secure-stdlib/strutil v0.1.2
+go: downloading github.com/hashicorp/go-sockaddr v1.0.7
+go: downloading github.com/mitchellh/mapstructure v1.5.0
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/philhofer/fwd v1.2.0
+go: downloading github.com/mitchellh/reflectwalk v1.0.2
+go: downloading golang.org/x/text v0.40.0
+go: downloading github.com/jcmturner/dnsutils/v2 v2.0.0
+go: downloading ariga.io/atlas v0.36.2-0.20250730182955-2c6300d0a3e1
+go: downloading github.com/ryanuber/go-glob v1.0.0
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/jcmturner/aescts/v2 v2.0.0
+go: downloading github.com/jcmturner/rpc/v2 v2.0.3
+go: downloading github.com/hashicorp/hcl/v2 v2.18.1
+go: downloading github.com/zclconf/go-cty v1.14.4
+go: downloading github.com/bmatcuk/doublestar v1.3.4
+go: downloading github.com/go-openapi/inflect v0.19.0
+go: downloading github.com/zclconf/go-cty-yaml v1.1.0
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading golang.org/x/mod v0.37.0
+go: downloading github.com/apparentlymart/go-textseg/v15 v15.0.0
+go: downloading github.com/agext/levenshtein v1.2.3
+go: downloading github.com/mitchellh/go-wordwrap v1.0.1
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.19
+go: downloading cloud.google.com/go/auth v0.22.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.67.0
+go: downloading github.com/googleapis/gax-go/v2 v2.23.0
+go: downloading cloud.google.com/go/auth/oauth2adapt v0.2.8
+go: downloading github.com/google/s2a-go v0.1.9
+go: downloading go.opentelemetry.io/otel/metric v1.44.0
+go: downloading go.opentelemetry.io/otel v1.44.0
+go: downloading go.opentelemetry.io/otel/trace v1.44.0
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+internal/goarch
+internal/unsafeheader
+internal/coverage/rtcov
+internal/byteorder
+internal/profilerecord
+internal/godebugs
+internal/msan
+internal/asan
+internal/goos
+internal/runtime/pprof/label
+internal/trace/tracev2
+math/bits
+internal/goexperiment
+unicode
+internal/cpu
+sync/atomic
+unicode/utf8
+cmp
+internal/abi
+internal/runtime/atomic
+internal/runtime/syscall/linux
+internal/runtime/gc
+internal/runtime/sys
+internal/runtime/math
+container/list
+crypto/internal/fips140/alias
+crypto/internal/fips140deps/byteorder
+crypto/internal/constanttime
+crypto/internal/boring/sig
+unicode/utf16
+internal/strconv
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/internal/alias
+internal/nettrace
+crypto/internal/fips140/subtle
+encoding
+log/internal
+google.golang.org/protobuf/internal/flags
+google.golang.org/grpc/serviceconfig
+google.golang.org/protobuf/internal/set
+google.golang.org/grpc/encoding/internal
+google.golang.org/grpc/internal/transport/internal
+github.com/dexidp/dex/pkg/groups
+log/slog/internal
+golang.org/x/exp/constraints
+golang.org/x/crypto/internal/alias
+golang.org/x/crypto/cryptobyte/asn1
+github.com/googleapis/gax-go/v2/internal
+go.opentelemetry.io/otel/trace/embedded
+go.opentelemetry.io/otel/metric/embedded
+github.com/jcmturner/gokrb5/v8/iana/nametype
+github.com/jcmturner/gokrb5/v8/iana/etypeID
+golang.org/x/exp/slices
+github.com/jcmturner/gokrb5/v8/iana/chksumtype
+internal/runtime/exithook
+github.com/jcmturner/gokrb5/v8/iana/patype
+github.com/jcmturner/gokrb5/v8/iana
+github.com/jcmturner/gokrb5/v8/iana/addrtype
+github.com/jcmturner/gokrb5/v8/iana/asnAppTag
+github.com/jcmturner/gokrb5/v8/iana/flags
+github.com/jcmturner/gokrb5/v8/iana/keyusage
+github.com/jcmturner/gokrb5/v8/iana/adtype
+github.com/jcmturner/gokrb5/v8/iana/msgtype
+image/color
+entgo.io/ent/schema
+github.com/agext/levenshtein
+github.com/google/go-cmp/cmp/internal/flags
+github.com/lib/pq/internal/pqsql
+github.com/lib/pq/oid
+github.com/lib/pq/pqerror
+entgo.io/ent/schema/index
+crypto/subtle
+internal/chacha8rand
+internal/runtime/gc/scan
+crypto/internal/fips140deps/cpu
+internal/bytealg
+math
+internal/synctest
+internal/race
+internal/sync
+internal/runtime/maps
+internal/stringslite
+internal/runtime/cgroup
+runtime
+iter
+internal/reflectlite
+weak
+runtime/metrics
+sync
+slices
+maps
+internal/bisect
+crypto/internal/fips140cache
+internal/testlog
+log/slog/internal/buffer
+internal/singleflight
+ariga.io/atlas/sql/postgres/internal/postgresop
+google.golang.org/protobuf/internal/pragma
+unique
+go.uber.org/zap/internal/pool
+errors
+sort
+internal/oserror
+math/rand/v2
+github.com/go-viper/mapstructure/v2/internal/errors
+path
+io
+github.com/hashicorp/hcl/hcl/strconv
+google.golang.org/grpc/internal/buffer
+vendor/golang.org/x/net/dns/dnsmessage
+strconv
+bytes
+internal/godebug
+syscall
+hash
+crypto/internal/randutil
+internal/saferio
+strings
+reflect
+encoding/base64
+net/netip
+crypto
+hash/crc32
+vendor/golang.org/x/text/transform
+hash/fnv
+golang.org/x/text/transform
+github.com/Azure/go-ntlmssp/internal/md4
+golang.org/x/crypto/md4
+github.com/jcmturner/gokrb5/v8/crypto/etype
+crypto/internal/fips140deps/godebug
+math/rand
+golang.org/x/crypto/blowfish
+encoding/base32
+hash/adler32
+github.com/x448/float16
+github.com/beorn7/perks/quantile
+github.com/prometheus/client_golang/prometheus/promhttp/internal
+crypto/internal/fips140
+crypto/internal/impl
+encoding/pem
+runtime/cgo
+bufio
+net/http/internal/ascii
+html
+regexp/syntax
+github.com/ryanuber/go-glob
+crypto/internal/fips140/sha3
+crypto/internal/fips140/sha256
+crypto/internal/fips140/sha512
+github.com/munnerz/goautoneg
+github.com/mitchellh/go-wordwrap
+hash/crc64
+github.com/huandu/xstrings
+golang.org/x/mod/semver
+image
+github.com/apparentlymart/go-textseg/v15/textseg
+crypto/internal/fips140/hmac
+crypto/sha3
+crypto/internal/fips140/check
+crypto/internal/fips140hash
+regexp
+crypto/fips140
+crypto/internal/fips140/hkdf
+crypto/internal/fips140/tls12
+crypto/internal/fips140/edwards25519/field
+crypto/internal/fips140/bigmod
+crypto/internal/fips140/pbkdf2
+crypto/internal/fips140/aes
+crypto/internal/fips140/nistec/fiat
+time
+internal/syscall/unix
+internal/syscall/execenv
+crypto/internal/fips140/tls13
+crypto/tls/internal/fips140tls
+crypto/internal/fips140/edwards25519
+google.golang.org/api/internal/third_party/uritemplates
+context
+crypto/internal/fips140deps/time
+google.golang.org/grpc/balancer/pickfirst/internal
+golang.org/x/net/internal/httpsfv
+github.com/google/go-cmp/cmp/internal/diff
+go.uber.org/zap/buffer
+google.golang.org/grpc/backoff
+google.golang.org/grpc/keepalive
+google.golang.org/grpc/internal/idle
+io/fs
+internal/poll
+crypto/internal/entropy/v1.0.0
+crypto/internal/fips140/nistec
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/stacktrace
+google.golang.org/grpc/internal/backoff
+golang.org/x/net/context
+go.opentelemetry.io/otel/internal/baggage
+google.golang.org/grpc/internal/grpcsync
+internal/fmtsort
+go.opentelemetry.io/otel/attribute/internal
+github.com/hashicorp/errwrap
+encoding/binary
+entgo.io/ent/schema/edge
+github.com/google/go-cmp/cmp/internal/function
+internal/filepathlite
+embed
+google.golang.org/protobuf/internal/editiondefaults
+github.com/dexidp/dex/web
+os
+vendor/golang.org/x/crypto/internal/poly1305
+golang.org/x/crypto/internal/poly1305
+github.com/cespare/xxhash/v2
+filippo.io/edwards25519/field
+golang.org/x/sys/unix
+filippo.io/edwards25519
+go.opentelemetry.io/otel/attribute/internal/xxhash
+crypto/internal/sysrand
+io/ioutil
+google.golang.org/protobuf/internal/detrand
+google.golang.org/grpc/internal/envconfig
+path/filepath
+fmt
+github.com/dexidp/dex/pkg/featureflags
+github.com/philhofer/fwd
+github.com/prometheus/procfs/internal/util
+go.uber.org/zap/internal/exit
+golang.org/x/sys/cpu
+os/signal
+vendor/golang.org/x/sys/cpu
+crypto/internal/fips140/drbg
+crypto/internal/fips140only
+crypto/internal/fips140/ecdh
+crypto/internal/fips140/ed25519
+crypto/internal/fips140/aes/gcm
+crypto/internal/fips140/mlkem
+crypto/internal/fips140/ecdsa
+crypto/internal/fips140/rsa
+os/exec
+crypto/hkdf
+crypto/rc4
+crypto/md5
+crypto/pbkdf2
+golang.org/x/crypto/pbkdf2
+crypto/mlkem
+crypto/cipher
+github.com/pkg/errors
+net/url
+encoding/json
+encoding/hex
+math/big
+mime/quotedprintable
+log
+vendor/golang.org/x/text/unicode/norm
+mime
+vendor/golang.org/x/net/http2/hpack
+net/http/internal
+compress/flate
+text/template/parse
+text/tabwriter
+google.golang.org/grpc/attributes
+google.golang.org/protobuf/internal/errors
+github.com/AppsFlyer/go-sundheit
+crypto/internal/boring
+crypto/des
+vendor/golang.org/x/crypto/chacha20
+vendor/golang.org/x/text/unicode/bidi
+golang.org/x/net/internal/timeseries
+crypto/aes
+crypto/internal/rand
+crypto/sha512
+crypto/hmac
+crypto/sha256
+crypto/sha1
+crypto/ecdh
+vendor/golang.org/x/crypto/chacha20poly1305
+compress/gzip
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/version
+go/token
+google.golang.org/grpc/internal/mem
+golang.org/x/text/unicode/bidi
+google.golang.org/protobuf/reflect/protoreflect
+golang.org/x/text/unicode/norm
+golang.org/x/net/http2/hpack
+text/template
+github.com/go-jose/go-jose/v4/json
+runtime/pprof
+net
+vendor/golang.org/x/text/secure/bidirule
+encoding/gob
+golang.org/x/crypto/chacha20
+golang.org/x/crypto/hkdf
+vendor/golang.org/x/net/idna
+database/sql/driver
+go.opentelemetry.io/otel/internal/errorhandler
+golang.org/x/crypto/chacha20poly1305
+golang.org/x/text/secure/bidirule
+go.opentelemetry.io/otel/baggage
+crypto/hpke
+github.com/go-asn1-ber/asn1-ber
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/genid
+google.golang.org/grpc/grpclog/internal
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/reflect/protoregistry
+crypto/elliptic
+crypto/internal/boring/bbig
+encoding/asn1
+crypto/rand
+crypto/dsa
+google.golang.org/grpc/grpclog
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/internal/encoding/json
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/protolazy
+crypto/ed25519
+crypto/rsa
+html/template
+google.golang.org/protobuf/proto
+log/slog
+golang.org/x/net/idna
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/internal/grpclog
+github.com/google/s2a-go/internal/record/internal/aeadcrypter
+github.com/google/s2a-go/retry
+google.golang.org/api/internal/credentialstype
+go.opentelemetry.io/auto/sdk/internal/telemetry
+go.opentelemetry.io/otel/attribute
+go.opentelemetry.io/otel/codes
+go.opentelemetry.io/otel/trace/internal/telemetry
+github.com/hashicorp/go-uuid
+google.golang.org/protobuf/internal/encoding/defval
+github.com/jcmturner/gofork/encoding/asn1
+golang.org/x/oauth2/jws
+crypto/x509/pkix
+vendor/golang.org/x/crypto/cryptobyte
+os/user
+golang.org/x/crypto/cryptobyte
+github.com/jcmturner/gokrb5/v8/crypto/common
+github.com/jcmturner/aescts/v2
+github.com/jcmturner/gofork/x/crypto/pbkdf2
+github.com/jcmturner/gokrb5/v8/crypto/rfc4757
+github.com/jcmturner/gokrb5/v8/crypto/rfc3961
+github.com/jcmturner/gokrb5/v8/crypto/rfc3962
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/encoding/prototext
+github.com/jcmturner/gokrb5/v8/crypto/rfc8009
+github.com/jcmturner/gokrb5/v8/iana/errorcode
+github.com/jcmturner/gokrb5/v8/krberror
+github.com/jcmturner/rpc/v2/ndr
+github.com/dexidp/dex/storage/kubernetes/k8sapi
+encoding/xml
+github.com/jonboulle/clockwork
+crypto/ecdsa
+golang.org/x/crypto/bcrypt
+runtime/debug
+github.com/jcmturner/gokrb5/v8/asn1tools
+dario.cat/mergo
+github.com/Masterminds/goutils
+github.com/googleapis/gax-go/v2/internallog/internal
+cloud.google.com/go/auth/internal/credsfile
+github.com/googleapis/enterprise-certificate-proxy/client/util
+github.com/googleapis/gax-go/v2/callctx
+github.com/go-logr/logr
+github.com/dexidp/dex/server/passwords
+github.com/Masterminds/semver/v3
+github.com/mitchellh/reflectwalk
+github.com/shopspring/decimal
+github.com/spf13/cast
+golang.org/x/crypto/scrypt
+archive/tar
+github.com/jcmturner/rpc/v2/mstypes
+flag
+github.com/cenkalti/backoff/v5
+go.opentelemetry.io/otel/semconv/v1.37.0
+go.opentelemetry.io/otel/semconv/v1.41.0
+github.com/go-logr/logr/funcr
+go.opentelemetry.io/otel/metric
+go.opentelemetry.io/otel/semconv/v1.40.0
+github.com/mitchellh/copystructure
+github.com/hashicorp/go-multierror
+github.com/hashicorp/go-secure-stdlib/strutil
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/json/token
+golang.org/x/time/rate
+github.com/fxamacker/cbor/v2
+github.com/hashicorp/hcl/json/scanner
+github.com/go-webauthn/x/encoding/asn1
+github.com/hashicorp/hcl/hcl/parser
+github.com/tinylib/msgp/msgp
+github.com/boombuler/barcode
+github.com/go-logr/stdr
+go.opentelemetry.io/otel/metric/noop
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/protobuf/internal/encoding/tag
+cloud.google.com/go/auth/internal/jwt
+github.com/go-jose/go-jose/v4/cipher
+github.com/beevik/etree
+github.com/mattermost/xml-roundtrip-validator
+github.com/hashicorp/hcl/json/parser
+github.com/boombuler/barcode/utils
+github.com/pquerna/otp/internal
+crypto/x509
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
+google.golang.org/grpc/internal
+google.golang.org/grpc/internal/syscall
+google.golang.org/protobuf/internal/impl
+google.golang.org/grpc/internal/resolver/dns/internal
+github.com/google/uuid
+go.opentelemetry.io/otel/trace
+go.opentelemetry.io/otel/semconv/v1.40.0/httpconv
+github.com/jcmturner/gokrb5/v8/types
+github.com/jcmturner/dnsutils/v2
+google.golang.org/grpc/metadata
+google.golang.org/grpc/codes
+google.golang.org/grpc/mem
+github.com/jcmturner/gokrb5/v8/config
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
+golang.org/x/net/http/httpguts
+google.golang.org/grpc/stats
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/tap
+github.com/jcmturner/gokrb5/v8/crypto
+github.com/dexidp/dex/server/reqctx
+github.com/go-viper/mapstructure/v2
+github.com/hashicorp/go-sockaddr
+google.golang.org/grpc/experimental/stats
+github.com/mitchellh/mapstructure
+github.com/hashicorp/hcl
+google.golang.org/grpc/encoding
+google.golang.org/grpc/internal/transport/readyreader
+google.golang.org/grpc/internal/stats
+github.com/russellhaering/goxmldsig/etreeutils
+github.com/russellhaering/goxmldsig/types
+github.com/google/go-tpm/tpmutil
+go.opentelemetry.io/otel/trace/noop
+github.com/boombuler/barcode/qr
+compress/zlib
+google.golang.org/protobuf/encoding/protodelim
+github.com/jcmturner/gokrb5/v8/keytab
+github.com/jcmturner/gokrb5/v8/pac
+github.com/jcmturner/gokrb5/v8/gssapi
+image/png
+go.opentelemetry.io/auto/sdk
+github.com/google/go-tpm/legacy/tpm2
+github.com/prometheus/procfs/internal/fs
+github.com/prometheus/procfs
+database/sql
+github.com/jcmturner/gokrb5/v8/credentials
+entgo.io/ent/entql
+encoding/csv
+github.com/bmatcuk/doublestar
+github.com/go-webauthn/webauthn/protocol/webauthncbor
+github.com/pquerna/otp
+github.com/go-openapi/inflect
+github.com/hashicorp/go-secure-stdlib/parseutil
+github.com/zclconf/go-cty/cty/ctystrings
+github.com/zclconf/go-cty/cty/set
+github.com/jcmturner/gokrb5/v8/messages
+github.com/google/go-cmp/cmp/internal/value
+github.com/pquerna/otp/hotp
+github.com/lib/pq/internal/pqutil
+gopkg.in/yaml.v3
+github.com/lib/pq/internal/pqtime
+crypto/tls
+github.com/go-jose/go-jose/v4
+github.com/Masterminds/sprig/v3
+golang.org/x/crypto/ocsp
+github.com/golang-jwt/jwt/v5
+github.com/pquerna/otp/totp
+github.com/zclconf/go-cty/cty
+github.com/google/go-cmp/cmp
+github.com/lib/pq/internal/pgpass
+github.com/lib/pq/internal/pgservice
+github.com/jcmturner/gokrb5/v8/kadmin
+github.com/lib/pq/internal/proto
+github.com/lib/pq/scram
+github.com/jcmturner/gokrb5/v8/client
+go.etcd.io/etcd/client/pkg/v3/verify
+go.uber.org/multierr
+go.uber.org/zap/internal/color
+github.com/coreos/go-semver/semver
+github.com/gogo/protobuf/proto
+github.com/google/go-tpm/tpm2/transport
+go.etcd.io/etcd/api/v3/version
+go.uber.org/zap/zapcore
+github.com/coreos/go-systemd/v22/journal
+entgo.io/ent/dialect
+entgo.io/ent/schema/field
+github.com/google/go-tpm/tpm2
+ariga.io/atlas/sql/schema
+entgo.io/ent/dialect/sql
+github.com/dexidp/dex/storage
+github.com/go-jose/go-jose/v4/jwt
+go.etcd.io/etcd/client/pkg/v3/systemd
+go.etcd.io/etcd/client/pkg/v3/types
+go.etcd.io/etcd/client/v3/internal/endpoint
+github.com/Masterminds/semver
+gopkg.in/yaml.v2
+go.uber.org/zap/internal
+github.com/dexidp/dex/storage/memory
+ariga.io/atlas/sql/migrate
+github.com/fsnotify/fsnotify/internal
+github.com/oklog/run
+github.com/spf13/pflag
+entgo.io/ent
+internal/profile
+github.com/fsnotify/fsnotify
+runtime/trace
+github.com/dexidp/dex/storage/ent/schema
+github.com/zclconf/go-cty/cty/convert
+github.com/zclconf/go-cty/cty/function
+github.com/zclconf/go-cty/cty/gocty
+github.com/zclconf/go-cty/cty/json
+github.com/hashicorp/hcl/v2
+github.com/zclconf/go-cty-yaml
+ariga.io/atlas/sql/internal/sqlx
+ariga.io/atlas/sql/sqltool
+google.golang.org/protobuf/internal/filetype
+github.com/ghodss/yaml
+github.com/hashicorp/hcl/v2/ext/customdecode
+google.golang.org/protobuf/runtime/protoimpl
+github.com/zclconf/go-cty/cty/function/stdlib
+google.golang.org/protobuf/protoadapt
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/known/anypb
+github.com/google/s2a-go/internal/proto/common_go_proto
+net/http/httptrace
+google.golang.org/grpc/internal/credentials
+google.golang.org/grpc/internal/pretty
+google.golang.org/grpc/encoding/proto
+github.com/google/s2a-go/internal/proto/v2/common_go_proto
+google.golang.org/genproto/googleapis/rpc/code
+google.golang.org/grpc/credentials
+net/http/internal/httpcommon
+golang.org/x/net/internal/httpcommon
+github.com/google/s2a-go/internal/proto/s2a_context_go_proto
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+github.com/google/s2a-go/internal/record/internal/halfconn
+google.golang.org/genproto/googleapis/rpc/status
+google.golang.org/genproto/googleapis/rpc/errdetails
+github.com/russellhaering/goxmldsig
+github.com/googleapis/gax-go/v2/apierror/internal/proto
+github.com/google/s2a-go/internal/tokenmanager
+net/http
+github.com/google/s2a-go/internal/proto/v2/s2a_context_go_proto
+github.com/dexidp/dex/server/internal
+google.golang.org/grpc/internal/status
+github.com/prometheus/client_model/go
+entgo.io/ent/dialect/sql/sqlgraph
+entgo.io/ent/dialect/sql/sqljson
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/credentials/insecure
+google.golang.org/grpc/resolver
+google.golang.org/grpc/peer
+github.com/google/s2a-go/fallback
+google.golang.org/grpc/status
+github.com/dexidp/dex/storage/ent/db/predicate
+github.com/hashicorp/hcl/v2/ext/tryfunc
+ariga.io/atlas/sql/mysql/internal/mysqlversion
+github.com/dexidp/dex/storage/ent/db/authcode
+github.com/dexidp/dex/storage/ent/db/authrequest
+google.golang.org/grpc/experimental/balancer/weight
+google.golang.org/grpc/internal/metadata
+google.golang.org/grpc/internal/proxyattributes
+google.golang.org/grpc/internal/binarylog
+google.golang.org/grpc/internal/transport/networktype
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/balancer/grpclb/state
+github.com/prometheus/common/model
+github.com/dexidp/dex/storage/ent/db/authsession
+google.golang.org/grpc/internal/resolver/unix
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/channelz
+github.com/dexidp/dex/storage/ent/db/connector
+github.com/dexidp/dex/storage/ent/db/devicerequest
+google.golang.org/grpc/balancer
+github.com/dexidp/dex/storage/ent/db/devicetoken
+github.com/dexidp/dex/storage/ent/db/keys
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/balancer/pickfirst
+google.golang.org/grpc/internal/serviceconfig
+google.golang.org/grpc/resolver/dns
+entgo.io/ent/dialect/entsql
+github.com/dexidp/dex/storage/ent/db/oauth2client
+github.com/dexidp/dex/storage/ent/db/offlinesession
+github.com/dexidp/dex/storage/ent/db/password
+github.com/dexidp/dex/storage/ent/db/refreshtoken
+github.com/hashicorp/hcl/v2/hclsyntax
+google.golang.org/grpc/internal/resolver
+github.com/dexidp/dex/storage/ent/db/useridentity
+google.golang.org/grpc/internal/balancer/gracefulswitch
+google.golang.org/grpc/balancer/endpointsharding
+github.com/go-sql-driver/mysql
+github.com/lib/pq
+go.etcd.io/etcd/client/pkg/v3/tlsutil
+github.com/gogo/protobuf/protoc-gen-gogo/descriptor
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/structpb
+google.golang.org/genproto/googleapis/api
+go.etcd.io/etcd/api/v3/v3rpc/rpctypes
+google.golang.org/grpc/balancer/roundrobin
+github.com/prometheus/client_golang/prometheus/internal
+google.golang.org/grpc/resolver/manual
+github.com/spf13/cobra
+go.etcd.io/etcd/client/v3/internal/resolver
+go.etcd.io/etcd/client/v3/credentials
+google.golang.org/protobuf/types/gofeaturespb
+github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options
+google.golang.org/genproto/googleapis/api/annotations
+google.golang.org/protobuf/internal/editionssupport
+google.golang.org/protobuf/reflect/protodesc
+github.com/gogo/protobuf/gogoproto
+github.com/go-webauthn/webauthn/protocol/webauthncose
+github.com/hashicorp/hcl/v2/hclwrite
+github.com/hashicorp/hcl/v2/json
+github.com/golang/protobuf/proto
+github.com/hashicorp/hcl/v2/hclparse
+github.com/hashicorp/hcl/v2/gohcl
+go.etcd.io/etcd/api/v3/authpb
+go.etcd.io/etcd/api/v3/versionpb
+go.etcd.io/etcd/api/v3/mvccpb
+ariga.io/atlas/schemahcl
+go.etcd.io/etcd/api/v3/membershippb
+github.com/AppsFlyer/go-sundheit/http
+github.com/dexidp/dex/connector
+github.com/AppsFlyer/go-sundheit/checks
+github.com/googleapis/gax-go/v2/internallog
+github.com/dexidp/dex/pkg/httpclient
+google.golang.org/api/googleapi
+golang.org/x/net/trace
+golang.org/x/net/http2
+cloud.google.com/go/auth/internal/retry
+net/http/httputil
+cloud.google.com/go/compute/metadata
+net/rpc
+go.opentelemetry.io/otel/propagation
+golang.org/x/oauth2/internal
+github.com/felixge/httpsnoop
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/request
+github.com/dexidp/dex/connector/atlassiancrowd
+github.com/dexidp/dex/connector/authproxy
+google.golang.org/api/googleapi/transport
+github.com/dexidp/dex/connector/keystone
+go.opentelemetry.io/otel/internal/global
+github.com/Azure/go-ntlmssp
+golang.org/x/oauth2
+github.com/googleapis/gax-go/v2/apierror
+github.com/jcmturner/goidentity/v6
+net/http/cookiejar
+github.com/dexidp/dex/connector/mock
+github.com/dexidp/dex/connector/saml
+github.com/dexidp/dex/server/oauth2
+github.com/go-ldap/ldap/v3
+cloud.google.com/go/auth/internal
+github.com/gorilla/mux
+golang.org/x/oauth2/bitbucket
+github.com/dexidp/dex/connector/gitea
+golang.org/x/oauth2/endpoints
+github.com/dexidp/dex/connector/gitlab
+github.com/dexidp/dex/connector/bitbucketcloud
+github.com/coreos/go-oidc/v3/oidc
+golang.org/x/oauth2/authhandler
+golang.org/x/oauth2/google/internal/impersonate
+golang.org/x/oauth2/google/internal/stsexchange
+golang.org/x/oauth2/jwt
+cloud.google.com/go/auth
+golang.org/x/oauth2/github
+google.golang.org/api/internal/impersonate
+go.opentelemetry.io/otel
+github.com/dexidp/dex/connector/github
+github.com/jcmturner/gokrb5/v8/service
+github.com/dexidp/dex/connector/linkedin
+github.com/googleapis/enterprise-certificate-proxy/client
+github.com/dexidp/dex/connector/microsoft
+golang.org/x/oauth2/google/externalaccount
+golang.org/x/oauth2/google/internal/externalaccountauthorizeduser
+github.com/dexidp/dex/connector/oauth
+github.com/dexidp/dex/connector/openshift
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/internal/semconv
+github.com/dexidp/dex/connector/oidc
+github.com/dexidp/dex/server/connectors
+cloud.google.com/go/auth/internal/regionalaccessboundary
+cloud.google.com/go/auth/credentials/internal/stsexchange
+cloud.google.com/go/auth/internal/transport/cert
+cloud.google.com/go/auth/credentials/internal/gdch
+google.golang.org/api/internal/cert
+github.com/jcmturner/gokrb5/v8/spnego
+github.com/gorilla/handlers
+github.com/dexidp/dex/server/session
+github.com/dexidp/dex/server/templates
+github.com/hashicorp/go-cleanhttp
+cloud.google.com/go/auth/credentials/internal/externalaccountuser
+github.com/go-webauthn/x/revoke
+expvar
+github.com/prometheus/common/expfmt
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil/header
+cloud.google.com/go/auth/internal/transport/headers
+golang.org/x/oauth2/google
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+ariga.io/atlas/sql/sqlspec
+github.com/hashicorp/go-retryablehttp
+github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil
+ariga.io/atlas/sql/sqlclient
+go.uber.org/zap
+github.com/go-webauthn/webauthn/metadata
+cloud.google.com/go/auth/credentials/internal/impersonate
+ariga.io/atlas/sql/internal/specutil
+github.com/dexidp/dex/server/router
+net/http/pprof
+cloud.google.com/go/auth/oauth2adapt
+github.com/dexidp/dex/server/home
+cloud.google.com/go/auth/credentials/internal/externalaccount
+github.com/go-webauthn/webauthn/protocol
+github.com/dexidp/dex/connector/ldap
+github.com/prometheus/client_golang/prometheus
+cloud.google.com/go/auth/credentials
+google.golang.org/grpc/internal/transport
+github.com/dexidp/dex/storage/kubernetes
+github.com/openbao/openbao/api/v2
+ariga.io/atlas/sql/postgres
+ariga.io/atlas/sql/sqlite
+ariga.io/atlas/sql/mysql
+go.uber.org/zap/zapgrpc
+go.etcd.io/etcd/client/pkg/v3/logutil
+go.etcd.io/etcd/client/pkg/v3/fileutil
+github.com/go-webauthn/webauthn/webauthn
+go.etcd.io/etcd/client/pkg/v3/transport
+github.com/dexidp/dex/server/mfa
+github.com/prometheus/client_golang/prometheus/collectors
+github.com/prometheus/client_golang/prometheus/promhttp
+google.golang.org/grpc/internal/resolver/delegatingresolver
+google.golang.org/grpc
+github.com/dexidp/dex/server/signer
+entgo.io/ent/dialect/sql/schema
+github.com/dexidp/dex/server/backchannel
+github.com/dexidp/dex/server/discovery
+github.com/dexidp/dex/server/userinfo
+github.com/dexidp/dex/server/tokens
+github.com/dexidp/dex/server/consent
+github.com/dexidp/dex/server/introspection
+github.com/dexidp/dex/server/logout
+github.com/dexidp/dex/server/grants
+github.com/dexidp/dex/server/authflow
+github.com/dexidp/dex/server/device
+github.com/dexidp/dex/storage/ent/db/migrate
+github.com/dexidp/dex/storage/ent/db
+github.com/google/s2a-go/internal/handshaker/service
+github.com/google/s2a-go/internal/proto/s2a_go_proto
+github.com/google/s2a-go/internal/proto/v2/s2a_go_proto
+github.com/dexidp/dex/api/v2
+google.golang.org/grpc/reflection/grpc_reflection_v1
+github.com/grpc-ecosystem/go-grpc-prometheus
+github.com/googleapis/gax-go/v2
+google.golang.org/grpc/reflection/grpc_reflection_v1alpha
+go.etcd.io/etcd/api/v3/etcdserverpb
+github.com/google/s2a-go/internal/authinfo
+github.com/google/s2a-go/internal/record
+google.golang.org/grpc/reflection/internal
+github.com/google/s2a-go/stream
+google.golang.org/grpc/reflection
+github.com/google/s2a-go/internal/v2/certverifier
+github.com/google/s2a-go/internal/handshaker
+github.com/google/s2a-go/internal/v2/remotesigner
+github.com/google/s2a-go/internal/v2/tlsconfigstore
+github.com/google/s2a-go/internal/v2
+github.com/dexidp/dex/server/apiserver
+github.com/google/s2a-go
+cloud.google.com/go/auth/internal/transport
+google.golang.org/api/internal
+cloud.google.com/go/auth/httptransport
+google.golang.org/api/option
+google.golang.org/api/internal/gensupport
+google.golang.org/api/option/internaloption
+google.golang.org/api/transport/http
+google.golang.org/api/impersonate
+google.golang.org/api/admin/directory/v1
+go.etcd.io/etcd/client/v3
+go.etcd.io/etcd/client/v3/namespace
+github.com/dexidp/dex/connector/google
+github.com/dexidp/dex/storage/etcd
+github.com/dexidp/dex/server
+github.com/dexidp/dex/storage/ent/client
+github.com/mattn/go-sqlite3
+github.com/dexidp/dex/storage/ent
+github.com/dexidp/dex/storage/sql
+github.com/dexidp/dex/cmd/dex
+level=info msg="Finished command-run attestor... (51.889332208s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.085257633s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

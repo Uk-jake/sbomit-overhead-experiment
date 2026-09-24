@@ -1,0 +1,350 @@
+=== 03_overhead.sh 시작 ===
+rep      : 1
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 1): clean ebpf 
+
+[ 3/93] kuma                     clean  OK      85.551s
+[ 3/93] kuma                     ebpf   OK      90.683s  (cmdrun 87.586967s, files 68355)
+
+=== 완료 (0h 3m 17s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 1) ---
+clean   89개  중앙값 62.167초
+ebpf    89개  중앙값 66.511초
+ptrace  43개  중앙값 904.085초
+=== 03_overhead.sh 시작 ===
+rep      : 1
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 1): clean ebpf 
+
+[91/93] Cortex                   clean  OK     194.248s
+[91/93] Cortex                   ebpf   OK     210.736s  (cmdrun 205.026772s, files 83884)
+
+=== 완료 (0h 7m 0s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 1) ---
+clean   90개  중앙값 63.447초
+ebpf    90개  중앙값 67.447초
+ptrace  43개  중앙값 904.085초
+=== 03_overhead.sh 시작 ===
+rep      : 1
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 1): clean ebpf 
+
+[92/93] cilium                   clean  OK     265.726s
+[92/93] cilium                   ebpf   OK     282.442s  (cmdrun 270.052342s, files 62575)
+
+=== 완료 (0h 9m 24s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 1) ---
+clean   91개  중앙값 63.447초
+ebpf    91개  중앙값 67.447초
+ptrace  43개  중앙값 904.085초
+=== 03_overhead.sh 시작 ===
+rep      : 1
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 1): clean ebpf 
+
+[93/93] cert-manager             clean  OK     318.082s
+[93/93] cert-manager             ebpf   OK     327.860s  (cmdrun 322.490261s, files 111963)
+
+=== 완료 (0h 11m 2s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 1) ---
+clean   92개  중앙값 64.859초
+ebpf    92개  중앙값 68.428초
+ptrace  43개  중앙값 904.085초
+=== 03_overhead.sh 시작 ===
+rep      : 1
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 1): clean ebpf 
+
+[90/93] Open Policy Containers   clean  OK      91.203s
+[90/93] Open Policy Containers   ebpf   OK      96.555s  (cmdrun 94.208647s, files 63592)
+
+=== 완료 (0h 3m 23s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 1) ---
+clean   93개  중앙값 64.859초
+ebpf    93개  중앙값 68.428초
+ptrace  43개  중앙값 904.085초
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[ 3/93] kuma                     ebpf   OK      91.104s  (cmdrun 88.037697s, files 68353)
+[ 3/93] kuma                     clean  OK      84.212s
+
+=== 완료 (0h 3m 6s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  89개  중앙값 60.625초
+ebpf   89개  중앙값 66.535초
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[91/93] Cortex                   ebpf   OK     208.566s  (cmdrun 204.202188s, files 83707)
+[91/93] Cortex                   clean  OK     192.459s
+
+=== 완료 (0h 6m 56s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  90개  중앙값 61.699초
+ebpf   90개  중앙값 67.618초
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[92/93] cilium                   ebpf   OK     277.492s  (cmdrun 268.281688s, files 61887)
+[92/93] cilium                   clean  OK     268.218s
+
+=== 완료 (0h 9m 21s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  91개  중앙값 61.699초
+ebpf   91개  중앙값 67.618초
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[93/93] cert-manager             ebpf   OK     327.190s  (cmdrun 321.792310s, files 111829)
+[93/93] cert-manager             clean  OK     316.273s
+
+=== 완료 (0h 10m 59s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  92개  중앙값 62.293초
+ebpf   92개  중앙값 69.22초
+=== 03_overhead.sh 시작 ===
+rep      : 2
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 2): ebpf clean 
+
+[90/93] Open Policy Containers   ebpf   OK      98.334s  (cmdrun 96.035510s, files 63660)
+[90/93] Open Policy Containers   clean  OK      90.530s
+
+=== 완료 (0h 3m 25s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 2) ---
+clean  93개  중앙값 62.293초
+ebpf   93개  중앙값 69.22초
+=== 03_overhead.sh 시작 ===
+rep      : 3
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 3): clean ebpf 
+
+[ 3/93] kuma                     clean  OK      84.925s
+[ 3/93] kuma                     ebpf   OK      90.311s  (cmdrun 87.522209s, files 68352)
+
+=== 완료 (0h 3m 7s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 3) ---
+clean  89개  중앙값 60.477초
+ebpf   89개  중앙값 66.601초
+=== 03_overhead.sh 시작 ===
+rep      : 3
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 3): clean ebpf 
+
+[91/93] Cortex                   clean  OK     193.406s
+[91/93] Cortex                   ebpf   OK     208.621s  (cmdrun 203.882907s, files 83993)
+
+=== 완료 (0h 6m 59s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 3) ---
+clean  90개  중앙값 60.567초
+ebpf   90개  중앙값 66.773초
+=== 03_overhead.sh 시작 ===
+rep      : 3
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 3): clean ebpf 
+
+[92/93] cilium                   clean  OK     266.788s
+[92/93] cilium                   ebpf   OK     278.008s  (cmdrun 268.608440s, files 62366)
+
+=== 완료 (0h 9m 21s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 3) ---
+clean  91개  중앙값 60.567초
+ebpf   91개  중앙값 66.773초
+=== 03_overhead.sh 시작 ===
+rep      : 3
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 3): clean ebpf 
+
+[93/93] cert-manager             clean  OK     318.344s
+[93/93] cert-manager             ebpf   OK     326.477s  (cmdrun 321.469069s, files 111857)
+
+=== 완료 (0h 11m 1s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 3) ---
+clean  92개  중앙값 63.276초
+ebpf   92개  중앙값 69.826초
+=== 03_overhead.sh 시작 ===
+rep      : 3
+arms     : clean,ebpf
+uid      : 0   HOME=/home/jake
+kernel   : 6.8.0-1066-gcp
+go       : go version go1.26.5 linux/amd64
+witness  : witness dev
+캐시     : 매 run 완전 삭제 (cold)
+timeout  : 없음
+
+실행 대상: 93개 프로젝트 x 2 arms
+arm 순서 (rep 3): clean ebpf 
+
+[90/93] Open Policy Containers   clean  OK      92.965s
+[90/93] Open Policy Containers   ebpf   OK      96.051s  (cmdrun 93.774079s, files 63583)
+
+=== 완료 (0h 3m 24s) ===
+실행 2 / 성공 2 / 실패 0 / 건너뜀 0
+결과: /home/jake/sbomit-overhead-experiment/results/overhead.jsonl
+
+--- arm 별 중앙값 (rep 3) ---
+clean  93개  중앙값 63.276초
+ebpf   93개  중앙값 69.826초

@@ -1,0 +1,14 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/dragonfly'...
+Submodule 'client' (https://github.com/dragonflyoss/client.git) registered for path 'client'
+Submodule 'deploy/helm-charts' (https://github.com/dragonflyoss/helm-charts.git) registered for path 'deploy/helm-charts'
+Submodule 'manager/console' (https://github.com/dragonflyoss/console.git) registered for path 'manager/console'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/dragonfly/client'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/dragonfly/deploy/helm-charts'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/dragonfly/manager/console'...
+From https://github.com/dragonflyoss/client
+ * branch            1bdea4a11b7825a3bd727595e540ba2e7cacb151 -> FETCH_HEAD
+Submodule path 'client': checked out '1bdea4a11b7825a3bd727595e540ba2e7cacb151'
+From https://github.com/dragonflyoss/helm-charts
+ * branch            1ff53d786182550db0319559451065e673129c4f -> FETCH_HEAD
+Submodule path 'deploy/helm-charts': checked out '1ff53d786182550db0319559451065e673129c4f'
+Submodule path 'manager/console': checked out '96ab0cd051bca494774c69e61c91fe972c0ba7e6'

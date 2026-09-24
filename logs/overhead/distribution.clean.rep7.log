@@ -1,0 +1,4 @@
++ bin/registry
++ bin/digest
++ bin/registry-api-descriptor-template
++ binaries

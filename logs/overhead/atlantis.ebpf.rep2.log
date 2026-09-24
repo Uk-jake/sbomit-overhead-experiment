@@ -1,0 +1,896 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (0.00014266s)"
+level=info msg="Finished git attestor... (0.043240287s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.305905626s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+go: downloading go1.26.6 (linux/amd64)
+go: downloading go.uber.org/mock v0.6.0
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/hashicorp/go-version v1.9.0
+go: downloading github.com/petergtz/pegomock/v4 v4.4.0
+go: downloading github.com/aws/aws-sdk-go-v2 v1.42.0
+go: downloading github.com/mitchellh/go-homedir v1.1.0
+go: downloading github.com/go-ozzo/ozzo-validation v3.6.0+incompatible
+go: downloading github.com/gorilla/websocket v1.5.3
+go: downloading github.com/bmatcuk/doublestar/v4 v4.10.0
+go: downloading github.com/go-playground/validator/v10 v10.30.3
+go: downloading github.com/drmaxgit/go-azuredevops v0.13.2
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/aws/aws-sdk-go-v2/config v1.32.11
+go: downloading github.com/moby/patternmatcher v0.6.1
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+go: downloading github.com/gorilla/mux v1.8.1
+go: downloading github.com/google/go-github/v88 v88.0.0
+go: downloading go.etcd.io/bbolt v1.4.3
+go: downloading github.com/redis/go-redis/v9 v9.17.3
+go: downloading github.com/aws/aws-sdk-go-v2/service/s3 v1.103.3
+go: downloading github.com/Masterminds/sprig/v3 v3.3.0
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading go.yaml.in/yaml/v4 v4.0.0-rc.6
+go: downloading github.com/uber-go/tally/v4 v4.1.17
+go: downloading github.com/microcosm-cc/bluemonday v1.0.27
+go: downloading github.com/cyphar/filepath-securejoin v0.6.1
+go: downloading github.com/spf13/viper v1.21.0
+go: downloading gitlab.com/gitlab-org/api/client-go v0.161.1
+go: downloading github.com/hashicorp/go-getter/v2 v2.2.3
+go: downloading github.com/urfave/negroni/v3 v3.1.1
+go: downloading github.com/hashicorp/hc-install v0.9.5
+go: downloading github.com/hashicorp/hcl/v2 v2.24.0
+go: downloading golang.org/x/text v0.41.0
+go: downloading code.gitea.io/sdk/gitea v0.23.2
+go: downloading github.com/hashicorp/terraform-config-inspect v0.0.0-20260709150029-2fb54c236733
+go: downloading github.com/jpillora/backoff v1.0.0
+go: downloading github.com/rivo/uniseg v0.4.7
+go: downloading github.com/slack-go/slack v0.23.1
+go: downloading github.com/hashicorp/golang-lru/v2 v2.0.7
+go: downloading github.com/bradleyfalzon/ghinstallation/v2 v2.17.0
+go: downloading github.com/zclconf/go-cty v1.16.3
+go: downloading go.uber.org/zap v1.27.1
+go: downloading github.com/opentofu/tofudl v0.0.1
+go: downloading github.com/cactus/go-statsd-client/v5 v5.0.0
+go: downloading github.com/hashicorp/hcl v1.0.0
+go: downloading github.com/gofri/go-github-ratelimit/v2 v2.0.2
+go: downloading github.com/agext/levenshtein v1.2.3
+go: downloading github.com/go-test/deep v1.1.1
+go: downloading github.com/cactus/go-statsd-client/v6 v6.0.0
+go: downloading github.com/remeh/sizedwaitgroup v1.0.0
+go: downloading github.com/shurcooL/githubv4 v0.0.0-20260209031235-2402fdf4a9ed
+go: downloading github.com/kr/pretty v0.3.1
+go: downloading github.com/briandowns/spinner v1.23.2
+go: downloading github.com/spf13/pflag v1.0.10
+go: downloading github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
+go: downloading golang.org/x/term v0.45.0
+go: downloading github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
+go: downloading dario.cat/mergo v1.0.1
+go: downloading github.com/Masterminds/goutils v1.1.1
+go: downloading github.com/Masterminds/semver/v3 v3.4.0
+go: downloading github.com/huandu/xstrings v1.5.0
+go: downloading github.com/mitchellh/copystructure v1.2.0
+go: downloading github.com/shopspring/decimal v1.4.0
+go: downloading github.com/spf13/cast v1.10.0
+go: downloading golang.org/x/crypto v0.55.0
+go: downloading github.com/google/go-querystring v1.2.0
+go: downloading github.com/aymerick/douceur v0.2.0
+go: downloading golang.org/x/net v0.58.0
+go: downloading golang.org/x/sys v0.47.0
+go: downloading github.com/fsnotify/fsnotify v1.9.0
+go: downloading github.com/go-viper/mapstructure/v2 v2.4.0
+go: downloading github.com/sagikazarmark/locafero v0.11.0
+go: downloading github.com/spf13/afero v1.15.0
+go: downloading github.com/gabriel-vasile/mimetype v1.4.13
+go: downloading github.com/go-playground/universal-translator v0.18.1
+go: downloading github.com/leodido/go-urn v1.4.0
+go: downloading github.com/onsi/gomega v1.38.2
+go: downloading github.com/golang/mock v1.6.0
+go: downloading go.uber.org/atomic v1.11.0
+go: downloading github.com/prometheus/client_golang v1.12.1
+go: downloading github.com/aws/smithy-go v1.27.1
+go: downloading github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
+go: downloading github.com/hashicorp/go-cleanhttp v0.5.2
+go: downloading github.com/hashicorp/go-multierror v1.1.1
+go: downloading github.com/hashicorp/go-safetemp v1.0.0
+go: downloading github.com/klauspost/compress v1.18.7
+go: downloading github.com/mitchellh/go-testing-interface v1.14.1
+go: downloading github.com/ulikunitz/xz v0.5.15
+go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.12
+go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.20
+go: downloading github.com/aws/aws-sdk-go-v2/internal/ini v1.8.6
+go: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.0.8
+go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.30.13
+go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.17
+go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.41.9
+go: downloading github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.13
+go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.29
+go: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.30
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.12
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.22
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.29
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.29
+go: downloading github.com/42wim/httpsig v1.2.3
+go: downloading github.com/go-fed/httpsig v1.1.0
+go: downloading github.com/golang-jwt/jwt/v4 v4.5.2
+go: downloading github.com/google/go-github/v75 v75.0.0
+go: downloading github.com/ProtonMail/gopenpgp/v2 v2.7.5
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/apparentlymart/go-textseg/v15 v15.0.0
+go: downloading github.com/mitchellh/go-wordwrap v1.0.1
+go: downloading github.com/kr/text v0.2.0
+go: downloading github.com/rogpeppe/go-internal v1.9.0
+go: downloading github.com/shurcooL/graphql v0.0.0-20220606043923-3cf50f8a0a29
+go: downloading github.com/mitchellh/reflectwalk v1.0.2
+go: downloading github.com/fatih/color v1.16.0
+go: downloading github.com/gorilla/css v1.0.1
+go: downloading github.com/sourcegraph/conc v0.3.1-0.20240121214520-5f936abd7ae8
+go: downloading github.com/subosito/gotenv v1.6.0
+go: downloading github.com/pelletier/go-toml/v2 v2.2.4
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/hashicorp/go-retryablehttp v0.7.8
+go: downloading golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
+go: downloading golang.org/x/oauth2 v0.30.0
+go: downloading golang.org/x/time v0.12.0
+go: downloading github.com/go-playground/locales v0.14.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f
+go: downloading github.com/twmb/murmur3 v1.1.8
+go: downloading github.com/prometheus/client_model v0.2.0
+go: downloading github.com/prometheus/common v0.34.0
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading github.com/prometheus/procfs v0.10.1
+go: downloading google.golang.org/protobuf v1.36.10
+go: downloading github.com/hashicorp/errwrap v1.1.0
+go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.29
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/mattn/go-colorable v0.1.13
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading github.com/ProtonMail/go-crypto v1.4.1
+go: downloading github.com/ProtonMail/go-mime v0.0.0-20230322103455-7d82a3887f2f
+go: downloading golang.org/x/mod v0.40.0
+go: downloading github.com/matttproud/golang_protobuf_extensions v1.0.4
+go: downloading github.com/cloudflare/circl v1.6.3
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o atlantis .
+internal/goarch
+internal/unsafeheader
+internal/coverage/rtcov
+internal/byteorder
+internal/profilerecord
+internal/godebugs
+internal/asan
+math/bits
+internal/runtime/pprof/label
+cmp
+internal/msan
+unicode/utf8
+internal/goexperiment
+internal/goos
+internal/trace/tracev2
+internal/cpu
+sync/atomic
+internal/abi
+internal/runtime/atomic
+internal/runtime/syscall/linux
+internal/runtime/gc
+internal/runtime/math
+internal/runtime/sys
+unicode
+container/list
+crypto/internal/fips140/alias
+crypto/internal/constanttime
+crypto/internal/fips140deps/byteorder
+crypto/internal/boring/sig
+unicode/utf16
+vendor/golang.org/x/crypto/cryptobyte/asn1
+internal/strconv
+vendor/golang.org/x/crypto/internal/alias
+internal/nettrace
+encoding
+github.com/go-playground/locales/currency
+github.com/leodido/go-urn/scim/schema
+log/internal
+golang.org/x/crypto/internal/alias
+golang.org/x/crypto/cryptobyte/asn1
+crypto/internal/fips140/subtle
+github.com/cyphar/filepath-securejoin/internal/consts
+github.com/agext/levenshtein
+github.com/google/go-cmp/cmp/internal/flags
+github.com/aws/aws-sdk-go-v2/internal/sdkio
+github.com/aws/smithy-go/container/private/cache
+github.com/aws/smithy-go/endpoints/private/bdd
+github.com/hashicorp/hc-install/internal/src
+github.com/hashicorp/hc-install/errors
+github.com/hashicorp/hc-install/internal/pubkey
+github.com/ProtonMail/go-crypto/internal/byteutil
+image/color
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/internal/utf8internal
+github.com/aws/smithy-go/container/private/cache/lru
+github.com/ProtonMail/gopenpgp/v2/constants
+github.com/opentofu/tofudl/branding
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/set
+github.com/slack-go/slack/internal/errorsx
+github.com/rivo/uniseg
+golang.org/x/exp/constraints
+golang.org/x/net/html/atom
+github.com/dgryski/go-rendezvous
+github.com/redis/go-redis/v9/auth
+github.com/klauspost/compress/internal/cpuinfo
+internal/bytealg
+internal/chacha8rand
+internal/runtime/exithook
+internal/runtime/gc/scan
+crypto/internal/fips140deps/cpu
+github.com/klauspost/compress/internal/le
+crypto/subtle
+math
+github.com/ulikunitz/xz/internal/hash
+github.com/pelletier/go-toml/v2/internal/characters
+github.com/spf13/viper/internal/features
+log/slog/internal
+internal/synctest
+internal/race
+internal/stringslite
+internal/runtime/cgroup
+internal/sync
+internal/runtime/maps
+runtime
+github.com/klauspost/compress
+iter
+weak
+internal/reflectlite
+runtime/metrics
+sync
+maps
+slices
+internal/bisect
+crypto/internal/fips140cache
+internal/testlog
+internal/singleflight
+go.uber.org/zap/internal/pool
+log/slog/internal/buffer
+github.com/aws/smithy-go/sync
+google.golang.org/protobuf/internal/pragma
+unique
+errors
+sort
+internal/oserror
+path
+io
+go.etcd.io/bbolt/errors
+strconv
+vendor/golang.org/x/net/dns/dnsmessage
+golang.org/x/crypto/cast5
+github.com/hashicorp/hcl/hcl/strconv
+math/rand/v2
+github.com/go-viper/mapstructure/v2/internal/errors
+syscall
+internal/godebug
+golang.org/x/crypto/blowfish
+reflect
+net/netip
+golang.org/x/text/internal/tag
+github.com/beorn7/perks/quantile
+hash
+crypto/internal/randutil
+internal/saferio
+bytes
+encoding/base64
+encoding/base32
+github.com/aws/smithy-go/transport/http/internal/io
+strings
+github.com/cloudflare/circl/internal/sha3
+crypto
+hash/adler32
+hash/crc32
+github.com/twmb/murmur3
+hash/maphash
+hash/crc64
+hash/fnv
+github.com/cloudflare/circl/sign
+golang.org/x/crypto/ripemd160
+crypto/internal/fips140deps/godebug
+math/rand
+github.com/gabriel-vasile/mimetype/internal/json
+github.com/mitchellh/go-wordwrap
+vendor/golang.org/x/text/transform
+github.com/aws/smithy-go/io
+golang.org/x/text/transform
+crypto/internal/fips140
+crypto/internal/impl
+encoding/pem
+bufio
+net/http/internal/ascii
+html
+github.com/aws/aws-sdk-go-v2/internal/strings
+github.com/aws/aws-sdk-go-v2/aws/arn
+regexp/syntax
+golang.org/x/mod/semver
+github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg
+github.com/shurcooL/graphql/ident
+github.com/slack-go/slack/slackutilsx
+golang.org/x/text/encoding
+golang.org/x/text/runes
+github.com/huandu/xstrings
+github.com/redis/go-redis/v9/internal/rand
+crypto/internal/fips140/sha256
+crypto/internal/fips140/sha3
+crypto/internal/fips140/sha512
+github.com/redis/go-redis/v9/internal/hashtag
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/encoding/traditionalchinese
+compress/bzip2
+github.com/apparentlymart/go-textseg/v15/textseg
+image
+crypto/internal/fips140/hmac
+crypto/sha3
+regexp
+crypto/internal/fips140/check
+internal/syscall/execenv
+time
+internal/syscall/unix
+crypto/internal/fips140hash
+crypto/fips140
+crypto/internal/fips140/edwards25519/field
+crypto/internal/fips140/nistec/fiat
+crypto/internal/fips140/aes
+crypto/internal/fips140/bigmod
+crypto/internal/fips140/hkdf
+crypto/internal/fips140/tls12
+crypto/tls/internal/fips140tls
+crypto/internal/fips140/pbkdf2
+image/internal/imageutil
+crypto/internal/fips140/tls13
+image/jpeg
+crypto/internal/fips140/edwards25519
+github.com/runatlantis/atlantis/server/core/terraform/ansi
+github.com/hashicorp/hc-install/internal/validators
+github.com/microcosm-cc/bluemonday/css
+internal/poll
+io/fs
+context
+github.com/go-playground/locales
+go.uber.org/zap/buffer
+crypto/internal/fips140deps/time
+github.com/uber-go/tally/v4/internal/identity
+github.com/hashicorp/golang-lru/v2/internal
+github.com/google/go-cmp/cmp/internal/diff
+github.com/aws/smithy-go/ptr
+github.com/aws/aws-sdk-go-v2/internal/timeconv
+github.com/slack-go/slack/internal/timex
+github.com/slack-go/slack/internal/backoff
+crypto/internal/entropy/v1.0.0
+github.com/jpillora/backoff
+github.com/hashicorp/golang-lru/v2/simplelru
+go.uber.org/zap/internal/bufferpool
+github.com/hashicorp/golang-lru/v2
+encoding/binary
+github.com/google/go-cmp/cmp/internal/function
+internal/fmtsort
+github.com/hashicorp/errwrap
+go.uber.org/zap/internal/stacktrace
+crypto/internal/fips140/nistec
+github.com/remeh/sizedwaitgroup
+github.com/aws/smithy-go/context
+github.com/aws/aws-sdk-go-v2/internal/sdk
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared/config
+github.com/spf13/afero/internal/common
+embed
+internal/filepathlite
+google.golang.org/protobuf/internal/editiondefaults
+os
+github.com/gabriel-vasile/mimetype/internal/scan
+vendor/golang.org/x/crypto/internal/poly1305
+github.com/cespare/xxhash/v2
+golang.org/x/crypto/internal/poly1305
+github.com/klauspost/compress/zstd/internal/xxhash
+github.com/klauspost/compress/internal/snapref
+golang.org/x/sys/unix
+github.com/gabriel-vasile/mimetype/internal/markup
+github.com/gabriel-vasile/mimetype/internal/csv
+github.com/gabriel-vasile/mimetype/internal/charset
+crypto/internal/sysrand
+google.golang.org/protobuf/internal/detrand
+golang.org/x/mod/internal/lazyregexp
+path/filepath
+fmt
+io/ioutil
+go.uber.org/zap/internal/exit
+vendor/golang.org/x/sys/cpu
+github.com/prometheus/procfs/internal/util
+os/signal
+golang.org/x/sys/cpu
+net
+crypto/internal/fips140/drbg
+crypto/internal/fips140/ecdh
+crypto/internal/fips140/ecdsa
+crypto/internal/fips140/ed25519
+crypto/internal/fips140only
+os/exec
+github.com/bmatcuk/doublestar/v4
+crypto/internal/fips140/rsa
+crypto/internal/fips140/aes/gcm
+github.com/cyphar/filepath-securejoin
+crypto/internal/fips140/mlkem
+github.com/runatlantis/atlantis/server/utils
+golang.org/x/crypto/sha3
+golang.org/x/crypto/blake2b
+crypto/hkdf
+crypto/md5
+crypto/rc4
+crypto/pbkdf2
+golang.org/x/crypto/blake2s
+github.com/hashicorp/go-safetemp
+github.com/spf13/afero/mem
+golang.org/x/crypto/pbkdf2
+crypto/mlkem
+github.com/mitchellh/go-homedir
+github.com/runatlantis/atlantis/server/core/runtime/common
+text/scanner
+flag
+net/url
+log
+debug/dwarf
+golang.org/x/text/internal/language
+math/big
+compress/flate
+encoding/json
+encoding/hex
+mime
+vendor/golang.org/x/text/unicode/norm
+crypto/cipher
+vendor/golang.org/x/net/http2/hpack
+github.com/moby/patternmatcher
+mime/quotedprintable
+vendor/golang.org/x/text/unicode/bidi
+net/http/internal
+database/sql/driver
+dario.cat/mergo
+github.com/mitchellh/reflectwalk
+crypto/internal/boring
+crypto/des
+crypto/aes
+crypto/internal/rand
+crypto/sha512
+crypto/hmac
+crypto/sha256
+vendor/golang.org/x/crypto/chacha20
+crypto/sha1
+crypto/ecdh
+compress/zlib
+compress/gzip
+golang.org/x/text/internal/language/compact
+github.com/hashicorp/go-version
+vendor/golang.org/x/crypto/chacha20poly1305
+github.com/mitchellh/copystructure
+github.com/spf13/cast/internal
+text/template/parse
+vendor/golang.org/x/text/secure/bidirule
+golang.org/x/crypto/scrypt
+go.uber.org/multierr
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/ztest
+golang.org/x/text/language
+encoding/gob
+golang.org/x/text/unicode/norm
+golang.org/x/crypto/chacha20
+golang.org/x/crypto/curve25519
+golang.org/x/crypto/ssh/internal/bcrypt_pbkdf
+github.com/google/go-querystring/query
+github.com/google/shlex
+github.com/zclconf/go-cty/cty/set
+runtime/debug
+github.com/google/go-cmp/cmp/internal/value
+debug/macho
+encoding/csv
+github.com/hashicorp/hcl/hcl/token
+go.yaml.in/yaml/v4/internal/libyaml
+vendor/golang.org/x/net/idna
+crypto/hpke
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/json/token
+golang.org/x/text/internal
+github.com/google/go-cmp/cmp
+github.com/hashicorp/hcl/json/scanner
+github.com/aws/aws-sdk-go-v2/internal/sync/singleflight
+github.com/go-playground/universal-translator
+github.com/leodido/go-urn
+github.com/Masterminds/semver/v3
+go.uber.org/zap/zapcore
+go.uber.org/atomic
+crypto/elliptic
+crypto/internal/boring/bbig
+encoding/asn1
+crypto/rand
+crypto/dsa
+github.com/gabriel-vasile/mimetype/internal/magic
+crypto/ed25519
+crypto/rsa
+github.com/Masterminds/goutils
+github.com/shopspring/decimal
+text/template
+golang.org/x/crypto/bcrypt
+golang.org/x/text/cases
+github.com/zclconf/go-cty/cty/ctystrings
+github.com/hashicorp/hcl/hcl/parser
+github.com/zclconf/go-cty/cty
+github.com/hashicorp/hcl/json/parser
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
+golang.org/x/crypto/ed25519
+github.com/google/uuid
+vendor/golang.org/x/crypto/cryptobyte
+crypto/x509/pkix
+golang.org/x/crypto/cryptobyte
+github.com/golang/mock/mockgen/model
+github.com/hashicorp/hcl
+go.uber.org/zap/internal
+github.com/gabriel-vasile/mimetype
+github.com/go-ozzo/ozzo-validation
+github.com/aws/aws-sdk-go-v2/internal/rand
+net/mail
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
+github.com/aws/smithy-go/internal/sync/singleflight
+github.com/aws/smithy-go/logging
+github.com/uber-go/tally/v4
+github.com/aws/smithy-go/document
+github.com/aws/smithy-go/time
+github.com/aws/smithy-go/rand
+crypto/ecdsa
+github.com/aws/smithy-go/middleware
+github.com/aws/aws-sdk-go-v2/aws/ratelimit
+github.com/aws/aws-sdk-go-v2/feature/ec2/imds/internal/config
+github.com/aws/smithy-go
+os/user
+github.com/aws/smithy-go/encoding
+encoding/xml
+github.com/aws/aws-sdk-go-v2/internal/ini
+github.com/aws/smithy-go/encoding/json
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared/arn
+github.com/hashicorp/go-multierror
+github.com/aws/aws-sdk-go-v2/internal/shareddefaults
+github.com/hashicorp/hc-install/src
+github.com/hashicorp/hc-install
+archive/zip
+golang.org/x/mod/module
+github.com/aws/aws-sdk-go-v2/service/s3/internal/arn
+github.com/ProtonMail/go-crypto/openpgp/errors
+html/template
+github.com/aws/smithy-go/auth
+github.com/aws/smithy-go/traits
+github.com/aws/smithy-go/metrics
+github.com/aws/smithy-go/tracing
+github.com/aws/aws-sdk-go-v2/internal/context
+github.com/aws/aws-sdk-go-v2/aws/protocol/restjson
+github.com/go-playground/validator/v10
+github.com/aws/aws-sdk-go-v2/internal/middleware
+github.com/aws/aws-sdk-go-v2/service/signin/types
+github.com/aws/aws-sdk-go-v2/service/sso/types
+github.com/aws/aws-sdk-go-v2/service/ssooidc/types
+github.com/aws/smithy-go/eventstream
+github.com/aws/aws-sdk-go-v2/service/sts/types
+github.com/aws/aws-sdk-go-v2/service/s3/types
+github.com/aws/smithy-go/waiter
+github.com/ProtonMail/go-crypto/openpgp/armor
+github.com/ProtonMail/go-crypto/openpgp/aes/keywrap
+go.yaml.in/yaml/v4/plugin/limit
+github.com/ProtonMail/go-crypto/eax
+github.com/ProtonMail/go-crypto/ocb
+golang.org/x/mod/modfile
+github.com/ProtonMail/go-crypto/bitcurves
+github.com/ProtonMail/go-crypto/brainpool
+go.yaml.in/yaml/v4
+github.com/ProtonMail/go-crypto/openpgp/internal/encoding
+github.com/cloudflare/circl/internal/conv
+github.com/cloudflare/circl/math
+github.com/ProtonMail/go-crypto/openpgp/elgamal
+golang.org/x/crypto/argon2
+golang.org/x/crypto/hkdf
+github.com/ProtonMail/go-crypto/openpgp/internal/algorithm
+github.com/hashicorp/hc-install/version
+github.com/aws/aws-sdk-go-v2/internal/v4a/internal/crypto
+crypto/x509
+github.com/cloudflare/circl/math/fp25519
+github.com/cloudflare/circl/math/fp448
+github.com/cloudflare/circl/math/mlsbset
+archive/tar
+golang.org/x/text/encoding/htmlindex
+github.com/pkg/errors
+github.com/cactus/go-statsd-client/v5/statsd
+github.com/cactus/go-statsd-client/v6/statsd
+google.golang.org/protobuf/internal/errors
+github.com/zclconf/go-cty/cty/convert
+github.com/zclconf/go-cty/cty/function
+github.com/cloudflare/circl/dh/x25519
+github.com/cloudflare/circl/sign/ed25519
+github.com/spf13/cast
+github.com/ProtonMail/go-crypto/openpgp/s2k
+github.com/ProtonMail/gopenpgp/v2/internal
+google.golang.org/protobuf/encoding/protowire
+github.com/aws/aws-sdk-go-v2/aws/protocol/xml
+github.com/aws/smithy-go/encoding/xml
+go/token
+github.com/cloudflare/circl/dh/x448
+github.com/cloudflare/circl/ecc/goldilocks
+github.com/ProtonMail/gopenpgp/v2/armor
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/internal/version
+github.com/prometheus/common/model
+github.com/prometheus/procfs/internal/fs
+github.com/ProtonMail/go-crypto/openpgp/ed25519
+github.com/uber-go/tally/v4/statsd
+github.com/hashicorp/hc-install/internal/build
+github.com/prometheus/procfs
+github.com/shurcooL/graphql/internal/jsonutil
+github.com/ProtonMail/go-crypto/openpgp/x25519
+github.com/runatlantis/atlantis/server/i18n
+github.com/runatlantis/atlantis/server/recovery
+github.com/spf13/pflag
+golang.org/x/time/rate
+github.com/aymerick/douceur/css
+github.com/hashicorp/hc-install/product
+github.com/hashicorp/hcl/v2
+github.com/zclconf/go-cty/cty/gocty
+github.com/zclconf/go-cty/cty/json
+github.com/cloudflare/circl/sign/ed448
+github.com/gorilla/css/scanner
+golang.org/x/net/html
+go.etcd.io/bbolt/internal/common
+github.com/aymerick/douceur/parser
+github.com/redis/go-redis/v9/internal/util
+github.com/redis/go-redis/v9/internal/interfaces
+github.com/ProtonMail/go-crypto/openpgp/ed448
+github.com/bgentry/go-netrc/netrc
+github.com/redis/go-redis/v9/internal
+github.com/redis/go-redis/v9/internal/proto
+github.com/redis/go-redis/v9/internal/hscan
+github.com/ProtonMail/go-crypto/openpgp/internal/ecc
+github.com/ProtonMail/go-crypto/openpgp/x448
+go.etcd.io/bbolt/internal/freelist
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/internal/descfmt
+github.com/zclconf/go-cty/cty/function/stdlib
+google.golang.org/protobuf/internal/descopts
+github.com/hashicorp/hcl/v2/ext/customdecode
+google.golang.org/protobuf/internal/protolazy
+crypto/tls
+github.com/Masterminds/sprig/v3
+golang.org/x/crypto/ssh
+github.com/asaskevich/govalidator
+google.golang.org/protobuf/internal/encoding/text
+github.com/ProtonMail/go-crypto/openpgp/ecdh
+github.com/ProtonMail/go-crypto/openpgp/ecdsa
+github.com/ProtonMail/go-crypto/openpgp/eddsa
+google.golang.org/protobuf/reflect/protoregistry
+github.com/golang-jwt/jwt/v4
+go.etcd.io/bbolt
+github.com/redis/go-redis/v9/internal/maintnotifications/logs
+github.com/redis/go-redis/v9/push
+github.com/hashicorp/go-getter/v2/helper/url
+github.com/ProtonMail/go-crypto/openpgp/packet
+github.com/klauspost/compress/fse
+google.golang.org/protobuf/internal/encoding/defval
+github.com/redis/go-redis/v9/internal/pool
+github.com/mitchellh/go-testing-interface
+google.golang.org/protobuf/proto
+github.com/ulikunitz/xz/internal/xlog
+internal/profile
+github.com/klauspost/compress/huff0
+text/tabwriter
+github.com/ulikunitz/xz/lzma
+github.com/go-ozzo/ozzo-validation/is
+runtime/pprof
+github.com/microcosm-cc/bluemonday
+runtime/trace
+github.com/mattn/go-isatty
+golang.org/x/term
+github.com/mattn/go-colorable
+github.com/fatih/color
+github.com/mitchellh/colorstring
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/internal/filedesc
+github.com/spf13/cobra
+github.com/klauspost/compress/zstd
+github.com/fsnotify/fsnotify/internal
+github.com/go-viper/mapstructure/v2
+github.com/sourcegraph/conc/panics
+github.com/sourcegraph/conc
+github.com/briandowns/spinner
+github.com/subosito/gotenv
+github.com/sourcegraph/conc/pool
+github.com/ulikunitz/xz
+github.com/spf13/viper/internal/encoding/json
+github.com/redis/go-redis/v9/internal/auth/streaming
+github.com/redis/go-redis/v9/maintnotifications
+github.com/fsnotify/fsnotify
+github.com/pelletier/go-toml/v2/internal/danger
+github.com/spf13/viper/internal/encoding/dotenv
+github.com/hashicorp/hcl/v2/hclsyntax
+github.com/ProtonMail/go-crypto/openpgp
+go.yaml.in/yaml/v3
+log/slog
+github.com/pelletier/go-toml/v2/unstable
+github.com/pelletier/go-toml/v2/internal/tracker
+github.com/pelletier/go-toml/v2
+github.com/ProtonMail/go-crypto/openpgp/clearsign
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/impl
+golang.org/x/crypto/ssh/agent
+github.com/spf13/viper/internal/encoding/yaml
+github.com/spf13/viper/internal/encoding/toml
+net/http/httptrace
+github.com/redis/go-redis/v9
+net/http/internal/httpcommon
+github.com/hashicorp/hcl/v2/hclwrite
+github.com/hashicorp/hcl/v2/json
+net/http
+github.com/hashicorp/hcl/v2/hclparse
+github.com/hashicorp/hcl/v2/gohcl
+github.com/hashicorp/terraform-config-inspect/tfconfig
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/descriptorpb
+github.com/golang/protobuf/ptypes/timestamp
+google.golang.org/protobuf/internal/editionssupport
+google.golang.org/protobuf/types/gofeaturespb
+google.golang.org/protobuf/reflect/protodesc
+github.com/golang/protobuf/proto
+github.com/aws/smithy-go/endpoints
+github.com/42wim/httpsig
+github.com/ProtonMail/go-mime
+github.com/aws/smithy-go/encoding/httpbinding
+github.com/gorilla/mux
+go.uber.org/zap
+github.com/go-fed/httpsig
+expvar
+github.com/aws/aws-sdk-go-v2/internal/v4a/internal/v4
+github.com/gorilla/websocket
+github.com/drmaxgit/go-azuredevops/azuredevops
+net/http/httputil
+github.com/hashicorp/go-cleanhttp
+github.com/google/go-github/v88/github
+github.com/google/go-github/v75/github
+github.com/hashicorp/go-retryablehttp
+github.com/gofri/go-github-ratelimit/v2/github_ratelimit/github_secondary_ratelimit
+github.com/gofri/go-github-ratelimit/v2/github_ratelimit/github_primary_ratelimit
+github.com/ProtonMail/gopenpgp/v2/crypto
+golang.org/x/net/context/ctxhttp
+golang.org/x/oauth2/internal
+code.gitea.io/sdk/gitea
+github.com/hashicorp/go-getter/v2
+github.com/gofri/go-github-ratelimit/v2/github_ratelimit
+github.com/urfave/negroni/v3
+github.com/shurcooL/graphql
+github.com/aws/smithy-go/transport/http
+golang.org/x/oauth2
+net/http/pprof
+github.com/hashicorp/hc-install/internal/httpclient
+github.com/shurcooL/githubv4
+github.com/hashicorp/hc-install/internal/releasesjson
+github.com/slack-go/slack
+gitlab.com/gitlab-org/api/client-go
+github.com/spf13/afero
+github.com/prometheus/client_model/go
+go.uber.org/zap/zaptest
+github.com/matttproud/golang_protobuf_extensions/pbutil
+github.com/hashicorp/hc-install/releases
+github.com/opentofu/tofudl
+github.com/runatlantis/atlantis/server/logging
+github.com/aws/smithy-go/auth/bearer
+github.com/aws/aws-sdk-go-v2/internal/endpoints/awsrulesfn
+github.com/aws/aws-sdk-go-v2/internal/auth
+github.com/aws/smithy-go/endpoints/private/rulesfn
+github.com/aws/aws-sdk-go-v2/aws/protocol/query
+github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding
+github.com/runatlantis/atlantis/server/core/config/valid
+github.com/runatlantis/atlantis/server/events/models
+github.com/runatlantis/atlantis/server/controllers/websocket
+github.com/aws/aws-sdk-go-v2/aws
+github.com/aws/smithy-go/private/requestcompression
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream/eventstreamapi
+github.com/prometheus/client_golang/prometheus/internal
+github.com/runatlantis/atlantis/server/scheduled
+github.com/prometheus/common/expfmt
+github.com/runatlantis/atlantis/server/core/config/raw
+github.com/runatlantis/atlantis/server/core/drift
+github.com/runatlantis/atlantis/server/events/command
+github.com/runatlantis/atlantis/server/events/vcs/bitbucketcloud
+github.com/runatlantis/atlantis/server/events/vcs
+github.com/runatlantis/atlantis/server/core/terraform
+github.com/aws/aws-sdk-go-v2/credentials
+github.com/aws/aws-sdk-go-v2/aws/defaults
+github.com/aws/aws-sdk-go-v2/aws/middleware
+github.com/aws/aws-sdk-go-v2/aws/signer/internal/v4
+github.com/runatlantis/atlantis/server/jobs
+github.com/runatlantis/atlantis/server/core/db
+github.com/aws/aws-sdk-go-v2/internal/configsources
+github.com/aws/aws-sdk-go-v2/internal/endpoints
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2
+github.com/runatlantis/atlantis/server/core/config
+github.com/runatlantis/atlantis/server/core/locking
+github.com/aws/aws-sdk-go-v2/credentials/processcreds
+github.com/sagikazarmark/locafero
+github.com/aws/aws-sdk-go-v2/service/signin/internal/endpoints
+github.com/aws/aws-sdk-go-v2/service/sso/internal/endpoints
+github.com/aws/aws-sdk-go-v2/service/ssooidc/internal/endpoints
+github.com/aws/aws-sdk-go-v2/aws/transport/http
+github.com/aws/aws-sdk-go-v2/aws/retry
+github.com/aws/aws-sdk-go-v2/aws/signer/v4
+github.com/aws/aws-sdk-go-v2/service/sts/internal/endpoints
+github.com/prometheus/client_golang/prometheus
+github.com/aws/aws-sdk-go-v2/service/s3/internal/endpoints
+github.com/runatlantis/atlantis/server/core/boltdb
+github.com/runatlantis/atlantis/server/core/runtime/models
+github.com/runatlantis/atlantis/server/controllers/web_templates
+github.com/spf13/viper
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared
+github.com/runatlantis/atlantis/server/core/runtime/cache
+github.com/runatlantis/atlantis/server/core/terraform/tfclient
+github.com/aws/aws-sdk-go-v2/internal/auth/smithy
+github.com/aws/aws-sdk-go-v2/service/internal/presigned-url
+github.com/aws/aws-sdk-go-v2/internal/v4a
+github.com/runatlantis/atlantis/server/events/vcs/gitea
+github.com/aws/aws-sdk-go-v2/feature/ec2/imds
+github.com/aws/aws-sdk-go-v2/credentials/endpointcreds/internal/client
+github.com/runatlantis/atlantis/server/core/runtime/policy
+github.com/aws/aws-sdk-go-v2/service/internal/checksum
+github.com/aws/aws-sdk-go-v2/service/signin
+github.com/aws/aws-sdk-go-v2/service/sso
+github.com/aws/aws-sdk-go-v2/service/ssooidc
+github.com/aws/aws-sdk-go-v2/credentials/endpointcreds
+github.com/aws/aws-sdk-go-v2/service/sts
+github.com/aws/aws-sdk-go-v2/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go-v2/service/s3/internal/customizations
+github.com/prometheus/client_golang/prometheus/promhttp
+github.com/aws/aws-sdk-go-v2/service/s3
+github.com/aws/aws-sdk-go-v2/credentials/logincreds
+github.com/uber-go/tally/v4/prometheus
+github.com/aws/aws-sdk-go-v2/credentials/ssocreds
+github.com/runatlantis/atlantis/server/metrics
+github.com/runatlantis/atlantis/server/events/webhooks
+github.com/runatlantis/atlantis/server/events/vcs/common
+github.com/runatlantis/atlantis/server/events/vcs/bitbucketserver
+github.com/runatlantis/atlantis/server/events/vcs/azuredevops
+github.com/aws/aws-sdk-go-v2/credentials/stscreds
+github.com/aws/aws-sdk-go-v2/config
+github.com/bradleyfalzon/ghinstallation/v2
+github.com/runatlantis/atlantis/server/events/vcs/gitlab
+github.com/runatlantis/atlantis/testdrive
+github.com/runatlantis/atlantis/server/events/vcs/github
+github.com/runatlantis/atlantis/server/core/redis
+github.com/runatlantis/atlantis/server/core/planstore
+github.com/runatlantis/atlantis/server/core/runtime
+github.com/runatlantis/atlantis/server/events
+github.com/runatlantis/atlantis/server/controllers/events
+github.com/runatlantis/atlantis/server/controllers
+github.com/runatlantis/atlantis/server
+github.com/runatlantis/atlantis/cmd
+github.com/runatlantis/atlantis
+level=info msg="Finished command-run attestor... (31.44030449s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.154108008s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

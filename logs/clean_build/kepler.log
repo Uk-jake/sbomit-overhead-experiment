@@ -1,0 +1,172 @@
+go: downloading github.com/oklog/run v1.2.0
+go: downloading github.com/prometheus/procfs v0.19.2
+go: downloading github.com/stmcginnis/gofish v0.22.0
+go: downloading github.com/NVIDIA/go-nvml v0.13.1-0
+go: downloading github.com/prometheus/exporter-toolkit v0.15.1
+go: downloading golang.org/x/sync v0.19.0
+go: downloading k8s.io/api v0.31.14
+go: downloading k8s.io/apimachinery v0.31.14
+go: downloading k8s.io/client-go v0.31.14
+go: downloading go.uber.org/zap v1.28.0
+go: downloading sigs.k8s.io/controller-runtime v0.19.0
+go: downloading golang.org/x/sys v0.41.0
+go: downloading github.com/prometheus/common v0.67.4
+go: downloading github.com/coreos/go-systemd/v22 v22.6.0
+go: downloading github.com/mdlayher/vsock v1.2.1
+go: downloading golang.org/x/crypto v0.48.0
+go: downloading golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc
+go: downloading github.com/stretchr/objx v0.5.2
+go: downloading github.com/mdlayher/socket v0.4.1
+go: downloading github.com/golang-jwt/jwt/v5 v5.3.0
+go: downloading golang.org/x/net v0.50.0
+go: downloading golang.org/x/oauth2 v0.32.0
+go: downloading k8s.io/apiextensions-apiserver v0.31.0
+go: downloading github.com/imdario/mergo v0.3.6
+go: downloading golang.org/x/term v0.40.0
+go: downloading github.com/fxamacker/cbor/v2 v2.7.0
+go: downloading golang.org/x/text v0.34.0
+mkdir -p bin
+GOOS=linux GOARCH=amd64 CGO_ENABLED=1 CC=cc \
+	go build  \
+	-ldflags " -X github.com/sustainable-computing-io/kepler/internal/version.version=b0bf879 -X github.com/sustainable-computing-io/kepler/internal/version.buildTime=2026-09-03T19:21:16Z -X github.com/sustainable-computing-io/kepler/internal/version.gitBranch=main -X github.com/sustainable-computing-io/kepler/internal/version.gitCommit=b0bf879" \
+	-o bin/kepler \
+	./cmd/kepler
+# github.com/NVIDIA/go-nvml/pkg/nvml
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceFreezeNvLinkUtilizationCounter’:
+cgo-gcc-prolog:263:2: warning: ‘nvmlDeviceFreezeNvLinkUtilizationCounter’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9430:39: note: declared here
+ 9430 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceFreezeNvLinkUtilizationCounter (nvmlDevice_t device, unsigned int link,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetApplicationsClock’:
+cgo-gcc-prolog:451:2: warning: ‘nvmlDeviceGetApplicationsClock’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5442:39: note: declared here
+ 5442 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetApplicationsClock(nvmlDevice_t device, nvmlClockType_t clockType, unsigned int *clockMHz);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetCurrentClocksThrottleReasons’:
+cgo-gcc-prolog:1207:2: warning: ‘nvmlDeviceGetCurrentClocksThrottleReasons’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5896:39: note: declared here
+ 5896 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetCurrentClocksThrottleReasons(nvmlDevice_t device, unsigned long long *clocksThrottleReasons);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetDefaultApplicationsClock’:
+cgo-gcc-prolog:1250:2: warning: ‘nvmlDeviceGetDefaultApplicationsClock’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5447:39: note: declared here
+ 5447 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetDefaultApplicationsClock(nvmlDevice_t device, nvmlClockType_t clockType, unsigned int *clockMHz);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetDetailedEccErrors’:
+cgo-gcc-prolog:1292:2: warning: ‘nvmlDeviceGetDetailedEccErrors’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:6792:39: note: declared here
+ 6792 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetDetailedEccErrors(nvmlDevice_t device, nvmlMemoryErrorType_t errorType, nvmlEccCounterType_t counterType, nvmlEccErrorCounts_t *eccCounts);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetGpuFabricInfo’:
+cgo-gcc-prolog:1770:2: warning: ‘nvmlDeviceGetGpuFabricInfo’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:7597:39: note: declared here
+ 7597 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetGpuFabricInfo(nvmlDevice_t device, nvmlGpuFabricInfo_t *gpuFabricInfo);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetHandleBySerial’:
+cgo-gcc-prolog:2316:2: warning: ‘nvmlDeviceGetHandleBySerial’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:4462:39: note: declared here
+ 4462 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetHandleBySerial(const char *serial, nvmlDevice_t *device);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetNvLinkUtilizationControl’:
+cgo-gcc-prolog:3283:2: warning: ‘nvmlDeviceGetNvLinkUtilizationControl’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9380:39: note: declared here
+ 9380 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetNvLinkUtilizationControl(nvmlDevice_t device, unsigned int link, unsigned int counter,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetNvLinkUtilizationCounter’:
+cgo-gcc-prolog:3306:2: warning: ‘nvmlDeviceGetNvLinkUtilizationCounter’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9406:39: note: declared here
+ 9406 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetNvLinkUtilizationCounter(nvmlDevice_t device, unsigned int link, unsigned int counter,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetPowerManagementMode’:
+cgo-gcc-prolog:3776:2: warning: ‘nvmlDeviceGetPowerManagementMode’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:6237:39: note: declared here
+ 6237 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetPowerManagementMode(nvmlDevice_t device, nvmlEnableState_t *mode);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetPowerState’:
+cgo-gcc-prolog:3836:2: warning: ‘nvmlDeviceGetPowerState’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5947:39: note: declared here
+ 5947 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetPowerState(nvmlDevice_t device, nvmlPstates_t *pState);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetSupportedClocksThrottleReasons’:
+cgo-gcc-prolog:4175:2: warning: ‘nvmlDeviceGetSupportedClocksThrottleReasons’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5925:39: note: declared here
+ 5925 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetSupportedClocksThrottleReasons(nvmlDevice_t device, unsigned long long *supportedClocksThrottleReasons);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetTemperature’:
+cgo-gcc-prolog:4326:2: warning: ‘nvmlDeviceGetTemperature’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:5728:39: note: declared here
+ 5728 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetTemperature(nvmlDevice_t device, nvmlTemperatureSensors_t sensorType, unsigned int *temp);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceGetViolationStatus’:
+cgo-gcc-prolog:4834:2: warning: ‘nvmlDeviceGetViolationStatus’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:7443:39: note: declared here
+ 7443 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceGetViolationStatus(nvmlDevice_t device, nvmlPerfPolicyType_t perfPolicyType, nvmlViolationTime_t *violTime);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceResetApplicationsClocks’:
+cgo-gcc-prolog:5116:2: warning: ‘nvmlDeviceResetApplicationsClocks’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:8762:39: note: declared here
+ 8762 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceResetApplicationsClocks(nvmlDevice_t device);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceResetNvLinkUtilizationCounter’:
+cgo-gcc-prolog:5196:2: warning: ‘nvmlDeviceResetNvLinkUtilizationCounter’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9452:39: note: declared here
+ 9452 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceResetNvLinkUtilizationCounter (nvmlDevice_t device, unsigned int link, unsigned int counter);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceSetApplicationsClocks’:
+cgo-gcc-prolog:5259:2: warning: ‘nvmlDeviceSetApplicationsClocks’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:8754:39: note: declared here
+ 8754 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceSetApplicationsClocks(nvmlDevice_t device, unsigned int memClockMHz, unsigned int graphicsClockMHz);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceSetGpcClkVfOffset’:
+cgo-gcc-prolog:5527:2: warning: ‘nvmlDeviceSetGpcClkVfOffset’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9012:39: note: declared here
+ 9012 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceSetGpcClkVfOffset(nvmlDevice_t device, int offset);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceSetMemClkVfOffset’:
+cgo-gcc-prolog:5610:2: warning: ‘nvmlDeviceSetMemClkVfOffset’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9030:39: note: declared here
+ 9030 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceSetMemClkVfOffset(nvmlDevice_t device, int offset);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceSetNvLinkUtilizationControl’:
+cgo-gcc-prolog:5697:2: warning: ‘nvmlDeviceSetNvLinkUtilizationControl’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:9357:39: note: declared here
+ 9357 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlDeviceSetNvLinkUtilizationControl(nvmlDevice_t device, unsigned int link, unsigned int counter,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceWorkloadPowerProfileClearRequestedProfiles’:
+cgo-gcc-prolog:5962:2: warning: ‘nvmlDeviceWorkloadPowerProfileClearRequestedProfiles’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:13707:39: note: declared here
+13707 | DEPRECATED(13.1) nvmlReturn_t DECLDIR nvmlDeviceWorkloadPowerProfileClearRequestedProfiles(nvmlDevice_t device,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlDeviceWorkloadPowerProfileSetRequestedProfiles’:
+cgo-gcc-prolog:6022:2: warning: ‘nvmlDeviceWorkloadPowerProfileSetRequestedProfiles’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:13681:39: note: declared here
+13681 | DEPRECATED(13.1) nvmlReturn_t DECLDIR nvmlDeviceWorkloadPowerProfileSetRequestedProfiles(nvmlDevice_t device,
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cgo-gcc-prolog: In function ‘_cgo_25ea28a382f3_Cfunc_nvmlVgpuInstanceGetLicenseStatus’:
+cgo-gcc-prolog:7837:2: warning: ‘nvmlVgpuInstanceGetLicenseStatus’ is deprecated [-Wdeprecated-declarations]
+In file included from ../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.go:24:
+../../work/modcache/github.com/!n!v!i!d!i!a/go-nvml@v0.13.1-0/pkg/nvml/nvml.h:10715:39: note: declared here
+10715 | DEPRECATED(13.0) nvmlReturn_t DECLDIR nvmlVgpuInstanceGetLicenseStatus(nvmlVgpuInstance_t vgpuInstance, unsigned int *licensed);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,107 @@
+mkdir -p bin
+find /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin -name 'controller-gen_*' -exec rm {} +
+GOBIN=/home/jake/sbomit-overhead-experiment/repos/logging-operator/bin go install sigs.k8s.io/controller-tools/cmd/controller-gen@v0.21.0
+go: downloading sigs.k8s.io/controller-tools v0.21.0
+go: downloading k8s.io/apimachinery v0.36.0
+go: downloading golang.org/x/tools v0.44.0
+go: downloading k8s.io/apiextensions-apiserver v0.36.0
+go: downloading k8s.io/api v0.36.0
+go: downloading k8s.io/code-generator v0.36.0
+go: downloading k8s.io/gengo/v2 v2.0.0-20250922181213-ec3ebc5fd46b
+go: downloading k8s.io/kube-openapi v0.0.0-20260427204847-8949caaa1199
+go: downloading golang.org/x/sys v0.43.0
+go: downloading golang.org/x/net v0.53.0
+go: downloading golang.org/x/text v0.36.0
+go: downloading golang.org/x/mod v0.35.0
+mv /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen_0.21.0_go1.26.5
+ln -sf controller-gen_0.21.0_go1.26.5 /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen
+find . -iname "go.mod" -not -path "./.devcontainer/*" | xargs -L1 sh -c 'cd $(dirname $0); go mod tidy'
+go: downloading github.com/kube-logging/logging-operator v0.0.0-20260525191431-270b64e8120f
+go: downloading k8s.io/api v0.36.3
+go: downloading github.com/cisco-open/operator-tools v0.38.0
+go: downloading k8s.io/apiextensions-apiserver v0.36.3
+go: downloading sigs.k8s.io/e2e-framework v0.7.0
+go: downloading emperror.dev/errors v0.8.1
+go: downloading github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.93.1
+go: downloading k8s.io/client-go v0.36.3
+go: downloading github.com/onsi/ginkgo/v2 v2.29.0
+go: downloading github.com/onsi/ginkgo v1.16.5
+go: downloading github.com/frankban/quicktest v1.14.6
+go: downloading github.com/vladimirvivien/gexe v0.5.0
+go: downloading github.com/iancoleman/orderedmap v0.3.0
+go: downloading github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883
+go: downloading github.com/cisco-open/k8s-objectmatcher v1.10.0
+go: downloading golang.org/x/exp v0.0.0-20260611194520-c48552f49976
+go: downloading github.com/pborman/uuid v1.2.1
+go: downloading github.com/AdaLogics/go-fuzz-headers v0.0.0-20240806141605-e8a1dd7889d6
+go: downloading github.com/DATA-DOG/go-sqlmock v1.5.2
+go: downloading github.com/distribution/distribution/v3 v3.0.0
+go: downloading github.com/phayes/freeport v0.0.0-20220201140144-74d24b5ae9f5
+go: downloading github.com/cppforlife/go-patch v0.2.0
+go: downloading github.com/dlclark/regexp2 v1.11.0
+go: downloading k8s.io/apiserver v0.36.3
+go: downloading k8s.io/component-base v0.36.3
+go: downloading github.com/mattn/go-runewidth v0.0.23
+go: downloading github.com/go-sql-driver/mysql v1.8.1
+go: downloading github.com/mattn/go-sqlite3 v1.14.22
+go: downloading github.com/creack/pty v1.1.18
+go: downloading github.com/miekg/dns v1.1.72
+go: downloading github.com/prometheus/common v0.69.0
+go: downloading github.com/go-openapi/swag/conv v0.26.1
+go: downloading github.com/go-openapi/testify/v2 v2.5.1
+go: downloading github.com/go-openapi/swag/typeutils v0.26.1
+go: downloading github.com/wayneashleyberry/terminal-dimensions v1.1.0
+go: downloading github.com/rogpeppe/go-internal v1.14.1
+go: downloading filippo.io/edwards25519 v1.1.0
+go: downloading github.com/poy/onpar v1.1.2
+go: downloading github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c
+go: downloading github.com/go-openapi/swag/jsonutils/fixtures_test v0.26.1
+go: downloading github.com/go-openapi/testify/enable/yaml/v2 v2.5.1
+go: downloading github.com/nxadm/tail v1.4.11
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260610212136-7ab31c22f7ad
+go: downloading gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
+go: downloading github.com/google/pprof v0.0.0-20260402051712-545e8a4df936
+go: downloading github.com/redis/go-redis/v9 v9.7.3
+go: downloading github.com/bshuster-repo/logrus-logstash-hook v1.0.0
+go: downloading go.opentelemetry.io/contrib/exporters/autoexport v0.57.0
+go: downloading github.com/redis/go-redis/extra/redisotel/v9 v9.0.5
+go: downloading github.com/hashicorp/golang-lru/arc/v2 v2.0.5
+go: downloading github.com/redis/go-redis/extra/rediscmd/v9 v9.0.5
+go: downloading github.com/hashicorp/golang-lru/v2 v2.0.5
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.44.0
+go: downloading go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.44.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc v0.20.0
+go: downloading go.opentelemetry.io/contrib/bridges/prometheus v0.57.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp v0.20.0
+go: downloading go.opentelemetry.io/otel/sdk/log v0.20.0
+go: downloading go.opentelemetry.io/otel/exporters/stdout/stdoutlog v0.20.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.44.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260610212136-7ab31c22f7ad
+go: downloading go.opentelemetry.io/otel/log v0.20.0
+go: downloading github.com/kube-logging/telemetry-controller v0.0.0-20260807183658-5c4122361d32
+go: downloading github.com/siliconbrain/go-seqs v1.0.0
+go: downloading github.com/onsi/ginkgo/v2 v2.32.0
+go: downloading github.com/open-telemetry/opentelemetry-operator/apis v0.156.0
+go: downloading go.opentelemetry.io/collector/component v1.64.0
+go: downloading go.opentelemetry.io/collector/config/configopaque v1.64.0
+go: downloading go.opentelemetry.io/collector/config/configcompression v1.64.0
+go: downloading golang.org/x/tools v0.49.0
+go: downloading github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0
+go: downloading go.opentelemetry.io/collector/pdata v1.64.0
+go: downloading go.opentelemetry.io/collector/confmap v1.64.0
+go: downloading go.opentelemetry.io/collector/featuregate v1.64.0
+go: downloading github.com/knadh/koanf/v2 v2.3.5
+go: downloading github.com/knadh/koanf/maps v0.1.2
+go: downloading github.com/knadh/koanf/providers/confmap v1.0.0
+go: downloading go.opentelemetry.io/collector/internal/testutil v0.158.0
+go: downloading go.opentelemetry.io/proto/slim/otlp/collector/profiles/v1development v0.4.0
+go: downloading go.opentelemetry.io/proto/slim/otlp v1.11.0
+go: downloading go.opentelemetry.io/proto/slim/otlp/profiles/v1development v0.4.0
+cd pkg/sdk && /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen crd:maxDescLen=0 output:crd:artifacts:config=../../config/crd/bases object:headerFile=./../../hack/boilerplate.go.txt paths=./logging/api/...
+cd pkg/sdk && /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen crd:maxDescLen=0 output:crd:artifacts:config=../../config/crd/bases object:headerFile=./../../hack/boilerplate.go.txt paths=./logging/model/...
+cd pkg/sdk && /home/jake/sbomit-overhead-experiment/repos/logging-operator/bin/controller-gen crd:maxDescLen=0 output:crd:artifacts:config=../../config/crd/bases object:headerFile=./../../hack/boilerplate.go.txt paths=./extensions/api/...
+go fmt ./...
+cd pkg/sdk && go fmt ./...
+go vet ./...
+cd pkg/sdk && go vet ./...
+go build -o bin/manager main.go

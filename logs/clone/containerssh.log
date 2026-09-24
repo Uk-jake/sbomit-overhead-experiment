@@ -1,0 +1,9 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/containerssh'...
+Submodule 'examples' (https://github.com/ContainerSSH/examples.git) registered for path 'examples'
+Submodule 'internal/geoip/data' (https://github.com/maxmind/MaxMind-DB.git) registered for path 'internal/geoip/data'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/containerssh/examples'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/containerssh/internal/geoip/data'...
+Submodule path 'examples': checked out '5e42e3de03bc34af162d073056a4e2e69c7c5421'
+From https://github.com/maxmind/MaxMind-DB
+ * branch            2bf1713b3b5adcb022cf4bb77eb0689beaadcfef -> FETCH_HEAD
+Submodule path 'internal/geoip/data': checked out '2bf1713b3b5adcb022cf4bb77eb0689beaadcfef'

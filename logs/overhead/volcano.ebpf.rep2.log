@@ -1,0 +1,166 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (8.2169e-05s)"
+level=info msg="Finished git attestor... (0.088276884s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.992534183s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+mkdir -p _output/bin
+mkdir -p _output/release
+if [ "no" = "yes" ];then\
+	CC="/usr/local/musl/bin/musl-gcc" CGO_ENABLED=1 go build -ldflags " -linkmode=external -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-scheduler ./cmd/scheduler;\
+else\
+	CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-scheduler ./cmd/scheduler;\
+fi;
+go: downloading k8s.io/component-base v0.36.1
+go: downloading k8s.io/klog/v2 v2.140.0
+go: downloading github.com/spf13/pflag v1.0.10
+go: downloading k8s.io/client-go v0.36.1
+go: downloading github.com/prometheus/client_golang v1.23.2
+go: downloading go.uber.org/automaxprocs v1.6.0
+go: downloading k8s.io/apiserver v0.36.1
+go: downloading golang.org/x/sys v0.47.0
+go: downloading k8s.io/apimachinery v0.36.1
+go: downloading k8s.io/api v0.36.1
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading github.com/prometheus/common v0.70.0
+go: downloading github.com/prometheus/procfs v0.21.0
+go: downloading google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading k8s.io/kube-scheduler v0.36.1
+go: downloading github.com/mitchellh/mapstructure v1.5.0
+go: downloading k8s.io/kubernetes v1.36.1
+go: downloading k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/fsnotify/fsnotify v1.10.1
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading k8s.io/component-helpers v0.36.1
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading go.opentelemetry.io/otel/trace v1.44.0
+go: downloading go.yaml.in/yaml/v2 v2.4.4
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading golang.org/x/time v0.15.0
+go: downloading k8s.io/dynamic-resource-allocation v0.36.1
+go: downloading stathat.com/c/consistent v1.0.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.2
+go: downloading sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
+go: downloading golang.org/x/net v0.58.0
+go: downloading golang.org/x/term v0.45.0
+go: downloading go.opentelemetry.io/otel v1.44.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading k8s.io/csi-translation-lib v0.36.1
+go: downloading k8s.io/cloud-provider v0.36.1
+go: downloading k8s.io/apiextensions-apiserver v0.36.1
+go: downloading k8s.io/controller-manager v0.36.1
+go: downloading github.com/elastic/go-elasticsearch/v7 v7.17.10
+go: downloading k8s.io/metrics v0.36.1
+go: downloading github.com/google/cadvisor v0.56.2
+go: downloading github.com/emicklei/go-restful/v3 v3.13.0
+go: downloading github.com/google/gnostic-models v0.7.0
+go: downloading github.com/fxamacker/cbor/v2 v2.9.0
+go: downloading golang.org/x/oauth2 v0.36.0
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading github.com/google/cel-go v0.26.0
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260414002931-afd174a4e478
+go: downloading golang.org/x/sync v0.22.0
+go: downloading github.com/go-openapi/jsonreference v0.21.4
+go: downloading github.com/go-openapi/swag v0.25.5
+go: downloading cel.dev/expr v0.25.1
+go: downloading github.com/stoewer/go-strcase v1.3.0
+go: downloading golang.org/x/text v0.41.0
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.0
+go: downloading github.com/go-openapi/jsonpointer v0.22.5
+go: downloading github.com/go-openapi/swag/cmdutils v0.25.5
+go: downloading github.com/go-openapi/swag/conv v0.25.5
+go: downloading github.com/go-openapi/swag/fileutils v0.25.5
+go: downloading github.com/go-openapi/swag/jsonname v0.25.5
+go: downloading github.com/go-openapi/swag/mangling v0.25.5
+go: downloading github.com/go-openapi/swag/loading v0.25.5
+go: downloading github.com/go-openapi/swag/jsonutils v0.25.5
+go: downloading github.com/go-openapi/swag/netutils v0.25.5
+go: downloading github.com/go-openapi/swag/stringutils v0.25.5
+go: downloading github.com/go-openapi/swag/typeutils v0.25.5
+go: downloading github.com/go-openapi/swag/yamlutils v0.25.5
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260414002931-afd174a4e478
+go: downloading golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa
+if [ "no" = "yes" ];then\
+	CC="/usr/local/musl/bin/musl-gcc" CGO_ENABLED=1 go build -ldflags " -linkmode=external -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-agent-scheduler ./cmd/agent-scheduler;\
+else\
+	CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-agent-scheduler ./cmd/agent-scheduler;\
+fi;
+CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-controller-manager ./cmd/controller-manager
+go: downloading github.com/robfig/cron/v3 v3.0.1
+go: downloading sigs.k8s.io/controller-runtime v0.24.1
+go: downloading github.com/stretchr/testify v1.11.1
+go: downloading golang.org/x/crypto v0.55.0
+go: downloading github.com/distribution/reference v0.6.0
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/evanphx/json-patch/v5 v5.9.11
+CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-hypernode-controller-manager ./cmd/hypernode-controller-manager
+CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-webhook-manager ./cmd/webhook-manager
+go: downloading github.com/hashicorp/go-multierror v1.1.1
+go: downloading github.com/imdario/mergo v0.3.16
+go: downloading k8s.io/kubelet v0.36.1
+go: downloading github.com/hashicorp/errwrap v1.1.0
+CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vc-agent ./cmd/agent
+go: downloading github.com/moby/sys/userns v0.1.0
+go: downloading github.com/opencontainers/cgroups v0.0.8
+go: downloading github.com/prometheus/prometheus v0.311.3
+go: downloading k8s.io/cri-client v0.36.1
+go: downloading github.com/sirupsen/logrus v1.9.4
+go: downloading github.com/godbus/dbus/v5 v5.2.2
+go: downloading github.com/coreos/go-systemd/v22 v22.7.0
+go: downloading github.com/cyphar/filepath-securejoin v0.6.1
+go: downloading github.com/moby/sys/mountinfo v0.7.2
+go: downloading google.golang.org/grpc v1.82.1
+go: downloading k8s.io/cri-api v0.36.1
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0
+go: downloading go.opentelemetry.io/otel/metric v1.44.0
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading github.com/grafana/regexp v0.0.0-20250905093917-f7b3be9d1853
+go: downloading github.com/gogo/protobuf v1.3.2
+CC=cc CGO_ENABLED=0 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/network-qos ./cmd/network-qos
+go: downloading github.com/containernetworking/cni v1.3.0
+go: downloading github.com/cilium/ebpf v0.17.3
+go: downloading github.com/containernetworking/plugins v1.1.1
+go: downloading github.com/vishvananda/netlink v1.3.1
+go: downloading github.com/vishvananda/netns v0.0.5
+CC=cc CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o _output/bin/vcctl ./cmd/cli
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vcancel ./cmd/cli/vcancel
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vresume ./cmd/cli/vresume
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vsuspend ./cmd/cli/vsuspend
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vjobs ./cmd/cli/vjobs
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vqueues ./cmd/cli/vqueues
+go build -ldflags " -X 'volcano.sh/volcano/pkg/version.GitSHA=`git rev-parse HEAD`' -X 'volcano.sh/volcano/pkg/version.Built=`date "+%Y-%m-%d %H:%M:%S"`' -X 'volcano.sh/volcano/pkg/version.Version=4ca2f8251eb81e59daf4ec29dc2222b389356bf2'" -o=_output/bin/vsub ./cmd/cli/vsub
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+level=info msg="Finished command-run attestor... (117.536550326s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.744454093s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

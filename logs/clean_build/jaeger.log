@@ -1,0 +1,388 @@
+make rebuild-ui
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+::group::rebuild-ui logs
+JAEGER_UI_DIR="jaeger-ui" bash ./scripts/build/rebuild-ui.sh
++ JAEGER_UI_DIR=jaeger-ui
++ cd jaeger-ui
++ [[ jaeger-ui != \j\a\e\g\e\r\-\u\i ]]
++ [[ -z '' ]]
+++ git rev-parse --is-shallow-repository
++ [[ true == \t\r\u\e ]]
++ git fetch --unshallow
+From https://github.com/jaegertracing/jaeger-ui
+ * [new tag]           v2.20.0    -> v2.20.0
+ * [new tag]           v1.0.0     -> v1.0.0
+ * [new tag]           v1.0.1     -> v1.0.1
+ * [new tag]           v1.1.0     -> v1.1.0
+ * [new tag]           v1.10.0    -> v1.10.0
+ * [new tag]           v1.11.0    -> v1.11.0
+ * [new tag]           v1.12.0    -> v1.12.0
+ * [new tag]           v1.13.0    -> v1.13.0
+ * [new tag]           v1.14.0    -> v1.14.0
+ * [new tag]           v1.15.0    -> v1.15.0
+ * [new tag]           v1.16.0    -> v1.16.0
+ * [new tag]           v1.17.0    -> v1.17.0
+ * [new tag]           v1.18.0    -> v1.18.0
+ * [new tag]           v1.19.0    -> v1.19.0
+ * [new tag]           v1.2.0     -> v1.2.0
+ * [new tag]           v1.20.0    -> v1.20.0
+ * [new tag]           v1.20.1    -> v1.20.1
+ * [new tag]           v1.21.0    -> v1.21.0
+ * [new tag]           v1.22.0    -> v1.22.0
+ * [new tag]           v1.23.0    -> v1.23.0
+ * [new tag]           v1.24.0    -> v1.24.0
+ * [new tag]           v1.25.0    -> v1.25.0
+ * [new tag]           v1.26.0    -> v1.26.0
+ * [new tag]           v1.27.0    -> v1.27.0
+ * [new tag]           v1.27.1    -> v1.27.1
+ * [new tag]           v1.27.2    -> v1.27.2
+ * [new tag]           v1.27.3    -> v1.27.3
+ * [new tag]           v1.27.4    -> v1.27.4
+ * [new tag]           v1.28.0    -> v1.28.0
+ * [new tag]           v1.28.1    -> v1.28.1
+ * [new tag]           v1.29.0    -> v1.29.0
+ * [new tag]           v1.29.1    -> v1.29.1
+ * [new tag]           v1.3.0     -> v1.3.0
+ * [new tag]           v1.30.0    -> v1.30.0
+ * [new tag]           v1.31.0    -> v1.31.0
+ * [new tag]           v1.32.0    -> v1.32.0
+ * [new tag]           v1.33.0    -> v1.33.0
+ * [new tag]           v1.34.0    -> v1.34.0
+ * [new tag]           v1.35.0    -> v1.35.0
+ * [new tag]           v1.36.0    -> v1.36.0
+ * [new tag]           v1.37.0    -> v1.37.0
+ * [new tag]           v1.38.0    -> v1.38.0
+ * [new tag]           v1.39.0    -> v1.39.0
+ * [new tag]           v1.4.0     -> v1.4.0
+ * [new tag]           v1.40.0    -> v1.40.0
+ * [new tag]           v1.5.0     -> v1.5.0
+ * [new tag]           v1.57.0    -> v1.57.0
+ * [new tag]           v1.58.0    -> v1.58.0
+ * [new tag]           v1.59.0    -> v1.59.0
+ * [new tag]           v1.6.0     -> v1.6.0
+ * [new tag]           v1.60.0    -> v1.60.0
+ * [new tag]           v1.61.0    -> v1.61.0
+ * [new tag]           v1.62.0    -> v1.62.0
+ * [new tag]           v1.63.0    -> v1.63.0
+ * [new tag]           v1.64.0    -> v1.64.0
+ * [new tag]           v1.65.0    -> v1.65.0
+ * [new tag]           v1.66.0    -> v1.66.0
+ * [new tag]           v1.67.0    -> v1.67.0
+ * [new tag]           v1.68.0    -> v1.68.0
+ * [new tag]           v1.69.0    -> v1.69.0
+ * [new tag]           v1.7.0     -> v1.7.0
+ * [new tag]           v1.70.0    -> v1.70.0
+ * [new tag]           v1.71.0    -> v1.71.0
+ * [new tag]           v1.72.0    -> v1.72.0
+ * [new tag]           v1.73.0    -> v1.73.0
+ * [new tag]           v1.74.0    -> v1.74.0
+ * [new tag]           v1.75.0    -> v1.75.0
+ * [new tag]           v1.76.0    -> v1.76.0
+ * [new tag]           v1.8.0     -> v1.8.0
+ * [new tag]           v1.9.0     -> v1.9.0
+ * [new tag]           v2.14.0    -> v2.14.0
+ * [new tag]           v2.14.1    -> v2.14.1
+ * [new tag]           v2.15.0    -> v2.15.0
+ * [new tag]           v2.16.0    -> v2.16.0
+ * [new tag]           v2.17.0    -> v2.17.0
+ * [new tag]           v2.18.0    -> v2.18.0
+ * [new tag]           v2.19.0    -> v2.19.0
++ git fetch --all --tags
+Fetching origin
++ git log --oneline --decorate=full -n 10
++ cat
+05b8aedb (HEAD, tag: refs/tags/v2.20.0) Prepare release v2.20.0 (#4240)
+f9db3e93 chore(pnpm): Migrate from npm to pnpm (#4137)
+c5788bfc feat(genai-tab): Add content-sensitive rendering toggle (plain/markdown/JSON) for message content (#4213)
+a34a589f fix(genai): Fix span icon hover tooltip and refine type icons and labels (#4239)
+63985801 feat(timeline): Emphasize span-type icons and soften tree chrome (#4238)
+917995b4 chore(deps): Dedupe @types/node to a single version (#4236)
+c4186a63 chore(ci): route build/lint/test/coverage steps through Makefile entrypoints(part of migration to pnpm) (#4139)
+f69a4d35 chore(deps): update dependency knip to v6.26.0 (#4226)
+e50ec7cb fix(deps): update dependency @opentelemetry/semantic-conventions to v1.43.0 (#4229)
+9e9b8ac9 chore(deps): update github-actions deps (#4228)
+++ git describe --tags --dirty
++ last_tag=v2.20.0
++ [[ v2.20.0 =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]
+++ git rev-parse HEAD
++ branch_hash=05b8aedb42d5e0b0ce6a0e36697562a554d8dce1
+++ git rev-parse v2.20.0
++ last_tag_hash=05b8aedb42d5e0b0ce6a0e36697562a554d8dce1
++ [[ 05b8aedb42d5e0b0ce6a0e36697562a554d8dce1 == \0\5\b\8\a\e\d\b\4\2\d\5\e\0\b\0\c\e\6\a\0\e\3\6\6\9\7\5\6\2\a\5\5\4\d\8\d\c\e\1 ]]
+++ mktemp
++ temp_file=/tmp/tmp.AuKET778cl
++ trap 'rm -f /tmp/tmp.AuKET778cl' EXIT
++ release_url=https://github.com/jaegertracing/jaeger-ui/releases/download/v2.20.0/assets.tar.gz
++ curl --silent --fail --location --output /tmp/tmp.AuKET778cl https://github.com/jaegertracing/jaeger-ui/releases/download/v2.20.0/assets.tar.gz
++ mkdir -p packages/jaeger-ui/build/
++ rm -r -f packages/jaeger-ui/build/
++ tar -zxvf /tmp/tmp.AuKET778cl packages/jaeger-ui/build/
+packages/jaeger-ui/build/
+packages/jaeger-ui/build/index.html
+packages/jaeger-ui/build/static/
+packages/jaeger-ui/build/static/layout.worker-cKYm3X9u.js
+packages/jaeger-ui/build/static/QualityMetrics-DSRssBzl.js
+packages/jaeger-ui/build/static/debounce-B1l1LeIZ.js
+packages/jaeger-ui/build/static/jaeger-logo-CNZsoUdk.svg
+packages/jaeger-ui/build/static/useTraceDiscovery-DbQj8ipF.js
+packages/jaeger-ui/build/static/PlusOutlined-mO22FBit.js
+packages/jaeger-ui/build/static/monitor-BYreg9RK.png
+packages/jaeger-ui/build/static/Monitor-KpjwZteg.js
+packages/jaeger-ui/build/static/redux-actions-BWYLzuxA.js
+packages/jaeger-ui/build/static/QualityMetrics-mwpzThh1.css
+packages/jaeger-ui/build/static/DependencyGraph-_h22fC7n.js
+packages/jaeger-ui/build/static/debounce--v0Ml6ON.css
+packages/jaeger-ui/build/static/index-DOh6bBg3.css
+packages/jaeger-ui/build/static/input-number-BUFjOHIC.js
+packages/jaeger-ui/build/static/index-B7n_Xqrx.js
+packages/jaeger-ui/build/static/DependencyGraph-BetXtfS8.css
+packages/jaeger-ui/build/static/UiFindInput-DawN7eB8.js
+packages/jaeger-ui/build/static/rolldown-runtime-DaJ6WEGw.js
+packages/jaeger-ui/build/static/string-BDlBmlFs.js
+packages/jaeger-ui/build/static/UiFindInput-I6SFKbBB.css
+packages/jaeger-ui/build/static/favicon-BxcVf0am.ico
+packages/jaeger-ui/build/static/Monitor-DXGG-Ism.css
++ exit 0
++ rm -f /tmp/tmp.AuKET778cl
+::endgroup::
+rm -f cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/index.html.gz
+make build-ui JAEGER_UI_DIR="jaeger-ui"
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+# do not delete dot-files
+rm -rf cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/*
+cp -r "jaeger-ui/packages/jaeger-ui/build/"* cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/
+find cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual -type f | grep -v .gitignore | xargs gzip --no-name
+# copy the timestamp for index.html.gz from the original file
+touch -t $(date -r "jaeger-ui/packages/jaeger-ui/build/index.html" '+%Y%m%d%H%M.%S') cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/index.html.gz
+ls -lF cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/
+total 8
+-rw-r--r-- 1 root root 2069 Jul 20 01:59 index.html.gz
+drwxr-xr-x 2 root root 4096 Sep  3 20:19 static/
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+# do not delete dot-files
+rm -rf cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/*
+cp -r "jaeger-ui/packages/jaeger-ui/build/"* cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/
+find cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual -type f | grep -v .gitignore | xargs gzip --no-name
+# copy the timestamp for index.html.gz from the original file
+touch -t $(date -r "jaeger-ui/packages/jaeger-ui/build/index.html" '+%Y%m%d%H%M.%S') cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/index.html.gz
+ls -lF cmd/jaeger/internal/extension/jaegerquery/internal/ui/actual/
+total 8
+-rw-r--r-- 1 root root 2069 Jul 20 01:59 index.html.gz
+drwxr-xr-x 2 root root 4096 Sep  3 20:19 static/
+🚧 building binary '[1m[38;5;208m./cmd/jaeger[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath   -o ./cmd/jaeger/jaeger-linux-amd64   -ldflags "-X   github.com/jaegertracing/jaeger/internal/version.commitSHA=a600b0802518f77208405338a255b286a551e867 -X   github.com/jaegertracing/jaeger/internal/version.latestVersion=0.0.0 -X   github.com/jaegertracing/jaeger/internal/version.date=2026-09-03T17:27:06Z" ./cmd/jaeger
+go: downloading go.opentelemetry.io/collector/otelcol v0.159.0
+go: downloading go.opentelemetry.io/collector/component v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/provider/envprovider v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/provider/fileprovider v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/provider/httpprovider v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/provider/httpsprovider v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/provider/yamlprovider v1.65.0
+go: downloading go.opentelemetry.io/collector/connector v0.159.0
+go: downloading go.opentelemetry.io/collector/extension v1.65.0
+go: downloading go.opentelemetry.io/collector/exporter v1.65.0
+go: downloading go.opentelemetry.io/collector/processor v1.65.0
+go: downloading go.opentelemetry.io/collector/receiver v1.65.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/debugexporter v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckv2extension v0.159.0
+go: downloading go.opentelemetry.io/collector v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter v0.159.0
+go: downloading go.opentelemetry.io/collector/connector/forwardconnector v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/otlpexporter v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/otlphttpexporter v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/nopexporter v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/batchprocessor v0.159.0
+go: downloading go.opentelemetry.io/collector/extension/zpagesextension v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/memorylimiterprocessor v0.159.0
+go: downloading go.opentelemetry.io/collector/receiver/nopreceiver v0.159.0
+go: downloading go.opentelemetry.io/collector/receiver/otlpreceiver v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension v0.159.0
+go: downloading go.opentelemetry.io/collector/internal/componentalias v0.159.0
+go: downloading go.opentelemetry.io/collector/consumer v1.65.0
+go: downloading go.opentelemetry.io/collector/pipeline v1.65.0
+go: downloading go.opentelemetry.io/collector/internal/fanoutconsumer v0.159.0
+go: downloading go.opentelemetry.io/collector/pdata v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configoptional v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configtelemetry v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/exporterhelper v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/exporterhelper/xexporterhelper v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/xexporter v0.159.0
+go: downloading go.opentelemetry.io/collector/pdata/pprofile v0.159.0
+go: downloading go.opentelemetry.io/collector/config/configopaque v1.65.0
+go: downloading go.opentelemetry.io/collector/confmap/xconfmap v0.159.0
+go: downloading go.opentelemetry.io/collector/extension/extensioncapabilities v0.159.0
+go: downloading go.opentelemetry.io/collector/featuregate v1.65.0
+go: downloading go.opentelemetry.io/collector/service v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/internal/healthcheck v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.159.0
+go: downloading github.com/prometheus/prometheus v0.313.2
+go: downloading go.opentelemetry.io/collector/config/confighttp v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/configkafka v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/kafka/topic v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.159.0
+go: downloading github.com/twmb/franz-go v1.21.5
+go: downloading go.opentelemetry.io/collector/client v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configretry v1.65.0
+go: downloading go.opentelemetry.io/collector/consumer/consumererror v0.159.0
+go: downloading go.opentelemetry.io/collector/consumer/consumertest v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/internal/basicauth v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/extension/internal/credentialsfile v0.159.0
+go: downloading github.com/tg123/go-htpasswd v1.2.5
+go: downloading go.opentelemetry.io/collector/extension/extensionauth v1.65.0
+go: downloading go.opentelemetry.io/collector/config/confignet v1.65.0
+go: downloading go.opentelemetry.io/collector/component/componentstatus v0.159.0
+go: downloading go.opentelemetry.io/collector/config/configgrpc v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configcompression v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configauth v1.65.0
+go: downloading go.opentelemetry.io/collector/config/configtls v1.65.0
+go: downloading go.opentelemetry.io/collector/consumer/xconsumer v0.159.0
+go: downloading go.opentelemetry.io/collector/receiver/xreceiver v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/internal/pdatautil v0.159.0
+go: downloading go.opentelemetry.io/collector/connector/xconnector v0.159.0
+go: downloading go.opentelemetry.io/collector/pdata/xpdata v0.159.0
+go: downloading go.opentelemetry.io/collector/internal/memorylimiter v0.159.0
+go: downloading github.com/lightstep/go-expohisto v1.0.0
+go: downloading go.opentelemetry.io/collector/internal/telemetry v0.159.0
+go: downloading go.opentelemetry.io/collector/pipeline/xpipeline v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/processorhelper v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/processorhelper/xprocessorhelper v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/xprocessor v0.159.0
+go: downloading github.com/elastic/elastic-transport-go/v8 v8.9.0
+go: downloading github.com/elastic/go-elasticsearch/v9 v9.4.2
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.159.0
+go: downloading github.com/jaegertracing/jaeger-idl v0.11.4
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.159.0
+go: downloading go.opentelemetry.io/collector/receiver/receiverhelper v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling v0.159.0
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure v0.159.0
+go: downloading github.com/aws/aws-sdk-go-v2 v1.43.4
+go: downloading github.com/aws/aws-sdk-go-v2/config v1.32.35
+go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.34
+go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.45.4
+go: downloading golang.org/x/exp v0.0.0-20260727155853-b88d891fe743
+go: downloading github.com/knadh/koanf/maps v0.1.3
+go: downloading github.com/knadh/koanf/providers/confmap v1.0.1
+go: downloading github.com/knadh/koanf/v2 v2.3.6
+go: downloading go.opentelemetry.io/collector/consumer/consumererror/xconsumererror v0.159.0
+go: downloading go.opentelemetry.io/contrib/zpages v0.70.0
+go: downloading github.com/twmb/franz-go/pkg/kmsg v1.13.1
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/status v0.159.0
+go: downloading go.opentelemetry.io/contrib/otelconf v0.25.0
+go: downloading go.opentelemetry.io/collector/config/configmiddleware v1.65.0
+go: downloading github.com/aws/aws-msk-iam-sasl-signer-go v1.0.4
+go: downloading github.com/twmb/franz-go/pkg/kadm v1.18.0
+go: downloading github.com/twmb/franz-go/pkg/sasl/kerberos v1.1.0
+go: downloading github.com/twmb/franz-go/plugin/kzap v1.1.2
+go: downloading github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils v0.159.0
+go: downloading github.com/foxboron/go-tpm-keyfiles v0.0.0-20251226215517-609e4778396f
+go: downloading github.com/relvacode/iso8601 v1.8.0
+go: downloading go.opentelemetry.io/collector/extension/xextension v0.159.0
+go: downloading github.com/ClickHouse/clickhouse-go/v2 v2.48.0
+go: downloading go.opentelemetry.io/collector/component/componenttest v0.159.0
+go: downloading github.com/coder/acp-go-sdk v0.13.0
+go: downloading go.opentelemetry.io/collector/config/confighttp/xconfighttp v0.159.0
+go: downloading go.opentelemetry.io/collector/service/hostcapabilities v0.159.0
+go: downloading go.opentelemetry.io/collector/connector/connectortest v0.159.0
+go: downloading go.opentelemetry.io/collector/exporter/exportertest v0.159.0
+go: downloading go.opentelemetry.io/collector/extension/extensiontest v0.159.0
+go: downloading go.opentelemetry.io/collector/processor/processortest v0.159.0
+go: downloading go.opentelemetry.io/collector/receiver/receivertest v0.159.0
+go: downloading go.opentelemetry.io/collector/extension/extensionmiddleware v0.159.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc v0.21.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp v0.21.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.45.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.45.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.45.0
+go: downloading go.opentelemetry.io/otel/exporters/prometheus v0.67.0
+go: downloading go.opentelemetry.io/otel/exporters/stdout/stdoutlog v0.21.0
+go: downloading go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.45.0
+go: downloading go.opentelemetry.io/otel/log v0.21.0
+go: downloading go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.45.0
+go: downloading go.opentelemetry.io/otel/sdk/log v0.21.0
+go: downloading go.opentelemetry.io/otel/sdk/metric v1.45.0
+go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.35
+go: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.36
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.15
+go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.35
+go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.35
+go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.33.4
+go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.38.4
+go: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.5.4
+go: downloading go.opentelemetry.io/contrib/propagators/b3 v1.45.0
+go: downloading go.opentelemetry.io/contrib/samplers/jaegerremote v0.37.1
+go: downloading github.com/antchfx/xmlquery v1.5.1
+go: downloading github.com/antchfx/xpath v1.3.8
+go: downloading github.com/elastic/go-grok v0.3.1
+go: downloading github.com/ua-parser/uap-go v0.0.0-20251207011819-db9adb27a0b8
+go: downloading github.com/apache/cassandra-gocql-driver/v2 v2.1.2
+go: downloading github.com/dgraph-io/badger/v4 v4.9.2
+go: downloading github.com/ag-ui-protocol/ag-ui/sdks/community/go v0.0.0-20260630145048-7479d97e25f6
+go: downloading github.com/modelcontextprotocol/go-sdk v1.6.1
+go: downloading go.opentelemetry.io/collector/pdata/testdata v0.159.0
+go: downloading github.com/ClickHouse/ch-go v0.74.0
+go: downloading github.com/andybalholm/brotli v1.2.2
+go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.35
+go: downloading go.opentelemetry.io/contrib/detectors/aws/ecs v1.45.0
+go: downloading go.opentelemetry.io/contrib/detectors/aws/eks v1.45.0
+go: downloading go.opentelemetry.io/contrib/detectors/azure/azurevm v0.17.0
+go: downloading go.opentelemetry.io/contrib/detectors/gcp v1.45.0
+go: downloading go.opentelemetry.io/contrib/propagators/autoprop v0.70.0
+go: downloading github.com/elastic/lunes v0.2.2
+go: downloading github.com/paulmach/orb v0.13.0
+go: downloading github.com/prometheus/client_golang/exp v0.0.0-20260602051030-3537b20ac86b
+go: downloading github.com/prometheus/sigv4 v0.4.1
+go: downloading github.com/brunoscheufler/aws-ecs-metadata-go v0.0.0-20221221133751-67e37ae746cd
+go: downloading go.opentelemetry.io/contrib/propagators/aws v1.45.0
+go: downloading go.opentelemetry.io/contrib/propagators/jaeger v1.45.0
+go: downloading go.opentelemetry.io/contrib/propagators/ot v1.45.0
+go: downloading github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.35.0
+go: downloading github.com/Azure/azure-sdk-for-go/sdk/azcore v1.22.0
+go: downloading go.opentelemetry.io/collector/internal/sharedcomponent v0.159.0
+Checking version of built binary
+{"gitCommit":"a600b0802518f77208405338a255b286a551e867","gitVersion":"0.0.0","buildDate":"2026-09-03T17:27:06Z"}
+☑️ versions match: want=0.0.0, have=0.0.0
+🚧 building binary '[1m[38;5;208m./cmd/remote-storage[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath   -o ./cmd/remote-storage/remote-storage-linux-amd64   -ldflags "-X   github.com/jaegertracing/jaeger/internal/version.commitSHA=a600b0802518f77208405338a255b286a551e867 -X   github.com/jaegertracing/jaeger/internal/version.latestVersion=0.0.0 -X   github.com/jaegertracing/jaeger/internal/version.date=2026-09-03T17:27:06Z" ./cmd/remote-storage
+🚧 building binary '[1m[38;5;208m[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./examples/hotrod/hotrod-linux-amd64 ./examples/hotrod/main.go
+🚧 building binary '[1m[38;5;208mtracegen[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./cmd/tracegen/tracegen-linux-amd64 ./cmd/tracegen/
+🚧 building binary '[1m[38;5;208manonymizer[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./cmd/anonymizer/anonymizer-linux-amd64 ./cmd/anonymizer/
+🚧 building binary '[1m[38;5;208mesmapping-generator[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./cmd/esmapping-generator/esmapping-generator-linux-amd64 ./cmd/esmapping-generator/
+🚧 building binary '[1m[38;5;208mes-index-cleaner[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./cmd/es-index-cleaner/es-index-cleaner-linux-amd64 ./cmd/es-index-cleaner/
+🚧 building binary '[1m[38;5;208mes-rollover[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -o ./cmd/es-rollover/es-rollover-linux-amd64 ./cmd/es-rollover/
+make _build-platform-binaries-debug GOOS=linux GOARCH=amd64
+make[1]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+make build-jaeger build-remote-storage GOOS=linux GOARCH=amd64 DEBUG_BINARY=1
+make[2]: Entering directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+🚧 building binary '[1m[38;5;208m./cmd/jaeger[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -gcflags="all=-N -l"  -o ./cmd/jaeger/jaeger-debug-linux-amd64   -ldflags "-X   github.com/jaegertracing/jaeger/internal/version.commitSHA=a600b0802518f77208405338a255b286a551e867 -X   github.com/jaegertracing/jaeger/internal/version.latestVersion=0.0.0 -X   github.com/jaegertracing/jaeger/internal/version.date=2026-09-03T17:27:06Z" ./cmd/jaeger
+Checking version of built binary
+{"gitCommit":"a600b0802518f77208405338a255b286a551e867","gitVersion":"0.0.0","buildDate":"2026-09-03T17:27:06Z"}
+☑️ versions match: want=0.0.0, have=0.0.0
+🚧 building binary '[1m[38;5;208m./cmd/remote-storage[39m[0m' for linux-amd64
+CGO_ENABLED=0 installsuffix=cgo go build -trimpath -gcflags="all=-N -l"  -o ./cmd/remote-storage/remote-storage-debug-linux-amd64   -ldflags "-X   github.com/jaegertracing/jaeger/internal/version.commitSHA=a600b0802518f77208405338a255b286a551e867 -X   github.com/jaegertracing/jaeger/internal/version.latestVersion=0.0.0 -X   github.com/jaegertracing/jaeger/internal/version.date=2026-09-03T17:27:06Z" ./cmd/remote-storage
+make[2]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'
+make[1]: Leaving directory '/home/jake/sbomit-overhead-experiment/repos/jaeger'

@@ -1,0 +1,63 @@
+[INFO] init_logging: Writing error details to
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git log --pretty=format:'%h' -n 1
+[DEBUG] run_command: Executing command: git describe --always --tags --abbrev=0
+[INFO] print_banner: 
+                                  ______                        _             _
+                                 .' ___  |                      (_)           (_)
+  .--.   _ .--.   .---.  _ .--. / .'   \_|  .---.  _ .--..--.   __   _ .--.   __
+/ .'`\ \[ '/'`\ \/ /__\[ `.-. || |   ____ / /__\[ `.-. .-. | [  | [ `.-. | [  |
+| \__. | | \__/ || \__., | | | |\ `.___]  || \__., | | | | | |  | |  | | | |  | |
+ '.__.'  | ;.__/  '.__.'[___||__]`._____.'  '.__.'[___||__||__][___][___||__][___]
+        [__|
+
+  Build Script
+
+[DEBUG] run_command: Executing command: git log --pretty=format:'%h' -n 1
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[INFO] check_environment: Checking build environment...
+[DEBUG] run_command: Executing command: go version
+[INFO] check_environment: Using Go version: 1.26.5
+[DEBUG] check_environment: GOPATH: /home/jake/go
+[DEBUG] check_environment: GOBIN: Not set
+[DEBUG] check_environment: GOROOT: /usr/local/go
+[DEBUG] run_command: Executing command: git diff-files --ignore-submodules --
+[INFO] build_targets: Building for linux/amd64...
+[INFO] build_targets: Output directory: ./build/
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-sql: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-sql -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-sql
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-sql -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-sql
+[INFO] build_targets: Build completed in 60.25s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-meta: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-meta -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-meta
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-meta -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-meta
+[INFO] build_targets: Build completed in 8.02s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-store: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-store -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-store
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-store -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-store
+[INFO] build_targets: Build completed in 7.62s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-server: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-server -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-server
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-server -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-server
+[INFO] build_targets: Build completed in 7.31s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-monitor: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-monitor -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-monitor
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-monitor -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-monitor
+[INFO] build_targets: Build completed in 5.77s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-data: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-data -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-data
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-data -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-data
+[INFO] build_targets: Build completed in 6.91s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[DEBUG] run_command: Executing command: git rev-parse HEAD
+[INFO] build_targets: Building ts-recover: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-recover -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-recover
+[DEBUG] run_command: Executing command: GOOS=linux GOARCH=amd64 go build -mod=mod -o ./build/ts-recover -ldflags="-X github.com/openGemini/openGemini/app.Version=65c76137799b9a5c8ba35f56a4848e036aa016c6 -X github.com/openGemini/openGemini/app.GitBranch=main -X github.com/openGemini/openGemini/app.GitCommit=65c76137799b9a5c8ba35f56a4848e036aa016c6" ./app/ts-recover
+[INFO] build_targets: Build completed in 2.54s
+[DEBUG] run_command: Executing command: git rev-parse --abbrev-ref HEAD
+[INFO] main: Build completed successfully!

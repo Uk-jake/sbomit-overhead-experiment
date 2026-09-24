@@ -1,0 +1,20 @@
+GOBIN=/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin ./hack/go-install.sh sigs.k8s.io/controller-tools/cmd/controller-gen controller-gen v0.20.0
+rm: cannot remove '/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin/controller-gen*': No such file or directory
+go: creating new go.mod: module fake/mod
+go: downloading sigs.k8s.io/controller-tools v0.20.0
+/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin/controller-gen-v0.20.0 \
+	object:headerFile="hack/boilerplate.go.txt" paths="./..."
+GOBIN=/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin ./hack/go-install.sh golang.org/x/tools/cmd/goimports goimports v0.42.0
+rm: cannot remove '/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin/goimports*': No such file or directory
+go: creating new go.mod: module fake/mod
+go: downloading golang.org/x/tools v0.42.0
+go: downloading golang.org/x/telemetry v0.0.0-20260209163413-e7419c687ee4
+go: downloading golang.org/x/mod v0.33.0
+go fmt ./...
+/home/jake/sbomit-overhead-experiment/repos/kubefleet/hack/tools/bin/goimports-v0.42.0 -local go.goms.io/fleet -w $(go list -f {{.Dir}} ./...)
+go vet ./...
+go: downloading github.com/onsi/ginkgo/v2 v2.23.4
+go: downloading github.com/crossplane/crossplane-runtime/v2 v2.1.0
+go build -o bin/hubagent cmd/hubagent/main.go
+go build -o bin/memberagent cmd/memberagent/main.go
+go build -o bin/kubectl-fleet ./tools/fleet/

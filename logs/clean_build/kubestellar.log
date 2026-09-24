@@ -1,0 +1,37 @@
+mkdir -p bin
+hack/verify-go-versions.sh
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build  -ldflags="-X main.Version=.527bf82 -X main.BuildDate=2026-09-03T19:24:03Z -X k8s.io/client-go/pkg/version.gitCommit=527bf82 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v0.32.13+kflex-v0.0.0-527bf82 -X k8s.io/client-go/pkg/version.gitMajor=0 -X k8s.io/client-go/pkg/version.gitMinor=32 -X k8s.io/client-go/pkg/version.buildDate=2026-09-03T19:24:03Z -X k8s.io/component-base/version.gitCommit=527bf82 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v0.32.13+kflex-v0.0.0-527bf82 -X k8s.io/component-base/version.gitMajor=0 -X k8s.io/component-base/version.gitMinor=32 -X k8s.io/component-base/version.buildDate=2026-09-03T19:24:03Z -extldflags '-static'" -o bin ./cmd/...
+go: downloading k8s.io/apimachinery v0.32.13
+go: downloading k8s.io/cli-runtime v0.32.13
+go: downloading github.com/kubestellar/kubeflex v0.9.3
+go: downloading k8s.io/api v0.32.13
+go: downloading k8s.io/client-go v0.32.13
+go: downloading k8s.io/component-base v0.32.13
+go: downloading sigs.k8s.io/controller-runtime v0.20.4
+go: downloading k8s.io/apiextensions-apiserver v0.32.13
+go: downloading golang.org/x/time v0.7.0
+go: downloading open-cluster-management.io/api v1.0.0
+go: downloading k8s.io/apiserver v0.32.13
+go: downloading github.com/prometheus/client_golang v1.19.1
+go: downloading github.com/google/cel-go v0.22.0
+go: downloading github.com/moby/term v0.5.0
+go: downloading go.opentelemetry.io/otel/trace v1.43.0
+go: downloading github.com/prometheus/common v0.55.0
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217
+go: downloading sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8
+go: downloading k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f
+go: downloading sigs.k8s.io/kustomize/kyaml v0.18.1
+go: downloading sigs.k8s.io/kustomize/api v0.18.0
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.0
+go: downloading github.com/google/btree v1.1.3
+go: downloading go.opentelemetry.io/otel v1.43.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/NYTimes/gziphandler v1.1.1
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.27.0
+go: downloading go.opentelemetry.io/otel/sdk v1.43.0
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.28.0
+go: downloading go.opentelemetry.io/otel/metric v1.43.0
+go: downloading go.opentelemetry.io/proto/otlp v1.3.1
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0

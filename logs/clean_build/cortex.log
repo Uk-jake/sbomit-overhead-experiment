@@ -1,0 +1,6 @@
+protoc -I /src:./vendor/github.com/thanos-io/thanos/pkg:./vendor/github.com/gogo/protobuf:./vendor:./pkg/frontend/v1/frontendv1pb --gogoslick_out=plugins=grpc,Mgoogle/protobuf/any.proto=github.com/gogo/protobuf/types,:./pkg/frontend/v1/frontendv1pb ./pkg/frontend/v1/frontendv1pb/frontend.proto
+/src: warning: directory does not exist.
+github.com/cortexproject/cortex/pkg/querier/stats/stats.proto: File not found.
+frontend.proto:11:1: Import "github.com/cortexproject/cortex/pkg/querier/stats/stats.proto" was not found or had errors.
+frontend.proto:42:3: "stats.Stats" is not defined.
+make: *** [Makefile:151: pkg/frontend/v1/frontendv1pb/frontend.pb.go] Error 1

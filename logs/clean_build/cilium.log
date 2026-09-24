@@ -1,0 +1,90 @@
+contrib/scripts/check-fmt.sh
+Unformatted Go source code:
+./pkg/endpoint/endpoint_test.go
+diff ./pkg/endpoint/endpoint_test.go.orig ./pkg/endpoint/endpoint_test.go
+--- ./pkg/endpoint/endpoint_test.go.orig
++++ ./pkg/endpoint/endpoint_test.go
+@@ -617,15 +617,15 @@
+ 				}
+ 			}
+ 			return &corev1.Pod{
+-				ObjectMeta: metav1.ObjectMeta{
+-					Namespace: ns,
+-					Name:      podName,
+-					UID:       k8sTypes.UID(uid),
+-				},
+-			}, &K8sMetadata{
+-				IdentityLabels: lbls,
+-				NamedPorts:     namedPorts,
+-			}, nil
++					ObjectMeta: metav1.ObjectMeta{
++						Namespace: ns,
++						Name:      podName,
++						UID:       k8sTypes.UID(uid),
++					},
++				}, &K8sMetadata{
++					IdentityLabels: lbls,
++					NamedPorts:     namedPorts,
++				}, nil
+ 		}
+ 	}
+ 	resolvePodMetadata := func(t *testing.T, e *Endpoint, restored bool, namedPorts ciliumTypes.NamedPortMap) {
+./pkg/datapath/loader/sock.go
+diff ./pkg/datapath/loader/sock.go.orig ./pkg/datapath/loader/sock.go
+--- ./pkg/datapath/loader/sock.go.orig
++++ ./pkg/datapath/loader/sock.go
+@@ -78,17 +78,17 @@
+ 	}
+ 
+ 	return &bpfgen.SockTermPrograms{
+-		CilSockUdpDestroyV4: coll.Programs[v4UDPProgName],
+-		CilSockTcpDestroyV4: coll.Programs[v4TCPProgName],
+-		CilSockUdpDestroyV6: coll.Programs[v6UDPProgName],
+-		CilSockTcpDestroyV6: coll.Programs[v6TCPProgName],
+-	}, func(af uint8, addr netip.Addr, port uint16) error {
+-		var value bpfgen.SockTermSockTermFilter
+-		value.AddressFamily = af
+-		value.Port = port
+-		a16 := addr.As16()
+-		copy(value.Address.Addr6.Addr[:], a16[:])
+-
+-		return coll.Variables[filterVarName].Set(&value)
+-	}, nil
++			CilSockUdpDestroyV4: coll.Programs[v4UDPProgName],
++			CilSockTcpDestroyV4: coll.Programs[v4TCPProgName],
++			CilSockUdpDestroyV6: coll.Programs[v6UDPProgName],
++			CilSockTcpDestroyV6: coll.Programs[v6TCPProgName],
++		}, func(af uint8, addr netip.Addr, port uint16) error {
++			var value bpfgen.SockTermSockTermFilter
++			value.AddressFamily = af
++			value.Port = port
++			a16 := addr.As16()
++			copy(value.Address.Addr6.Addr[:], a16[:])
++
++			return coll.Variables[filterVarName].Set(&value)
++		}, nil
+ }
+./pkg/ipam/multipool.go
+diff ./pkg/ipam/multipool.go.orig ./pkg/ipam/multipool.go
+--- ./pkg/ipam/multipool.go.orig
++++ ./pkg/ipam/multipool.go
+@@ -102,12 +102,12 @@
+ 	}
+ 
+ 	return &multiPoolAllocator{
+-		manager: mgr,
+-		family:  IPv4,
+-	}, &multiPoolAllocator{
+-		manager: mgr,
+-		family:  IPv6,
+-	}, nil
++			manager: mgr,
++			family:  IPv4,
++		}, &multiPoolAllocator{
++			manager: mgr,
++			family:  IPv6,
++		}, nil
+ }
+ 
+ func (c *multiPoolAllocator) Allocate(addr netip.Addr, owner string, pool Pool) (*AllocationResult, error) {
+make: *** [Makefile:521: precheck] Error 1

@@ -1,0 +1,22 @@
+mkdir -p /home/jake/sbomit-overhead-experiment/repos/kuadrant-operator/bin
+Downloading sigs.k8s.io/controller-tools/cmd/controller-gen@v0.19.0
+go: downloading sigs.k8s.io/controller-tools v0.19.0
+go: downloading k8s.io/apiextensions-apiserver v0.34.0
+go: downloading golang.org/x/tools v0.36.0
+go: downloading k8s.io/apimachinery v0.34.0
+go: downloading k8s.io/api v0.34.0
+go: downloading k8s.io/code-generator v0.34.0
+go: downloading k8s.io/gengo/v2 v2.0.0-20250604051438-85fd79dbfd9f
+go: downloading k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
+go: downloading go.yaml.in/yaml/v2 v2.4.2
+go: downloading golang.org/x/sys v0.35.0
+go: downloading google.golang.org/protobuf v1.36.7
+go: downloading golang.org/x/net v0.43.0
+go: downloading golang.org/x/text v0.28.0
+go: downloading golang.org/x/mod v0.27.0
+go: downloading golang.org/x/sync v0.16.0
+/home/jake/sbomit-overhead-experiment/repos/kuadrant-operator/bin/controller-gen object:headerFile="hack/boilerplate.go.txt" paths="./..."
+go fmt ./...
+go vet ./...
+go: downloading gotest.tools v2.2.0+incompatible
+go build -ldflags "-X main.version=v0.0.0 -X main.gitSHA=bf586c6b2400c2fede98bb878aabe09f771846c3 -X main.dirty=false" -o bin/manager cmd/main.go

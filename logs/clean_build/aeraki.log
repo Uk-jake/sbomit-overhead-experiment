@@ -1,0 +1,104 @@
+gofmt -l -d ./internal
+goimports -l -d ./internal
+go test -race  `go list ./internal/... | grep -v e2e`
+go: downloading github.com/aeraki-mesh/api v1.4.1
+go: downloading istio.io/pkg v0.0.0-20230524020242-1015535057be
+go: downloading istio.io/istio v0.0.0-20230713183549-b39cf4080772
+go: downloading github.com/envoyproxy/go-control-plane v0.11.2-0.20230811160418-a0dbac19f027
+go: downloading istio.io/api v0.0.0-20230713061407-06047cce866f
+go: downloading github.com/aeraki-mesh/client-go v1.4.1
+go: downloading k8s.io/apimachinery v0.28.0
+go: downloading k8s.io/client-go v0.27.0
+go: downloading sigs.k8s.io/controller-runtime v0.15.1
+go: downloading istio.io/client-go v1.18.1-0.20230713061908-17d95fabac25
+go: downloading k8s.io/api v0.27.0
+go: downloading github.com/aeraki-mesh/meta-protocol-control-plane-api v1.4.1
+go: downloading github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4
+go: downloading google.golang.org/protobuf v1.33.0
+go: downloading github.com/zhaohuabing/debounce v1.0.0
+go: downloading google.golang.org/grpc v1.57.1
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20230720185612-659f7aaaa771
+go: downloading github.com/envoyproxy/protoc-gen-validate v1.0.1
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20230720185612-659f7aaaa771
+go: downloading google.golang.org/genproto v0.0.0-20230720185612-659f7aaaa771
+go: downloading github.com/miekg/dns v1.1.55
+go: downloading go.opentelemetry.io/proto/otlp v1.0.0
+go: downloading github.com/hashicorp/golang-lru/v2 v2.0.4
+go: downloading k8s.io/apiextensions-apiserver v0.28.0-beta.0
+go: downloading sigs.k8s.io/gateway-api v0.6.2
+go: downloading cloud.google.com/go/compute/metadata v0.2.3
+go: downloading cloud.google.com/go/compute v1.20.1
+go: downloading k8s.io/cli-runtime v0.27.0
+go: downloading k8s.io/utils v0.0.0-20230711102312-30195339c3c7
+go: downloading cloud.google.com/go v0.110.4
+go: downloading k8s.io/kubectl v0.27.0
+go: downloading sigs.k8s.io/mcs-api v0.1.0
+go: downloading golang.org/x/net v0.36.0
+go: downloading gopkg.in/square/go-jose.v2 v2.6.0
+go: downloading github.com/google/cel-go v0.16.0
+go: downloading github.com/lestrrat-go/jwx v1.2.28
+go: downloading github.com/imdario/mergo v0.3.5
+go: downloading golang.org/x/term v0.29.0
+go: downloading github.com/cenkalti/backoff/v4 v4.2.1
+go: downloading k8s.io/kube-openapi v0.0.0-20230327201221-f5883ff37f0c
+go: downloading sigs.k8s.io/kustomize/api v0.13.2
+go: downloading sigs.k8s.io/kustomize/kyaml v0.14.1
+go: downloading github.com/jonboulle/clockwork v0.3.0
+go: downloading k8s.io/component-base v0.28.0-beta.0
+go: downloading github.com/stretchr/testify v1.8.4
+go: downloading k8s.io/apiserver v0.28.0-beta.0
+go: downloading github.com/openshift/api v0.0.0-20230720094506-afcbe27aec7c
+go: downloading github.com/prometheus/prometheus v0.45.0
+go: downloading github.com/alecholmes/xfccparser v0.1.0
+go: downloading github.com/prometheus/statsd_exporter v0.23.0
+go: downloading golang.org/x/oauth2 v0.10.0
+go: downloading golang.org/x/crypto v0.35.0
+go: downloading github.com/lestrrat-go/blackmagic v1.0.2
+go: downloading github.com/alecthomas/participle v0.4.1
+go: downloading github.com/go-jose/go-jose/v3 v3.0.4
+go: downloading github.com/fvbommel/sortorder v1.0.2
+go: downloading github.com/xlab/treeprint v1.1.0
+go: downloading helm.sh/helm/v3 v3.11.2
+go: downloading cloud.google.com/go/logging v1.7.0
+go: downloading google.golang.org/api v0.132.0
+go: downloading github.com/docker/cli v24.0.4+incompatible
+go: downloading github.com/google/go-containerregistry v0.15.2
+go: downloading github.com/hashicorp/go-version v1.6.0
+go: downloading github.com/BurntSushi/toml v1.2.1
+go: downloading github.com/sirupsen/logrus v1.9.0
+go: downloading github.com/prometheus/prom2json v1.3.2
+go: downloading go.starlark.net v0.0.0-20211013185944-b0039bd2cfe3
+go: downloading cloud.google.com/go/longrunning v0.5.1
+go: downloading github.com/googleapis/gax-go/v2 v2.12.0
+go: downloading github.com/docker/docker v24.0.7+incompatible
+go: downloading github.com/klauspost/compress v1.16.5
+go: downloading github.com/emicklei/go-restful/v3 v3.10.1
+go: downloading github.com/google/s2a-go v0.1.4
+go: downloading github.com/googleapis/enterprise-certificate-proxy v0.2.5
+go: downloading google.golang.org/appengine v1.6.7
+?   	github.com/aeraki-mesh/aeraki/internal/bootstrap	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/ca	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/config/constants	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/controller/istio	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/controller/kube	15.334s
+ok  	github.com/aeraki-mesh/aeraki/internal/envoyfilter	14.547s
+ok  	github.com/aeraki-mesh/aeraki/internal/leaderelection	17.293s
+?   	github.com/aeraki-mesh/aeraki/internal/model	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/model/metaprotocol	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/model/protocol	2.583s
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/builder	[no test files]
+ok  	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/matcher	13.095s
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/dubbo/authz/model	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/kafka	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/metaprotocol	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/redis	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/thrift	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/plugin/zookeeper	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/util	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/util/protoconv	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation/scheme	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/webhook/validation/server	[no test files]
+?   	github.com/aeraki-mesh/aeraki/internal/xds	[no test files]
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ./out/amd64/linux/aeraki ./cmd/aeraki/main.go

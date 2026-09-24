@@ -1,0 +1,43 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (0.00010493s)"
+level=info msg="Finished git attestor... (0.12775094s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.676916617s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+rm -fr ./dist
+mkdir -p ./dist
+for os in linux darwin; do \
+      for arch in amd64 arm64; do \
+        echo "Building Cortex for $os/$arch"; \
+        GOOS=$os GOARCH=$arch CGO_ENABLED=0 go build -ldflags "-X main.Branch=master -X main.Revision=d50fcab -X main.Version=1.21.1 -extldflags \"-static\" -s -w" -tags "netgo slicelabels" -o ./dist/cortex-$os-$arch ./cmd/cortex; \
+        sha256sum ./dist/cortex-$os-$arch | cut -d ' ' -f 1 > ./dist/cortex-$os-$arch-sha-256; \
+        echo "Building query-tee for $os/$arch"; \
+        GOOS=$os GOARCH=$arch CGO_ENABLED=0 go build -ldflags "-X main.Branch=master -X main.Revision=d50fcab -X main.Version=1.21.1 -extldflags \"-static\" -s -w" -tags "netgo slicelabels" -o ./dist/query-tee-$os-$arch ./cmd/query-tee; \
+        sha256sum ./dist/query-tee-$os-$arch | cut -d ' ' -f 1 > ./dist/query-tee-$os-$arch-sha-256; \
+      done; \
+    done; \
+    touch dist/.uptodate
+Building Cortex for linux/amd64
+go: downloading go1.27.0 (linux/amd64)
+Building query-tee for linux/amd64
+Building Cortex for linux/arm64
+Building query-tee for linux/arm64
+Building Cortex for darwin/amd64
+Building query-tee for darwin/amd64
+Building Cortex for darwin/arm64
+Building query-tee for darwin/arm64
+level=info msg="Finished command-run attestor... (203.257019931s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.987018262s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

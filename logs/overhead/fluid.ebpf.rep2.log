@@ -1,0 +1,204 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Starting git attestor..."
+level=info msg="Finished environment attestor... (9.418e-05s)"
+level=info msg="Finished git attestor... (0.151189988s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (2.2970764519999998s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+mkdir -p /home/jake/sbomit-overhead-experiment/repos/fluid/bin
+Downloading sigs.k8s.io/controller-tools/cmd/controller-gen@v0.19.0
+go: downloading sigs.k8s.io/controller-tools v0.19.0
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading golang.org/x/tools v0.36.0
+go: downloading k8s.io/apimachinery v0.34.0
+go: downloading github.com/spf13/cobra v1.9.1
+go: downloading k8s.io/apiextensions-apiserver v0.34.0
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading k8s.io/api v0.34.0
+go: downloading k8s.io/code-generator v0.34.0
+go: downloading k8s.io/gengo/v2 v2.0.0-20250604051438-85fd79dbfd9f
+go: downloading gopkg.in/yaml.v2 v2.4.0
+go: downloading github.com/gobuffalo/flect v1.0.3
+go: downloading k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
+go: downloading github.com/fatih/color v1.18.0
+go: downloading go.yaml.in/yaml/v2 v2.4.2
+go: downloading k8s.io/klog/v2 v2.130.1
+go: downloading github.com/spf13/pflag v1.0.7
+go: downloading github.com/mattn/go-colorable v0.1.13
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading github.com/google/gnostic-models v0.7.0
+go: downloading k8s.io/kube-openapi v0.0.0-20250710124328-f3f2b991d03b
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.3.0
+go: downloading sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8
+go: downloading golang.org/x/sys v0.35.0
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/fxamacker/cbor/v2 v2.9.0
+go: downloading golang.org/x/net v0.43.0
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading google.golang.org/protobuf v1.36.7
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/go-openapi/jsonreference v0.20.2
+go: downloading github.com/go-openapi/swag v0.23.0
+go: downloading github.com/mailru/easyjson v0.7.7
+go: downloading github.com/go-openapi/jsonpointer v0.21.0
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading github.com/josharian/intern v1.0.0
+go: downloading golang.org/x/text v0.28.0
+go: downloading golang.org/x/sync v0.16.0
+go: downloading golang.org/x/mod v0.27.0
+GO111MODULE=on /home/jake/sbomit-overhead-experiment/repos/fluid/bin/controller-gen object:headerFile=./hack/boilerplate.go.txt paths="./..."
+GO111MODULE=on go fmt ./...
+GO111MODULE=on go list ./... | grep -v "vendor" | xargs go vet
+GO111MODULE=on /home/jake/sbomit-overhead-experiment/repos/fluid/bin/controller-gen "crd:maxDescLen=0" webhook paths="./..." output:crd:artifacts:config=config/crd/bases
+cp config/crd/bases/* charts/fluid/fluid/crds
+./hack/gen-openapi.sh
+Installing openapi-gen
+go: downloading k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00
+go: downloading k8s.io/klog/v2 v2.2.0
+go: downloading k8s.io/gengo v0.0.0-20230829151522-9cce18d56c01
+go: downloading github.com/spf13/pflag v1.0.5
+go: downloading github.com/emicklei/go-restful/v3 v3.8.0
+go: downloading github.com/google/gofuzz v1.1.0
+go: downloading github.com/go-openapi/swag v0.22.3
+go: downloading github.com/go-openapi/jsonreference v0.20.1
+go: downloading github.com/google/gnostic-models v0.6.8
+go: downloading github.com/go-logr/logr v0.2.0
+go: downloading github.com/go-openapi/jsonpointer v0.19.6
+go: downloading google.golang.org/protobuf v1.27.1
+go: downloading github.com/golang/protobuf v1.5.2
+go: downloading golang.org/x/tools v0.4.0
+go: downloading golang.org/x/mod v0.7.0
+go: downloading golang.org/x/sys v0.5.0
+Generating OpenAPI specification ...
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AffinityStrategy,Prefers
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AffinityStrategy,Requires
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioCompTemplateSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioCompTemplateSpec,JvmOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioCompTemplateSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioFuseSpec,Args
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioFuseSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioFuseSpec,JvmOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioFuseSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioRuntimeSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioRuntimeSpec,JvmOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioRuntimeSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,CacheRuntimeClass,DataOperationSpecs
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,CacheRuntimeMountUfsOutput,Mounted
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,CacheRuntimeSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,CacheRuntimeSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataLoadSpec,Target
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataLoadSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataMigrateSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataOperationSpec,Args
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataOperationSpec,Command
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,AccessModes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,Mounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,Runtimes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,SharedEncryptOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetStatus,Conditions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetStatus,DatasetRef
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetStatus,Mounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetStatus,Runtimes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ExecutionCommonEntry,Command
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ExternalEndpointSpec,EncryptOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ExternalStorage,EncryptOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ExtraResourcesComponentDependency,ConfigMaps
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,HostPathMediumSource,Paths
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,HostPathMediumSource,Quotas
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoCompTemplateSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoCompTemplateSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoCompTemplateSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoFuseSpec,Args
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoFuseSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoFuseSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoRuntimeSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoRuntimeSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSCompTemplateSpec,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSCompTemplateSpec,Ports
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSCompTemplateSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSFuseSpec,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSFuseSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSRuntimeSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,Mount,EncryptOptions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,OperationStatus,Conditions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeComponentCommonSpec,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeComponentCommonSpec,Tolerations
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeComponentCommonSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeExtraResources,ConfigMaps
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeStatus,Conditions
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeStatus,Mounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeTieredStore,Levels
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ScriptProcessor,Command
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ScriptProcessor,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ScriptProcessor,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ScriptProcessor,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinCompTemplateSpec,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinCompTemplateSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinCompTemplateSpec,Ports
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinCompTemplateSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,Args
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,Command
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,Env
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,Ports
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinFuseSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeProfileSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeProfileSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeSpec,ImagePullSecrets
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeSpec,Volumes
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,TieredStore,Levels
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,VineyardCompTemplateSpec,VolumeMounts
+API rule violation: list_type_missing,github.com/fluid-cloudnative/fluid/api/v1alpha1,VineyardRuntimeSpec,Volumes
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioRuntimeSpec,RuntimeManagement
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,AlluxioRuntimeSpec,TieredStore
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,DataToMigrate,DataSet
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetSpec,PlacementMode
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,DatasetStatus,HCFSStatus
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,EFCRuntimeSpec,TieredStore
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,ExecutionCommonEntry,TimeoutSeconds
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoRuntimeSpec,NetworkMode
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,JindoRuntimeSpec,TieredStore
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSRuntimeSpec,JuiceFSVersion
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSRuntimeSpec,RuntimeManagement
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,JuiceFSRuntimeSpec,TieredStore
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,Level,MediumType
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,MasterSpec,ExternalEndpoint
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeStatus,APIGatewayStatus
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,RuntimeStatus,ValueFileConfigmap
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeSpec,RuntimeManagement
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeSpec,ThinRuntimeProfileName
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,ThinRuntimeSpec,TieredStore
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,User,GroupName
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,User,UserName
+API rule violation: names_match,github.com/fluid-cloudnative/fluid/api/v1alpha1,VineyardRuntimeSpec,TieredStore
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/dataset-controller -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/dataset/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/fluidapp-controller -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/fluidapp/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/alluxioruntime-controller -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/alluxio/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/jindoruntime-controller -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/jindo/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/juicefsruntime-controller -ldflags '-s -w -X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/juicefs/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/thinruntime-controller -ldflags '-s -w -X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/thin/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/cacheruntime-controller -ldflags '-s -w -X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/cache/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/efcruntime-controller -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/efc/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/vineyardruntime-controller -ldflags '-s -w -X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/vineyard/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/fluid-csi -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/csi/main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on  go build -gcflags="all=-N -l" -a -o bin/fluid-webhook -ldflags '-X github.com/fluid-cloudnative/fluid.version=v1.1.0 -X github.com/fluid-cloudnative/fluid.buildDate=2026-09-05_07:45:01 -X github.com/fluid-cloudnative/fluid.gitCommit=f2785f847a9e4b148920f3be556f447dc37825fe -X github.com/fluid-cloudnative/fluid.gitTreeState=clean -extldflags "-static"' cmd/webhook/main.go
+level=info msg="Finished command-run attestor... (364.320523934s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.261622991s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

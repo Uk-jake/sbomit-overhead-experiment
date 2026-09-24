@@ -1,0 +1,29 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting git attestor..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (9.758e-05s)"
+level=info msg="Finished git attestor... (0.024097318s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.075872294s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-agent binary for linux/amd64 ...
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-controller-manager binary for linux/amd64 ...
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-hub binary for linux/amd64 ...
+Building with go version go1.26.5 linux/amd64
+Building cmd/clusternet-scheduler binary for linux/amd64 ...
+level=info msg="Finished command-run attestor... (69.478717806s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (0.39438096s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

@@ -1,0 +1,264 @@
+level=info msg="Starting prematerial attestors stage..."
+level=info msg="Starting environment attestor..."
+level=info msg="Finished environment attestor... (7.276e-05s)"
+level=info msg="Starting git attestor..."
+level=info msg="Finished git attestor... (0.066769835s)"
+level=info msg="Completed prematerial attestors stage..."
+level=info msg="Starting material attestors stage..."
+level=info msg="Starting material attestor..."
+level=info msg="Finished material attestor... (0.645477808s)"
+level=info msg="Completed material attestors stage..."
+level=info msg="Starting execute attestors stage..."
+level=info msg="Starting command-run attestor..."
+level=info msg="Using tracer: ebpf for command-run"
+hack/verify-go-versions.sh
+Verifying minimum Go version: 1.26
+Verifying build Go version: 1.26.4
+set -x; for W in ./cmd/... ./staging/src/github.com/kcp-dev/cli/cmd/... ./staging/src/github.com/kcp-dev/sdk/cmd/...; do \
+	pushd . && cd ${W%..}; \
+    	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build  -ldflags="-X k8s.io/client-go/pkg/version.gitCommit=0069551 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/client-go/pkg/version.gitMajor=1 -X k8s.io/client-go/pkg/version.gitMinor=36 -X k8s.io/client-go/pkg/version.buildDate=2026-09-05T10:33:16Z -X k8s.io/component-base/version.gitCommit=0069551 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=36 -X k8s.io/component-base/version.buildDate=2026-09-05T10:33:16Z -extldflags '-static' " -o /home/jake/sbomit-overhead-experiment/repos/kcp/bin ./...; \
+	popd; \
+    done
++ for W in ./cmd/... ./staging/src/github.com/kcp-dev/cli/cmd/... ./staging/src/github.com/kcp-dev/sdk/cmd/...
++ pushd .
+~/sbomit-overhead-experiment/repos/kcp ~/sbomit-overhead-experiment/repos/kcp
++ cd ./cmd/.
++ GOOS=linux
++ GOARCH=amd64
++ CGO_ENABLED=0
++ go build '-ldflags=-X k8s.io/client-go/pkg/version.gitCommit=0069551 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/client-go/pkg/version.gitMajor=1 -X k8s.io/client-go/pkg/version.gitMinor=36 -X k8s.io/client-go/pkg/version.buildDate=2026-09-05T10:33:16Z -X k8s.io/component-base/version.gitCommit=0069551 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=36 -X k8s.io/component-base/version.buildDate=2026-09-05T10:33:16Z -extldflags '\''-static'\'' ' -o /home/jake/sbomit-overhead-experiment/repos/kcp/bin ./...
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/apiextensions-apiserver v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/spf13/pflag v1.0.10
+go: downloading github.com/kcp-dev/embeddedetcd v1.1.1-0.20260402110232-2cc5c5cce35e
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/apimachinery v0.0.0-20260602065202-e006560fc76a
+go: downloading sigs.k8s.io/yaml v1.6.0
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/component-base v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/abiosoft/lineprefix v0.1.4
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/apiserver v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/spf13/cobra v1.10.2
+go: downloading k8s.io/klog/v2 v2.140.0
+go: downloading github.com/fatih/color v1.18.0
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/client-go v0.0.0-20260602065202-e006560fc76a
+go: downloading go.uber.org/multierr v1.11.0
+go: downloading github.com/kcp-dev/kubernetes v1.37.0-alpha.0.0.20260602065202-e006560fc76a
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/MakeNowJust/heredoc v1.0.0
+go: downloading github.com/muesli/reflow v0.3.0
+go: downloading github.com/kcp-dev/logicalcluster/v3 v3.0.5
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/api v0.0.0-20260602065202-e006560fc76a
+go: downloading k8s.io/utils v0.0.0-20260319190234-28399d86e0b5
+go: downloading github.com/emicklei/go-restful/v3 v3.13.0
+go: downloading go.etcd.io/etcd/client/pkg/v3 v3.6.8
+go: downloading go.etcd.io/etcd/client/v3 v3.6.8
+go: downloading k8s.io/kube-openapi v0.0.0-20260414162039-ec9c827d403f
+go: downloading github.com/mattn/go-colorable v0.1.13
+go: downloading github.com/mattn/go-isatty v0.0.20
+go: downloading go.etcd.io/etcd/server/v3 v3.6.8
+go: downloading go.uber.org/zap v1.27.1
+go: downloading go.yaml.in/yaml/v2 v2.4.4
+go: downloading github.com/stretchr/testify v1.11.1
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/egymgmbh/go-prefix-writer v0.0.0-20180609083313-7326ea162eca
+go: downloading golang.org/x/sync v0.22.0
+go: downloading github.com/moby/term v0.5.0
+go: downloading sigs.k8s.io/randfill v1.0.0
+go: downloading sigs.k8s.io/structured-merge-diff/v6 v6.4.0
+go: downloading github.com/coreos/go-systemd/v22 v22.7.0
+go: downloading golang.org/x/crypto v0.54.0
+go: downloading golang.org/x/net v0.57.0
+go: downloading golang.org/x/time v0.15.0
+go: downloading gopkg.in/evanphx/json-patch.v4 v4.13.0
+go: downloading go.opentelemetry.io/otel v1.43.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.40.0
+go: downloading go.opentelemetry.io/otel/metric v1.43.0
+go: downloading go.opentelemetry.io/otel/sdk v1.43.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.40.0
+go: downloading golang.org/x/sys v0.47.0
+go: downloading google.golang.org/grpc v1.82.1
+go: downloading gopkg.in/natefinch/lumberjack.v2 v2.2.1
+go: downloading sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0
+go: downloading github.com/google/gnostic-models v0.7.1
+go: downloading google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
+go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+go: downloading golang.org/x/term v0.45.0
+go: downloading github.com/fsnotify/fsnotify v1.9.0
+go: downloading go.opentelemetry.io/otel/trace v1.43.0
+go: downloading gopkg.in/go-jose/go-jose.v2 v2.6.3
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/streaming v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/prometheus/client_golang v1.23.2
+go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.65.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/controller-manager v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/jellydator/ttlcache/v3 v3.4.0
+go: downloading github.com/coreos/go-semver v0.3.1
+go: downloading go.etcd.io/etcd/api/v3 v3.6.8
+go: downloading github.com/google/cel-go v0.29.0
+go: downloading golang.org/x/oauth2 v0.36.0
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kube-aggregator v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/cloud-provider v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/component-helpers v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kube-controller-manager v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kube-proxy v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kube-scheduler v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kubectl v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kubelet v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/metrics v0.0.0-20260602065202-e006560fc76a
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading gopkg.in/inf.v0 v0.9.1
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730
+go: downloading github.com/go-logr/zapr v1.3.0
+go: downloading github.com/fxamacker/cbor/v2 v2.9.1
+go: downloading golang.org/x/text v0.40.0
+go: downloading github.com/json-iterator/go v1.1.12
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.7
+go: downloading github.com/soheilhy/cmux v0.1.5
+go: downloading github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75
+go: downloading go.etcd.io/etcd/pkg/v3 v3.6.8
+go: downloading go.etcd.io/bbolt v1.4.3
+go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading go.etcd.io/raft/v3 v3.6.0
+go: downloading github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.1.0
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/kms v0.0.0-20260602065202-e006560fc76a
+go: downloading go.yaml.in/yaml/v3 v3.0.4
+go: downloading github.com/go-openapi/swag v0.26.0
+go: downloading github.com/go-openapi/jsonreference v0.21.5
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/pod-security-admission v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/blang/semver/v4 v4.0.0
+go: downloading github.com/prometheus/client_model v0.6.2
+go: downloading github.com/prometheus/procfs v0.20.1
+go: downloading github.com/onsi/gomega v1.39.1
+go: downloading github.com/mattn/go-runewidth v0.0.12
+go: downloading github.com/evanphx/json-patch v5.6.0+incompatible
+go: downloading github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
+go: downloading github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f
+go: downloading github.com/felixge/httpsnoop v1.0.4
+go: downloading github.com/prometheus/common v0.67.5
+go: downloading github.com/beorn7/perks v1.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/gogo/protobuf v1.3.2
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260414002931-afd174a4e478
+go: downloading go.opentelemetry.io/proto/otlp v1.9.0
+go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260414002931-afd174a4e478
+go: downloading github.com/NYTimes/gziphandler v1.1.1
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/dynamic-resource-allocation v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/externaljwt v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/coreos/go-oidc v2.5.0+incompatible
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/csi-translation-lib v0.0.0-20260602065202-e006560fc76a
+go: downloading cel.dev/expr v0.25.1
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/cluster-bootstrap v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading github.com/dustin/go-humanize v1.0.1
+go: downloading github.com/xiang90/probing v0.0.0-20221125231312-a49e3df8f510
+go: downloading github.com/jonboulle/clockwork v0.5.0
+go: downloading github.com/sirupsen/logrus v1.9.3
+go: downloading github.com/x448/float16 v0.8.4
+go: downloading github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+go: downloading github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee
+go: downloading github.com/opencontainers/selinux v1.13.1
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/mount-utils v0.0.0-20260602065202-e006560fc76a
+go: downloading github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.3
+go: downloading github.com/go-openapi/jsonpointer v0.23.1
+go: downloading github.com/go-openapi/swag/cmdutils v0.26.0
+go: downloading github.com/go-openapi/swag/conv v0.26.0
+go: downloading github.com/go-openapi/swag/fileutils v0.26.0
+go: downloading github.com/go-openapi/swag/jsonname v0.26.0
+go: downloading github.com/go-openapi/swag/jsonutils v0.26.0
+go: downloading github.com/go-openapi/swag/loading v0.26.0
+go: downloading github.com/go-openapi/swag/mangling v0.26.0
+go: downloading github.com/go-openapi/swag/netutils v0.26.0
+go: downloading github.com/go-openapi/swag/stringutils v0.26.0
+go: downloading github.com/go-openapi/swag/typeutils v0.26.0
+go: downloading github.com/go-openapi/swag/yamlutils v0.26.0
+go: downloading github.com/rivo/uniseg v0.2.0
+go: downloading github.com/pkg/errors v0.9.1
+go: downloading github.com/moby/spdystream v0.5.1
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading github.com/cenkalti/backoff/v5 v5.0.3
+go: downloading github.com/distribution/reference v0.6.0
+go: downloading github.com/robfig/cron/v3 v3.0.1
+go: downloading github.com/antlr4-go/antlr/v4 v4.13.1
+go: downloading github.com/pquerna/cachecontrol v0.1.0
+go: downloading github.com/golang-jwt/jwt/v5 v5.3.0
+go: downloading github.com/google/btree v1.1.3
+go: downloading github.com/cyphar/filepath-securejoin v0.6.1
+go: downloading github.com/moby/sys/mountinfo v0.7.2
+go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading golang.org/x/tools v0.48.0
+go: downloading github.com/opencontainers/go-digest v1.0.0
+go: downloading golang.org/x/exp v0.0.0-20260709172345-9ea1abe57597
+go: downloading github.com/kcp-dev/kubernetes/staging/src/k8s.io/endpointslice v0.0.0-20260602065202-e006560fc76a
++ popd
++ for W in ./cmd/... ./staging/src/github.com/kcp-dev/cli/cmd/... ./staging/src/github.com/kcp-dev/sdk/cmd/...
++ pushd .
++ cd ./staging/src/github.com/kcp-dev/cli/cmd/.
+~/sbomit-overhead-experiment/repos/kcp
+~/sbomit-overhead-experiment/repos/kcp ~/sbomit-overhead-experiment/repos/kcp
++ GOOS=linux
++ GOARCH=amd64
++ CGO_ENABLED=0
++ go build '-ldflags=-X k8s.io/client-go/pkg/version.gitCommit=0069551 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/client-go/pkg/version.gitMajor=1 -X k8s.io/client-go/pkg/version.gitMinor=36 -X k8s.io/client-go/pkg/version.buildDate=2026-09-05T10:33:16Z -X k8s.io/component-base/version.gitCommit=0069551 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=36 -X k8s.io/component-base/version.buildDate=2026-09-05T10:33:16Z -extldflags '\''-static'\'' ' -o /home/jake/sbomit-overhead-experiment/repos/kcp/bin ./...
+go: downloading k8s.io/component-base v0.36.0
+go: downloading k8s.io/cli-runtime v0.33.3
+go: downloading k8s.io/client-go v0.36.0
+go: downloading github.com/charmbracelet/bubbletea v1.3.10
+go: downloading github.com/charmbracelet/lipgloss v1.1.0
+go: downloading k8s.io/apiextensions-apiserver v0.36.0
+go: downloading k8s.io/apimachinery v0.36.0
+go: downloading github.com/xlab/treeprint v1.2.0
+go: downloading k8s.io/api v0.36.0
+go: downloading github.com/charmbracelet/x/term v0.2.1
+go: downloading github.com/muesli/ansi v0.0.0-20230316100256-276c6243b2f6
+go: downloading github.com/charmbracelet/x/ansi v0.8.0
+go: downloading github.com/muesli/cancelreader v0.2.2
+go: downloading github.com/charmbracelet/x/cellbuf v0.0.13
+go: downloading github.com/muesli/termenv v0.16.0
+go: downloading github.com/rivo/uniseg v0.4.7
+go: downloading github.com/mattn/go-runewidth v0.0.19
+go: downloading github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
+go: downloading github.com/onsi/gomega v1.38.2
+go: downloading sigs.k8s.io/kustomize/api v0.19.0
+go: downloading sigs.k8s.io/kustomize/kyaml v0.19.0
+go: downloading github.com/charmbracelet/colorprofile v0.2.2
+go: downloading github.com/clipperhouse/uax29/v2 v2.2.0
+go: downloading github.com/lucasb-eyer/go-colorful v1.3.0
+go: downloading github.com/aymanbagabas/go-osc52/v2 v2.0.1
+go: downloading github.com/peterbourgon/diskv v2.0.1+incompatible
+go: downloading github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e
+go: downloading github.com/go-errors/errors v1.4.2
+go: downloading github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+go: downloading github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00
++ popd
++ for W in ./cmd/... ./staging/src/github.com/kcp-dev/cli/cmd/... ./staging/src/github.com/kcp-dev/sdk/cmd/...
++ pushd .
+~/sbomit-overhead-experiment/repos/kcp
+~/sbomit-overhead-experiment/repos/kcp ~/sbomit-overhead-experiment/repos/kcp
++ cd ./staging/src/github.com/kcp-dev/sdk/cmd/.
++ GOOS=linux
++ GOARCH=amd64
++ CGO_ENABLED=0
++ go build '-ldflags=-X k8s.io/client-go/pkg/version.gitCommit=0069551 -X k8s.io/client-go/pkg/version.gitTreeState=clean -X k8s.io/client-go/pkg/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/client-go/pkg/version.gitMajor=1 -X k8s.io/client-go/pkg/version.gitMinor=36 -X k8s.io/client-go/pkg/version.buildDate=2026-09-05T10:33:16Z -X k8s.io/component-base/version.gitCommit=0069551 -X k8s.io/component-base/version.gitTreeState=clean -X k8s.io/component-base/version.gitVersion=v1.36.0+kcp-v0.0.0-0069551 -X k8s.io/component-base/version.gitMajor=1 -X k8s.io/component-base/version.gitMinor=36 -X k8s.io/component-base/version.buildDate=2026-09-05T10:33:16Z -extldflags '\''-static'\'' ' -o /home/jake/sbomit-overhead-experiment/repos/kcp/bin ./...
+go: downloading github.com/bombsimon/logrusr/v3 v3.1.0
+go: downloading golang.org/x/sys v0.43.0
+go: downloading k8s.io/apiserver v0.36.0
+go: downloading golang.org/x/sync v0.20.0
+go: downloading golang.org/x/text v0.36.0
+go: downloading golang.org/x/net v0.53.0
+go: downloading github.com/google/cel-go v0.28.0
+go: downloading golang.org/x/crypto v0.50.0
+go: downloading k8s.io/streaming v0.36.0
+go: downloading google.golang.org/grpc v1.80.0
+go: downloading golang.org/x/term v0.42.0
+go: downloading golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f
++ popd
+~/sbomit-overhead-experiment/repos/kcp
+level=info msg="Finished command-run attestor... (133.783428295s)"
+level=info msg="Completed execute attestors stage..."
+level=info msg="Starting product attestors stage..."
+level=info msg="Starting product attestor..."
+level=info msg="Finished product attestor... (1.034672847s)"
+level=info msg="Completed product attestors stage..."
+level=info msg="Starting postproduct attestors stage..."
+level=info msg="Completed postproduct attestors stage..."

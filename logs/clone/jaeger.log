@@ -1,0 +1,16 @@
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/jaeger'...
+Submodule 'idl' (https://github.com/jaegertracing/jaeger-idl.git) registered for path 'idl'
+Submodule 'jaeger-ui' (https://github.com/jaegertracing/jaeger-ui.git) registered for path 'jaeger-ui'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/jaeger/idl'...
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/jaeger/jaeger-ui'...
+From https://github.com/jaegertracing/jaeger-idl
+ * branch            8c2a171e32c998498bd603905b3d86aad839810b -> FETCH_HEAD
+Submodule path 'idl': checked out '8c2a171e32c998498bd603905b3d86aad839810b'
+Submodule 'opentelemetry-proto' (https://github.com/open-telemetry/opentelemetry-proto.git) registered for path 'idl/opentelemetry-proto'
+Cloning into '/home/jake/sbomit-overhead-experiment/repos/jaeger/idl/opentelemetry-proto'...
+From https://github.com/open-telemetry/opentelemetry-proto
+ * branch            4ca4f0335c63cda7ab31ea7ed70d6553aee14dce -> FETCH_HEAD
+Submodule path 'idl/opentelemetry-proto': checked out '4ca4f0335c63cda7ab31ea7ed70d6553aee14dce'
+From https://github.com/jaegertracing/jaeger-ui
+ * branch            05b8aedb42d5e0b0ce6a0e36697562a554d8dce1 -> FETCH_HEAD
+Submodule path 'jaeger-ui': checked out '05b8aedb42d5e0b0ce6a0e36697562a554d8dce1'
